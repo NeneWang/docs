@@ -83,18 +83,15 @@ alert( arr.includes(1) ); // true
       let user = users.find(item => item.id == 1);
 </tre>
 
+<tre  title="find" >
 
-<table-row-code title="splice" sub=" Delete element from array" 
-code='let arr = ["I", "study", "JavaScript"];
-arr.splice(1, 1); // from index 1 remove 1 element
-alert( arr ); // ["I", "JavaScript"]
-' />
-
-<table-row-code title="splice" sub=" Delete element from array" 
-code='let arr = ["I", "study", "JavaScript"];
-arr.splice(1, 1); // from index 1 remove 1 element
-alert( arr ); // ["I", "JavaScript"]
-' />
+      let users = [
+        {id: 1, name: "John"},
+        {id: 2, name: "Pete"},
+        {id: 3, name: "Mary"}
+        ];
+      let user = users.find(item => item.id == 1);
+</tre>
 
 
 

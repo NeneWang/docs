@@ -3,7 +3,7 @@
 <template>
   <tr>
     <td>
-      {{ title }}: <br />
+      {{ title }} <br />
     </td>
     <td class="code" >
       <slot></slot>

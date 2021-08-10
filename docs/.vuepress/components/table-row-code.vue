@@ -1,7 +1,7 @@
 <template>
   <tr>
     <td>
-      {{ title }}: <br />
+      {{ title }} <br />
     </td>
     <td>
       <span class="subtitle">{{ sub }}</span>
