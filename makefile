@@ -37,6 +37,7 @@ first-deploy:
 	git ftp push
 
 cap:
-	git coa "${m}"
-	git poh
+	git add --all
+	git commit -m "${m}"
+	git push origin HEAD
 	git log -n 2
