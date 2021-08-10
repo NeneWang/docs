@@ -54,11 +54,23 @@ module.exports = {
     ],
     sidebar: {
 
-      '/code/': [{
+      '/code/': [
+        
+        {
+          title: 'Overview',
+          collapsable: true,
+          children: [
+            
+            '',
+            'guide',
+            'plan',
+            'random',
+          ]
+        },
+        {
         title: 'Web Development',
-        collapsable: false,
+        collapsable: true,
         children: [
-          '',
           'angular',
           'css',
           'express',
@@ -73,13 +85,8 @@ module.exports = {
           'sass',
           'vue',
         ]
-      }, {
-        title: 'Overview',
-        collapsable: false,
-        children: [
-          'overview/plan',
-        ]
-      }],
+      }, 
+    ],
     }
   },
 
