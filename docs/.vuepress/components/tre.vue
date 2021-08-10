@@ -1,12 +1,14 @@
+// table row escape
+
 <template>
   <tr>
     <td>
       {{ title }}: <br />
     </td>
-    <td>
-      <span class="subtitle">{{ sub }}</span>
-      <pre> <code v-html="code"></code></pre>
+    <td class="code" >
+      <slot></slot>
       
+      <span class="subtitle">{{ sub }}</span>
     </td>
   </tr>
 </template>
@@ -17,35 +19,23 @@ export default {
     title: {
       required: true,
     },
-    code: {
-      required: true,
-    },
-    type: {
-      required: false,
-    },
     sub: {
       required: false,
     },
   },
   data() {
     return {
-      title,
     };
   },
 
-  computed: {
-    cleanMessage() {
-      return this.$sanitize(code);
-    },
-  },
 };
 </script>
 
 <style lang="stylus">
-pre{
+.code{
 
 color:white;
-font-size: .65em;
+font-size: .85em;
 }
 
 .subtitle{

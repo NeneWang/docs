@@ -1,6 +1,5 @@
 <template>
   <div class="subsection">
-    <h2>{{ title }}</h2>
     <table style="width:100%!important">
       <tr>
         <th>Description</th>
@@ -13,10 +12,5 @@
 
 <script>
 export default {
-  props: {
-    title: {
-      required: true,
-    },
-  },
 };
 </script>

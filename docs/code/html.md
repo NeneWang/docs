@@ -11,7 +11,7 @@ Examples collected from:
 
 ## Structures
  
-<table-code title="Structures">
+<table-code>
 <table-row-code title="HTML Structure" 
 code='<!DOCTYPE html>
 <html>
@@ -25,7 +25,7 @@ code='<!DOCTYPE html>
 </html>' 
 />
 
-<table-row-code title="Table" 
+<table-row-code
 code='<table><caption>Phone numbers</caption>
 <thead>
 	<tr>
