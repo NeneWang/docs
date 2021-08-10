@@ -43,13 +43,13 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/guide/': [
+      '/web-development/': [
         {
-          title: 'Guide',
+          title: 'Web Development',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            'html',
           ]
         }
       ],
