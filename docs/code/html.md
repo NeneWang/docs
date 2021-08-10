@@ -6,14 +6,12 @@
 Examples collected from:
 - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
 
-### Structures
 
 
-<table style="width:100%!important">
-  <tr>
-    <th>Description</th>
-    <th>Code</th>
-  </tr>
+
+## Structures
+ 
+<table-code title="Structures">
 <table-row-code title="HTML Structure" 
 code='<!DOCTYPE html>
 <html>
@@ -70,9 +68,4 @@ code='<form action="/action.php" method="post">
 <input name="name" type="text" />
 <input type="submit" value="Submit" />
 </form>/>'/>
-
-
-
-
-
-  </table>
+</table-code>
