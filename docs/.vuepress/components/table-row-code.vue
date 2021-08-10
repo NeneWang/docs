@@ -27,5 +27,6 @@ export default {
 pre{
 
 color:white;
+font-size: .65em;
 }
 </style>
