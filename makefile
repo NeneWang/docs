@@ -34,3 +34,7 @@ ftpinit:
 first-deploy:
 	ftpinit
 	git ftp push
+
+cap:
+	git coa "${m}"
+	git poh

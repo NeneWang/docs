@@ -3,22 +3,10 @@ const {
 } = require('../../package')
 
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
   title: 'Code',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
   publicPath: './',
 
   description: description,
-
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
   head: [
     ['meta', {
       name: 'theme-color',

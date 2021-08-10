@@ -4,7 +4,7 @@
 <br>
 [CPanel](https://docs.wangnelson.xyz/)
 
-## Avantages Disavantages
+## Avantages Disavantages of Using Vuepress
 
 
 
@@ -18,10 +18,11 @@ Advantages:
 - Table on the side!
 - I look like a hacker 👩‍💻
 - Free forever
+- Honestly the table docs kind of sucks withouth the preview
 
 Disavantages
 - No more Easy Databases for me... 
-- Bad for documentating Collections such as Udemy and Games.
+- Bad for documentating Collections such as Udemy and Games (Compared to Notion).
 - Editing must be done from dev Computer
 - Slow deployment (Even if I had some code with me...) 
 - Requires some setup to view the code (Althought you can even edit it with just git and some code editor)

@@ -1,17 +1,16 @@
 ---
 home: true
-tagline: Documenting all type of code
-actionText: Review Documentation →
+tagline: Docs
+actionText: Review Code Docs →
 actionLink: /code/
 
 features:
-- title: Automation
-  details: Git, ShellCode, Makefile, General Tips...
+- title: Code
+  details: Web Development, Automation, Mobile App Dev and Desktop Dev...
+  link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Web Development
   details: HTML, JS, CSS, PHP, Laravel, Node, and more...
-- title: Mobile App Development
-  details: React Native, Flutter, 
-- title: Video Game Development
-  details: Unity (C##), Nannicode, 
-footer: Made by Nelson with VuePress
 ---
+
+
+So this
