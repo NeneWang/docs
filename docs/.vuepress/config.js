@@ -46,12 +46,12 @@ module.exports = {
     editLinkText: '',
     lastUpdated: true,
     nav: [{
-        text: 'Code Documentation',
+        text: 'Code Docs',
         link: '/code/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Project Docs',
+        link: '/projects/'
       },
     ],
     sidebar: {
@@ -62,7 +62,7 @@ module.exports = {
           title: 'Projects',
           collapsable: true,
           children: [
-
+            '',
             'lab42',
             // 'random',
           ]
