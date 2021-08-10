@@ -44,8 +44,8 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     nav: [{
-        text: 'web',
-        link: '/web/',
+        text: 'code',
+        link: '/code/',
       },
       {
         text: 'Config',
@@ -53,35 +53,31 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/overview/': [{
-        title: 'Overview',
-        collapsable: false,
-        children: [
-          '',
-          'guide',
-          'plan',
-          'random',
 
-        ]
-      }],
-      '/web/': [{
+      '/code/': [{
         title: 'Web Development',
         collapsable: false,
         children: [
           '',
-          'angular',
-          'css',
-          'express',
-          'html',
-          'javascript',
-          'laravel',
-          'mongodb',
-          'mysql',
-          'next',
-          'php',
-          'react',
-          'sass',
-          'vue',
+          'web/angular',
+          'web/css',
+          'web/express',
+          'web/html',
+          'web/javascript',
+          'web/laravel',
+          'web/mongodb',
+          'web/mysql',
+          'web/next',
+          'web/php',
+          'web/react',
+          'web/sass',
+          'web/vue',
+        ]
+      }, {
+        title: 'Overview',
+        collapsable: false,
+        children: [
+          'overview/plan',
         ]
       }],
     }
