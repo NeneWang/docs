@@ -1,5 +1,7 @@
 # Introduction
 
+
+## Plan?
 These are my thoughts:
 
 What are the avaialble if any advantages of using this instead of notion?

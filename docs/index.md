@@ -12,5 +12,5 @@ features:
   details: React Native, Flutter, 
 - title: Video Game Development
   details: Unity (C##), Nannicode, 
-footer: Made by Nelson with VuePress❤️
+footer: Made by Nelson with VuePress
 ---
