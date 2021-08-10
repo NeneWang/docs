@@ -41,10 +41,6 @@ module.exports = {
         text: 'Config',
         link: '/config/'
       },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
     ],
     sidebar: {
       '/guide/': [

@@ -1,15 +1,10 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Documenting all type of code
-actionText: Quick Start →
+actionText: Check Code →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+- title: Web Development
+  details: HTML, JS, CSS
 footer: Made by Nelson with ❤️
 ---
