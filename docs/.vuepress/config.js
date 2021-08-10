@@ -10,7 +10,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-   publicPath: './',
+  publicPath: './',
 
   description: description,
 
@@ -56,13 +56,25 @@ module.exports = {
     ],
     sidebar: {
 
+      '/projects/': [
+
+        {
+          title: 'Projects',
+          collapsable: true,
+          children: [
+
+            'lab42',
+            // 'random',
+          ]
+        },
+      ],
       '/code/': [
-        
+
         {
           title: 'Overview',
           collapsable: true,
           children: [
-            
+
             '',
             'guide',
             'plan',
@@ -70,51 +82,51 @@ module.exports = {
           ]
         },
         {
-        title: 'Web Development',
-        collapsable: true,
-        children: [
-          // 'angular',
-          'css',
-          'express',
-          'html',
-          'javascript',
-          // 'laravel',
-          // 'mongodb',
-          'mysql',
-          // 'next',
-          'php',
-          // 'react',
-          // 'sass',
-          // 'vue',
-        ]
-      }, 
-      {
-        title: 'Automation',
-        collapsable: true,
-        children: [
-          'git',
-          'vcs',
-          'makefile',
-          'shell',
-          // 'python',
-          // 'uipath',
-          // 'java',
-          
-        ]
-      },
-      // {
-      //   title: 'Game',
-      //   collapsable: true,
-      //   children: [
-      //     'unity',
-      //     'engine',
-      //     'utilities',
-      //     'animation',
-      //     'model',
-          
-      //   ]
-      // }, 
-    ],
+          title: 'Web Development',
+          collapsable: true,
+          children: [
+            // 'angular',
+            'css',
+            'express',
+            'html',
+            'javascript',
+            // 'laravel',
+            // 'mongodb',
+            'mysql',
+            // 'next',
+            'php',
+            // 'react',
+            // 'sass',
+            // 'vue',
+          ]
+        },
+        {
+          title: 'Automation',
+          collapsable: true,
+          children: [
+            'git',
+            'vcs',
+            'makefile',
+            'shell',
+            // 'python',
+            // 'uipath',
+            // 'java',
+
+          ]
+        },
+        // {
+        //   title: 'Game',
+        //   collapsable: true,
+        //   children: [
+        //     'unity',
+        //     'engine',
+        //     'utilities',
+        //     'animation',
+        //     'model',
+
+        //   ]
+        // }, 
+      ],
     }
   },
 

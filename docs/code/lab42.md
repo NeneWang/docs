@@ -2,11 +2,11 @@
 
 
 - [Lab 4.2 - API](#lab-42---api)
-- [Introduction](#introduction)
-- [Schemas](#schemas)
+  - [Introduction](#introduction)
+  - [Schemas](#schemas)
     - [User Schema](#user-schema)
     - [Quest Schema](#quest-schema)
-- [Endpoints](#endpoints)
+  - [Endpoints](#endpoints)
   - [User](#user)
     - [Get all users](#get-all-users)
     - [Create new user](#create-new-user)
@@ -20,7 +20,7 @@
     - [Delete Specific Quest](#delete-specific-quest)
     - [Completing Specific Quest](#completing-specific-quest)
 
-# Introduction
+## Introduction
 
 Links
 
@@ -34,7 +34,7 @@ This API emulates the classical RPG's Questboard system. You can create quests, 
 
 Image from: [https://forum.novelupdates.com/threads/d-i-c-e-au-quest-board.76794/](/https://forum.novelupdates.com/threads/d-i-c-e-au-quest-board.76794/)
 
-# Schemas
+## Schemas
 
 ### User Schema
 
@@ -68,7 +68,7 @@ const questSchema = new mongoose.Schema({
 - description: string type, records the description of the quest e.g "I last found my cat at the Plaza, now is no more!, help!"
 - tags: string type. Records tags given to the quest, separated by commas e.g: "difficulty-Easy, location-Mondstadt"
 
-# Endpoints
+## Endpoints
 
 ## User
 
