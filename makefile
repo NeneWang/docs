@@ -27,7 +27,7 @@ ft-push:
 ftpinit:
 	git config git-ftp.url ftp://ftp.${PAGE}
 	git config git-ftp.user ftp_public@wangnelson.xyz
-	git config git-ftp.password Darkarior448!
+	git config git-ftp.password ZA.m6e{,U6XG
 	git config git-ftp.syncroot docs/.vuepress/dist/
 	git ftp init
 

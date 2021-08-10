@@ -1,6 +1,6 @@
 # Introduction
 
-[Heroku Deployment](https://code-documentation.herokuapp.com/)
+[Heroku Deployment](https://code-documentation.herokuapp.com/) (Slow)
 <br>
 [CPanel](https://docs.wangnelson.xyz/)
 
@@ -23,8 +23,8 @@ Disavantages
 - No more Easy Databases for me... 
 - Bad for documentating Collections such as Udemy and Games.
 - Editing must be done from dev Computer
-- Slow deployment (Even if I had some code with me...)
--  
+- Slow deployment (Even if I had some code with me...) 
+- Requires some setup to view the code (Althought you can even edit it with just git and some code editor)
 
 
 
