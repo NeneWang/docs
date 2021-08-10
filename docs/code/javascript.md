@@ -9,22 +9,15 @@ Examples From:
 Table of Contents:
 [[toc]]
 
-## Basics
-
-<table-code>
-<table-row-pre title="var" 
-code=' Can be reassigned but only accessed within a function. Variables
-defined with var move to the top when code is executed. '/>
-
-<table-row-pre title="const" 
-code=' Cannot be reassigned and not accessible before they appear within the code'/>
-
-<table-row-pre title="const" 
-code=' Similar to const, however, let variable can be reassigned but not re-declared.
-'/>
+## Variables
 
 
-</table-code>
+| Description | Code                                                                                                                       |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------- |
+| var         | "Can be reassigned but only accessed within a function. Variables defined with var move to the top when code is executed." |
+| const       | "Cannot be reassigned and not accessible before they appear within the code"                                               |
+| Let         | "Similar to const let variable can be reassigned but not re-declared"                                                      |
+
 
 ## Array Methods
 
