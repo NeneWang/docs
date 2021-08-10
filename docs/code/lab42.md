@@ -30,9 +30,9 @@ Links
 
 This API emulates the classical RPG's Questboard system. You can create quests, aventurers, update and manage quest's or aventurer's information. 
 
-![images/Untitled.png](/Lab%204%202%20-%20API%20fb4a8b1f41154b05a0646e2cc3821bca/Untitled.png)
+![Lab%204%202%20-%20API%20fb4a8b1f41154b05a0646e2cc3821bca/Untitled.png](/Lab%204%202%20-%20API%20fb4a8b1f41154b05a0646e2cc3821bca/Untitled.png)
 
-Image from: [https://forum.novelupdates.com/threads/d-i-c-e-au-quest-board.76794/](https://forum.novelupdates.com/threads/d-i-c-e-au-quest-board.76794/)
+Image from: [https://forum.novelupdates.com/threads/d-i-c-e-au-quest-board.76794/](/https://forum.novelupdates.com/threads/d-i-c-e-au-quest-board.76794/)
 
 # Schemas
 
