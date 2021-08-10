@@ -108,7 +108,7 @@ module.exports = {
           'engine',
           'utilities',
           'animation',
-          'models',
+          'model',
           
         ]
       }, 
