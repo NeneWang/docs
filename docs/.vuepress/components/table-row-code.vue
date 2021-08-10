@@ -5,7 +5,7 @@
     </td>
     <td>
       <span class="subtitle">{{ sub }}</span>
-      <pre> <code v-html="code"></code></pre>
+      <pre > {{code}} </pre>
       
     </td>
   </tr>

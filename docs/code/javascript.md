@@ -3,7 +3,11 @@
 
 Examples From:
 - [Javascript Cheatsheet](https://websitesetup.org/javascript-cheat-sheet/)
-- [Array Methods](https://javascript.info/array-methods)
+- [Array Methods (Javascript.info)](https://javascript.info/array-methods)
+- [Strings (Javascript.info)](https://javascript.info/string)
+
+Table of Contents:
+[[toc]]
 
 ## Basics
 
@@ -23,6 +27,9 @@ code=' Similar to const, however, let variable can be reassigned but not re-decl
 </table-code>
 
 ## Array Methods
+
+- [Array Methods](https://javascript.info/array-methods)
+  
 <table-code>
 <table-row-code title="adds items to the end," code='arr.push(...items)
 ' />
@@ -73,24 +80,14 @@ alert( arr.includes(1) ); // true
 ' />
 
 
-<tre  title="find" >
+<tre  title="filter"  sub="filter returns an array of all matching elements:" >
 
-      let users = [
+    let users = [
         {id: 1, name: "John"},
         {id: 2, name: "Pete"},
         {id: 3, name: "Mary"}
-        ];
-      let user = users.find(item => item.id == 1);
-</tre>
-
-<tre  title="find" >
-
-      let users = [
-        {id: 1, name: "John"},
-        {id: 2, name: "Pete"},
-        {id: 3, name: "Mary"}
-        ];
-      let user = users.find(item => item.id == 1);
+    ];
+    let someUsers = users.filter(item => item.id < 3);
 </tre>
 
 
@@ -98,10 +95,9 @@ alert( arr.includes(1) ); // true
 </table-code>
 
 ## String Methods
-
+- [Strings (Javascript.info)](https://javascript.info/string)
 
 ## Number Methods
+- [Number (Mozilla)](https://www.w3schools.com/js/js_number_methods.asp)
+- [Number Methods (w3school)](https://www.w3schools.com/js/js_number_methods.asp)
 
-## Math Methods 
-
-## Dates

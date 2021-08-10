@@ -5,10 +5,10 @@
     <td>
       {{ title }} <br />
     </td>
-    <td class="code" >
-      <slot></slot>
-      
+    <td  >
       <span class="subtitle">{{ sub }}</span>
+      <slot class="code"></slot>
+      
     </td>
   </tr>
 </template>
