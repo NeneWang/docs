@@ -1,4 +1,5 @@
-# HTML <Badge text="Lab"/>
+# HTML 
+<Badge text="Lab"/><Badge type="warning" text="Practice" />
 
 <!-- - [HTML <Badge text="Lab"/>](#html-badge-textlab)
     - [Structures](#structures) -->
@@ -7,7 +8,8 @@ Examples collected from:
 - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
 
 
-
+## 🎯 Practice
+[W3 School Practice](https://www.w3schools.com/html/exercise.asp)
 
 ## Structures
  

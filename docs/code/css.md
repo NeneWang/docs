@@ -1,4 +1,5 @@
-# CSS
+# CSS 
+<Badge text="Lab"/> <Badge type="warning" text="Practice"/>
 
 - Examples Extracted from:
   - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
@@ -6,8 +7,16 @@
 
 Table of contents:
 - [CSS](#css)
+  - [🎯 Practice Sets](#-practice-sets)
   - [Selectors](#selectors)
   - [Pseudo Classes](#pseudo-classes)
+  - [Attribute Selectors](#attribute-selectors)
+
+## 🎯 Practice Sets 
+
+- [W3 School Excercises](https://www.w3schools.com/css/exercise.asp)
+
+
 
 ## Selectors
 
@@ -68,6 +77,7 @@ Table of contents:
 | :target                 | highlight active anchor      |
 |                         |                              |
 
+## Attribute Selectors
 
 | a[target]            | links with a target attribute    |
 | -------------------- | -------------------------------- |
