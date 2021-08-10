@@ -1,4 +1,6 @@
-const { description } = require('../../package')
+const {
+  description
+} = require('../../package')
 
 module.exports = {
   /**
@@ -16,9 +18,18 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', {
+      name: 'theme-color',
+      content: '#3eaf7c'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-capable',
+      content: 'yes'
+    }],
+    ['meta', {
+      name: 'apple-mobile-web-app-status-bar-style',
+      content: 'black'
+    }]
   ],
 
   /**
@@ -32,8 +43,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
+    nav: [{
         text: 'Guide',
         link: '/guide/',
       },
@@ -43,16 +53,48 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/web-development/': [
-        {
-          title: 'Web Development',
-          collapsable: false,
-          children: [
-            '',
-            'html',
-          ]
-        }
-      ],
+      '/overview/': [{
+        title: 'Overview',
+        collapsable: false,
+        children: [
+          '',
+        ]
+      }],
+      '/web/': [{
+        title: 'Web',
+        collapsable: false,
+        children: [
+          '',
+        ]
+      }],
+      '/automation/': [{
+        title: 'Automation',
+        collapsable: false,
+        children: [
+          '',
+        ]
+      }],
+      '/desktop/': [{
+        title: 'Desktop',
+        collapsable: false,
+        children: [
+          '',
+        ]
+      }],
+      '/game/': [{
+        title: 'Game',
+        collapsable: false,
+        children: [
+          '',
+        ]
+      }],
+      '/mobile/': [{
+        title: 'Mobile',
+        collapsable: false,
+        children: [
+          '',
+        ]
+      }],
     }
   },
 
