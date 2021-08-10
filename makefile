@@ -22,7 +22,8 @@ build-commit:
 
 ft-push:
 	git ftp push
-	echo "open in https://docs.wangnelson.xyz/" && show-story
+	echo "open in https://docs.wangnelson.xyz/" 
+	show-story
 	
 
 ftpinit:
