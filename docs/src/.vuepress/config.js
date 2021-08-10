@@ -1,6 +1,4 @@
-const {
-  description
-} = require('../../package')
+const { description } = require('../../package')
 
 module.exports = {
   /**
@@ -18,18 +16,9 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', {
-      name: 'theme-color',
-      content: '#3eaf7c'
-    }],
-    ['meta', {
-      name: 'apple-mobile-web-app-capable',
-      content: 'yes'
-    }],
-    ['meta', {
-      name: 'apple-mobile-web-app-status-bar-style',
-      content: 'black'
-    }]
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
   /**
@@ -43,9 +32,10 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [{
-        text: 'Guide',
-        link: '/guide/',
+    nav: [
+      {
+        text: 'web',
+        link: '/web/',
       },
       {
         text: 'Config',
@@ -53,77 +43,28 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/overview/': [{
-        title: 'Overview',
-        collapsable: false,
-        children: [
-          '',
-          'Guide',
-          'Plan',
-          'random',
-          
-        ]
-      }],
-      '/web/': [{
-        title: 'Web',
-        collapsable: false,
-        children: [
-          'HTML',
-          'Javascript',
-          'CSS',
-          'Sass',
-          'React',
-          'Angular',
-          'Vue',
-          'Next',
-          'MongoDB',
-          'MySQL',
-          'Express',
-          'Laravel',
-          'Django',
-          'PHP',
-        ]
-      }],
-      '/automation/': [{
-        title: 'Automation',
-        collapsable: false,
-        children: [
-          'Makefile',
-          'Git',
-          'Shell',
-          'Python',
-          'UIPath',
-          'Java',
-        ]
-      }],
-      '/desktop/': [{
-        title: 'Desktop',
-        collapsable: false,
-        children: [
-          'Electron',
-        ]
-      }],
-      '/game/': [{
-        title: 'Game',
-        collapsable: false,
-        children: [
-          'Unity',
-          'Engine',
-          'Utilities',
-          'Animation',
-          'Models',
-        ]
-      }],
-      '/mobile/': [{
-        title: 'Mobile',
-        collapsable: false,
-        children: [
-          'ReactNative',
-          'Flutter',
-          'XCode',
-          'AndroidStudio',
-        ]
-      }],
+      '/web/': [
+        {
+          title: 'Web Development',
+          collapsable: false,
+          children: [
+            '',
+            'angular',
+            'css',
+            'express',
+            'html',
+            'javascript',
+            'laravel',
+            'mongodb',
+            'mysql',
+            'next',
+            'php',
+            'react',
+            'sass',
+            'vue',
+          ]
+        }
+      ],
     }
   },
 
