@@ -22,8 +22,7 @@ build-commit:
 
 ft-push:
 	git ftp push
-	echo "open in https://docs.wangnelson.xyz/" 
-	show-story
+	echo "open in https://docs.wangnelson.xyz/" && git log -n 2
 	
 
 ftpinit:
@@ -40,7 +39,4 @@ first-deploy:
 cap:
 	git coa "${m}"
 	git poh
-	show-story
-
-show-story:
 	git log -n 2
