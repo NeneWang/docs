@@ -37,6 +37,7 @@ Things that are better:
 - Faster web load
 - cohesion of pages in the web (table of contents, etc)
 - Custom code
+- Great impression for startups and academia (probably) (At least for me it was a great impression)
 
 
 ### Or does this come from a different worflow?
