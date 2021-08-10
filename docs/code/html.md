@@ -1,8 +1,5 @@
 # HTML 
-<Badge text="Lab"/><Badge type="warning" text="Practice" />
-<uni-badge practice=true />
-<!-- - [HTML <Badge text="Lab"/>](#html-badge-textlab)
-    - [Structures](#structures) -->
+<uni-badge practice=true lab=true />
 
 Examples collected from:
 - [htmlcheatsheet.com](https://htmlcheatsheet.com/)

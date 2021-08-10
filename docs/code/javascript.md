@@ -1,4 +1,5 @@
-# Javascript <Badge text="Lab"/>
+# Javascript
+<uni-badge practice=true lab=true />
 
 
 Examples From:
