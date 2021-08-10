@@ -39,12 +39,12 @@ module.exports = {
    */
   themeConfig: {
     repo: '',
-    editLinks: false,
+    editLinks: true,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [{
-        text: 'code',
+        text: 'Code Documentation',
         link: '/code/',
       },
       {
