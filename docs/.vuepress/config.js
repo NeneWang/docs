@@ -66,26 +66,26 @@ module.exports = {
             '',
             'guide',
             'plan',
-            'random',
+            // 'random',
           ]
         },
         {
         title: 'Web Development',
         collapsable: true,
         children: [
-          'angular',
+          // 'angular',
           'css',
           'express',
           'html',
           'javascript',
-          'laravel',
-          'mongodb',
+          // 'laravel',
+          // 'mongodb',
           'mysql',
-          'next',
+          // 'next',
           'php',
-          'react',
-          'sass',
-          'vue',
+          // 'react',
+          // 'sass',
+          // 'vue',
         ]
       }, 
       {
@@ -96,24 +96,24 @@ module.exports = {
           'vcs',
           'makefile',
           'shell',
-          'python',
-          'uipath',
-          'java',
+          // 'python',
+          // 'uipath',
+          // 'java',
           
         ]
       },
-      {
-        title: 'Game',
-        collapsable: true,
-        children: [
-          'unity',
-          'engine',
-          'utilities',
-          'animation',
-          'model',
+      // {
+      //   title: 'Game',
+      //   collapsable: true,
+      //   children: [
+      //     'unity',
+      //     'engine',
+      //     'utilities',
+      //     'animation',
+      //     'model',
           
-        ]
-      }, 
+      //   ]
+      // }, 
     ],
     }
   },
