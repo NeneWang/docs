@@ -1,4 +1,0 @@
-# Mongo DB
-
-
-Lorem Ipsum

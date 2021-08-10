@@ -1,4 +1,0 @@
-# React
-
-
-Lorem Ipsum
