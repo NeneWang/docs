@@ -2,7 +2,7 @@
 home: true
 tagline: Documenting all type of code
 actionText: Check Code →
-actionLink: /web-development/
+actionLink: /web/
 features:
 - title: Automation
   details: Git, ShellCode, Makefile, General Tips...
@@ -12,5 +12,5 @@ features:
   details: React Native, Flutter, 
 - title: Video Game Development
   details: Unity (C##), Nannicode, 
-footer: Made by Nelson with ❤️
+footer: Made by Nelson with VuePress❤️
 ---
