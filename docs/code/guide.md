@@ -14,6 +14,8 @@ Useful reminders:
 
 Action, Command
 quick new line, ```&nbsp;```
+Table of contents, ```[[toc]]```
+
 
 
 ### Custom Components
@@ -32,15 +34,15 @@ quick new line, ```&nbsp;```
 
 
 ### Makefile
-| action                                             | code                                              |
-| -------------------------------------------------- | ------------------------------------------------- |
-| Deploy to [Production](https://docs.wangnelson.xyz/)  | ```make v=<deployment version> e.g: make v=1.2``` |
-| Commit all and push to github                      | ```make cap m=example```                             |
-| Build commit and push to origin (not deploying)    | ```make build-commit v=1.3```                     |
-| Push to production                                 | ```make ft-push ```                               |
-| Configure FTP settings (page - user - password)    | ```make ftpinit ```                               |
-| First deployment to server                         | ```make first-deploy ```                          |
-| Build commit and push to origin (not deploying)    | ```make build-commit ```                          |
+| action                                               | code                                              |
+| ---------------------------------------------------- | ------------------------------------------------- |
+| Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> e.g: make v=1.2``` |
+| Commit all and push to github                        | ```make cap m=example```                          |
+| Build commit and push to origin (not deploying)      | ```make build-commit v=1.3```                     |
+| Push to production                                   | ```make ft-push ```                               |
+| Configure FTP settings (page - user - password)      | ```make ftpinit ```                               |
+| First deployment to server                           | ```make first-deploy ```                          |
+| Build commit and push to origin (not deploying)      | ```make build-commit ```                          |
 
 
 
