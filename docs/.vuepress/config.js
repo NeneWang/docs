@@ -86,6 +86,20 @@ module.exports = {
           'vue',
         ]
       }, 
+      {
+        title: 'Automation',
+        collapsable: true,
+        children: [
+          'git',
+          'vcs',
+          'makefile',
+          'shell',
+          'python',
+          'uipath',
+          'java',
+          
+        ]
+      }, 
     ],
     }
   },
