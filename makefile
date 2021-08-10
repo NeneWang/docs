@@ -1,5 +1,7 @@
 PAGE=wangnelson.xyz/documentation/dist
 
+# Requrements: git-ftp, yarn, node
+
 main: build-commit ft-push
 
 deploy-heroku:

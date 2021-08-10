@@ -2,7 +2,7 @@
 
 [Heroku Deployment](https://code-documentation.herokuapp.com/)
 <br>
-[Cloud](https://docs.wangnelson.xyz/)
+[CPanel](https://docs.wangnelson.xyz/)
 
 ## Avantages Disavantages
 
