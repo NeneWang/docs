@@ -1,6 +1,6 @@
 # HTML 
 <Badge text="Lab"/><Badge type="warning" text="Practice" />
-
+<uni-badge practice=true />
 <!-- - [HTML <Badge text="Lab"/>](#html-badge-textlab)
     - [Structures](#structures) -->
 
