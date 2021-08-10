@@ -1,8 +1,8 @@
 <template>
   <tr>
-    <td>{{title}}</td>
+    <td>{{ title }}</td>
     <td>
-      <pre>{{code}}</pre>
+      <pre>{{ code }}</pre>
     </td>
   </tr>
 </template>
@@ -22,3 +22,10 @@ export default {
   },
 };
 </script>
+
+<style lang="stylus">
+pre{
+
+color:white;
+}
+</style>

@@ -3,12 +3,12 @@
 
 ### Basic Tags
 
-| Code       | Description | Example                                                                                                  |
-| ---------- | ----------- | -------------------------------------------------------------------------------------------------------- |
-| Basic Html | description | ```<!DOCTYPE html> <html> <body> <h1>My First Heading</h1> <p>My first paragraph.</p> </body> </html>``` |
-
-<demo-component value="I like the sds"/>
-<table-row title="HTML" code='json
+<table style="width:100%">
+  <tr>
+    <th>Description</th>
+    <th>Code</th>
+  </tr>
+<table-row-code title="HTML" code='json
   {
     "id": 10,
     "username": "alanpartridge",
@@ -19,23 +19,8 @@
     "updated_at": "2015-02-14T20:45:26.540Z"
 }' />
 
-<table>
-<tr>
-<th>
-Status
-</th>
-<th>
-Response
-</th>
-</tr>
 
-<tr>
-
-<td>
-
-<td>
-<pre>
-json
+<table-row-pre title="HTML" code='json
   {
     "id": 10,
     "username": "alanpartridge",
@@ -44,21 +29,6 @@ json
     "password_salt": "$2a$10$uhUIUmVWVnrBWx9rrDWhS.",
     "created_at": "2015-02-14T20:45:26.433Z",
     "updated_at": "2015-02-14T20:45:26.540Z"
-}
-</pre>
-</td>
+}' />
 
-</tr>
-</table>
-
-```json
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
-</body>
-</html> 
-```
+  </table>
