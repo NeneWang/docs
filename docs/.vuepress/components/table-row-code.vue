@@ -27,17 +27,7 @@ export default {
       required: false,
     },
   },
-  data() {
-    return {
-      title,
-    };
-  },
 
-  computed: {
-    cleanMessage() {
-      return this.$sanitize(code);
-    },
-  },
 };
 </script>
 
