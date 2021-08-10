@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "name": "code-documentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/NeneWang/code-documentation.git",
+  "author": "NelsonWang <wangnelson2@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
