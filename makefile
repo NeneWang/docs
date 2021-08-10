@@ -38,3 +38,5 @@ first-deploy:
 cap:
 	git coa "${m}"
 	git poh
+	git log
+	q
