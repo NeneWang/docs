@@ -3,6 +3,7 @@ home: true
 tagline: Documenting all type of code
 actionText: Review Documentation →
 actionLink: /code/
+
 features:
 - title: Automation
   details: Git, ShellCode, Makefile, General Tips...
