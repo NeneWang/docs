@@ -19,7 +19,6 @@ Table of Contents:
 - [{{ $frontmatter.title }}](#-frontmattertitle-)
   - [🎯 Practice](#-practice)
   - [💻 Quick tables](#-quick-tables)
-- [📖 Expanded Cheat Sheet](#-expanded-cheat-sheet)
 
 ## 🎯 Practice
 - W3School Excercise | PHP 
@@ -92,5 +91,3 @@ res.json({ a: 2 })
 " />
 
 </table-code>
-
-# 📖 Expanded Cheat Sheet
