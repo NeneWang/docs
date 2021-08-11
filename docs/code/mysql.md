@@ -14,7 +14,7 @@ Table of Contents:
 [[toc]]
 &nbsp;
 &nbsp;
-- Examples collected from:
+- Credit and Sources:
   - [MySQL Cheat Sheet](https://www.mysqltutorial.org/mysql-cheat-sheet.aspx)
   - [BradTraversy - CheatSheet](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3)
 
@@ -119,17 +119,17 @@ SELECT UCASE(first_name), LCASE(last_name) FROM users;
 </table-code>
 
 
-# MySQL Cheat Sheet
+# 📖 Expanded Cheat Sheet
 
 - Readme extracted from [BradTraversy](https://gist.github.com/bradtraversy/c831baaad44343cc945e76c2e30927b3)
 > Help with SQL commands to interact with a MySQL database
 
-## MySQL Locations
+### MySQL Locations
 * Mac             */usr/local/mysql/bin*
 * Windows         */Program Files/MySQL/MySQL _version_/bin*
 * Xampp           */xampp/mysql/bin*
 
-## Add mysql to your PATH
+### Add mysql to your PATH
 
 ```bash
 # Current Session
@@ -140,80 +140,85 @@ echo 'export PATH="/usr/local/mysql/bin:$PATH"' >> ~/.bash_profile
 
 On Windows - https://www.qualitestgroup.com/resources/knowledge-center/how-to-guide/add-mysql-path-windows/
 
-## Login
+## Users
+
+### Login
 
 ```bash
 mysql -u root -p
 ```
 
-## Show Users
+### Show Users
 
 ```sql
 SELECT User, Host FROM mysql.user;
 ```
 
-## Create User
+### Create User
 
 ```sql
 CREATE USER 'someuser'@'localhost' IDENTIFIED BY 'somepassword';
 ```
 
-## Grant All Priveleges On All Databases
+### Grant All Priveleges On All Databases
 
 ```sql
 GRANT ALL PRIVILEGES ON * . * TO 'someuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
 
-## Show Grants
+### Show Grants
 
 ```sql
 SHOW GRANTS FOR 'someuser'@'localhost';
 ```
 
-## Remove Grants
+### Remove Grants
 
 ```sql
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'someuser'@'localhost';
 ```
 
-## Delete User
+### Delete User
 
 ```sql
 DROP USER 'someuser'@'localhost';
 ```
 
-## Exit
+### Exit
 
 ```sql
 exit;
 ```
 
-## Show Databases
+## Database
+
+### Show Databases
 
 ```sql
 SHOW DATABASES
 ```
 
-## Create Database
+### Create Database
 
 ```sql
 CREATE DATABASE acme;
 ```
 
-## Delete Database
+### Delete Database
 
 ```sql
 DROP DATABASE acme;
 ```
 
-## Select Database
+### Select Database
 
 ```sql
 USE acme;
 ```
+## Table
 
-## Create Table
+### Create Table
 
 ```sql
 CREATE TABLE users(
@@ -230,38 +235,41 @@ id INT AUTO_INCREMENT,
 );
 ```
 
-## Delete / Drop Table
+### Delete / Drop Table
 
 ```sql
 DROP TABLE tablename;
 ```
 
-## Show Tables
+### Show Tables
 
 ```sql
 SHOW TABLES;
 ```
 
-## Insert Row / Record
+## Insert
+
+### Insert Row / Record
 
 ```sql
 INSERT INTO users (first_name, last_name, email, password, location, dept, is_admin, register_date) values ('Brad', 'Traversy', 'brad@gmail.com', '123456','Massachusetts', 'development', 1, now());
 ```
 
-## Insert Multiple Rows
+### Insert Multiple Rows
 
 ```sql
 INSERT INTO users (first_name, last_name, email, password, location, dept,  is_admin, register_date) values ('Fred', 'Smith', 'fred@gmail.com', '123456', 'New York', 'design', 0, now()), ('Sara', 'Watson', 'sara@gmail.com', '123456', 'New York', 'design', 0, now()),('Will', 'Jackson', 'will@yahoo.com', '123456', 'Rhode Island', 'development', 1, now()),('Paula', 'Johnson', 'paula@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now()),('Tom', 'Spears', 'tom@yahoo.com', '123456', 'Massachusetts', 'sales', 0, now());
 ```
-
 ## Select
+
+### Select
 
 ```sql
 SELECT * FROM users;
 SELECT first_name, last_name FROM users;
 ```
 
-## Where Clause
+### Where Clause
 
 ```sql
 SELECT * FROM users WHERE location='Massachusetts';
@@ -270,59 +278,62 @@ SELECT * FROM users WHERE is_admin = 1;
 SELECT * FROM users WHERE is_admin > 0;
 ```
 
-## Delete Row
+### Delete Row
 
 ```sql
 DELETE FROM users WHERE id = 6;
 ```
+## Update
 
-## Update Row
+### Update Row
 
 ```sql
 UPDATE users SET email = 'freddy@gmail.com' WHERE id = 2;
 
 ```
 
-## Add New Column
+### Add New Column
 
 ```sql
 ALTER TABLE users ADD age VARCHAR(3);
 ```
 
-## Modify Column
+### Modify Column
 
 ```sql
 ALTER TABLE users MODIFY COLUMN age INT(3);
 ```
 
-## Order By (Sort)
+### Order By (Sort)
 
 ```sql
 SELECT * FROM users ORDER BY last_name ASC;
 SELECT * FROM users ORDER BY last_name DESC;
 ```
 
-## Concatenate Columns
+### Concatenate Columns
 
 ```sql
 SELECT CONCAT(first_name, ' ', last_name) AS 'Name', dept FROM users;
 
 ```
 
-## Select Distinct Rows
+## Advanced Search
+
+### Select Distinct Rows
 
 ```sql
 SELECT DISTINCT location FROM users;
 
 ```
 
-## Between (Select Range)
+### Between (Select Range)
 
 ```sql
 SELECT * FROM users WHERE age BETWEEN 20 AND 25;
 ```
 
-## Like (Searching)
+### Like (Searching)
 
 ```sql
 SELECT * FROM users WHERE dept LIKE 'd%';
@@ -331,26 +342,26 @@ SELECT * FROM users WHERE dept LIKE '%t';
 SELECT * FROM users WHERE dept LIKE '%e%';
 ```
 
-## Not Like
+### Not Like
 
 ```sql
 SELECT * FROM users WHERE dept NOT LIKE 'd%';
 ```
 
-## IN
+### IN
 
 ```sql
 SELECT * FROM users WHERE dept IN ('design', 'sales');
 ```
 
-## Create & Remove Index
+### Create & Remove Index
 
 ```sql
 CREATE INDEX LIndex On users(location);
 DROP INDEX LIndex ON users;
 ```
 
-## New Table With Foreign Key (Posts)
+### New Table With Foreign Key (Posts)
 
 ```sql
 CREATE TABLE posts(
@@ -364,13 +375,15 @@ id INT AUTO_INCREMENT,
 );
 ```
 
-## Add Data to Posts Table
+## Multiple Tables
+
+### Add Data to Posts Table
 
 ```sql
 INSERT INTO posts(user_id, title, body) VALUES (1, 'Post One', 'This is post one'),(3, 'Post Two', 'This is post two'),(1, 'Post Three', 'This is post three'),(2, 'Post Four', 'This is post four'),(5, 'Post Five', 'This is post five'),(4, 'Post Six', 'This is post six'),(2, 'Post Seven', 'This is post seven'),(1, 'Post Eight', 'This is post eight'),(3, 'Post Nine', 'This is post none'),(4, 'Post Ten', 'This is post ten');
 ```
 
-## INNER JOIN
+### INNER JOIN
 
 ```sql
 SELECT
@@ -384,7 +397,7 @@ ON users.id = posts.user_id
 ORDER BY posts.title;
 ```
 
-## New Table With 2 Foriegn Keys
+### New Table With 2 Foriegn Keys
 
 ```sql
 CREATE TABLE comments(
@@ -399,13 +412,13 @@ CREATE TABLE comments(
 );
 ```
 
-## Add Data to Comments Table
+### Add Data to Comments Table
 
 ```sql
 INSERT INTO comments(post_id, user_id, body) VALUES (1, 3, 'This is comment one'),(2, 1, 'This is comment two'),(5, 3, 'This is comment three'),(2, 4, 'This is comment four'),(1, 2, 'This is comment five'),(3, 1, 'This is comment six'),(3, 2, 'This is comment six'),(5, 4, 'This is comment seven'),(2, 3, 'This is comment seven');
 ```
 
-## Left Join
+### Left Join
 
 ```sql
 SELECT
@@ -417,7 +430,7 @@ ORDER BY posts.title;
 
 ```
 
-## Join Multiple Tables
+### Join Multiple Tables
 
 ```sql
 SELECT
@@ -432,7 +445,9 @@ ORDER BY posts.title;
 
 ```
 
-## Aggregate Functions
+## Aggregate
+
+### Aggregate Functions
 
 ```sql
 SELECT COUNT(id) FROM users;
@@ -443,7 +458,7 @@ SELECT UCASE(first_name), LCASE(last_name) FROM users;
 
 ```
 
-## Group By
+### Group By
 
 ```sql
 SELECT age, COUNT(age) FROM users GROUP BY age;

@@ -10,7 +10,7 @@ tags: ["practice", "lab"]
 
 &nbsp;
 &nbsp;
-- Examples collected from:
+- Credit and Sources:
   - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
 
 
