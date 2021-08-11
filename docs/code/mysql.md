@@ -23,3 +23,4 @@ Table of Contents:
 sdsdssdsd {{tags}}
 
 <TagLinks />
+<TagBadge />
