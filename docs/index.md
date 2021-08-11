@@ -10,6 +10,7 @@ features:
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
   details: Labs and other projects documentation..
+  footer: Nelson Wang since 8.10.2021
 ---
 
 
