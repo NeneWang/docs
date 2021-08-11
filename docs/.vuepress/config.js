@@ -3,7 +3,7 @@ const {
 } = require('../../package')
 
 module.exports = {
-  title: 'Code',
+  title: 'Docs',
   publicPath: './',
 
   description: description,
@@ -34,11 +34,11 @@ module.exports = {
     editLinkText: '',
     lastUpdated: true,
     nav: [{
-        text: 'Code Docs',
+        text: 'Code',
         link: '/code/',
       },
       {
-        text: 'Project Docs',
+        text: 'Project',
         link: '/projects/'
       },
     ],

@@ -1,11 +1,11 @@
 ---
 home: true
-tagline: Docs
-actionText: Review Code Docs →
+tagline: Document, so They Can Create.
+actionText: Code Documentation →
 actionLink: /code/
 
 features:
-- title: Code
+- title: Docs | Documentation
   details: Web Development, Automation, Mobile Dev, Gameing, etc...
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
