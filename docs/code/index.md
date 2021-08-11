@@ -1,8 +1,7 @@
 # Introduction
 
 
-<br>
-[Live Documentation](https://docs.wangnelson.xyz/)
+[Live Documentation](https://docs.wangnelson.xyz)
 
 ## Avantages Disavantages of Using Vuepress
 
