@@ -6,8 +6,7 @@ tags: ["practice", "lab"]
 
 # {{ $frontmatter.title }}
 
-
-<uni-badge practice=true lab=true />
+<TagBadge />
 
 &nbsp;
 &nbsp;
@@ -20,7 +19,3 @@ Table of Contents:
 
 ## 🎯 Practice
 -[W3 School MySQL](https://www.w3schools.com/mysql/exercise.asp)
-sdsdssdsd {{tags}}
-
-<TagLinks />
-<TagBadge />

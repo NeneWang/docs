@@ -1,5 +1,12 @@
-# HTML 
-<uni-badge practice=true lab=true />
+---
+title: HTML
+lang: en-US
+tags: ["practice", "lab"]
+---
+
+# {{ $frontmatter.title }}
+
+<TagBadge />
 
 &nbsp;
 &nbsp;

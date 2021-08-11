@@ -1,11 +1,12 @@
 ---
 title: MySQL
 lang: en-US
+tags: ["practice", "lab"]
 ---
 
 # {{ $frontmatter.title }}
 
-<uni-badge practice=false lab=false />
+<TagBadge />
 
 &nbsp;
 &nbsp;

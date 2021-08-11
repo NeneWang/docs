@@ -1,12 +1,18 @@
-# CSS 
-<Badge text="Lab"/> <Badge type="warning" text="Practice"/>
+---
+title: CSS
+lang: en-US
+tags: ["practice", "lab"]
+---
 
+# {{ $frontmatter.title }}
+
+<TagBadge />
 - Examples Extracted from:
   - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 
 
 Table of contents:
-- [CSS](#css)
+- [{{ $frontmatter.title }}](#-frontmattertitle-)
   - [🎯 Practice Sets](#-practice-sets)
   - [Selectors](#selectors)
   - [Pseudo Classes](#pseudo-classes)

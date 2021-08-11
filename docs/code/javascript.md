@@ -1,5 +1,12 @@
-# Javascript
-<uni-badge practice=true lab=true />
+---
+title: Javascript
+lang: en-US
+tags: ["practice", "lab"]
+---
+
+# {{ $frontmatter.title }}
+
+<TagBadge />
 
 
 Examples From:
