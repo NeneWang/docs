@@ -17,10 +17,7 @@ tags: ["practice", "lab"]
 
 &nbsp;
 Table of Contents:
-- [{{ $frontmatter.title }}](#-frontmattertitle-)
-  - [🎯 Practice](#-practice)
-  - [💻 Quick tables](#-quick-tables)
-
+[[toc]]
 ## 🎯 Practice
 - [W3School Excercise | PHP ](https://www.w3schools.com/php/exercise.asp)
 

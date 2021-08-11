@@ -16,10 +16,7 @@ tags: ["practice", "lab"]
 
 &nbsp;
 Table of Contents:
-- [{{ $frontmatter.title }}](#-frontmattertitle-)
-  - [🎯 Practice](#-practice)
-  - [💻 Quick tables](#-quick-tables)
-- [📖 Expanded Cheat Sheet](#-expanded-cheat-sheet)
+[[toc]]
 
 ## 🎯 Practice
 - W3School Excercise | PHP 
@@ -33,5 +30,3 @@ code="
 SELECT * FROM users WHERE dept IN ('design', 'sales');
 " />
 </table-code>
-
-# 📖 Expanded Cheat Sheet

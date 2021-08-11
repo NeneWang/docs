@@ -12,11 +12,7 @@ tags: ["practice", "lab"]
 
 
 Table of contents:
-- [{{ $frontmatter.title }}](#-frontmattertitle-)
-  - [🎯 Practice Sets](#-practice-sets)
-  - [Selectors](#selectors)
-  - [Pseudo Classes](#pseudo-classes)
-  - [Attribute Selectors](#attribute-selectors)
+[[toc]]
 
 ## 🎯 Practice Sets 
 
