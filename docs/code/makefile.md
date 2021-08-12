@@ -1,7 +1,7 @@
 ---
 title: Makefile
 lang: en-US
-tags: ["practice", "lab"]
+tags: ["practice"]
 ---
 
 # {{ $frontmatter.title }}
@@ -10,31 +10,45 @@ tags: ["practice", "lab"]
 
 &nbsp;
 &nbsp;
-- Credit and Sources:
-  - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
+
+<!-- - Credit and Sources:
+  - [htmlcheatsheet.com](https://htmlcheatsheet.com/) -->
 
 
 &nbsp;
 Table of Contents:
 [[toc]]
 
-## 🎯 Practice
-- W3School Excercise | PHP 
 
-## 💻 Quick tables
+##  Quick Examples
 
-- [Official Documentation | AWK](https://www.gnu.org/software/gawk/manual/gawk.html)
+- [Github Make examples](https://github.com/NeneWang/CISC3140-make)
 
 <table-code>
 
-<table-row-code title="IN"  
-code="
-SELECT * FROM users WHERE dept IN ('design', 'sales');
-" />
 
-<table-row-code title="Multipart File Upload"  
+<table-row-code title="Hello World"  
 code='
-curl -v -include --form key1=value1 --form upload=@localfilename URL
+say_hello:
+	echo "Hello World"
+'/>
+
+
+<table-row-code title="Class Folders Creator"  
+code='
+explain_code:
+	@echo "This program will create the folders for your classess: ${FOLDERS}"
+	@echo "plese input -  make generate  CN=[class Name] - to create the folders"
+generate:
+	@echo "Creating class folders for ${CN}..."
+	mkdir ${CN}
+	mkdir ${CN}/assigments
+	mkdir ${CN}/lectures
+	mkdir ${CN}/exams
+	mkdir ${CN}/miscellaneous
+clean:
+	@echo "removing folders for ${CN}..."
+	rm -r ${CM}/
 '/>
 
 </table-code>

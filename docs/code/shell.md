@@ -1,7 +1,7 @@
 ---
 title: Shell
 lang: en-US
-tags: ["practice", "lab"]
+tags: ["lab"]
 ---
 
 # {{ $frontmatter.title }}
@@ -10,31 +10,42 @@ tags: ["practice", "lab"]
 
 &nbsp;
 &nbsp;
-- Credit and Sources:
-  - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
+
+<!-- - Credit and Sources:
+  - [htmlcheatsheet.com](https://htmlcheatsheet.com/) -->
 
 
 &nbsp;
 Table of Contents:
 [[toc]]
 
-## 🎯 Practice
-- W3School Excercise | PHP 
 
-## 💻 Quick tables
+##  Quick Examples
+<br>
 
-- [Official Documentation | AWK](https://www.gnu.org/software/gawk/manual/gawk.html)
+Shell Script Examples
+- Shell Script Examples
 
 <table-code>
 
-<table-row-code title="IN"  
-code="
-SELECT * FROM users WHERE dept IN ('design', 'sales');
-" />
-
-<table-row-code title="Multipart File Upload"  
+<table-row-pre title="Set Permissions"  
 code='
-curl -v -include --form key1=value1 --form upload=@localfilename URL
+chmod a+x name.sh
+'/>
+
+<table-row-code title="Hello World"  
+code='
+#!/bin/sh
+echo "Hello world"
+'/>
+
+<table-row-code title="Shell Script Arguments" sub="./name.sh Hans-Wolfgang Loidl"  
+code='
+#!/bin/bash
+# example of using arguments to a script
+echo "My first name is $1"
+echo "My surname is $2"
+echo "Total number of arguments is $#" 
 '/>
 
 </table-code>

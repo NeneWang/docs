@@ -1,5 +1,4 @@
 
-
 <template>
   <tr>
     <td>
@@ -23,6 +22,9 @@ export default {
       required: true,
     },
     type: {
+      required: false,
+    },
+    sub: {
       required: false,
     },
   },
