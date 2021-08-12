@@ -1,7 +1,7 @@
 ---
 title: Express
 lang: en-US
-tags: ["practice", "lab"]
+tags: [ "lab"]
 ---
 
 # {{ $frontmatter.title }}
@@ -92,7 +92,7 @@ res.json({ a: 2 })
 </table-code>
 
 
-## 💾 Mongoose QT
+## 💾 Mongoose Quick Tables
 
 <table-code>
 

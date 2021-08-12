@@ -93,7 +93,8 @@ module.exports = {
           collapsable: true,
           children: [
             'git',
-            'vcs',
+            'terminal-libraries',
+            // 'vcs',
             'makefile',
             'shell',
             // 'python',

@@ -1,4 +1,32 @@
-# VCS
+---
+title: VCS
+lang: en-US
+tags: ["practice", "lab"]
+---
+
+# {{ $frontmatter.title }}
+
+<TagBadge />
+
+&nbsp;
+&nbsp;
+- Credit and Sources:
+  - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
 
 
-Lorem Ipsum
+&nbsp;
+Table of Contents:
+[[toc]]
+
+## 🎯 Practice
+- W3School Excercise | PHP 
+
+## 💻 Quick tables
+
+<table-code>
+
+<table-row-code title="IN"  
+code="
+SELECT * FROM users WHERE dept IN ('design', 'sales');
+" />
+</table-code>

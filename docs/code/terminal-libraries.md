@@ -1,5 +1,5 @@
 ---
-title: Git
+title: Command Line Libraries
 lang: en-US
 tags: ["practice", "lab"]
 ---
@@ -11,7 +11,7 @@ tags: ["practice", "lab"]
 &nbsp;
 &nbsp;
 - Credit and Sources:
-  - [Git Bickbucket - Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+  - [htmlcheatsheet.com](https://htmlcheatsheet.com/)
 
 
 &nbsp;
@@ -19,9 +19,19 @@ Table of Contents:
 [[toc]]
 
 ## 🎯 Practice
-- [Git](https://www.w3schools.com/git/exercise.asp)
+- W3School Excercise | PHP 
 
-## 💻 Quick tables
+## AWK
+
+<table-code>
+
+<table-row-code title="IN"  
+code="
+SELECT * FROM users WHERE dept IN ('design', 'sales');
+" />
+</table-code>
+
+## cURL
 
 <table-code>
 
