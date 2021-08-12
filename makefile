@@ -20,6 +20,7 @@ build-commit:
 	git push origin HEAD
 
 build-commit-donpush:
+	yarn install
 	yarn docs:build
 	git add --all
 	git commit -m "Production update | ${v}"	
