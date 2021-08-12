@@ -29,7 +29,7 @@ build-commit:
 
 
 ft-push:
-	git ftp push
+	git ftp push --force
 	echo "open in https://docs.wangnelson.xyz/" && git log -n 2
 	
 
