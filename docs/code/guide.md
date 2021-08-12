@@ -49,7 +49,10 @@ TODO ### Custom Components -->
  
  Github Actions will automatically build the static files and ftp transfer them into production.
 
- Screenshots of a successful log:
+ ::: details Logs showing evidence that the automated deployment worked.
+ ![screenshot log](https://i.ibb.co/Gcdcjpw/screencapture-github-Nene-Wang-code-documentation-runs-3315009118-2021-08-12-15-06-40.png)
+ :::
+
  
 
 

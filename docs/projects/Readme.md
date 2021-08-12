@@ -1,3 +1,3 @@
 # Introduction
 
-In thise section I will be publishing my documentation for projects
+In this section I will be publishing my documentation for projects

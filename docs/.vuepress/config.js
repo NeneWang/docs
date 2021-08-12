@@ -65,7 +65,7 @@ module.exports = {
 
             '',
             'guide',
-            'plan',
+            // 'plan',
             // 'random',
           ]
         },

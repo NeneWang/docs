@@ -1,7 +1,7 @@
 ---
 title: Makefile
 lang: en-US
-tags: ["practice"]
+tags: ["lab"]
 ---
 
 # {{ $frontmatter.title }}
