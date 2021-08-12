@@ -13,8 +13,6 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "bootstrap": "^5.1.0",
-    "bootstrap-vue": "^2.21.2",
     "vue": "^2.6.14"
   }
 }
