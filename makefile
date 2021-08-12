@@ -12,7 +12,6 @@ deploy-heroku:
 	git push heroku head:master
 
 
-
 build-commit:
 	yarn docs:build
 	git add --all
@@ -24,6 +23,9 @@ build-commit-donpush:
 	yarn docs:build
 	git add --all
 	git commit -m "Production update | ${v}"	
+
+
+
 
 
 ft-push:
