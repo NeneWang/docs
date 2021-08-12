@@ -17,4 +17,5 @@ jobs:
       - uses: actions/checkout@v2   
       - name: Run Makefile deploy
         run: |
+          git config --global user.name "nenewang"
           make ft-configpush
