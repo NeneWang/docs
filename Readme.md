@@ -103,15 +103,19 @@ Makefile:
 
 
 ### Automation (and integration) using Make
-| Action                                               | Code                                              |
-| ---------------------------------------------------- | ------------------------------------------------- |
+| Action                                               | Code                                                          |
+| ---------------------------------------------------- | ------------------------------------------------------------- |
 | Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> ``` <br> e.g: ```make v=1.2``` |
-| Commit all and push to github                        | ```make cap m=example```                          |
-| Build commit and push to origin (not deploying)      | ```make build-commit v=1.3```                     |
-| Push to production                                   | ```make ft-push ```                               |
-| Configure FTP settings (page - user - password)      | ```make ftpinit ```                               |
-| First deployment to server                           | ```make first-deploy ```                          |
-| Build commit and push to origin (not deploying)      | ```make build-commit ```                          |
+| Commit all and push to github                        | ```make cap m=example```                                      |
+| Build commit and push to origin (not deploying)      | ```make build-commit v=1.3```                                 |
+| Push to production                                   | ```make ft-push ```                                           |
+| Configure FTP settings (page - user - password)      | ```make ftpinit ```                                           |
+| First deployment to server                           | ```make first-deploy ```                                      |
+| Build commit and push to origin (not deploying)      | ```make build-commit ```                                      |
+| Deploy to Heroky                                     | ```make deploy-heroku```                                      |
+| Build application and commit changes only            | ```make build-commit-donpush```                               |
+| Merge Master to Deployment, switch to master branch  | ```make merge-to-deployment```                                |
+
 
 makefile
 ``` makefile
