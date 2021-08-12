@@ -42,4 +42,6 @@ font-size: .65em;
 .subtitle{
   font-size:.7em;
 }
+
+
 </style>

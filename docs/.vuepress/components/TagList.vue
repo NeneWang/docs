@@ -1,8 +1,8 @@
 <!-- .vuepress/components/TagList.vue -->
 <template lang="html">
   <div class="row" >
-    <div class="col-md-4" v-for="tag in Object.keys(tags)">
-      <h2 :id="tag">
+    <div class="col-md-6" v-for="tag in Object.keys(tags)">
+      <h2 class="table-title"  :id="tag">
         <router-link
           :to="{ path: `/tags.html#${tag}`}"
           class="header-anchor"
