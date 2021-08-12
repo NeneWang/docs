@@ -18,6 +18,7 @@ Table of Contents
     - [Logs showing evidence that the automated deployment worked.](#logs-showing-evidence-that-the-automated-deployment-worked)
   - [How the Configuration Files Works](#how-the-configuration-files-works)
     - [Integration.yml](#integrationyml)
+    - [Makefile](#makefile)
     - [Automation (and integration) using Make](#automation-and-integration-using-make)
 
 ## Setup
@@ -99,7 +100,7 @@ jobs:
 ```
 
 
-Makefile:
+### Makefile
 
 
 ### Automation (and integration) using Make
