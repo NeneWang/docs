@@ -26,6 +26,10 @@ build-commit-donpush:
 
 
 
+merge-to-deployment:
+	git checkout deployment
+	git merge master
+	git checkout master
 
 
 ft-push:
