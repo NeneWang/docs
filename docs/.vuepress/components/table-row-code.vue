@@ -6,7 +6,7 @@
     </td>
     <td>
       <span class="subtitle">{{ sub }}</span>
-      <pre > {{code}} </pre>
+      <pre class="code-pre" > {{code}} </pre>
       
     </td>
   </tr>
@@ -32,16 +32,3 @@ export default {
 };
 </script>
 
-<style lang="stylus">
-pre{
-
-color:white;
-font-size: .65em;
-}
-
-.subtitle{
-  font-size:.7em;
-}
-
-
-</style>

@@ -1,6 +1,7 @@
 ---
 home: true
-tagline: Document, so They Can Create.
+
+tagline: Document, so They Can 🏗.
 actionText: Code Documentation →
 actionLink: /code/
 
@@ -10,7 +11,7 @@ features:
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
   details: Labs and other projects documentation..
-  footer: Nelson Wang since 8.10.2021
+footer: Nelson Wang since 8.10.2021
 ---
 
 
