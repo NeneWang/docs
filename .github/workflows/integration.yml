@@ -17,6 +17,4 @@ jobs:
       - uses: actions/checkout@v2   
       - name: Run Makefile deploy
         run: |
-          make ftpinit
-          make ft-push
-
+          make ft-configpush
