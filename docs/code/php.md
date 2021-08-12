@@ -10,7 +10,7 @@ tags: ["practice", "lab"]
 
 &nbsp;
 &nbsp;
-- Credit and Sources:
+- Credits:
   - [Front Line PHP - Cheatsheet](https://front-line-php.com/cheat-sheet)
   - [Codemy - php-Sheet](https://codemy.com/php-sheet.pdf)
 

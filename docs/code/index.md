@@ -1,27 +1,19 @@
 # Introduction
 
+[Documentation Github](https://github.com/NeneWang/code-documentation)
 
 [Live Documentation](https://docs.wangnelson.xyz)
 
-## Avantages Disavantages of Using Vuepress
+In this Doc Section (/Code) I will be documenting how to use the tools covered in class. I am planning to continue adding more tools to the docs as I learn (or have the time to document).
+
+
+::: tip Quick example:
+ Documentation of CSS [here](/code/css).
+:::
 
 
 
-Advantages:
-- Professional looking
-- Custom Widgets and Styling
-- Doens't require a heavy machine to run, like notion (Doens't consume that much memory...)
-- Basic tables are back 
-- You get to learn Vue while documentating 
-- Faster Load from any PC. (Probably a good idea for the smaller lower power pcs)
-- Table on the side!
-- Free forever
 
-Disavantages
-- No Easy Databases (API are available regardless)
-- Bad for documentating Collections 
-- Editing must be done from dev Computer
-- Slow deployment (Even if I had some code with me...)
 
 
 

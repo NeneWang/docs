@@ -10,7 +10,7 @@ tags: [ "lab"]
 
 &nbsp;
 &nbsp;
-- Credit and Sources:
+- Credits:
   - [Devhints - Express](https://devhints.io/express)
   - [Objectrocket.com - Mongoose](https://kb.objectrocket.com/mongo-db/the-mongoose-cheat-sheet-225)
 

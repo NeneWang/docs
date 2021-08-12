@@ -5,22 +5,10 @@
 Table of Contents:
 [[toc]]
 
-## Components
-### Using Vue Press
-<br>
-- [Official Documentation](https://v1.vuepress.vuejs.org/)
+<!-- 
+TODO ### Custom Components -->
 
-Useful reminders:
-
-Action, Command
-quick new line, ```&nbsp;```
-Table of contents, ```[[toc]]```
-
-
-
-### Custom Components
-
-## Automation and Development
+## Setup
 
 ### Requirements
 &nbsp;
@@ -32,11 +20,14 @@ Table of contents, ```[[toc]]```
 - git
 
 
+### Running the Repository on your Local Machine
 
-### Makefile
-| action                                               | code                                              |
+ 1. First you need to clone the 
+
+### Automation using Make
+| Action                                               | Code                                              |
 | ---------------------------------------------------- | ------------------------------------------------- |
-| Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> e.g: make v=1.2``` |
+| Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> ``` <br> e.g: ```make v=1.2``` |
 | Commit all and push to github                        | ```make cap m=example```                          |
 | Build commit and push to origin (not deploying)      | ```make build-commit v=1.3```                     |
 | Push to production                                   | ```make ft-push ```                               |
@@ -44,9 +35,26 @@ Table of contents, ```[[toc]]```
 | First deployment to server                           | ```make first-deploy ```                          |
 | Build commit and push to origin (not deploying)      | ```make build-commit ```                          |
 
+## Components
+### Using Vue Press
+<br>
+
+- [Vuepress | Official Guide](https://vuepress.vuejs.org/guide/)
+
+Quick Vuepress Commands example:
+
+| Action            | Command       |
+| ----------------- | ------------- |
+| quick new line    | ```&nbsp;```  |
+| Table of contents | ```[[toc]]``` |
+| Tip  | ```::: danger STOP Danger zone, do not proceed:::``` <br> (danger, tip, warning, details) |
 
 
-## Workflow
+<!-- Action, Command
+quick new line, ```&nbsp;```
+Table of contents, ```[[toc]]``` -->
+
+
 
 
 

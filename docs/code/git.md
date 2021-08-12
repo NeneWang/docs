@@ -10,7 +10,7 @@ tags: ["practice", "lab"]
 
 &nbsp;
 &nbsp;
-- Credit and Sources:
+- Credits:
   - [Git Bickbucket - Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
   - [Gitlab - Git Cheat Sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 

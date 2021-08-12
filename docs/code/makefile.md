@@ -11,7 +11,7 @@ tags: ["practice"]
 &nbsp;
 &nbsp;
 
-<!-- - Credit and Sources:
+<!-- - Credits:
   - [htmlcheatsheet.com](https://htmlcheatsheet.com/) -->
 
 

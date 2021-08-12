@@ -10,7 +10,7 @@ tags: ["lab"]
 
 &nbsp;
 &nbsp;
-- Credit and Sources:
+- Credits:
   - [cUrl Cheatsheet](https://devhints.io/curl)
   - 
 
