@@ -25,9 +25,6 @@ export default {
     type: {
       required: false,
     },
-    sub: {
-      required: false,
-    },
   },
 
 };

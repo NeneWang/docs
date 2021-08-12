@@ -23,6 +23,8 @@ Table of Contents:
 
 ## 💻 Quick tables
 
+<br>
+Extracted From:
 - [Official Documentation | AWK](https://www.gnu.org/software/gawk/manual/gawk.html)
 
 <table-code>
