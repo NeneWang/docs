@@ -16,7 +16,7 @@ Table of Contents
     - [How to update the documentation (using github actions)](#how-to-update-the-documentation-using-github-actions)
     - [Logs showing evidence that the automated deployment worked.](#logs-showing-evidence-that-the-automated-deployment-worked)
   - [How the Configuration Files Works](#how-the-configuration-files-works)
-    - [Snipcode of Integration.yml](#snipcode-of-integrationyml)
+    - [Integration.yml](#integrationyml)
     - [Automation (and integration) using Make](#automation-and-integration-using-make)
 
 ## Setup
@@ -68,7 +68,7 @@ Table of Contents
 
 ## How the Configuration Files Works
 
- ### Snipcode of Integration.yml
+ ### Integration.yml
  The Continuous Integration works by using a combination of the makefile and Github Actions. Everytime that code is pushed or a pull ruest event occurs in the deployment branch the integration.yml runs the makefile to install dependencies, build static files and Transfers them to the deployment server using git ftp.
 ```
  # The integration deploys to cloud every time changes are pushed to deployment branch
