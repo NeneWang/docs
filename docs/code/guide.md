@@ -31,9 +31,10 @@ TODO ### Custom Components -->
  6. localhost:```yarn docs:dev``` 
 
 
-### How to update the documentation
+### How to update the documentation (using make)
 
-
+ 1. Save and push changes to the respository: ```make cap m="your build message"```
+ 2. Build and FTP Trasnfer to production: ```main v="versionID" ``` (versionID is optional)
 
 
 ### Automation using Make
