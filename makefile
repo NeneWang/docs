@@ -29,7 +29,7 @@ build-commit:
 
 
 ft-push:
-	git ftp push --force
+	git ftp push 
 	echo "open in https://docs.wangnelson.xyz/" && git log -n 2
 	
 
@@ -38,7 +38,7 @@ ftpinit:
 	git config git-ftp.user ftp_public@wangnelson.xyz
 	git config git-ftp.password ZA.m6e{,U6XG
 	git config git-ftp.syncroot docs/.vuepress/dist/
-	git ftp init
+	git ftp init --force
 
 first-deploy:
 	ftpinit
