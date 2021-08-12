@@ -34,7 +34,18 @@ TODO ### Custom Components -->
 ### How to update the documentation (using make)
 
  1. Save and push changes to the respository: ```make cap m="your build message"```
- 2. Build and FTP Trasnfer to production: ```main v="versionID" ``` (versionID is optional)
+ 2. Build and FTP Trasnfer to production: ```make v="versionID" ``` (versionID is optional)
+
+### How to update the documentation (using github actions)
+
+
+ 1. Make your changes in Master branch
+ 2. Track your changes ```git add --all```
+ 3. Commit ```git commit -m "message"```
+ 4. Push to master branch ```git push origin master```
+ 5. Checkout deployment branch ```git checkout deployment```
+ 6. Merge changes made in master into deployment branch ```git merge master```
+ 
 
 
 ### Automation using Make

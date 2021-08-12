@@ -29,6 +29,7 @@ merge-to-deployment:
 	git checkout deployment
 	git pull
 	git merge master
+	git push origin HEAD
 	git checkout master
 
 
