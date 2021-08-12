@@ -11,11 +11,13 @@ Table of Contents
   - [Setup](#setup)
     - [Requirements](#requirements)
     - [Running the Repository on your Local Machine](#running-the-repository-on-your-local-machine)
+  - [Updating](#updating)
     - [How to update the documentation (using make)](#how-to-update-the-documentation-using-make)
     - [How to update the documentation (using github actions)](#how-to-update-the-documentation-using-github-actions)
     - [Logs showing evidence that the automated deployment worked.](#logs-showing-evidence-that-the-automated-deployment-worked)
+  - [Integration Tools](#integration-tools)
     - [Snipcode of Integration.yml](#snipcode-of-integrationyml)
-    - [Automation using Make](#automation-using-make)
+    - [Automation (and integration) using Make](#automation-and-integration-using-make)
 
 ## Setup
 
@@ -39,6 +41,8 @@ Table of Contents
  6. localhost:```yarn docs:dev``` 
 
 
+## Updating
+
 ### How to update the documentation (using make)
 
  1. Save and push changes to the respository: ```make cap m="your build message"```
@@ -61,6 +65,8 @@ Table of Contents
 
  ![screenshot log](https://i.ibb.co/Gcdcjpw/screencapture-github-Nene-Wang-code-documentation-runs-3315009118-2021-08-12-15-06-40.png)
 
+
+## Integration Tools
 
  ### Snipcode of Integration.yml
  The Continuous Integration works by using a combination of the makefile and Github Actions. Everytime that code is pushed or a pull ruest event occurs in the deployment branch the integration.yml runs the makefile to install dependencies, build static files and Transfers them to the deployment server using git ftp.
@@ -93,7 +99,7 @@ jobs:
 Makefile:
 
 
-### Automation using Make
+### Automation (and integration) using Make
 | Action                                               | Code                                              |
 | ---------------------------------------------------- | ------------------------------------------------- |
 | Deploy to [Production](https://docs.wangnelson.xyz/) | ```make v=<deployment version> ``` <br> e.g: ```make v=1.2``` |
