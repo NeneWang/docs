@@ -73,7 +73,7 @@ Table of Contents
 ## How the Configuration Files Works
 
  ### Integration.yml
- The Continuous Integration works by using a combination of the makefile and Github Actions. Everytime that code is pushed or a pull ruest event occurs in the deployment branch the integration.yml runs the makefile to install dependencies, build static files and Transfers them to the deployment server using git ftp.
+ The Continuous Integration works by using a combination of the makefile and Github Actions. Everytime that code is pushed or a pull ruest event occurs in the deployment branch the integration.yml runs the makefile to install dependencies, build static files and Transfers them to the deployment server using git ftp. (It transfer to my Hostinger CPanel)
 ```
  # The integration deploys to cloud every time changes are pushed to deployment branch
 
