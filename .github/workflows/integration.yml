@@ -18,4 +18,5 @@ jobs:
       - name: Run Makefile deploy
         run: |
           git config --global user.name "nenewang"
+          make build-commit-donpush
           make ft-configpush
