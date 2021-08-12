@@ -32,6 +32,12 @@ ft-push:
 	git ftp push 
 	echo "open in https://docs.wangnelson.xyz/" && git log -n 2
 	
+ft-configpush:
+	git config git-ftp.url ftp://ftp.${PAGE}
+	git config git-ftp.user ftp_public@wangnelson.xyz
+	git config git-ftp.password ZA.m6e{,U6XG
+	git config git-ftp.syncroot docs/.vuepress/dist/
+	git ftp push 
 
 ftpinit:
 	git config git-ftp.url ftp://ftp.${PAGE}
