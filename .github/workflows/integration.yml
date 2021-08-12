@@ -20,6 +20,6 @@ jobs:
         run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
       - name: Run Makefile deploy
         run: |
-          make build-commit-donpush v=${{ steps.date.outputs.date }}
+          make build-commit-donpush
           make ft-push
 
