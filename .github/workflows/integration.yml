@@ -14,5 +14,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2        
       - name: Run Makefile deploy
-        run: make say_hello ${{ steps.date.outputs.date }}
+        run: make say_hello v=${{ steps.date.outputs.date }}
 
