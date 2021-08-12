@@ -22,12 +22,12 @@ build-commit-donpush:
 	yarn install
 	yarn docs:build
 	git add --all
-	git commit -m "Production update | ${v}"	
-
+	git commit -m "Production update | ${v}"
 
 
 merge-to-deployment:
 	git checkout deployment
+	git pull
 	git merge master
 	git checkout master
 
@@ -60,5 +60,3 @@ cap:
 	git push origin HEAD
 	git log -n 2
 
-say_hello:
-	echo Hello from the makefile!! ${v}
