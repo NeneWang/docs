@@ -45,6 +45,11 @@ TODO ### Custom Components -->
  4. Push to master branch ```git push origin master```
  5. Checkout deployment branch ```git checkout deployment```
  6. Merge changes made in master into deployment branch ```git merge master```
+ 7. Push changes to github: ```git push origin HEAD```
+ 
+ Github Actions will automatically build the static files and ftp transfer them into production.
+
+ Screenshots of a successful log:
  
 
 
