@@ -19,13 +19,11 @@ build-commit:
 	git commit -m "Production update | ${v}"	
 	git push origin HEAD
 
-# build-commit-donpush:
-# 	yarn install
-# 	yarn docs:build
-# 	git add --all
-# 	git config --global user.email "wangnelson2@gmail.com"
-#   	git config --global user.name "nenewang"
-# 	git commit -m "Production update | ${v}"	
+build-commit-donpush:
+	yarn install
+	yarn docs:build
+	git add --all
+	git commit -m "Production update | ${v}"	
 
 
 ft-push:
