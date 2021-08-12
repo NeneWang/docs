@@ -25,22 +25,51 @@ Table of Contents:
 <br>
 
 - [Official Documentation | AWK](https://www.gnu.org/software/gawk/manual/gawk.html)
+- [usessionbuddy - Awk Cheatsheet](https://www.usessionbuddy.com/post/Awk-Cheatsheet-And-Examples/)
 
-<table-code>
+cat cars.csv | head -2
+> mpg, cylinders, cubicinches, hp, weightlbs, time-to-60, year, brand
+> 14,8,350,165,4209,12,1972, US.
 
-<table-row-code title="IN"  
-code="
-SELECT * FROM users WHERE dept IN ('design', 'sales');
-" />
+### Print Columns in AWK
+
+<br>
+
+```awk 'BEGIN {FS=","} {print $2}' < cars.csv | head -2```
+ > cylinders
+ > 8
 
 
-<table-row-code title="Multipart File Upload"  
-code='
-curl -v -include --form key1=value1 --form upload=@localfilename URL
-'/>
+<br>
 
+```awk 'BEGIN {FS=","} {print $2,$3,$4}' < cars.csv | head -2```
+ > cylinders  cubicinches  hp
+ > 8 350 165
 
-</table-code>
+ ### Arrays In AWK
+
+<br>
+
+```awk 'BEGIN {a[1]=2;print a[1]}'```
+ > cylinders
+ > 8
+
+ ````
+awk 'BEGIN {
+      for (i=0 ;i <5; i++) {
+          b[i] = 1
+      }
+      #Loop through awk array b
+      for (elem in b) {
+          print elem
+      }
+  }'
+````
+> 4
+> 0
+> 1
+> 2
+> 3
 
 ## cURL
 
