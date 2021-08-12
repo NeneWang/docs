@@ -16,10 +16,10 @@
 export default {
   props: {
     title: {
-      required: true,
+      required: false,
     },
     code: {
-      required: true,
+      required: false,
     },
     type: {
       required: false,
