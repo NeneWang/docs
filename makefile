@@ -41,3 +41,6 @@ cap:
 	git commit -m "${m}"
 	git push origin HEAD
 	git log -n 2
+
+say_hello:
+	echo Hello from makefile!!

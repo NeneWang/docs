@@ -89,7 +89,7 @@ module.exports = {
           ]
         },
         {
-          title: 'Automation',
+          title: 'Utilities',
           collapsable: true,
           children: [
             'git',
