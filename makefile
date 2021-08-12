@@ -19,6 +19,11 @@ build-commit:
 	git commit -m "Production update | ${v}"	
 	git push origin HEAD
 
+build-commit-donpush:
+	yarn docs:build
+	git add --all
+	git commit -m "Production update | ${v}"	
+
 
 ft-push:
 	git ftp push
