@@ -12,17 +12,29 @@ TODO ### Custom Components -->
 
 ### Requirements
 &nbsp;
-- Node
-- Vue
-- Yarn
-- Make
-- git-ftp
-- git
+- [Node](https://nodejs.org/en/download/ )
+- [Vue](https://vuejs.org/v2/guide/installation.html)
+- [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
+- [Make](http://gnuwin32.sourceforge.net/packages/make.htm)
+- [git](https://git-scm.com/downloads)
+- [git-ftp](https://blog.jongallant.com/2017/01/install-git-ftp-windows/)
+
 
 
 ### Running the Repository on your Local Machine
 
- 1. First you need to clone the 
+ 1. Make sure you have the requirements installed 
+ 2. Open your terminal
+ 3. Clone the repo: ```git clone https://github.com/NeneWang/code-documentation.git```
+ 4. Navigate to root folder: ```cd code-documentation/ ```
+ 5. Install Dependencies: ```yarn install```
+ 6. localhost:```yarn docs:dev``` 
+
+
+### How to update the documentation
+
+
+
 
 ### Automation using Make
 | Action                                               | Code                                              |
@@ -36,7 +48,7 @@ TODO ### Custom Components -->
 | Build commit and push to origin (not deploying)      | ```make build-commit ```                          |
 
 ## Components
-### Using Vue Press
+### Using VuePress
 <br>
 
 - [Vuepress | Official Guide](https://vuepress.vuejs.org/guide/)
