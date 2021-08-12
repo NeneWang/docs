@@ -43,4 +43,4 @@ cap:
 	git log -n 2
 
 say_hello:
-	echo Hello from makefile!! ${v}
+	echo Hello from the makefile!! ${v}
