@@ -1,6 +1,7 @@
 
 # Lab 5.3
 
+Useful Links
 - Online Guide can also be found [here](https://docs.wangnelson.xyz/code/guide.html).
 - [Live demo of this Lab](https://docs.wangnelson.xyz/)
 - [Integration File](https://github.com/NeneWang/code-documentation/blob/master/.github/workflows/integration.yml)
@@ -63,6 +64,8 @@ Table of Contents
 
  ### Logs showing evidence that the automated deployment worked.
 
+![Github Screenshot](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fabb00c7-0e05-4f49-979c-03e35f54e544/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210812T213102Z&X-Amz-Expires=86400&X-Amz-Signature=e895148b207f59489f38269ffc426574d451085fb7d29c0025a38f77fbe7cd7c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+
  ![screenshot log](https://i.ibb.co/Gcdcjpw/screencapture-github-Nene-Wang-code-documentation-runs-3315009118-2021-08-12-15-06-40.png)
 
 
@@ -110,7 +113,8 @@ Makefile:
 | First deployment to server                           | ```make first-deploy ```                          |
 | Build commit and push to origin (not deploying)      | ```make build-commit ```                          |
 
-```
+makefile
+``` makefile
 PAGE=wangnelson.xyz/documentation/dist
 
 # Requrements: git-ftp, yarn, node
