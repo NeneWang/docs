@@ -15,7 +15,7 @@ Table of Contents
   - [Updating](#updating)
     - [How to update the documentation (using make)](#how-to-update-the-documentation-using-make)
     - [How to update the documentation (using github actions)](#how-to-update-the-documentation-using-github-actions)
-    - [Logs showing evidence that the automated deployment worked.](#logs-showing-evidence-that-the-automated-deployment-worked)
+    - [Logs showing evidence that the automated deployment worked. (Deployment branch)](#logs-showing-evidence-that-the-automated-deployment-worked-deployment-branch)
   - [How the Configuration Files Works](#how-the-configuration-files-works)
     - [Integration.yml](#integrationyml)
     - [Makefile](#makefile)
@@ -63,7 +63,7 @@ Table of Contents
  
  Github Actions will automatically build the static files and ftp transfer them into production.
 
- ### Logs showing evidence that the automated deployment worked.
+ ### Logs showing evidence that the automated deployment worked. (Deployment branch)
 
 ![Github Screenshot](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fabb00c7-0e05-4f49-979c-03e35f54e544/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210812T213102Z&X-Amz-Expires=86400&X-Amz-Signature=e895148b207f59489f38269ffc426574d451085fb7d29c0025a38f77fbe7cd7c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
