@@ -8,7 +8,7 @@ In this Doc Section (/Code) I will be documenting how to use the tools covered i
 
 
 ::: tip Quick example:
- Documentation of CSS [here](/code/css).
+ Documentation of CSS [here](/code/css.html).
 :::
 
 
