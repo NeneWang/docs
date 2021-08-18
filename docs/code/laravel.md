@@ -40,7 +40,16 @@ cd example-app
 php artisan serve
 ```
 
+
+
 ## 💻 Quick tables
+
+
+### Artisan Commands
+| Objective           | Command                                             |
+| ------------------- | --------------------------------------------------- |
+| Create a controller | ```php artisan make:controller ContactController``` |
+
 
 <br>
 Extracted From:
