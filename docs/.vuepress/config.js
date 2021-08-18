@@ -49,11 +49,7 @@ module.exports = {
         {
           title: 'Projects',
           collapsable: true,
-          children: [
-            '',
-            'lab42',
-            // 'random',
-          ]
+          children: 'auto'
         },
       ],
       '/code/': [

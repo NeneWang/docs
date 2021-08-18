@@ -49,7 +49,7 @@ php artisan serve
 | Objective           | Command                                             |
 | ------------------- | --------------------------------------------------- |
 | Create a controller | ```php artisan make:controller ContactController``` |
-
+| Create a middleware | ```php artisan make:middleware CheckAge```          |
 
 <br>
 Extracted From:
