@@ -21,6 +21,11 @@ Table of Contents:
 ## 🎯 Practice
 - W3School Excercise | PHP
 
+## Projects Created Using Laravel (Registry)
+- [Practice-Laravel](https://github.com/NeneWang/Practice-Laravel)
+- [Practice-Laravel8 (new)](https://github.com/NeneWang/Practice-Laravel8)
+
+
 ## Random
 
 ### Quickstart
