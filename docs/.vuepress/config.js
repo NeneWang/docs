@@ -78,7 +78,7 @@ module.exports = {
             'express',
             'html',
             'javascript',
-            // 'laravel',
+            'laravel',
             // 'mongodb',
             'mysql',
             // 'next',
