@@ -44,7 +44,28 @@ module.exports = {
     ],
     sidebar: {
 
-      '/projects/': 'auto',
+      '/projects/': [
+
+        {
+          title: 'Projects',
+          collapsable: true,
+          children: [
+            '',
+            'lab42',
+            'test'
+          ]
+        },
+      ],
+      '/algo/': [
+
+        {
+          title: 'Algorithms',
+          collapsable: true,
+          children: [
+            '',
+          ]
+        },
+      ],
       '/code/': [
 
         {
