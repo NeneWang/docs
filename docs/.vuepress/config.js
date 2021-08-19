@@ -40,6 +40,9 @@ module.exports = {
       {
         text: 'Project',
         link: '/projects/'
+      }, {
+        text: 'Algorithms',
+        link: '/algo/'
       },
     ],
     sidebar: {
