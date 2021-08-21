@@ -22,6 +22,7 @@ module.exports = {
     }]
   ],
 
+
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
    *
@@ -42,95 +43,11 @@ module.exports = {
         link: '/projects/'
       }, {
         text: 'Algorithms',
-        link: '/algo/'
+        link: '/problems/'
       },
     ],
-    sidebar: {
-
-      '/projects/': [
-
-        {
-          title: 'Projects',
-          collapsable: true,
-          children: [
-            '',
-            'lab42',
-            'test'
-          ]
-        },
-      ],
-      '/algo/': [
-
-        {
-          title: 'Algorithms',
-          collapsable: true,
-          children: [
-            '',
-          ]
-        },
-      ],
-      '/code/': [
-
-        {
-          title: 'Overview',
-          collapsable: true,
-          children: [
-
-            '',
-            'guide',
-            // 'plan',
-            // 'random',
-          ]
-        },
-        {
-          title: 'Web Development',
-          collapsable: true,
-          children: [
-            // 'angular',
-            'css',
-            'express',
-            'html',
-            'javascript',
-            'laravel',
-            // 'mongodb',
-            'mysql',
-            // 'next',
-            'php',
-            // 'react',
-            // 'sass',
-            // 'vue',
-          ]
-        },
-        {
-          title: 'Utilities',
-          collapsable: true,
-          children: [
-            'git',
-            'terminal-libraries',
-            // 'vcs',
-            'makefile',
-            'shell',
-            // 'python',
-            // 'uipath',
-            // 'java',
-
-          ]
-        },
-        // {
-        //   title: 'Game',
-        //   collapsable: true,
-        //   children: [
-        //     'unity',
-        //     'engine',
-        //     'utilities',
-        //     'animation',
-        //     'model',
-
-        //   ]
-        // }, 
-      ],
-    }
   },
+
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
@@ -138,5 +55,36 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-  ]
+    ["vuepress-plugin-auto-sidebar", {
+      // sort: {
+      //   readmeFirstForce: true,
+      // },
+      title: {
+        mode: "titlecase",
+        map: {
+          "/code/mobile/": "mobile",
+          "/code/web/": "web"
+        }
+      },
+      sidebarDepth: 1,
+      collapse: {
+        open: true,
+        collapseList: ["/code/web/"],
+        uncollapseList: ["/code/game/"]
+      },
+      // sidebarDepth: 1,
+      // collapse: {
+      //   open: true,
+      //   collapseList: ["/menu1/menu1-2/"],
+      //   uncollapseList: ["/menu1/menu1-3/"]
+      // },
+      // ignore: [
+      //   {
+      //     menu: "/menu3/menu3-3/",
+      //     regex: "ignore-*"
+      //   }
+      // ]
+    }]
+  ],
+
 }

@@ -1,4 +1,0 @@
-# UI Path
-
-
-Lorem Ipsum

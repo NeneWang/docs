@@ -1,4 +1,0 @@
-# Next
-
-
-Lorem Ipsum

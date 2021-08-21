@@ -13,6 +13,7 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "vue": "^2.6.14"
+    "vue": "^2.6.14",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
   }
 }
