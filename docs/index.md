@@ -1,7 +1,7 @@
 ---
 home: true
 
-tagline: The Life Journal.
+tagline: A coder's journal to greatness.
 actionText: Journal →
 actionLink: /journal/
 
