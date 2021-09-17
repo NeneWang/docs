@@ -2,8 +2,8 @@
 home: true
 
 tagline: The Life Journal.
-actionText: Code Documentation →
-actionLink: /code/
+actionText: Journal →
+actionLink: /journal/
 
 features:
 - title: Code
