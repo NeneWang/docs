@@ -43,7 +43,7 @@ module.exports = {
         link: '/projects/'
       },
       {
-        text: 'Jorunal',
+        text: 'Journal',
         link: '/journal/'
       },
     ],
