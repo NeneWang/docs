@@ -1,4 +1,13 @@
-# Learning Vietnamese
+---
+title: Learning Vietnamese
+lang: en-US
+tags: ["Online Course", "Language"]
+---
+
+# {{ $frontmatter.title }}
+
+<TagBadge />
+
 
 ## Quick-Links
 - [Lessons-Dashboard (Level 1)](https://www.vietnamesepod101.com/lesson-library/absolute-beginner)
