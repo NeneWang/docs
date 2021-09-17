@@ -12,7 +12,7 @@ tags: ["Online Course", "Language"]
 ## Quick-Links
 - [Lessons-Dashboard (Level 1)](https://www.vietnamesepod101.com/lesson-library/absolute-beginner)
 - [Level 1 Flashcards](https://www.vietnamesepod101.com/learningcenter/flashcards/flashcards#/study/3122469)
-
+- [Practice Sheet](https://docs.google.com/spreadsheets/d/1UshP9wZ8nYuBHr6udoMhJESDZ14mnkAi-K74KG9O_8Y/edit#gid=0)
 
 ## Progress
 ### Level 1
