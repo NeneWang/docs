@@ -35,15 +35,14 @@ module.exports = {
     editLinkText: '',
     lastUpdated: true,
     nav: [{
-        text: 'Code',
+        text: ' 👩‍💻 Code',
         link: '/code/',
       },
       {
-        text: 'Project',
+        text: ' 🏗 Project',
         link: '/projects/'
-      },
-      {
-        text: 'Journal',
+      }, {
+        text: ' 📓 Journal',
         link: '/journal/'
       },
     ],
