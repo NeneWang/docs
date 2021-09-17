@@ -5,6 +5,11 @@ const {
 module.exports = {
   title: 'Docs',
   publicPath: './',
+  markdown: {
+    config: md => {
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
 
   description: description,
   head: [
