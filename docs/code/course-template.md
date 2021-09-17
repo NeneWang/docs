@@ -1,7 +1,7 @@
 ---
-title: PHP
+title: Learning Vietnamese
 lang: en-US
-tags: ["practice", "lab"]
+tags: ["Online Course", "Language"]
 ---
 
 # {{ $frontmatter.title }}
