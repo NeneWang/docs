@@ -41,9 +41,10 @@ module.exports = {
       {
         text: 'Project',
         link: '/projects/'
-      }, {
-        text: 'Algorithms',
-        link: '/problems/'
+      },
+      {
+        text: 'Jorunal',
+        link: '/journal/'
       },
     ],
   },
