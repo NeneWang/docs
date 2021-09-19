@@ -17,8 +17,8 @@ tags: ["Online Course", "Language"]
 ## Progress
 ### Level 1
 - [] 9-15 9.16 Re xRe9, xRe10, 11x, RE  12RE
-- [] 20 9.17
-- [] 27
+- [] 20 9.17X
+- [] 
 
 ### Level 2
 - [] 5
