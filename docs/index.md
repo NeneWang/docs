@@ -1,13 +1,13 @@
 ---
 home: true
 
-tagline: A coder's journal to greatness.
+tagline: Random Journal for my Projects
 actionText: Journal →
 actionLink: /journal/
 
 features:
 - title: Code
-  details: Web Development, Automation, Mobile Dev and more.
+  details: Random Projects xd
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
   details: Labs and other projects documentation..

@@ -1,4 +1,0 @@
-# Python
-
-
-Lorem Ipsum

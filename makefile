@@ -4,6 +4,16 @@ PAGE=wangnelson.xyz/documentation/dist
 
 main: build-commit ft-push
 
+
+start:
+	yarn run docs:dev
+
+save:
+	git add --all
+	git commit -m "Some Random Progress :tada:"
+	git push origin HEAD
+
+
 deploy-heroku:
 	yarn docs:build
 	git add --all

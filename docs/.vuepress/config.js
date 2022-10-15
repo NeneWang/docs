@@ -42,7 +42,8 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: true,
-    nav: [{
+    nav: [
+      {
         text: ' 👩‍💻 Code',
         link: '/code/',
       },

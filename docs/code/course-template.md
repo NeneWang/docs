@@ -1,5 +1,5 @@
 ---
-title: Learning Vietnamese
+title: Course Sample
 lang: en-US
 tags: ["Online Course", "Language"]
 ---
