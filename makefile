@@ -2,6 +2,10 @@ PAGE=wangnelson.xyz/documentation/dist
 
 # Requrements: git-ftp, yarn, node
 
+ftp_user=ftp_public@wangnelson.xyz
+ftp_pass=ZA.m6e{,U6XG
+
+
 main: build-commit ft-push
 
 
@@ -49,15 +53,15 @@ ft-push:
 	
 ft-configpush:
 	git config git-ftp.url ftp://ftp.${PAGE}
-	git config git-ftp.user ftp_public@wangnelson.xyz
-	git config git-ftp.password ZA.m6e{,U6XG
+	git config git-ftp.user ${ftp_user}
+	git config git-ftp.password ${ftp_pass}
 	git config git-ftp.syncroot docs/.vuepress/dist/
 	git ftp push --force
 
 ftpinit:
 	git config git-ftp.url ftp://ftp.${PAGE}
-	git config git-ftp.user ftp_public@wangnelson.xyz
-	git config git-ftp.password ZA.m6e{,U6XG
+	git config git-ftp.user ${ftp_user}
+	git config git-ftp.password ${ftp_pass}
 	git config git-ftp.syncroot docs/.vuepress/dist/
 	git ftp init --force
 
