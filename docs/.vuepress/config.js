@@ -30,6 +30,7 @@ module.exports = {
     }]
   ],
 
+  // docs/.vuepress/dist
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.
