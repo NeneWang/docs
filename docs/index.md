@@ -7,12 +7,12 @@ actionLink: /journal/
 
 features:
 - title: Code
-  details: Random Projects xd
+  details: Explainaition of some bugs, and localization of documentation.
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
-  details: Labs and other projects documentation..
-- title: Non-Coding Journal
-  details: Math, and Design Courses and others. Just random notes, cause I know no one really cares about what I write here...
+  details: Explainaition of Labs and Projects
+- title: Time and progress
+  details: Coding Journals
 footer: Nelson Wang since 8.10.2021
 ---
 
