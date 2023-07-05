@@ -10,7 +10,7 @@ main: build-commit ft-push
 
 
 start:
-	yarn run docs:dev
+	yarn run dev
 
 save:
 	git add --all
@@ -19,7 +19,7 @@ save:
 
 
 deploy-heroku:
-	yarn docs:build
+	yarn build
 	git add --all
 	git commit -m "Build Deployment | {$v}"
 	git push origin HEAD
@@ -27,14 +27,14 @@ deploy-heroku:
 
 
 build-commit:
-	yarn docs:build
+	yarn build
 	git add --all
 	git commit -m "Production update | ${v}"	
 	git push origin HEAD
 
 build-commit-donpush:
 	yarn install
-	yarn docs:build
+	yarn build
 	git add --all
 	git commit -m "Production update | ${v}"
 
