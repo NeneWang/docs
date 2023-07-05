@@ -6,9 +6,29 @@
       :key="tag"
       :to="{ path: `/tags.html#${tag}` }"
     >
-      <Badge v-if="tag == 'practice'" type="lit" text="Practice Available" />
-      <Badge v-if="tag == 'lab'" type="warning" text="Lab" />
-      <Badge v-if="tag == 'development'" type="error" text="Development" />
+      <Badge :text="tag" :type="get_tag_color(tag)" />
     </router-link>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      tags_to_colors: {
+        practice: "lit",
+        lab: "warning",
+        development: "error",
+      },
+    };
+  },
+  methods: {
+    get_tag_color(tag) {
+      if (tag in this.tags_to_colors) {
+        return this.tags_to_colors[tag];
+      }
+      return "";
+    },
+  },
+};
+</script>
