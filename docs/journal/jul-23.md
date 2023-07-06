@@ -36,10 +36,15 @@ Here the objectives I had set:
 What is being expected of me?
 
 - Being good at at least 1 front-end stack ( That could be React + Framer)
-- Good algorithmic thinking
+- Strong algorithmic thinking
+
+
 
 What I want fo myself?
 - Data Science on tip of my hand, perphaps being able to interpret 
+- Large amount of personal 
+
+You want to be good at aws spin offs, at understanding the projects, and having experience working on them. even if they were at personal work.
 
 
 
