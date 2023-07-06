@@ -1,8 +1,10 @@
 <template>
   <div class="small-card">
-    <h2>{{ title }}</h2>
-    <p>{{ description }}</p>
-    <a :href="link">Link</a>
+    <router-link :to="{ path: link }">
+      <h2>{{ title }}</h2>
+      
+      <p>{{ description }}</p>
+    </router-link>
   </div>
 </template>
 
@@ -12,6 +14,7 @@ export default {
     title: String,
     description: String,
     link: String,
+    tags: Array,
   },
 };
 </script>
@@ -20,7 +23,7 @@ export default {
 .small-card {
   border: 1px solid #ccc;
   padding: 10px;
-  
+
   border-radius: 4px;
   margin: 10px;
   /* background-color: #f5f5f5; */
