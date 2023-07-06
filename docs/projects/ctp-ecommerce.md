@@ -1,14 +1,11 @@
 ---
 title: ctp-ecommerce
-tags: ["next", "fastapi", "machine-learning"]
+tags: ["next", "fastapi", "machine-learning", "live"]
 ---
 
 <Header />
 
-&nbsp;
-&nbsp;
-- Credits:
-- 
+
 ### Data Science Ecommerce
 
 
