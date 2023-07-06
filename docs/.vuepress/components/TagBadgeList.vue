@@ -1,27 +1,41 @@
-<!-- .vuepress/components/TagBadgeList.vue -->
+<!-- List of badges .vuepress/components/TagLinks.vue -->
+
 <template lang="html">
-  <div class="row">
-    <div class="col-md-6" v-for="tag in tags">
-      <h2 class="table-title" :id="tag">
-        <router-link
-          :to="{ path: `/tags.html#${tag}` }"
-          class="header-anchor"
-          aria-hidden="true"
-          >#</router-link
-        >
-        {{ tag }}
-      </h2>
-      <ul>
-        <li v-for="page in tags[tag]">
-          <router-link :to="{ path: page.path }">{{ page.title }}</router-link>
-        </li>
-      </ul>
-    </div>
+  <div>
+    <router-link
+      v-for="tag in tags"
+      :key="tag"
+      :to="{ path: `/tags.html#${tag}` }"
+    >
+      <Badge class="mr-3" :text="tag" :type="get_tag_color(tag)" />
+      <span> </span>
+      <!-- <div class"mr-1"></div> -->
+    </router-link>
   </div>
 </template>
 
 <script>
 export default {
-    props: ['tags']
+  props: {
+    tags: Array,
+  },
+  data() {
+    return {
+      tags_to_colors: {
+        practice: "lit",
+        lab: "warning",
+        development: "error",
+        next: "warning",
+      },
+    };
+  },
+  methods: {
+    get_tag_color(tag) {
+      if (tag in this.tags_to_colors) {
+        return this.tags_to_colors[tag];
+      }
+      return "";
+    },
+  },
 };
 </script>

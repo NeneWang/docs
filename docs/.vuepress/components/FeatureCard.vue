@@ -1,15 +1,17 @@
 <template>
   <div class="small-card">
+    <tag-badge-list :tags="tags" />
     <router-link :to="{ path: link }">
       <h2>{{ title }}</h2>
-      
       <p>{{ description }}</p>
     </router-link>
   </div>
 </template>
 
 <script>
+import TagBadgeList from "./TagBadgeList.vue";
 export default {
+  components: { TagBadgeList },
   props: {
     title: String,
     description: String,

@@ -29,13 +29,13 @@ export default {
       if (page.path == this.folder_path) continue;
       projects_data.push({
         name: page.title,
-        description: page.description??"",
+        description: page.description ?? "",
         link: page.path,
-        tags: page.frontmatter.tags??[],
+        tags: page.frontmatter.tags ?? [],
       });
     }
     console.log("project_data", projects_data);
-    // this.projects = projects_data;
+    this.projects = projects_data;
   },
   data() {
     return {

@@ -3,10 +3,7 @@ title: ctp-ecommerce
 tags: ["next", "fastapi", "machine-learning"]
 ---
 
-
-# {{ $frontmatter.title }}
-
-<TagBadge />
+<Header />
 
 &nbsp;
 &nbsp;
