@@ -35,6 +35,11 @@ Here the objectives I had set:
 
 What is being expected of me?
 
+- Being good at at least 1 front-end stack ( That could be React + Framer)
+- Good algorithmic thinking
+
+What I want fo myself?
+- Data Science on tip of my hand, perphaps being able to interpret 
 
 
 
