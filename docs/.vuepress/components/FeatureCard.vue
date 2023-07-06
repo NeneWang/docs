@@ -1,5 +1,5 @@
 <template>
-  <div class="small-card col-md-3">
+  <div class="small-card">
     <h2>{{ title }}</h2>
     <p>{{ description }}</p>
     <a :href="link">Link</a>
@@ -20,8 +20,10 @@ export default {
 .small-card {
   border: 1px solid #ccc;
   padding: 10px;
+  
   border-radius: 4px;
-  background-color: #f5f5f5;
-  width: 200px;
+  margin: 10px;
+  /* background-color: #f5f5f5; */
+  /* width: 180px; */
 }
 </style>

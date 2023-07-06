@@ -1,11 +1,12 @@
 <template>
-  <div class="features">
-    <div class="feature row" v-for="project in projects" :key="project.name">
+  <div class="features row">
+    <div class="feature col-sm-6" v-for="project in projects" :key="project.name">
       <feature-card
         :title="project.name"
         :link="project.link"
         :description="project.description"
       />
+      
     </div>
   </div>
 </template>
@@ -54,14 +55,4 @@ export default {
 </script>
 
 <style>
-.features {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.feature {
-  flex: 1;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
 </style>
