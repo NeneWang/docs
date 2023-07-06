@@ -11,8 +11,8 @@ features:
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
   details: Explainaition of Labs and Projects
-- title: Time and progress
-  details: Coding Journals
+- title: Journals
+  details: Coding Journals with projects being worked.
 footer: Nelson Wang since 8.10.2021
 ---
 

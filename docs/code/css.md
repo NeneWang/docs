@@ -1,12 +1,11 @@
 ---
 title: CSS
 lang: en-US
-tags: ["practice", "lab"]
+tags: ["practice"]
 ---
 
-# {{ $frontmatter.title }}
+<Header />
 
-<TagBadge />
 - Examples Extracted from:
   - [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
 

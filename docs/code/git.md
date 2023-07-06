@@ -1,12 +1,10 @@
 ---
 title: Git
 lang: en-US
-tags: ["practice", "lab"]
+tags: ["practice"]
 ---
 
-# {{ $frontmatter.title }}
-
-<TagBadge />
+<Header />
 
 &nbsp;
 &nbsp;
@@ -15,9 +13,6 @@ tags: ["practice", "lab"]
   - [Gitlab - Git Cheat Sheet](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
 
 
-&nbsp;
-Table of Contents:
-[[toc]]
 
 ## 🎯 Practice
 - [w3school practice | Git](https://www.w3schools.com/git/exercise.asp)

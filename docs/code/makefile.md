@@ -4,9 +4,7 @@ lang: en-US
 tags: ["lab"]
 ---
 
-# {{ $frontmatter.title }}
-
-<TagBadge />
+<Header />
 
 &nbsp;
 &nbsp;

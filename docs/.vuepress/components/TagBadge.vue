@@ -6,7 +6,9 @@
       :key="tag"
       :to="{ path: `/tags.html#${tag}` }"
     >
-      <Badge :text="tag" :type="get_tag_color(tag)" />
+      <Badge class="mr-3" :text="tag" :type="get_tag_color(tag)" />
+      <span> </span>
+      <!-- <div class"mr-1"></div> -->
     </router-link>
   </div>
 </template>
@@ -19,6 +21,7 @@ export default {
         practice: "lit",
         lab: "warning",
         development: "error",
+        next:"warning"
       },
     };
   },

@@ -55,6 +55,10 @@ module.exports = {
         text: ' 📓 Journal',
         link: '/journal/'
       },
+      {
+        text: "Admin",
+        link: "https://project.wangnelson.xyz/public/prod"
+      }
     ],
   },
 
