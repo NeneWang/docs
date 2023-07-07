@@ -46,6 +46,8 @@ What I want fo myself?
 
 You want to be good at aws spin offs, at understanding the projects, and having experience working on them. even if they were at personal work.
 
+## 7 Fri
+
 
 
 
