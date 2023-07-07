@@ -19,7 +19,8 @@ Features:
 
 ## Code Documentation
 
-Git: 
+Git: https://github.com/NeneWang/code-documentation
+Deployed version: https://docs.wangnelson.xyz/
 
 - Custom Components
 - Deployment on Makefile
