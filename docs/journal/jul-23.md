@@ -48,6 +48,15 @@ You want to be good at aws spin offs, at understanding the projects, and having 
 
 ## 7 Fri
 
+Routine: 
+
+- [ ] Fix the todo list so that it marks whenever a task is marked
+- [ ] Finish an algo
+- [ ] Finish the todo list challange for Storybook.
+
+
+- [ ] Build React Card Component
+  - [ ] On hover plays animation
 
 
 
