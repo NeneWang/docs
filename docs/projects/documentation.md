@@ -17,7 +17,7 @@ Features:
 
 
 
-## Code Documentation
+## Vue Documentation
 
 Git: https://github.com/NeneWang/code-documentation
 Deployed version: https://docs.wangnelson.xyz/
@@ -25,6 +25,15 @@ Deployed version: https://docs.wangnelson.xyz/
 - Custom Components
 - Deployment on Makefile
 - Search
+- Integration with Bootstrap System
+
+
+## Storybook React
+
+- Custom Components
+- 
+
+
 
 
 

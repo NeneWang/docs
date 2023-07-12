@@ -59,4 +59,7 @@ Routine:
   - [ ] On hover plays animation
 
 
+Things to document on:
 
+- How to declare methods and hte like.
+- 
