@@ -18,7 +18,7 @@ https://github.com/NeneWang/cards
 
 
 
-Categories Sliding Up
+**Categories Sliding Up**
 
 ```dart
 builder: (ctx, child) => SlideTransition(
@@ -34,7 +34,7 @@ builder: (ctx, child) => SlideTransition(
 
 ```
 
-Expanding Heart Icon
+**Expanding Heart Icon**
 
 ```dart 
 IconButton(
@@ -63,7 +63,7 @@ icon: AnimatedSwitcher(
 )),
 ```
 
-Hero Animation
+**Hero Animation**
 
 To setup Hero Animation
 - You have to wrap both the source and destination with a Hero Widget
@@ -99,6 +99,8 @@ And the Source
 
 
 
+
+
 ### Without Fancy Animations
 
 https://github.com/NeneWang/cards/releases/tag/v0.1
@@ -107,6 +109,72 @@ https://github.com/NeneWang/cards/releases/tag/v0.1
 - You can run it on android etc.
 
 
+
+## Grocery List
+
+https://github.com/NeneWang/cards
+
+- List Builder
+- Validation Text Inptus
+
+
+**Validation Text Inputs**
+
+Having Text Form Fields and Validators:
+
+```dart
+TextFormField(
+  validator: (value) {
+    if (value == null || value.isEmpty) {
+      return 'Please enter a name';
+    }
+    return null;
+  },
+  decoration: const InputDecoration(
+    labelText: 'Name',
+  ),
+),
+```
+
+
+And creating list of nicely formatted boxes:
+
+```dart
+body: ListView.builder(
+  itemCount: groceryItems.length,
+  itemBuilder: (context, index) {
+    final item = groceryItems[index];
+    return ListTile(
+      title: Text(item.name),
+      leading: Container(
+        width: 24,
+        height: 24,
+        color: item.category.color,
+      ),
+      subtitle: Text(item.category.name),
+      trailing: Text(item.quantity.toString()),
+    );
+  },
+),
+```
+
+
+Which is similar for Numbers but we add an int try parse here.
+
+```dart
+child: TextFormField(
+  validator: (value) {
+    if (value == null ||
+        value.isEmpty ||
+        int.tryParse(value) == null ||
+        value.trim().isEmpty) {
+      return 'Please enter a name';
+    }
+    return null;
+},
+)
+
+```
 
 
 
