@@ -16,6 +16,14 @@ e.g.
 
 <ProjectTable />
 
+## A Guide into Building any Projects
+
+- [ ] Drawing the UI
+- [ ] Create Mock Json Data
+- [ ] Create the simple UI
+- [ ] Create the backend logic
+- [ ] Connect the UI to the backend
+
 
 
 

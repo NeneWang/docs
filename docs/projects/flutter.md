@@ -112,7 +112,7 @@ https://github.com/NeneWang/cards/releases/tag/v0.1
 
 ## Grocery List
 
-https://github.com/NeneWang/cards
+https://github.com/NeneWang/shopping_list/releases/tag/v0.0
 
 - List Builder
 - Validation Text Inptus
@@ -175,6 +175,152 @@ child: TextFormField(
 )
 
 ```
+
+1. To make sure it validates
+2. Adding the Form Key
+
+```dart
+  final _formKey = GlobalKey<FormState>();
+
+  void _saveItem() {
+    if (_formKey.currentState!.validate()) {}
+  }
+```
+
+
+Which is useful for reating resets such as here:
+
+```dart
+
+TextButton(
+    onPressed: () {
+      _formKey.currentState!.reset();
+    },
+    child: const Text('Reset')),
+    
+```
+
+
+
+**Adding an Item on a new page:**
+
+```dart
+
+  void _addItem() async {
+    final newItem = await Navigator.of(context).push<GroceryItem>(
+      MaterialPageRoute(
+        builder: (context) => const NewItem(),
+      ),
+    );
+
+    if (newItem == null) {
+      return;
+    }
+
+    setState(() {
+      _groceryItems.add(newItem);
+    });
+  }
+
+  void _removeItem(GroceryItem item) {
+    setState(() {
+      _groceryItems.remove(item);
+    });
+  }
+```
+
+Adding Items from the New Item Page:
+
+```dart
+  void _saveItem() {
+    if (_formKey.currentState!.validate()) {
+      _formKey.currentState!.save();
+      print("_enteredName");
+      print(
+          "entered_name: ${_enteredName}  quantity: ${_enteredQuantity} | Selected category: ${_selectedCategory!.name}");
+      // Navigator.of(context).pop();
+      Navigator.of(context).pop(GroceryItem(
+          id: DateTime.now().toString(),
+          name: _enteredName,
+          quantity: _enteredQuantity,
+          category: _selectedCategory!));
+    }
+  }
+```
+
+
+**Swipeable Deletions**
+
+```dart
+
+  void _removeItem(GroceryItem item) {
+    setState(() {
+      _groceryItems.remove(item);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    Widget content = const Center(
+      child: Text('No items yet'),
+    );
+
+    if (_groceryItems.isNotEmpty) {
+      content = ListView.builder(
+        itemCount: _groceryItems.length,
+        itemBuilder: (context, index) => Dismissible(
+          onDismissed: (direction) => {
+            _removeItem(_groceryItems[index]),
+          },
+          key: ValueKey(_groceryItems[index].id),
+          child: ListTile(
+              title: Text(_groceryItems[index].name),
+              leading: Container(
+                width: 24,
+                height: 24,
+                color: _groceryItems[index].category.color,
+              ),
+              trailing: Text(_groceryItems[index].quantity.toString())),
+        ),
+      );
+    }
+```
+
+### Grocery List with Firebase
+
+
+**Adding HTTP**
+
+```
+flutter pub add http
+```
+
+```dart
+
+import 'package:http/http.dart' as http;
+
+
+... Whenever you want to add somehting to Firebase...
+
+http.post(
+          Uri.parse(
+              'https://descartable-server-default-rtdb.firebaseio.com/grocery_items.json'),
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: json.encode({
+            'name': _enteredName,
+            'quantity': _enteredQuantity,
+            'category': _selectedCategory!.name,
+          }));
+
+
+```
+
+- Dont need to even create the table.
+
+
+![](./../../img/2023-07-17-10-50-19.png)
 
 
 
