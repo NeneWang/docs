@@ -327,16 +327,16 @@ import 'package:http/http.dart' as http;
 ... Whenever you want to add somehting to Firebase...
 
 http.post(
-          Uri.parse(
-              'https://descartable-server-default-rtdb.firebaseio.com/grocery_items.json'),
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: json.encode({
-            'name': _enteredName,
-            'quantity': _enteredQuantity,
-            'category': _selectedCategory!.name,
-          }));
+Uri.parse(
+    'https://descartable-server-default-rtdb.firebaseio.com/grocery_items.json'),
+headers: {
+  'Content-Type': 'application/json',
+},
+body: json.encode({
+  'name': _enteredName,
+  'quantity': _enteredQuantity,
+  'category': _selectedCategory!.name,
+}));
 
 
 ```
@@ -466,9 +466,12 @@ https://github.com/NeneWang/TutorialChatApp/releases/tag/v0.0
 
 **Flutter Images Upload**
 
+- Sending Notifications.
 
 
 
 
+## Hive Todo List
 
-
+- Hive Local Database
+- Slideable Widgets
