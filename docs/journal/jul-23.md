@@ -62,4 +62,22 @@ Routine:
 Things to document on:
 
 - How to declare methods and hte like.
-- 
+
+
+## 21 Fri
+
+## 21.todo
+
+- [x] Lets follow the pattern of 1 Tutorial => 1 project to keep in track
+- [ ] Work on the Habit Tracker Flutter
+- [ ] Then do the api routes from the Mapping Fast API perspective
+- [ ] Work on the tutorial for the clean coffee App
+- [ ] For then build the models for the Application
+
+
+Today working on Habit Tracker => Then  You continue working on your own tracker that connects with the habits from te python
+
+-
+ 
+
+
