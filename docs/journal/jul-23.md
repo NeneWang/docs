@@ -69,7 +69,8 @@ Things to document on:
 ## 21.todo
 
 - [x] Lets follow the pattern of 1 Tutorial => 1 project to keep in track
-- [ ] Work on the Habit Tracker Flutter
+- [x] Work on the Habit Tracker Flutter
+- [ ] Now do the HAbit Tracking in your Todo application.
 - [ ] Then do the api routes from the Mapping Fast API perspective
 - [ ] Work on the tutorial for the clean coffee App
 - [ ] For then build the models for the Application
