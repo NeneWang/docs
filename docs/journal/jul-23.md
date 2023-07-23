@@ -102,7 +102,7 @@ Backlog
   - [ ] Saves on Firebase the images of the photos of the match.
   - [ ] Serves as a simple guide for which are to build.
   - [ ] Ability to create statute and pictures of epic fights. You can pay 1 of gold to create a statute.
-- [ ] 
+
 
 So now that the habits are there, it would entirely Make sense to connect the habits so that it makes sense. So now what you have to do is to build the habits api.
 
@@ -166,6 +166,48 @@ date: percentage
 Clean Coffee APIs
 
 - Creating 
+
+
+- [x] Making the an algo view, or the like stats to show some specific stats.
+- [ ] Save the post of the algorithms done, everytime you insert if there is internet.
+- [ ] Which also becomes the startup for the Gym app which should be connected with the 7 minutes app and the Habits Obstucating.
+- [ ] It would be funny if you have some users that is just you commenting that stuff, and randoizing the user that comments.
+- [ ] Think about building this social media app for it. Both in Flutter with the posts and on Angular as well.
+
+
+## 25 Tue
+
+### 25.todo
+
+- [ ] Saving the posts of the algorithms being done.
+
+It should be like a markdown first. And then we can thinki about creating posts that accept markdowns. Otherwise just a simple json format.
+
+Which should have => 
+title: 
+algo: <all the algo data>
+description: 
+date:
+solutions: []
+
+
+And array of multiple solutions that you attempted:
+
+Solution Array should be:
+
+{
+  code:
+  timestamp:
+  language:
+
+}
+
+- [ ] Create the Scrum logo to make it identifiable
+
+
+
+
+
 
 
 

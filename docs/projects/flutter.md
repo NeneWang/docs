@@ -487,8 +487,18 @@ https://github.com/NeneWang/HabitTrackerFlutter
 - And etc.
 
 
+# Flutter Icons
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+pubspec.yaml
+```yaml
+  flutter_launcher_icons: "^0.13.0"
+```
 
 
-
-
-
+```
+flutter pub run flutter_launcher_icons:main
+```
