@@ -89,20 +89,26 @@ Today working on Habit Tracker => Then  You continue working on your own tracker
 
 Backlog
 
-- [ ] Building the API Routes
-- [ ] Clean Coffee App
+- [x] Building the API Routes
+  - [x] Implement the API Routes.
+  - [x] Modify the API so that there is some distinction on them?
+  - [ ] !Make the Habits like cards double tapped cards, with some separations?
+  - [ ] !It would be interesting for habits to also have like extra details.
+- [x] !Clean Coffee App
 - [ ] Clean Twilight Application
+  - [ ] Create the design.
   - [ ] Mark Hits with the program. It should have 0 twice at least on the probability, because they are two dices.
   - [ ] Saves to highlight the interactions
   - [ ] Saves on Firebase the images of the photos of the match.
   - [ ] Serves as a simple guide for which are to build.
+  - [ ] Ability to create statute and pictures of epic fights. You can pay 1 of gold to create a statute.
 - [ ] 
 
 So now that the habits are there, it would entirely Make sense to connect the habits so that it makes sense. So now what you have to do is to build the habits api.
 
 ### Habit Tracking API 
 
-- [ ] How should this api be designed? 
+- [x] How should this api be designed? 
 - [x] Design it
   - [x] Test with Mocked
 - [x] Change it to align to that directive and it should still work as that.
@@ -152,6 +158,16 @@ date: percentage
 
 - [ ] Modifying the API of the backend.
   - [ ] As long as it sends as requested as true false for a specific API is all good.
+
+
+
+### Clean Coffee API
+
+Clean Coffee APIs
+
+- Creating 
+
+
 
 
 
