@@ -70,7 +70,7 @@ Things to document on:
 
 - [x] Lets follow the pattern of 1 Tutorial => 1 project to keep in track
 - [x] Work on the Habit Tracker Flutter
-- [ ] Now do the HAbit Tracking in your Todo application.
+- [x] Now do the Habit Tracking in your Todo application.
 - [ ] Then do the api routes from the Mapping Fast API perspective
 - [ ] Work on the tutorial for the clean coffee App
 - [ ] For then build the models for the Application
@@ -78,7 +78,86 @@ Things to document on:
 
 Today working on Habit Tracker => Then  You continue working on your own tracker that connects with the habits from te python
 
--
+## 24 Mon
+
+
+
+### 24.todo
+
+- [x] 24.1 Connecting the Habits
+
+
+Backlog
+
+- [ ] Building the API Routes
+- [ ] Clean Coffee App
+- [ ] Clean Twilight Application
+  - [ ] Mark Hits with the program. It should have 0 twice at least on the probability, because they are two dices.
+  - [ ] Saves to highlight the interactions
+  - [ ] Saves on Firebase the images of the photos of the match.
+  - [ ] Serves as a simple guide for which are to build.
+- [ ] 
+
+So now that the habits are there, it would entirely Make sense to connect the habits so that it makes sense. So now what you have to do is to build the habits api.
+
+### Habit Tracking API 
+
+- [ ] How should this api be designed? 
+- [x] Design it
+  - [x] Test with Mocked
+- [x] Change it to align to that directive and it should still work as that.
+
+For this we have to see how the api works which should be
+
+Saved as:
+
+[
+  ["Run", false],
+  ["Read", false],
+];
+
+
+My worries fo thsi is that this is not specific value.
+
+
+date : [{ Habit: name, value: 3 ]}
+
+But the percentage that remembers only that : whcich the question is is that worth it?
+
+I think it should better be saved as:
+
+date: {percentage: 0.5, habits: [run, read], completed: 1, } 
+
+So that if required I can add more feedback into it. Because you still want to compute thiings like the api habits. Which increase the total habits count
+
+
+habits.len => gets the total for the local
+
+And then with another you get:
+
+(api_completed + completed)
+/
+(habits.len + api_habits.len)
+
+To get the percentage
+
+**Idea n2**
+
+So the idea n 2 of this is:
+
+- You load all the habits, if they share the same anme as the api one, then it retrieves or valuates an overwrites its value.
+
+With this there is no change to be made.
+date: percentage
+
+- [ ] Modifying the API of the backend.
+  - [ ] As long as it sends as requested as true false for a specific API is all good.
+
+
+
+
+
+
  
 
 
