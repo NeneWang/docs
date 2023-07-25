@@ -169,7 +169,8 @@ Clean Coffee APIs
 
 
 - [x] Making the an algo view, or the like stats to show some specific stats.
-- [ ] Save the post of the algorithms done, everytime you insert if there is internet.
+- [x] Add the icon
+- [x] Save the post of the algorithms done, everytime you insert if there is internet. => Decided to do the algo social app instead.
 - [ ] Which also becomes the startup for the Gym app which should be connected with the 7 minutes app and the Habits Obstucating.
 - [ ] It would be funny if you have some users that is just you commenting that stuff, and randoizing the user that comments.
 - [ ] Think about building this social media app for it. Both in Flutter with the posts and on Angular as well.
@@ -203,6 +204,23 @@ Solution Array should be:
 }
 
 - [ ] Create the Scrum logo to make it identifiable
+
+
+
+## Building with ASPNET Core and Angular
+
+We need .net and nvm.
+
+- These are kind of the legacy stack. And then with the Angular + Spring Boot for the full blown legacy stack.
+
+The idea is to convert this into a full blown code blog with random posts and comments.
+
+## Learning Coup.
+
+
+
+
+
 
 
 
