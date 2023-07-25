@@ -171,7 +171,7 @@ Clean Coffee APIs
 - [x] Making the an algo view, or the like stats to show some specific stats.
 - [x] Add the icon
 - [x] Save the post of the algorithms done, everytime you insert if there is internet. => Decided to do the algo social app instead.
-- [ ] Which also becomes the startup for the Gym app which should be connected with the 7 minutes app and the Habits Obstucating.
+- [x] Which also becomes the startup for the Gym app which should be connected with the 7 minutes app and the Habits Obstucating.
 - [ ] It would be funny if you have some users that is just you commenting that stuff, and randoizing the user that comments.
 - [ ] Think about building this social media app for it. Both in Flutter with the posts and on Angular as well.
 
@@ -215,7 +215,35 @@ We need .net and nvm.
 
 The idea is to convert this into a full blown code blog with random posts and comments.
 
-## Learning Coup.
+## Learning July.
+
+Which also becomes the startup for the Gym app which should be connected with the 7 minutes app and the Habits Obstucating
+
+- [ ] 7 Minutes How to have them there.
+
+You then have have a screen 
+
+
+### Models
+
+**Circuit**
+
+- [ ] Name
+- [ ] Workout: dict<int: Trainning> {1: Trainning, 2: Trainning}
+
+
+**Trainning**
+
+- [ ] Name
+- [ ] Time in Seconds
+- [ ] Image
+- [ ] Description
+
+
+
+
+
+
 
 
 
