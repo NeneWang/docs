@@ -228,16 +228,30 @@ You then have have a screen
 
 **Circuit**
 
-- [ ] Name
-- [ ] Workout: dict<int: Trainning> {1: Trainning, 2: Trainning}
+- [x] Name
+- [x] Workout: dict<int: Trainning> {1: Trainning, 2: Trainning}
 
 
 **Trainning**
 
-- [ ] Name
-- [ ] Time in Seconds
-- [ ] Image
-- [ ] Description
+- [x] Name
+- [x] TimeSeconds
+- [x] Image
+- [x] Description
+- [x] Audio
+
+
+Here the 
+
+
+**Upgrade the packaging**
+
+
+
+
+
+
+
 
 
 
