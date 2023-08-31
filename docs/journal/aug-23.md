@@ -158,8 +158,10 @@ With that we have:
   }
 ```
 
-Which now shoulkd be used as following:
+Which now shoudld be used as following:
 
+
+So great now we have th stocks. 
 
 
 
