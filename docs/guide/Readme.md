@@ -8,6 +8,11 @@ title: ✍️ Guide
 
 ## Introduction
 
+ - Using my programming experience, this is going to be biased towards programmers.
+ - Also Will use my Skills to create tools to help people.
+ - This is a work in progress, so it will be updated as I learn more.
+ - Examples will be provided for the current time I am writting this, but I hope to make each tip/principle as time independent as possible.
+
 
 ## Organization
 
