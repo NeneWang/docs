@@ -3,7 +3,10 @@ const {
 } = require('../../package')
 
 module.exports = {
-  title: 'Docs',
+  title: 'Salaryman\'s Survival Guide',
+  themeConfig: {
+    logo: '/img/logo.png',
+  },
   publicPath: './',
   extendsMarkdown: (md) => {
     md.use('markdown-it-task-lists')
@@ -48,19 +51,35 @@ module.exports = {
     lastUpdated: true,
     nav: [
       {
-        text: ' 👩‍💻 Code',
-        link: '/code/',
+        text: 'Guide',
+        link: '/guide/',
       },
       {
-        text: ' 🏗 Project',
-        link: '/projects/'
-      }, {
-        text: ' 📓 Journal',
-        link: '/journal/'
+        text:  `👩‍💻 Dev Notes`,
+        ariaLabel: 'Author Notes',
+        items: [
+          {
+            text: 'Code',
+            link: '/code/',
+          },
+          {
+            text: ' 🏗 Project',
+            link: '/projects/'
+          }, {
+            text: ' 📓 Journal',
+            link: '/journal/'
+          },
+        ]
       },
       {
-        text: "Admin",
-        link: "https://project.wangnelson.xyz/public/prod"
+        text: `🔗 Links`,
+        items: [
+
+          {
+            text: "Admin",
+            link: "https://project.wangnelson.xyz/public/prod"
+          }
+        ]
       }
     ],
   },

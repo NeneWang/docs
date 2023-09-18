@@ -1,23 +1,19 @@
 ---
 home: true
 
-tagline: Random Journal for my Projects
+tagline: A survival guide for the modern worker. Focused on Software Engineers.
 actionText: Journal →
 actionLink: /journal/
+heroImage: /img/logo.png
 
 features:
-- title: Code
-  details: Explainaition of some bugs, and localization of documentation.
+- title: Tips
+  details: Tips for Survival.
   link: https://v2.vuepress.vuejs.org/guide/assets.html#base-helper 
 - title: Projects
-  details: Explainaition of Labs and Projects
+  details: Projects and Templates for future use,
 - title: Journals
-  details: Coding Journals with projects being worked.
+  details: Personal Journal from the developer.
 footer: Nelson Wang since 8.10.2021
 ---
-
-<!-- 
-# Quick Access
-
-<TagList /> -->
 
