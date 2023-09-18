@@ -174,11 +174,11 @@ I think today's coderhouse will be just basic,
 
 ### 15.1 Creating a Sell Buy Button
 
-![](./../../img/2023-09-15-08-35-21.png) 
+<!-- ![](./../../img/2023-09-15-08-35-21.png) 
 
 Now we need to match the integer
 
-![](./../../img/2023-09-15-10-06-55.png)
+![](./../../img/2023-09-15-10-06-55.png) -->
 
 
 Attempting to fix:
@@ -844,6 +844,16 @@ db.syncData();
 
 ```
 
+## 18 Mon
+
+### 18.todo
+
+- [x] 18.1 Re Designing a LTS General Documentation Strategy
+- [ ] 18.2 Fixing and implementing the `Salaryman's survival guide`
+
+
+### 18.1 Re Designing a LTS General Documentation Strategy
+
 
 Which makes it not working right.****
 
@@ -889,13 +899,23 @@ I think it would be rather to focuson developer notes
 
 
 
-
-
 ### Cybersecurity
 
 It makes sense to 
 
 
+### 18.2 Fixing and implementing the `Salaryman's survival guide`
+
+
+- [ ] Fixing The Image
+
+
+```
+${projectRoot}/docs/.vuepress/public/img
+```
+
+
+![](./../.vuepress/public/img/2023-09-18-12-43-37.png)
 
 
 

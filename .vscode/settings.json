@@ -1,0 +1,3 @@
+{
+    "pasteImage.path": "${projectRoot}/docs/.vuepress/public/img"
+}

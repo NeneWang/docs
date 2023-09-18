@@ -1,7 +1,7 @@
 ---
 home: true
 
-tagline: A survival guide for the modern worker. Focused on Software Engineers.
+tagline: A survival guide for the corporate zombie apocalypse 🧟. 
 actionText: Journal →
 actionLink: /journal/
 heroImage: /img/logo.png

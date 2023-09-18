@@ -4,9 +4,6 @@ const {
 
 module.exports = {
   title: 'Salaryman\'s Survival Guide',
-  themeConfig: {
-    logo: '/img/logo.png',
-  },
   publicPath: './',
   extendsMarkdown: (md) => {
     md.use('markdown-it-task-lists')
@@ -19,6 +16,13 @@ module.exports = {
 
   description: description,
   head: [
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/img/favicon.png'
+      }
+    ],
     ['meta', {
       name: 'theme-color',
       content: '#3eaf7c'
@@ -49,6 +53,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: true,
+    logo: '/img/favicon.png',
     nav: [
       {
         text: 'Guide',
