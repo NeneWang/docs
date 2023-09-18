@@ -1,3 +1,8 @@
+---
+title: September 23
+---
+
+
 ## 1 Fri
 
 ### 1.todo
@@ -489,7 +494,7 @@ Now once it has been deployed, my guess:
 
 ## 16 Sat
 
-- [ ] 16.1 Create the API for logging in
+- [x] 16.1 Create the API for logging in
 
 
 ### 16.1 Create the API for logging in.
@@ -805,7 +810,7 @@ async def login(user_entry: UserLoginFormat, report_on_sucess: bool = True):
 
 ### 17.todo
 
-- [ ] 17.1 Fixing retrieval of the current user data.
+- [x] 17.1 Fixing retrieval of the current user data.
 
 ### Fixing Log int he current
 
@@ -822,17 +827,17 @@ Makes sense to have a login method that:
 
 - [x] Log off button should also delete the guid and user_data in local_storage.
 - [x] Create a demo log in option.
-- [ ] Crate another Demo Log int to make sure you can also log from a different account
-  - [ ] BUt this time it should be using an specific password etc to retrieve the player id and etc.
+- [x] Crate another Demo Log int to make sure you can also log from a different account
+  - [x] BUt this time it should be using an specific password etc to retrieve the player id and etc.
 
 
-- [ ] The front end should have a log in button.
+- [x] The front end should have a log in button.
 
 
 
 Is this because of:
 
-```
+```dart
 
 db.loadData();
 db.syncData();
@@ -840,7 +845,55 @@ db.syncData();
 ```
 
 
-Which makes it not working right.
+Which makes it not working right.****
+
+**Documenting**
+
+Some stuff is important to be docuented and have specific projects on them.
+
+At for the current decision is to have all the documentation inside of the `design-docs => Docusaurus.`
+
+### General re-design of algo docs..
+
+- [ ] Having parts of the CV there including GPA etc.
+- [ ] Having the projects there.
+- [ ] The site could be in the `wangnelson.xyz` main page.
+
+
+### Project Walkthroughts
+
+- This can be things like Angular, Flutter, React Projects etc.
+- Devpost Competitions.
+- The idea of walkthroughts is to have a documentation 
+- As for plans and the like, having a `Salary man survival guide` would be rather cool in my opinion.
+
+I think it would be rather to focuson developer notes
+
+**Features to Have**
+
+- [ ] Code Documentation Explainaition on the hard things.
+- [ ] Link to Github
+- [ ] Link to live Demo.
+- [ ] Gif recordings of the front end and etc.
+- [ ] Youtube video of the project.
+- [ ] Template code from that code for the future to be re-utilized
+
+
+**Projects to document from the past**
+
+- [ ] Maid CLI
+- [ ] E-Commerce Website
+
+
+### Algorithms Documentation
+
+
+
+
+
+### Cybersecurity
+
+It makes sense to 
 
 
 
