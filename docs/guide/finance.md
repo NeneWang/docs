@@ -1,6 +1,11 @@
 ---
-title: Personal Finance
+title: 💸 Personal Finance
 ---
+
+
+[[toc]]
+
+## Introduction
 
 Includes:
 

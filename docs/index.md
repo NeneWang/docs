@@ -2,8 +2,8 @@
 home: true
 
 tagline: A survival guide for the corporate zombie apocalypse 🧟. 
-actionText: Journal →
-actionLink: /journal/
+actionText: Get Started
+actionLink: /guide/
 heroImage: /img/logo.png
 
 features:
