@@ -475,11 +475,372 @@ async def get_user_report(
 Now once it has been deployed, my guess:
 
 1. Create the api for logging in.
+   1. This could be just a verification of the email and password.
+   2. It would return the player_id. {As well as the whole data for the day report.}
+   3. There should be a log off button to log off.
 2. Or choose to use the demo player.
 3. Also create the API for resetting
 4. As well as logging in and etc.
+5. Signing Up
+   1. Ability to register new emails
+   2. By default joints you to the recommended competition.
+   3. Ass well as a pass code
 
 
+## 16 Sat
+
+- [ ] 16.1 Create the API for logging in
+
+
+### 16.1 Create the API for logging in.
+
+ 1. [x] This could be just a verification of the email and password.
+ 2. [x] It would return the player_id. {As well as the whole data for the day report.}
+ 3. [ ] There should be a log off button to log off.
+
+Had some errors, but it was because of the wrong input 
+
+- SO tried using cypher to check, and that was it!
+
+```py
+
+def caesar_cipher(text: str, shift: int = 3) -> str:
+    """Caesar cipher implementation.
+
+    Args:
+        text (str): text to be encrypted
+        shift (int, optional): shift amount. Defaults to 3.
+
+    Returns:
+        str: encrypted text
+    """
+    cipher = ""
+    for char in text:
+        char_code = ord(char)
+        shifted_char_code = (char_code + shift) % 128
+        cipher += chr(shifted_char_code)
+    return cipher
+
+def get_hashed_password(password: str) -> str:
+    return caesar_cipher(password)
+
+
+def verify_password(password: str, hashed_pass: str) -> bool:
+    print("comparing", caesar_cipher(password), hashed_pass)
+    return caesar_cipher(password) == hashed_pass
+```
+
+
+Now with the actual correct passwd + registration logic:
+
+
+```py
+import re
+from bcrypt import checkpw, gensalt, hashpw
+from pydantic import BaseModel
+from pyparsing import Optional
+import uvicorn
+from fastapi import FastAPI, Depends, File, UploadFile, Path, status, BackgroundTasks, HTTPException
+
+from passlib.context import CryptContext
+# from http.client import HTTPException
+from fastapi.encoders import jsonable_encoder
+from fastapi.middleware.cors import CORSMiddleware
+from database import SessionLocal, engine
+import models
+import os, json
+from dotenv import load_dotenv
+from routes import utils, api
+
+import models
+
+from sqlalchemy.ext.declarative import declarative_base
+from fastapi.openapi.docs import get_swagger_ui_html
+from models import Users
+
+import re
+
+def validateEmail(email: str):
+    """Returns True if the email is valid, False otherwise.
+
+    Args:
+        email (str): email string
+
+    Returns:
+        bool: Whether the email is valid or not
+    """
+    if len(email) > 3:
+        if re.match(r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$", email) is not None:
+            return True
+    return False
+
+db = SessionLocal()
+
+
+
+
+load_dotenv()
+
+dotusername = os.getenv("USER")
+
+app = FastAPI(
+    docs_url=None,
+    title="DD API",
+    description='Bla description',
+    )
+
+app.include_router(models.playerRoutes)
+app.include_router(models.userRoutes)
+app.include_router(models.assetRoutes)
+app.include_router(models.competitionRoutes)
+app.include_router(models.transactionRoutes)
+
+app.include_router(api.router)
+
+
+
+
+
+
+
+@app.get("/docs", include_in_schema=False)
+async def swagger_ui_html():
+    return get_swagger_ui_html(
+        openapi_url="/openapi.json",
+        title="DD API",
+    )
+
+Base = declarative_base()
+
+def get_db():
+    session = SessionLocal()
+    try:
+        yield session
+        session.commit()
+    finally:
+        session.close()
+
+
+origins = ["*"]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+app.include_router(utils.router)
+
+models.Base.metadata.create_all(bind=engine)
+
+@app.get("/")
+def index():
+    return { "message": "hello world This is the Another update version"}
+
+if __name__ == "__main__":
+    uvicorn.run(app, port=8080, host='0.0.0.0')
+
+
+
+# pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+# def hash_password(password: str):
+#     return pwd_context.hash(password)
+
+
+password_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+def get_hashed_password(password: str) -> str:
+    return password_context.hash(password)
+
+
+def verify_password(password: str, hashed_pass: str) -> bool:
+    return password_context.verify(password, hashed_pass)
+
+
+
+class UserLoginFormat(BaseModel):
+    email: str
+    password: str
+
+class UserSignUpFormat(BaseModel):
+    email: str
+    password: str
+    name: str
+    competition_id: str = ""
+
+@app.delete("/delete_user")
+async def delete_user(user_email: str):
+    """Using example:
+    """
+
+    user = db.query(Users).filter(Users.email == user_email).first()
+    if user is None:
+        raise HTTPException(status_code=400, detail="Invalid email")
+    
+    # Remove all players with that user_id
+    count_players_deleted = db.query(models.Player).filter(models.Player.user_id == user.id).delete()
+
+    # Now delete the user.
+    db.delete(user)
+    db.commit()
+    return { "detail": "User deleted successfully", "count_players_deleted": count_players_deleted, "user": user.__dict__}
+
+
+@app.post("/signup")
+async def signup(user: UserSignUpFormat):
+    """Using example:
+    {
+    "email": "wangnelson4@gmail.com",
+    "password": "test1234",
+    "name": "Nelson the Tester",
+    "competition_id": ""
+    }
+    """
+    # hashed_password = hashpw(user.password.encode('utf-8'), gensalt()).decode('utf-8')
+    hashed_password = get_hashed_password(user.password)
+    # new_user = user.copy(update={"password": hashed_password})
+    if(validateEmail(email=user.email) == False):
+        raise HTTPException(status_code=400, detail="Invalid email")
+    
+    new_user = Users(
+        email=user.email,
+        password=hashed_password,
+        name=user.name,
+    )
+
+    # if email already exists then throw error
+    if db.query(Users).filter(Users.email == user.email).first() is not None:
+        raise HTTPException(status_code=400, detail="Email already exists")
+    
+    competition_join = "7bc69deb-b1b4-4d45-aab1-43ce2d9caf8b"
+    if user.competition_id == "":
+        user.competition_id = competition_join
+
+    # If competition doesnt exist then throw error
+    competition = db.query(models.Competitions).filter(models.Competitions.id == user.competition_id).first()
+    if competition is None:
+        raise HTTPException(status_code=400, detail=f"Invalid competition_id {user.competition_id}")
+
+    new_user.default_competition_id = user.competition_id   
+
+    
+    # test verify method
+    # if not pwd_context.verify(user.password, hashed_password):
+    if not verify_password(user.password, hashed_password):
+        raise HTTPException(status_code=400, detail="Invalid password")
+
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    
+
+    new_player = models.Player(
+        user_id=new_user.id,
+        competition_id=user.competition_id,
+    )
+
+
+    db.add(new_player)
+    db.commit()
+
+    db.refresh(new_player)
+    db.refresh(new_user)
+    
+
+    return { "detail": "User created successfully",
+            "user": new_user.__dict__,
+             "player": new_player.__dict__ }
+
+@app.post("/login")
+async def login(user_entry: UserLoginFormat):
+    user_db = db.query(Users).filter(Users.email == user_entry.email).first()
+    
+    if user_db is None:
+        raise HTTPException(status_code=400, detail="Invalid email")
+    
+#    if not checkpw(user_db.password.encode('utf-8'), user_db.password.encode('utf-8')):
+    if not verify_password(user_entry.password, user_db.password):
+        raise HTTPException(status_code=400, detail="Invalid password")
+    return user_db.__dict__
+
+
+@app.get('/unprotected')
+def unprotected():
+    return { 'hello': 'world' }
+
+
+```
+
+### return the player_id. {As well as the whole data for the day report.}
+
+
+- My guess is to just return the whole data for the day report if flagged.
+
+```py 
+@app.post("/login")
+async def login(user_entry: UserLoginFormat, report_on_sucess: bool = True):
+    user_db = db.query(Users).filter(Users.email == user_entry.email).first()
+    
+    if user_db is None:
+        raise HTTPException(status_code=400, detail="Invalid email")
+    if not verify_password(user_entry.password, user_db.password):
+        raise HTTPException(status_code=400, detail="Invalid password")
+
+    if(report_on_sucess == True):
+        default_competition_id = user_db.default_competition_id
+        default_player_id = db.query(models.Player).filter(models.Player.user_id == user_db.id, models.Player.competition_id == default_competition_id).first().id
+        return await api.get_user_report(
+            player_id=default_player_id,
+            selected_ticket_names=constants.BEGINNER_TICKET_LIST
+        )
+
+    return user_db.__dict__
+
+
+```
+
+## 17 Sun
+
+### 17.todo
+
+- [ ] 17.1 Fixing retrieval of the current user data.
+
+### Fixing Log int he current
+
+### There should be a log off button to log off.
+
+This is actually something more to be done from the front end whereas:
+
+- [x] The front end should have a log off button.
+  - [x] It should take you towards the welcome page.
+
+Makes sense to have a login method that:
+
+- rejects whenever 
+
+- [x] Log off button should also delete the guid and user_data in local_storage.
+- [x] Create a demo log in option.
+- [ ] Crate another Demo Log int to make sure you can also log from a different account
+  - [ ] BUt this time it should be using an specific password etc to retrieve the player id and etc.
+
+
+- [ ] The front end should have a log in button.
+
+
+
+Is this because of:
+
+```
+
+db.loadData();
+db.syncData();
+
+```
+
+
+Which makes it not working right.
 
 
 
