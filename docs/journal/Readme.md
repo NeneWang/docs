@@ -23,7 +23,6 @@ Table of Contents
 
 More or less this can even serve as a catch-all for including all the work that it's neither a project or a anything else
 
-- The idea of the journal is to also be shareable so no shady stuff here please!
 
 
 

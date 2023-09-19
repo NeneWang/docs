@@ -919,5 +919,96 @@ ${projectRoot}/docs/.vuepress/public/img
 
 
 
+### 18.3 Meeting Room
+
+- The idea of the journal is to also be shareable so no shady stuff here please!
+- Creates environment
+- And comes in place, 
+- Minimize the risk factor 
+- Visual Processing and the great dizzziness
+- Shows that perfect simulation while they are performing 
+
+
+- Payments to connect up with companies, let those folks pay for the platform.
+- Forage virtual internships -> Lulu lemon.
+  - Turn in the tasks and get paid.
+  - Providing the Analyzis and the company and the ideal hould have in terms of skillsets and virtual work experiences. 
+
+
+- [ ] I like the idea of sending the what to do and develop strategy.
+- [ ] School lessons 
+- [ ] Data points and watching someones over time.
+- [ ] The environment
+  - [ ] What it looks under certain what the job roles are. Kind 
+  - [ ] Perform according to those roles and engage through the metrics.
+  - [ ] With the culture and the like, have the custom as well. Customer Discovery in the interviews to find the cultures in that place.
+  - [ ] Quantify that aspect.
+- [ ] -> That could trigger to Facebook buyup.
+
+
+### 18.4 Reset Portfolio Option.
+
+### 18.5 Buying 0 to 1 update.
+
+- [ ] Venture well put student.
+- [ ] Test if you can quickly update the stock lists
+
+
+
+
+Planning to go to this from the next month.
+
+### Random Offline for maid for acceleration
+
+```js
+randomOffline = false
+getYoungest = async (potential_questions, { limit = 3, account_id = 1, debug = false, randomOffline = false } = {}) => {
+}
+
+        potential_questions = await this.getYoungest(potential_questions, { limit: 2, randomOffline: true });
+```
+
+
+Like this is literally bad
+
+```json
+[
+  {
+    "price_average": 149.12,
+    "symbol": "JPM",
+    "count": 2,
+    "updated_time": "2023-09-18T21:13:32.380819",
+    "player_id": "92cb1815-bbc7-47aa-aba4-4788425b0524",
+    "id": "fbe2136b-ab07-49b8-b1d5-8b24f873ebed",
+    "created_time": "2023-09-17T14:50:40.089467",
+    "estimated_profit": 0.3100000000000023
+  },
+  {
+    "price_average": 177.97,
+    "symbol": "AAPL",
+    "count": 1,
+    "updated_time": "2023-09-18T21:18:27.730452",
+    "player_id": "92cb1815-bbc7-47aa-aba4-4788425b0524",
+    "id": "c1dca151-2881-490d-8c78-3f334e516fff",
+    "created_time": "2023-09-17T14:34:06.384441",
+    "estimated_profit": 5.920000000000016
+  },
+  {
+    "price_average": 329.06,
+    "symbol": "MSFT",
+    "count": 1,
+    "updated_time": "2023-09-18T22:39:22.980889",
+    "player_id": "92cb1815-bbc7-47aa-aba4-4788425b0524",
+    "id": "6f2a0434-d2f5-4f1b-a7a0-db5e4d8dd81e",
+    "created_time": "2023-09-18T21:15:34.560221",
+    "estimated_profit": 0
+  }
+]
+```
+
+
+It should instead be instead the calculation included with the current price, total invested and other while basic, required data.
+
+
 
 

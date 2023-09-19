@@ -43,4 +43,14 @@ Includes:
 
 
 
+## Have an Edit and Review Process
+
+- Edit Process
+  - In Edit process you dont judge yor content
+  - Bullet points are geat way to have conscice points
+- Review Process
+  - In Review process you judge your content
+  - Ask people for help for second eyes.
+  - Is when you start treaming work.
+
 
