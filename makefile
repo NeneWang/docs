@@ -1,7 +1,7 @@
 PAGE=guide.wangnelson.xyz
 
 # Requrements: git-ftp, yarn, node
-
+FTP_HOST=wangnelson.xyz
 FTP_USER=guide@wangnelson.xyz
 FTP_PASSWORDWORD=oq9b*K68FCxB!4aF
 
@@ -53,14 +53,14 @@ ft-push:
 	echo "open in https://docs.wangnelson.xyz/" && git log -n 2
 	
 ft-configpush:
-	git config git-ftp.url ftp://ftp.${PAGE}
+	git config git-ftp.url ftp://${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
 	git config git-ftp.syncroot docs/.vuepress/dist/
 	git ftp push --force
 
 ftpinit:
-	git config git-ftp.url ftp://ftp.${PAGE}
+	git config git-ftp.url ftp://${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
 	git config git-ftp.syncroot docs/.vuepress/dist/
