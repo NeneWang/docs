@@ -1012,3 +1012,13 @@ It should instead be instead the calculation included with the current price, to
 
 
 
+![](./../.vuepress/public/img/2023-09-19-12-17-27.png)
+
+Credentials for all protected
+
+```bash
+{
+    developer
+    Dev123
+}
+```
