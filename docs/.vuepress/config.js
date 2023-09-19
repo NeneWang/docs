@@ -84,6 +84,18 @@ module.exports = {
           {
             text: 'Strategic Docs',
             link: 'https://strategy.wangnelson.xyz/'
+          },
+          {
+            text: 'Learning Docs',
+            linkL: 'https://learning.wangnelson.xyz/'
+          },
+          {
+            text: 'Platinum Docs',
+            link: 'https://platinum.wangnelson.xyz/'
+          },
+          {
+            text: 'Portfolio Docs',
+            link: 'https://docs.wangnelson.xyz/'
           }
         ]
       }
