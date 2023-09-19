@@ -68,7 +68,7 @@ ftpinit:
 	git ftp init --force
 
 first-deploy:
-	ftpinit
+	make ftpinit
 	git ftp push
 
 cap:

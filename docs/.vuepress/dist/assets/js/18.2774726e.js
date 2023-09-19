@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[18],{407:function(t,e,a){"use strict";a.r(e);var n={computed:{tags:{get:function(){return this.$page.frontmatter.tags}}}},s=a(47),r=Object(s.a)(n,(function(){var t=this.$createElement;return(this._self._c||t)("tag-badge-list",{attrs:{tags:this.$page.frontmatter.tags}})}),[],!1,null,null,null);e.default=r.exports}}]);
