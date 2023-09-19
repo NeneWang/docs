@@ -2,8 +2,9 @@ PAGE=wangnelson.xyz/documentation/dist
 
 # Requrements: git-ftp, yarn, node
 
-ftp_user=ftp_public@wangnelson.xyz
-ftp_pass=ZA.m6e{,U6XG
+FTP_USER=guide@wangnelson.xyz
+FTP_PASSWORD=oq9b*K68FCxB!4aF
+
 
 
 main: build-commit ft-push

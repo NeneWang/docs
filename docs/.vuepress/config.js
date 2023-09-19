@@ -80,6 +80,10 @@ module.exports = {
           {
             text: "Admin",
             link: "https://project.wangnelson.xyz/public/prod"
+          },
+          {
+            text: 'Strategic Docs',
+            link: 'https://strategy.wangnelson.xyz/'
           }
         ]
       }
