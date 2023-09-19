@@ -1,6 +1,6 @@
 PAGE=wangnelson.xyz/documentation/dist
 FTP_HOST=wangnelson.xyz
-FTP_USER=guide@wangnelson.xyz
+FTP_USER=guide@guide.wangnelson.xyz
 FTP_PASSWORD=oq9b*K68FCxB!4aF
 # Requrements: git-ftp, yarn, node
 
