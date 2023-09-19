@@ -1016,9 +1016,21 @@ It should instead be instead the calculation included with the current price, to
 
 Credentials for all protected
 
-```bash
+```
 {
     developer
     Dev123
 }
 ```
+
+
+
+Here some goals:
+
+- [Python Snake Game](https://www.youtube.com/watch?v=L8ypSXwyBds) 
+- [Mario AI Simulations](https://www.youtube.com/watch?v=2eeYqJ0uBKE)
+- [Self Driving](https://www.youtube.com/watch?v=Cy155O5R1Oo)
+- [Python Ping Poing Tutorial](https://www.youtube.com/watch?v=2f6TmKm7yx0) 
+- [Python Chess](https://www.youtube.com/watch?v=ffzvhe97J4Q)
+
+
