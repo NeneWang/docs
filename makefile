@@ -1,10 +1,11 @@
-PAGE=guide.wangnelson.xyz
-
-# Requrements: git-ftp, yarn, node
+PAGE=wangnelson.xyz/documentation/dist
 FTP_HOST=wangnelson.xyz
 FTP_USER=guide@wangnelson.xyz
-FTP_PASSWORDWORD=oq9b*K68FCxB!4aF
+FTP_PASSWORD=oq9b*K68FCxB!4aF
+# Requrements: git-ftp, yarn, node
 
+ftp_user=ftp_public@wangnelson.xyz
+ftp_pass=ZA.m6e{,U6XG
 
 
 main: build-commit ft-push
@@ -67,7 +68,7 @@ ftpinit:
 	git ftp init --force
 
 first-deploy:
-	make ftpinit
+	ftpinit
 	git ftp push
 
 cap:
