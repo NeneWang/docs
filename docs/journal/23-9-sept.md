@@ -1034,3 +1034,42 @@ Here some goals:
 - [Python Chess](https://www.youtube.com/watch?v=ffzvhe97J4Q)
 
 
+## 22 Fri
+
+### 22.todo
+
+- [ ] 22.1 Making a better decision in where I want to go i life
+
+### 22.1 Making a better decision in where I want to go i life
+
+**Path 1: Continue as Software**
+
+- Continue learning no end
+- Just focusing on algorithms 
+
+**Path 2: Becoming a Logistics guy**
+
+- Then you should
+  - [x] Continuous Practice of algorithms
+    - [x] The DSA CLI is a great integration
+  - [x] Is important to master the tools of:
+    - [x] Documentation
+    - [x] Self Tools Developments. ( I think is good enough )
+  - [ ] Slight chance for AI and understanding of algorithms to be in your favor
+  - [ ] Data Science
+    - [ ] Drill down into Market Analysis is important. => Udemy Course to be checked
+    - [ ] Drill down into Data Science is important. => Udemy Course to be checked on Parallel
+  - [ ] It would be complementary to understand Factorio and other factory like games.
+  - [ ] Social
+    - [ ] Getting Buffed up => Required
+    - [ ] Improving 
+
+
+**Data Science**
+
+- Practice Kaggle on the Daily?
+- Working up simulations also on the daily? Using Pygame I mean? WIll that be any use?
+  - Just get right the idea 
+- 
+
+
