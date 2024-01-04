@@ -24,6 +24,7 @@ title: ✍️ Guide
 - The resources listed will be my objectively the best options.
 - I wont claim that the following build will work for anyone, so please refer to my biologic stats for debugging.
 - Some of them will be tools developed by me, but probably will be free tools, as my goal is to help people.
+- This is actually an opinionated guide, so please take it with a grain of salt.
 
 
 ## Biologic Stats

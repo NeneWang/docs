@@ -94,3 +94,66 @@
 
 
 
+## 6 Passively Learning Cyber Security + IT
+
+*The idea is to passively getting better at cybersecurity. You might not need to implement the securities measures all the time. My suggestion would be to write this audits every 2-5 sprints. (Or once the software has been made into a stabilized)*
+
+
+1. Regularly Documenting Vulnerabilities.
+- When learning a framework, or developing software, you should at the same time, practice cybersecutiy, by mantianning a log/documentation of the potential vulnerabilities of the system. e.g. Putting yourself in a hacker's shoes. How would you hack your own system?
+- Where to find the API keys?
+- How would you access infomration you are not supposed to?
+- How could I ssh this? How could I spoof a user admin?
+- What scripts could I write to automate the process of hacking this system?
+- What are the key people that could be targeted in this system? What kind of emails could be used?
+
+
+2. Learn the basics of Cybersecurity
+   - Google Certificate.
+   - Codepath, certificate.
+  
+
+Then continue by writting down the possible solutions to those vulnerabilities. The thing about this, is that you should create checklists based on what you learn from the basics, *lenses* that you should use on your own software. (Patterns of vulnerabilities)
+
+
+3. Cybersecurity is constantly changing, therefore is not worth, actively pursuing such, but is worth *actively* pursuing software developmenet with an eye on your defenses and vulnerabilities. Grow by understanding commonly used tools + patterns of vulnerabilities. And then using this tools in a cycle to audit your own software.
+
+
+
+
+
+
+### 6 Passion Projects
+
+Key points:
+- Documentate for Explainning
+- Encapsulate Templates for Reusability
+- Building Libraries shows expertise of that framework (usually)
+
+Why?
+- You need to get paid
+- You can increase your popularity by making reusable code (Also a good talking point).
+
+1. Make software Projects that can be shown to recru
+   1. Keep in readme the sets of Install options and descriptions with pictures and captures of it's features.
+   2. Create a `highlight.md` file tracking the progression of your software and HIGHLIGHT whenever you face an interesting challange.
+2.  Once you have a project done, dont let it stay like that, build a library/template out of it.
+    1. The entire project doesn't require to become a library, but aim to create a library from one of the complex parts of the project.
+    2. And attempt if you have not yet, create a template (for Hackathons or other similar organizations) by abstracting the project into a template.
+    3. Make reference of the third tools that you created out of them.
+    4. Logic Abstaction: Perhaps the Logic can be abstracted into an API, or a graphing terminal tol can be abstracted into a terminal package.
+    5. Architecture Abstraction: Perhaps the authentication System can be abstracted.
+    6. UI Abstraction: Perhaps the UI can be abstracted into an UI library.
+
+
+
+
+
+
+
+
+
+
+
+
+
