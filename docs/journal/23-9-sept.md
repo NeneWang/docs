@@ -1062,7 +1062,6 @@ Here some goals:
   - [ ] It would be complementary to understand Factorio and other factory like games.
   - [ ] Social
     - [ ] Getting Buffed up => Required
-    - [ ] Improving 
 
 
 **Data Science**
