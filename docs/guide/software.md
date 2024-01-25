@@ -62,7 +62,8 @@
 1. College courses, bootcamp, online course follow the following pattern
 2. Develop Flashcards based on the best practices listed above so you dont forget them.
 3. Create tasks cards for future practice so that you can train yourself into using those cases.
-   1. For example you are learning react, you should create a card and git repo for a project start and how the project should look at the project finish.
+   - For example you are learning react, you should create a card and git repo for a project start and how the project should look at the project finish.
+   - For data sicnece you should allow for the same project ideation style.
 
 
 
@@ -83,10 +84,10 @@
 
 ## 5 Building a reputation for Consistency
 
-- You should be able to show that you are consistent in your work and software that contains heatmaps or streak recordings are usually one of the bests.
-- Use github, publish almost daily, participate on projects, create followers, follow me, I will follow you automatically.
-- Use Leetcode, publish daily, dont be like me that didnt use that much, because of fear of not being able to use them. 
-- Message your boss at least once, and each member of the team, invent an excuse, any works
+- 1. You should be able to show that you are consistent in your work and software that contains heatmaps or streak recordings are usually one of the bests.
+- 2. Use github, publish almost daily, participate on projects, create followers, follow me, I will follow you automatically.
+- 3. Use Leetcode, publish daily, dont be like me that didnt use that much, because of fear of not being able to use them. 
+- 4. Message your boss at least once, and each member of the team, invent an excuse, any works
   - Design thoughts.
   - A new library you found that might be applicable.
 
