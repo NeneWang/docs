@@ -55,7 +55,7 @@ ft-push:
 	
 ft-configpush:
 	git config git-ftp.url ftp://${FTP_HOST}
-	git config git-ftp.user ${FTP_USER}
+	git config git-ftp.user ${FTP_USER}	
 	git config git-ftp.password ${FTP_PASSWORD}
 	git config git-ftp.syncroot docs/.vuepress/dist/
 	git ftp push --force
