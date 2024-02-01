@@ -21,8 +21,16 @@ title: ✍️ Guide
 
 ## Disclaimer
 
-- The resources listed will be my objectively best free options.
+- The resources listed will be my objectively the best options.
+- I wont claim that the following build will work for anyone, so please refer to my biologic stats for debugging.
 - Some of them will be tools developed by me, but probably will be free tools, as my goal is to help people.
+
+
+## Biologic Stats
+
+- Asian, 5'11'' or 181cm
+- Iq hovering around 120-130
+
 
 ![](https://media.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif)
 
