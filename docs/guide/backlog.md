@@ -4,9 +4,10 @@ title: Backlog
 
 [[toc]]
 
-## Introduction
+## 1 Introduction
 
-Here are more of the general backlog of features to add into the page. As marked will be the different Stages
+1. Notes for Mantainance of this content.
+2. Here are more of the general backlog of features to add into the page. As marked will be the different Stages
 
 - [x] Writting the base Raw Tips (25) <-- Current
 - [ ] Developing the base Raw Tips (25)
@@ -19,7 +20,18 @@ Here are more of the general backlog of features to add into the page. As marked
 
 
 ```md
-## [Title]
+
+## [number] [Title]
+
+*Important to enumerate the title section. So that it can be referenced on the large scope.*
+
+*Important to list the rules or tips with numbers, so that it can be referenced quickly on the projects.*
+
+1. Rule 1
+2. Rule 2
+3. Rule 3
+
+
 
 ### Stats
 
@@ -39,8 +51,6 @@ Here are more of the general backlog of features to add into the page. As marked
 ### Project
 
 *This section can go through various project and features ideas to support and automate this strategy. And that project will go through different stages: Ideation, Prototype, Internal Testing, Beta, Production which should be makrked in order to continue developing on itself.*
-
-
 
 
 
