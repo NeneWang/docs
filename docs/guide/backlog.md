@@ -36,6 +36,14 @@ Here are more of the general backlog of features to add into the page. As marked
 
 [feedback]
 
+### Project
+
+*This section can go through various project and features ideas to support and automate this strategy. And that project will go through different stages: Ideation, Prototype, Internal Testing, Beta, Production which should be makrked in order to continue developing on itself.*
+
+
+
+
+
 ```
 
 ## Tags
