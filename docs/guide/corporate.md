@@ -1,6 +1,6 @@
+This are some notes for the date you want to develop a corporate.
 
-
-## 1 Categorization
+## 1 Categorization and Time
 
 For corporate each categorization of usabiity time depends on the following:
 - How much does someone directly contribute? Whats the KPI?
@@ -10,7 +10,9 @@ For corporate each categorization of usabiity time depends on the following:
 
 
 
+## 2 Hiring
 
+- Hire for hunger. some expertice, some credentials. Mainly for hunger. And look for patterns of hungerness.
 
 
 

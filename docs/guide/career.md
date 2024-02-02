@@ -32,10 +32,24 @@ As a general rule:
 
 ## 2. College Tips
 
-- Avoid non-science (or non hard) classes
-- Always do projects and struggle with the homework.
-- Create a portfolio of your projects
-- Create a memoization of the practice sets, to be done on the daily
+- 1. Avoid non-science (or non hard) classes
+- 2. Always do projects and struggle with the homework.
+- 3. Create a portfolio of your projects
+- 4. Create a memoization of the practice sets, to be done on the daily
+- 5. Join Clubs and Be friendly, offer your services, always talk well, present good news.
+- 6. Build a strong early-career, snowball and leverage such to meet people and make the *pact*. Whereas you promise each ther of *recommending each other*. Attempt to target promising 3 students every week. Funnel-down and get those recommendations.
+
+**Projects**
+
+For [6] I would suggest the following strategies:
+
+- Definitively collect the user tags
+- Organize conversation topics bubble project.
+- Organize the target market, rate and score the leads. (race, school, advancing potential)
+
+- You should aim, to do the same, even digitally. Just talk, and ask the::
+- - What technologies are you more familiar, etc.
+- And like, do you want to play some mini-games, do you have steam? Wanna try pubg?
 
 
 ## 3. Progressing your Portfolio
@@ -50,6 +64,15 @@ As a general rule:
 
 1. Once you have a project done, dont let it stay like that, build a library/template out of it.
 2. The entire project doesn't require to become a library, but aim to create a library from one of the complex parts of the project.
+
+
+## 5. Model Successfull People on Your career
+
+1. Not the louds ones, that got there by luck. Try to find those who worked hard. I know it might be cringy but model their approach as best as you can. Also if they are from a similar background, the better.
+2. What certifications did they study? What projects they have built? What Habits did they accomplish?
+
+
+
 
 
 

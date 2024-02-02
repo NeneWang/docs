@@ -133,7 +133,7 @@ Then continue by writting down the possible solutions to those vulnerabilities. 
 
 
 
-### 6 Passion Projects
+## 6 Passion Projects
 
 Key points:
 - Documentate for Explainning
@@ -156,7 +156,7 @@ Why?
     6. UI Abstraction: Perhaps the UI can be abstracted into an UI library.
 
 
-### 7. Language Mastery
+## 7. Language Mastery
 
 Here 3 layers for the mastery of that Language:
 
@@ -169,7 +169,7 @@ Here 3 layers for the mastery of that Language:
 Once you are able to complete the 3 layers, you can consider yourself a master of that language. 
 
 
-### 8. Work and Personal Projects
+## 8. Work and Personal Projects
 
 If you were to follow this commandmnets, no matter the pay, you would still be increasing your knowledge worth and also have a interestingly perhaps profittable side project.
 - As well as a non-binded project that you could use to show your skills to your future employer.
@@ -184,7 +184,20 @@ If you were to follow this commandmnets, no matter the pay, you would still be i
 
 
 
+## 9. Taking your Company success personally
 
+*Recommended for once you have 1-2 yoe. This is the real mastery of your tasks before anything else. And then using that to leverage your voice inside of the decision mking.*
+
+1. Instead of living a life of trying to jump ships. There is something very interesting about the software engineer role in the position.
+   1. This means, taking a higher higher risks, suggesting and making bold responsabilities claims.
+2. Before you talk you need to build-up your credentials:
+   1. Ensure that your code is fully tested/rid of bugs. (Do your job perfectly.)
+   2. Make sure your code is fully documented (diagrams, naming conventions, etc)
+   3. Empty the bucket of tasks to be done.
+   4. Always prepare a looking-forward feature suggestion presentation with you.
+3. This is a second layer of to-dos, once the above is done. Which is proactive.
+   1. Prepare for certifications related to the technology or framework being touched
+   2. Attempt to contribute open-source, forking, and making templates/libraries depending on the indsutry needs of that project.
 
 
 
