@@ -55,6 +55,17 @@
 - Common Design Patterns on that language.
   - Whats the pattern used for that language in specific? Why that design pattern helps?
 
+3. Steps of the mastery of frameworks:
+   1. Create a project with that framework
+   2. Master the best practices of that framework in one project
+   3. Finish 10 Advanced guide (or a book worth of content) of that framework (or language)
+      1. [Exhibit 1: Advanced Git: Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+      2. [Exhibit 2: Real Python Advanced](https://realpython.com/tutorials/advanced/)
+   4. Create a library for that Framework (It can be forking, and creating at least 1 feature there.)
+  
+
+
+
 
 ## 4 Going through Trainning as an Engineer Mentality
 
@@ -64,6 +75,7 @@
 3. Create tasks cards for future practice so that you can train yourself into using those cases.
    - For example you are learning react, you should create a card and git repo for a project start and how the project should look at the project finish.
    - For data sicnece you should allow for the same project ideation style.
+4. If you are doing a Masters/Phd then for each of the classes you should contribute on an open source project related to that class. (Creating your own is okay)
 
 
 
@@ -121,8 +133,6 @@ Then continue by writting down the possible solutions to those vulnerabilities. 
 
 
 
-
-
 ### 6 Passion Projects
 
 Key points:
@@ -144,6 +154,33 @@ Why?
     4. Logic Abstaction: Perhaps the Logic can be abstracted into an API, or a graphing terminal tol can be abstracted into a terminal package.
     5. Architecture Abstraction: Perhaps the authentication System can be abstracted.
     6. UI Abstraction: Perhaps the UI can be abstracted into an UI library.
+
+
+### 7. Language Mastery
+
+Here 3 layers for the mastery of that Language:
+
+1. Build a project with that language
+2. Finish 1 leetcode problem (easy) of each pattern using that language
+3. Finish 1 leetcode problem (medium) of each pattern using that language
+4. Fork and create an open source library for that language (raw, it can be forked, thats okay)
+
+
+Once you are able to complete the 3 layers, you can consider yourself a master of that language. 
+
+
+### 8. Work and Personal Projects
+
+If you were to follow this commandmnets, no matter the pay, you would still be increasing your knowledge worth and also have a interestingly perhaps profittable side project.
+- As well as a non-binded project that you could use to show your skills to your future employer.
+
+1. You should strive to build your own `mini-scaled` version on your personal project of the software you are working on at work.
+   1. Your objective here is not to biuld the competition, but actually make more insight s to also become better at your `job`.
+   2. Here you will have the liberty of exploring your own algorithms and libraries.
+   3. Try if you can, to consider using your own models (based on your prefferences)
+   4. Use your job also as a learning opportunity to learn the best practices of the language and framework you are using.
+   5. Also you wouldn't need to worry about the constant business requirmenet changes.
+
 
 
 
