@@ -1,19 +1,129 @@
 
-## 1 Practicing Algorithms Daily
+## 1 Master Algorithms Daily
 
-- Is likely that you wont be using algorithms on your job (or at least not in the hard complexity ones.)
+- 1. Is likely that you wont be using algorithms on your job (or at least not in the hard complexity ones.)
   - But on your journey to learning algorithms, You will learn the skill of problem solving throguht pattern recognition.
   - This is a significantly useful skill, as in software following patterns for solutions leads to optimized, mantainable, efficient strategies based where you can share and have at the same time an efficient solution.
-- If you havent started, go throguht the 150 recommended lists.
+- 2. If you havent started, go throguht the 150 recommended lists.
   - Give yourself 20-30 minutes to struggle with the problem
   - Watch a video/editorial solution for it. (even if you were able to solve it) 
   - Dont prioritize learning the most optimal solution, but the solution that uses the `pattern` you are aiming to understand. Tackle the pattern > Tackle the most efficient way to solve it. 
-  - Try replicating the solution from memory
-  - Do 1 similar problem. (easier is okay) The idea is for you to **understand** that pattern.
-- Once you complete 150
+  3. Try replicating the solution from memory then Go to 
+    - Do 1 similar problem. (easier is okay) The idea is for you to **understand** that pattern.
+- 4. Once you complete 150 go to daily algorithmic problems.
+- 5. Study and Document the most Impactful Algorithms used on the industry, Note below a project to take you to key algorithms
 
 
-## 2 Practice DataScience + Machine Learning Daily
+**Projects**
+
+
+For [5] Consider the following key-algorithms. Learn them by heart by documenting, doing charts.
+
+Sources
+http://www.koutschan.de/misc/algorithms.php
+
+
+**Some of the key Algorithms Areas**
+
+- Machine learning and Optimization
+  - Gradient Descent
+  - Genetic Algorithms
+- Database Algorithms
+  - BTree and B+ Tree
+  - Consistent Hashing
+- Cryptography
+- Sorting and Searching
+  - Quicksort 
+  - Binary Search Tree Algorithm
+- Graph Algorithms
+- Data Compression
+  - Lempel Ziv Welch
+  - Brotli
+- Optimization and Scheduling
+  - Simulated Annealing
+  - Linear Programming
+- Artificial Intelligence
+  - Hidden Markov Models
+  - BERT (Bidirectional Encoder Representations from Transformers)
+- Languge Processing
+- Data Structures and Algorthms
+  - Red Black Trees
+  - Bloom filters
+- Cryptographic and Blockchain
+  - Elliptic Curve Cryptography (ECC)
+  - Blockchain Consensus Algorithms
+- Computational Geometric and Graphics
+  - Ray Tracing Algorithms
+  - Maarching Cubes Algorithms
+- Distributed Computing and Systems
+  - Map Reduce
+  - Paxos Algorithms
+
+- Euclid
+- nicomachus examples
+- Sieve of Eratosthenes
+- QR Algorithms for Computing Eigenvalues
+- Quicksort
+- heapsort
+- jpeg compression
+- Fast Fourier Transform
+- Dijikstra Algorithm
+- RSA Algorithm
+- Secure Hash Algorithm
+- Integer Factorization
+- Link Analysis
+- Proportional Integral Derivative Algorithm
+- Data Compression Algorithms
+- Random Number Generation
+- A* Search Algorithm
+- Beam Search
+- Binary Search
+- Branch and Bound
+- Bunchberger's Algorithm
+- Data Compression
+- Diffie-Hellman Key Exchange
+- Discrete Differentiation
+- Expectation Maximization Algorithm
+- Gradient Descent
+- Hashing
+- Heap Sort
+- Karatsuba Multiplication
+- LLL Algorithm
+- Maximum Flow
+- Newton's Method
+- Merge Sort
+- Q-Learning
+- Quadratic Sive
+- RANSAC
+- Schohange Strassen Algorithm
+- Simplex Algorithm
+- Singular Value Decomposition
+- Strukturtensor
+- Union Find.
+- Viterbi Algorihtm
+- KNN
+- Random Forest
+- Naive Bayes
+- Neural Network
+- Monte Carlo
+- MapReduce
+
+
+
+Try doing all problems in:
+
+```
+C++
+Java
+Python
+```
+
+Why? Cause you need to practice those languages. Absolutely. You should consider doing all again (the 150 list) again in Java or C++
+
+
+
+
+## 2 Master  DataScience + Machine Learning Daily
 
 - I dont care if this is wasn't your original goal. If you dont do it, you will eventually be replaced by someone who does.
 - Also a strong skill to have for your own projects and if you will start a business.

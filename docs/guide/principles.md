@@ -13,7 +13,7 @@ Includes:
 1. General Tips
 
 
-## Document Everything.
+## 1. Document Everything.
 
 :::tip Summary
 
@@ -22,7 +22,7 @@ Includes:
 - Just like this documentation you should have one for yourself.
 - Note for example the following Documentation Journal I have: [Journal](/journal/)
 
-## Use Decision Matrix
+## 2. Use Decision Matrix
 
 - Stuck?
 - Use a Decision Matrix to help you decide.
@@ -34,7 +34,7 @@ Includes:
 ![](./../.vuepress/public/img/2023-09-18-14-51-54.png)
 
 
-## Finding Research
+## 3.Finding Research
 
 - Use Google Images and find `chart looking` images.
 - Those for some reason link to the original source.
@@ -43,7 +43,7 @@ Includes:
 
 
 
-## Have an Edit and Review Process
+## 4. Have an Edit and Review Process
 
 - Edit Process
   - In Edit process you dont judge yor content
@@ -52,5 +52,33 @@ Includes:
   - In Review process you judge your content
   - Ask people for help for second eyes.
   - Is when you start treaming work.
+
+
+## 5. Integrate New Technology, Stay on top.
+
+1. Use AI, and coding, and any other new technology that might be applied. Such as online learning, or VR for learning skillsets
+
+
+
+## 6. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
