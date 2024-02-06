@@ -14,7 +14,7 @@ Includes:
 5. Self Improvement Habits
 
 
-## Workout While Watching Shows
+## 1. Workout While Watching Shows
 
 
 :::tip Summary
@@ -42,14 +42,14 @@ Includes:
 - NEVER watch a show wihout working out
 - Great for before taking a shower. 
 
-## Have a Focusmate
+## 2. Have a Focusmate
 
 - Use Focusmate to create a daily schedule
 - Stick to it
 - include Research about having an accountability partner
 
 
-## Use Current School Programs as an opportunity to make projects and deadlines.
+## 3. Use Current School Programs as an opportunity to make projects and deadlines.
 
 - Always go beyond
 - If it is too easy use it to learn more about the topic on your own.
@@ -57,7 +57,7 @@ Includes:
 - Use the school as a way to create deadlines for your projects.
 
 
-## If you cant practice it, then you won't learn it
+## 4. If you cant practice it, then you won't learn it
 
 
 
@@ -69,7 +69,7 @@ Includes:
 - Creating an habit or automating the practice schedule.
 
 
-## Reading is Great, But Practice is Better
+## 5. Reading is Great, But Practice is Better
 
 - Being able to reach to practice is better than reading.
 - Reading Serves well as a guide

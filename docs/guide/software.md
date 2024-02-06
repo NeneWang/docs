@@ -311,8 +311,26 @@ If you were to follow this commandmnets, no matter the pay, you would still be i
 
 
 
+## 10. Continuous Testing at your advantage.
+
+*Use a continuous testing philosophy to advance on your knowledge (advanced technical) passively*
+
+This includes the following: ranked.
+
+| Topic                                                | Value Est. |
+| ---------------------------------------------------- | ---------- |
+| Study for certifications: aws, certifications        | 9          |
+| Interview questions of specific language/technology  | 9          |
+| Introduction to algorithms                           | 8          |
+| Machine learning                                     | 8          |
+| Programming Best Practices: Design Patterns, Testing | 7          |
 
 
+
+Here so guidelines into building great flashcards:
+
+- They dont ask you the definition, but how could you use X technology
+- If it is about implementation, provides an example of how to implement it (use it for refreshing a tech aspect)
 
 
 
