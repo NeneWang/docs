@@ -334,4 +334,16 @@ Here so guidelines into building great flashcards:
 
 
 
+## 11. Documentation 
 
+
+1. Attempt to follow auto documentation for each langauge format of documentation (close to code for methods)
+2. Keep a datastructure table excel or draw.io with also how classes interact with each, and responsabilities.
+   1. Google Sheet Tab with table with Tests.
+   2. Google sheet Tab with features, coverage to have, difficulty, KPI, Need matrix, Status, Catgory (e.g. template, Third party.)
+   3. Google Sheet Tab with each datastructure and database models being used.
+   4. Google Sheet Tab with API documentation and implementation.
+3. Keep **highlight** section for story telling of this project. 
+4. Keep futureistic as possible the readme with even features it doesn't have. But you are planning to have. (for visitors mostly)
+5. Dcoument deployment with dockerfile/makefile in code.
+6. 

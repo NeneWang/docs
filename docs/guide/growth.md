@@ -80,7 +80,12 @@ Includes:
 
 
 
+## 6. Hold Certifications for passive long-term practice
 
-
+1. Should optimize for Certifications and Interview level questions regarding a topic. 
+   1. Search common interview topics about it. 
+   2. Or Certification problems with sample answers.
+   3. Or Books with questions regarding it.
+   4. Or Courses Examples with questions regarding it.
 
 
