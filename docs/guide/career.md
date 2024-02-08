@@ -38,7 +38,9 @@ As a general rule:
 - 4. Create a memoization of the practice sets, to be done on the daily
 - 5. Join Clubs and Be friendly, offer your services, always talk well, present good news.
 - 6. Build a strong early-career, snowball and leverage such to meet people and make the *pact*. Whereas you promise each ther of *recommending each other*. Attempt to target promising 3 students every week. Funnel-down and get those recommendations.
-- 7. Take classes in parallel. e.g. Edx Micro masters or Khan Academy e.g. https://www.edx.org/masters/micromasters/ucsandiegox-algorithms-and-data-structures while studying data structures. Or Tensorflow while studying data science.
+- 7. Take classes in parallel. e.g. Edx Micro masters or Khan Academy e.g. 
+https://www.edx.org/masters/micromasters/ucsandiegox-algorithms-and-data-structures while studying data structures. Or Tensorflow while studying data science.
+8. Cold message colleages that are in the same industry and ask them to join you for lunch and talk.
 
 
 
