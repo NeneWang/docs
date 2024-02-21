@@ -15,6 +15,11 @@ For corporate each categorization of usabiity time depends on the following:
 - Hire for hunger. some expertice, some credentials. Mainly for hunger. And look for patterns of hungerness.
 
 
+## 3. Caring Culture
+
+- If a dev or associate doesn't believe in the product being built. Then they wont be able to 100%. Avoid hiring, or try to make them believe in the product.
+
+
 
 
 
