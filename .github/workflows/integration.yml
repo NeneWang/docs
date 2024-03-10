@@ -2,10 +2,17 @@
 
 # Environment Variables: https://stackoverflow.com/questions/60942067/get-current-date-and-time-in-github-workflows
 
+# For Weekly Sunday Update: name: Continuous Integration
+#     - cron: "0 0 * * 0" # This will run the workflow at midnight (00:00) every Sunday
+
+# For Daily Updates
+#     - cron: "0 0 * * *"
+  
+
 name: Continuous Integration
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * 0"
   push:
     branches: deployment
   pull_request:
