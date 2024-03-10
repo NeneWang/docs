@@ -1,6 +1,0 @@
-import{_ as t,o as e,c as n,e as a}from"./app-DI51TbPx.js";const l={},s=a(`<p>AlgoDateApp</p><div class="language-text line-numbers-mode" data-ext="text" data-title="text"><pre class="language-text"><code>Installation
-dotnet new snl
-dotnet new webapi -n API
-dotnet sln add API
-
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>Features</strong></p><ul><li>Swagger</li><li>.Net C# API</li></ul>`,4),i=[s];function d(o,r){return e(),n("div",null,i)}const u=t(l,[["render",d],["__file","angular-dotnet.html.vue"]]),p=JSON.parse('{"path":"/posts/projects/angular-dotnet.html","title":"Angular Dotnet","lang":"en-US","frontmatter":{"title":"Angular Dotnet","tags":["Angular",".net"]},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"posts/projects/angular-dotnet.md","excerpt":"<p>AlgoDateApp</p>\\n<div class=\\"language-text\\" data-ext=\\"text\\" data-title=\\"text\\"><pre class=\\"language-text\\"><code>Installation\\ndotnet new snl\\ndotnet new webapi -n API\\ndotnet sln add API\\n\\n</code></pre></div><p><strong>Features</strong></p>\\n<ul>\\n<li>Swagger</li>\\n<li>.Net C# API</li>\\n</ul>\\n"}');export{u as comp,p as data};
