@@ -1,23 +1,20 @@
 {
-  "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
-  },
-  "name": "code-documentation",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/NeneWang/code-documentation.git",
-  "author": "NelsonWang <wangnelson2@gmail.com>",
+  "name": "guide-docs",
+  "version": "0.0.1",
+  "description": "A docs for the struggling developer",
   "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.8.2"
+  "type": "module",
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
+    "docs:update-package": "npx vp-update"
   },
-  "dependencies": {
-    "axios": "^1.4.0",
-    "bootstrap": "^5.3.0",
-    "bootstrap-vue": "^2.23.1",
-    "markdown-it-task-lists": "^2.1.1",
-    "vue": "^2.6.14",
-    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.8",
+    "@vuepress/plugin-blog": "^2.0.0-rc.11",
+    "@vuepress/theme-default": "^2.0.0-rc.11",
+    "vue": "^3.4.0",
+    "vuepress": "^2.0.0-rc.7"
   }
 }

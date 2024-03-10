@@ -4,7 +4,7 @@ home: true
 tagline: A survival guide for the corporate zombie apocalypse 🧟. 
 actionText: Get Started
 actionLink: /guide/
-heroImage: /img/logo.png
+heroImage: https://avatars.githubusercontent.com/u/29577570?v=4
 
 features:
 - title: Tips

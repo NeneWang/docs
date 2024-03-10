@@ -2,7 +2,7 @@ PAGE=wangnelson.xyz/documentation/dist
 FTP_HOST=wangnelson.xyz
 FTP_USER=guide@guide.wangnelson.xyz
 FTP_PASSWORD=oq9b*K68FCxB!4aF
-# Requrements: git-ftp, yarn, node
+# Requrements: git-ftp, npm, node
 
 ftp_user=ftp_public@wangnelson.xyz
 ftp_pass=ZA.m6e{,U6XG
@@ -12,7 +12,7 @@ main: build-commit ft-push
 
 
 start:
-	yarn run dev
+	npm run dev
 
 save:
 	git add --all
@@ -21,7 +21,7 @@ save:
 
 
 deploy-heroku:
-	yarn build
+	npm run docs:build
 	git add --all
 	git commit -m "Build Deployment | {$v}"
 	git push origin HEAD
@@ -29,14 +29,14 @@ deploy-heroku:
 
 
 build-commit:
-	yarn build
+	npm run docs:build
 	git add --all
 	git commit -m "Production update | ${v}"	
 	git push origin HEAD
 
 build-commit-donpush:
-	yarn install
-	yarn build
+	npm install
+	npm run docs:build
 	git add --all
 	git commit -m "Production update | ${v}"
 

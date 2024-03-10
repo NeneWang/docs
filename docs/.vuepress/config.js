@@ -1,132 +1,141 @@
-const {
-  description
-} = require('../../package')
+import { blogPlugin } from '@vuepress/plugin-blog'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+import { viteBundler } from '@vuepress/bundler-vite'
 
-module.exports = {
+export default defineUserConfig({
+  lang: 'en-US',
+
   title: 'Salaryman\'s Survival Guide',
-  publicPath: './',
-  extendsMarkdown: (md) => {
-    md.use('markdown-it-task-lists')
-  },
-  markdown: {
-    config: md => {
-      md.use(require('markdown-it-task-lists'))
-    }
-  },
+  description: 'My first VuePress Site',
 
-  description: description,
-  head: [
-    [
-      'link',
+  theme: defaultTheme({
+    logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
+
+    navbar: [
+      '/',
       {
-        rel: 'icon',
-        href: '/img/favicon.png'
-      }
-    ],
-    ['meta', {
-      name: 'theme-color',
-      content: '#3eaf7c'
-    }],
-    ['meta', {
-      name: 'apple-mobile-web-app-capable',
-      content: 'yes'
-    }],
-    ['meta', {
-      name: 'apple-mobile-web-app-status-bar-style',
-      content: 'black'
-    }],
-  ],
-
-  // docs/.vuepress/dist
-
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   * Test
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
-  themeConfig: {
-    repo: '',
-    editLinks: true,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: true,
-    logo: '/img/favicon.png',
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'Article',
+        link: '/article/',
       },
       {
-        text:  `👩‍💻 Dev Notes`,
-        ariaLabel: 'Author Notes',
-        items: [
-          {
-            text: 'Code',
-            link: '/code/',
-          },
-          {
-            text: ' 🏗 Project',
-            link: '/projects/'
-          }, {
-            text: ' 📓 Journal',
-            link: '/journal/'
-          },
-        ]
+        text: 'Category',
+        link: '/category/',
       },
       {
-        text: `🔗 Links`,
-        items: [
-
-          {
-            text: "Admin",
-            link: "https://project.wangnelson.xyz/public/prod"
-          },
-          {
-            text: 'Strategic Docs',
-            link: 'https://strategy.wangnelson.xyz/'
-          },
-          {
-            text: 'Learning Docs',
-            linkL: 'https://learning.wangnelson.xyz/'
-          },
-          {
-            text: 'Platinum Docs',
-            link: 'https://platinum.wangnelson.xyz/'
-          },
-          {
-            text: 'Portfolio Docs',
-            link: 'https://docs.wangnelson.xyz/'
-          }
-        ]
-      }
+        text: 'Tag',
+        link: '/tag/',
+      },
+      {
+        text: 'Timeline',
+        link: '/timeline/',
+      },
     ],
-  },
+  }),
 
-
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
   plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    ["vuepress-plugin-auto-sidebar", {
-      // sort: {
-      //   readmeFirstForce: true,
-      // },
-      title: {
-        mode: "titlecase",
-        map: {
-          "/code/mobile/": "mobile",
-          "/code/web/": "web"
-        }
-      },
-      sidebarDepth: 1,
-      collapse: {
-        open: true,
-        collapseList: ["/code/web/"],
-        uncollapseList: ["/code/game/"]
-      },
-    }]
+    blogPlugin({
+      // Only files under posts are articles
+      filter: ({ filePathRelative }) =>
+        filePathRelative ? filePathRelative.startsWith('posts/') : false,
+
+      // Getting article info
+      getInfo: ({ frontmatter, title, data }) => ({
+        title,
+        author: frontmatter.author || '',
+        date: frontmatter.date || null,
+        category: frontmatter.category || [],
+        tag: frontmatter.tag || [],
+        excerpt:
+          // Support manually set excerpt through frontmatter
+          typeof frontmatter.excerpt === 'string'
+            ? frontmatter.excerpt
+            : data?.excerpt || '',
+      }),
+
+      // Generate excerpt for all pages excerpt those users choose to disable
+      excerptFilter: ({ frontmatter }) =>
+        !frontmatter.home &&
+        frontmatter.excerpt !== false &&
+        typeof frontmatter.excerpt !== 'string',
+
+      category: [
+        {
+          key: 'category',
+          getter: (page) => page.frontmatter.category || [],
+          layout: 'Category',
+          itemLayout: 'Category',
+          frontmatter: () => ({
+            title: 'Categories',
+            sidebar: false,
+          }),
+          itemFrontmatter: (name) => ({
+            title: `Category ${name}`,
+            sidebar: false,
+          }),
+        },
+        {
+          key: 'tag',
+          getter: (page) => page.frontmatter.tag || [],
+          layout: 'Tag',
+          itemLayout: 'Tag',
+          frontmatter: () => ({
+            title: 'Tags',
+            sidebar: false,
+          }),
+          itemFrontmatter: (name) => ({
+            title: `Tag ${name}`,
+            sidebar: false,
+          }),
+        },
+      ],
+
+      type: [
+        {
+          key: 'article',
+          // Remove archive articles
+          filter: (page) => !page.frontmatter.archive,
+          layout: 'Article',
+          frontmatter: () => ({
+            title: 'Articles',
+            sidebar: false,
+          }),
+          // Sort pages with time and sticky
+          sorter: (pageA, pageB) => {
+            if (pageA.frontmatter.sticky && pageB.frontmatter.sticky)
+              return pageB.frontmatter.sticky - pageA.frontmatter.sticky
+
+            if (pageA.frontmatter.sticky && !pageB.frontmatter.sticky) return -1
+
+            if (!pageA.frontmatter.sticky && pageB.frontmatter.sticky) return 1
+
+            if (!pageB.frontmatter.date) return 1
+            if (!pageA.frontmatter.date) return -1
+
+            return (
+              new Date(pageB.frontmatter.date).getTime() -
+              new Date(pageA.frontmatter.date).getTime()
+            )
+          },
+        },
+        {
+          key: 'timeline',
+          // Only article with date should be added to timeline
+          filter: (page) => page.frontmatter.date instanceof Date,
+          // Sort pages with time
+          sorter: (pageA, pageB) =>
+            new Date(pageB.frontmatter.date).getTime() -
+            new Date(pageA.frontmatter.date).getTime(),
+          layout: 'Timeline',
+          frontmatter: () => ({
+            title: 'Timeline',
+            sidebar: false,
+          }),
+        },
+      ],
+      hotReload: true,
+    }),
   ],
 
-}
+  bundler: viteBundler(),
+})
