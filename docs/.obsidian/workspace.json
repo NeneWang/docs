@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "e633726dc59e0f40",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c91f7d7c00985ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "513f83b68c22dfa6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journal/23-7-jul.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c70034c783157ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "journal/23-10-oct.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6820b03975f4f199",
+    "type": "split",
+    "children": [
+      {
+        "id": "738960b495029f11",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a14067aa64a000cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5760398048c2db92",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "51e79dcfe1dd05c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9c6900b2628568f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "22c316e8d8eb3a54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3962f6a63d46019f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "journal/23-10-oct.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57631f5f975ae9c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "journal/23-10-oct.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "744d208389e84b62",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "30518d772bff639c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "journal/23-10-oct.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
+    }
+  },
+  "active": "c70034c783157ee0",
+  "lastOpenFiles": [
+    "journal/23-10-oct.md",
+    "journal/Untitled.canvas",
+    "journal/23-7-jul.md",
+    "journal/22-10-oct.md",
+    "journal/24-3-march.md",
+    "journal/23-9-sept.md",
+    "journal/Readme.md",
+    "journal/Douglass What to the Slave is the Fourth of July.pdf",
+    "journal/Wollstonecraft A Vindication of the Rights of Woman.pdf",
+    "code/css.md"
+  ]
+}

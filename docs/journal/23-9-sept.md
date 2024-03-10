@@ -12,7 +12,7 @@ title: September 23
 Tried fixing but still:
 
 
-```bash
+```php
 <?php
 
 namespace TCG\Voyager\Models;
@@ -1069,6 +1069,6 @@ Here some goals:
 - Practice Kaggle on the Daily?
 - Working up simulations also on the daily? Using Pygame I mean? WIll that be any use?
   - Just get right the idea 
-- 
+
 
 
