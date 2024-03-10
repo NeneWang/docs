@@ -8,6 +8,7 @@ export default defineUserConfig({
 
   title: 'Salaryman\'s Survival Guide',
   description: 'My first VuePress Site',
+  base: 'https://nenewang.github.io/code-documentation/',
 
   theme: defaultTheme({
     logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
