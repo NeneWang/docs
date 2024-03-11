@@ -13,7 +13,6 @@ TODOs.md
 # Editors
 .idea
 
-# VuePress temp directory
 .temp
 /dist
 
