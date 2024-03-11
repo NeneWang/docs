@@ -9,9 +9,7 @@
 - [ ] Journal of Projects
 - [ ] Projects Completed
 
-## How things worked:
-
-https://conorsheehan1.hashnode.dev/add-bootstrap-vue-to-vuepress
+## How things worked
 
 For Adding Bootstrap into it.
 
