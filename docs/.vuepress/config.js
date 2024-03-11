@@ -7,7 +7,7 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Salaryman\'s Survival Guide',
   description: 'For those who want to improve at their craft and get ahead in their career.',
-  // base: 'https://nenewang.github.io/code-documentation/',
+  base: 'code-documentation/',
   theme: defaultTheme({
     logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
 
