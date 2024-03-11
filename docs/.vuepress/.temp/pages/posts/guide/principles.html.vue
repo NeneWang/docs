@@ -10,7 +10,7 @@
 </div>
 <ul>
 <li>Just like this documentation you should have one for yourself.</li>
-<li>Note for example the following Documentation Journal I have: <RouteLink to="/journal/">Journal</RouteLink></li>
+<li>Note for example the following Documentation Journal I have: <a href="/journal/" target="_blank" rel="noopener noreferrer">Journal<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="_2-use-decision-matrix" tabindex="-1"><a class="header-anchor" href="#_2-use-decision-matrix"><span>2. Use Decision Matrix</span></a></h2>
 <ul>
