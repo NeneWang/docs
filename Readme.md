@@ -1,18 +1,13 @@
+# Whats this?
+
+This are some more private strategic notes when it comes to a Career on Tech.
+
+Or career in General invovles a geneeralized guide about everything.
+
+Example o what you are going to find:
+
+- How to create your own business?
+- How to learn?
 
 
-### Features
 
-- [ ] Bootstrap integration
-
-## Things Documented
-
-- [ ] Journal of Projects
-- [ ] Projects Completed
-
-## How things worked:
-
-https://conorsheehan1.hashnode.dev/add-bootstrap-vue-to-vuepress
-
-For Adding Bootstrap into it.
-
-Have Bootstrap.
