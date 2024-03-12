@@ -5,14 +5,13 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-  title: 'Salaryman\'s Survival Guide',
-  description: 'Survival guide for the common artisan.',
+  title: 'Docs',
+  description: 'From the common artisan.',
   base: 'docs/',
   theme: defaultTheme({
     logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
 
     navbar: [
-      '/',
       {
         text: 'Article',
         link: '/article/',
