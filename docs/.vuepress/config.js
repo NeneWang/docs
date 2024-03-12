@@ -6,7 +6,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 export default defineUserConfig({
   lang: 'en-US',
   title: 'Salaryman\'s Survival Guide',
-  description: 'For those who want to improve at their craft and get ahead in their career.',
+  description: 'Survival guide for the common artisan.',
   base: 'salaryman-guide/',
   theme: defaultTheme({
     logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
