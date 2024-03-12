@@ -12,22 +12,35 @@ export default defineUserConfig({
     logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
 
     navbar: [
+      // Too personal
+      // {
+      //   text: 'guide',
+      //   link: '/guide/',
+      // },
       {
-        text: 'Article',
-        link: '/article/',
+        text: 'journal',
+        link: '/journal/',
       },
       {
-        text: 'Category',
-        link: '/category/',
+        text: 'project',
+        link: '/project/',
       },
-      {
-        text: 'Tag',
-        link: '/tag/',
-      },
-      {
-        text: 'Timeline',
-        link: '/timeline/',
-      },
+      // {
+      //   text: 'Article',
+      //   link: '/article/',
+      // },
+      // {
+      //   text: 'Category',
+      //   link: '/category/',
+      // },
+      // {
+      //   text: 'Tag',
+      //   link: '/tag/',
+      // },
+      // {
+      //   text: 'Timeline',
+      //   link: '/timeline/',
+      // },
     ],
   }),
 
