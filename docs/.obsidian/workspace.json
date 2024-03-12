@@ -8,15 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec003c48149ee35f",
+            "id": "914d3cbc090d2c00",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/guide/Career.md",
+                "file": "posts/journal/24-3-march.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c91bc7974622b5b7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/guide/operations.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "4511dbd728b9e1d3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/journal/backlog.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -69,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "dd3e4f6a221c67d9",
@@ -85,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/guide/Career.md",
+                "file": "posts/journal/24-3-march.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/guide/Career.md",
+                "file": "posts/journal/24-3-march.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/guide/Career.md"
+                "file": "posts/journal/24-3-march.md"
               }
             }
           }
@@ -143,9 +173,47 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "ec003c48149ee35f",
-  "lastOpenFiles": []
+  "active": "914d3cbc090d2c00",
+  "lastOpenFiles": [
+    "public/img/Pasted image 20240312112552.png",
+    "public/img/Pasted image 20240312112534.png",
+    "posts/journal/image.png",
+    "public/img/Pasted image 20240312112512.png",
+    "public/img/Pasted image 20240312112501.png",
+    "public/img/Pasted image 20240312112450.png",
+    "public/img/Pasted image 20240312112431.png",
+    "public/img/Pasted image 20240312112208.png",
+    "public/img/Pasted image 20240312112151.png",
+    "public/img/Pasted image 20240312112054.png",
+    "posts/journal/backlog.md",
+    "posts/projects/introduction.md",
+    "posts/journal/Readme.md",
+    "posts/journal/24-2-feb.md",
+    "posts/journal/24-3-march.md",
+    "posts/projects/Panda Plus Cabinetry.md",
+    "posts/projects/slc-website.md",
+    "posts/journal/24-1-jan.md",
+    "public/img/Pasted image 20240312111846.png",
+    "posts/guide/operations.md",
+    "posts/guide/agency.md",
+    "posts/guide/software.md",
+    "posts/guide/Readme.md",
+    "toc.md",
+    "posts/guide/growth.md",
+    "posts/guide/finance.md",
+    "2024-03-12.md",
+    "posts/projects/Readme.md",
+    "posts/projects/vuepressdocs.md",
+    "posts/projects/python.md",
+    "posts/projects/laravel-vue.md",
+    "posts/projects/flutter.md",
+    "posts/projects/documentation.md",
+    "posts/projects/ctp-ecommerce.md",
+    "posts/projects/angular-dotnet.md",
+    "posts/projects/angular-pro.md"
+  ]
 }

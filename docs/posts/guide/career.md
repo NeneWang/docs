@@ -1,5 +1,6 @@
 ---
-title: 💼 Career
+title: 💼 Choosing a career
+tagline: General Career advice.
 ---
 
 
@@ -78,6 +79,7 @@ For [6] I would suggest the following strategies:
 
 1. Once you have a project done, don't let it stay like that, build a library/template out of it.
 2. The entire project doesn't require to become a library, but aim to create a library from one of the complex parts of the project.
+3. Checkout: 
 
 
 ## 5. Model Successful People on Your career

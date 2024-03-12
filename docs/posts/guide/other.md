@@ -9,7 +9,7 @@ title: Others
 
 
 
-Here more miscalaneous tips such as:
+Here more miscellaneous tips such as:
 
 - Giving presentations
 - Writing Blogs

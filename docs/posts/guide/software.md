@@ -1,3 +1,8 @@
+---
+title: Mastery of Software Development
+---
+
+
 
 ## 1 Master Algorithms Daily
 
@@ -123,7 +128,7 @@ Why? Cause you need to practice those languages. Absolutely. You should consider
 
 
 
-## 2 Master  DataScience + Machine Learning Daily
+## 2 Master  Data Science + Machine Learning Daily
 
 - I dont care if this is wasn't your original goal. If you dont do it, you will eventually be replaced by someone who does.
 - Also a strong skill to have for your own projects and if you will start a business.
