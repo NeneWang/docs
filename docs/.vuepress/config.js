@@ -7,7 +7,7 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Salaryman\'s Survival Guide',
   description: 'Survival guide for the common artisan.',
-  base: 'salaryman-guide/',
+  base: 'docs/',
   theme: defaultTheme({
     logo: 'https://avatars.githubusercontent.com/u/29577570?v=4',
 
