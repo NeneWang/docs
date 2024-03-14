@@ -1,5 +1,7 @@
 ---
 title: 2024 March
+tags:
+  - journal
 ---
 
 
@@ -120,44 +122,39 @@ It looks as if the error report does indeed make sense.
 
 ### 8.6 Continue working first on the Data Science Project: Get started with it!
 
-- [ ] Show the data
-- [ ] Work on Showing the basics of the dataset illustrating the distributions? 
-
-
+- [x] Show the data
+- [x] Work on Showing the basics of the dataset illustrating the distributions? 
 
 
 
 ## 12 Tuesday
 
-
 ### 12.todo
 
-- [ ] 12.1 Create Mockup Cards
-	- [ ] Document the Creation of mockup cards
+- [x] 12.1 Create Mockup Cards
+	- [x] Document the Creation of mockup cards
 - [ ] 12.2 Chrome Extension
-- [ ] 12.3 Checking Antonio's Latest Release
+- [x] 12.3 Checking Antonio's Latest Release
 - [ ] 12.4 Exploring Future Cookbook integrations (Soon) regex, sql, react
 	- [ ] Second tier: Math, Stats, Discrete (From the practice book)
 
 
 ### 12.1 Create Mockup Cards
 
-- [ ] Document the creation  of Mockup Cards
+- [x] Document the creation  of Mockup Cards
 
 - Ensure new model related to suer is documented in summary:
 
 newest changes:
 - Added username
-- 
 
 
-
-- [ ] Feature Request?
+- [x] Feature Request?
 
 ### 12.2 Continue Working On Chrome Extension
 
 
-- [ ] Modify Link to update to newest endpoint.
+- [x] Modify Link to update to newest endpoint.
 [https://in.api.loading.win/dev/incoming](https://in.api.loading.win/dev/incoming "https://in.api.loading.win/dev/incoming")
 - [ ] Update Chrome documentation to reflect recent changes.
 - [ ] Changing body to suit latest staging event structure.
@@ -165,19 +162,17 @@ newest changes:
 - [ ] Update to 1 minute instead of whatever it is right now.
 
 
-
-
 ### 12.3 Checking Antonio's latest release. 
 
 
 Make sure to check the following is working properly:
 
-- [ ] Does it send events correctly?
+- [x] Does it send events correctly?
 
 
 > Lets explore the tracking?
 
-![](../../public/img/Pasted%20image%2020240312112552.png)
+![](../../../img/Pasted%20image%2020240312112552.png)
 
 It doesn't seem to be sending events that are being accepted
 
@@ -196,27 +191,506 @@ Doesn't seem to, not the `false`
 
 > Let's see what happens on the Lambda logs + Dynamo for any error logs.
 
-![](../../public/img/Pasted%20image%2020240312112450.png)
+![](../../../img/Pasted%20image%2020240312112450.png)
 
 We can see here that it all matches:
 
-![[Pasted image 20240312111010.png]]
+![[../../../img/Pasted image 20240312111010.png]]
 
 And the connector is matching
 
 > Checking for error marked in dynamo table?
 
-![](../../public/img/Pasted%20image%2020240312112501.png)
+![](../../../img/Pasted%20image%2020240312112501.png)
 
 Can be seen that no `total_errors` neither `total_connects` were updated, is this because the lambda didn't implement it?
 
+#### Talking to fix the Dev code:
+
+![](../../../img/Pasted%20image%2020240312131849.png)
+
+> Seems that Anthony didn't push the last version:
+> 
+![](../../../img/Pasted%20image%2020240312132008.png)
+Fixed.
+
+> When sending to in.api:
+
+![](../../../img/Pasted%20image%2020240312131813.png)
+
+
+However doesn't seem to be inserting the right values.
+
+> Does it post locally?
+
+![](../../../img/Pasted%20image%2020240312132135.png)
+
+Yes, The fields also looks correct
+
+> So lets see if the problem is in the cloud:
+
+
+```json
+{
+  guid: '4572d2c4-973e-4796-9015-44236457fcbc',
+  date: '2024-03-12T17:05:33.5990383Z',
+  connector: '4c374db5-8e37-428e-b988-92ce9879165b',
+  version: '1.0',
+  organization: '0238bfa6-2a89-42fe-8a67-fde4c80391ea',
+  signature_1: '884493dcf2f03089f9c63b196808b0fd5300db0e9887783da94223c4ca4ab1c6',
+  signature_2: 'a248fe59218c37ea2a841ec57a76fd8d43e0693a8ef34f5115c51ade1f0d03b4',
+  details: [
+    '{"event_date":"2024-03-12T15:40:50.601812Z","event_end_date":"2024-03-12T15:40:52.0441286Z","window_title":null,"name":"explorer","span_guid":"a88c04b7-0f54-440c-bc13-982b9be4cad8","description":null,"keypresses":0,"mouseclicks":1,"windows_pid":"6724","id":0,"guid":"483849fe-8a29-4a15-ae3e-d37a24f24db5","event_type":"WIN_APP_ACTIVE","actor":"AzureAD\\\\NelsonWang"}',
+    '{"event_date":"2024-03-12T15:40:52.0603322Z","event_end_date":"0001-01-01T00:00:00","window_title":null,"name":"explorer","span_guid":"e59fcf70-e84b-470d-823e-69ab062e9714","description":null,"keypresses":0,"mouseclicks":0,"windows_pid":"6724","id":0,"guid":"a29d1293-d7ed-468e-a74d-00709f02f69c","event_type":"WIN_APP_ACTIVE","actor":"AzureAD\\\\NelsonWang"}'
+  ]
+}
+```
+
+There are more events, but I am hiding them.
+
+
+So lets review postman:
+![](../../../img/Pasted%20image%2020240312133334.png)
+
+There were no logs in the CloudWatch
+
+But if I use the old link:
+![](../../../img/Pasted%20image%2020240312133433.png)
+
+Does that even make sense? They are pointing to the same lambda in the end.
+But in this case I am at least getting some logs:
+![](../../../img/Pasted%20image%2020240312133513.png)
+
+```bash
+2024-03-12T13:14:53.373-04:00
+
+[ERROR] Runtime.UserCodeSyntaxError: Syntax error in module 'lambda_function': invalid syntax. Perhaps you forgot a comma? (lambda_function.py, line 110)  
+Traceback (most recent call last):  
+  File "/var/task/lambda_function.py" Line 110  
+                'organization': {
+```
+
+It was missing a comma:
+
+```py
+
+            'organization': {
+                'DataType': 'String',
+                'StringValue': d['organization']
+            }
+            'connector': {
+                'DataType': 'String',
+                'StringValue': d['connector']
+            },
+```
+
+Fixed to:
+
+```
+
+            'organization': {
+                'DataType': 'String',
+                'StringValue': d['organization']
+            },
+            'connector': {
+                'DataType': 'String',
+                'StringValue': d['connector']
+            },
+```
+
+Lets deploy and test:
+
+Fixed:
+![](../../../img/Pasted%20image%2020240312133752.png)
+
+??
+
+![](../../../img/Pasted%20image%2020240312133809.png)
+Not fixed on in.api...
+
+After searching: https://stackoverflow.com/questions/57168148/unable-to-resolve-not-a-valid-key-value-pair-missing-equal-sign-in-authoriza
+
+
+
+> [](https://stackoverflow.com/posts/57172027/timeline)
+ I resolved it. I changed my method to come from the root resource (instead of the unnecessary {proxy+}, and also noticed that my python method was incorrect. I had `response = requests.post(url, headers=headers, data=my_json)`, but data only accepts a string. I have to use either `requests.post(url, headers=headers, json=my_json)` or `requests.post(url, headers=headers,data=json.dumps(my_json))`
+
+
+
+Lets make a temporary fix and make a note for it:
+
+```cs
+#if false
+                SettingsService.SetRestApiEndpoint("http://localhost:3000/staging_events");
+#else
+                // SettingsService.SetRestApiEndpoint("https://in.api.loading.win/dev/incoming");
+                SettingsService.SetRestApiEndpoint("https://c27bsii3c1.execute-api.us-east-1.amazonaws.com/dev/incoming");
+#endif
+```
+
+![](../../../img/Pasted%20image%2020240312134958.png)
+One windows log is being processed at least.
+
+- [x] How about if a user is active in a site for more than 1 minute?
+- [x] How about Admin install permissions?
+
+![](../../../img/Pasted%20image%2020240312135113.png)
+
+
+#### Inspecting the Staging Event
+
+![](../../../img/Pasted%20image%2020240312135318.png)
+
+You can see here there is an issue or potential issue. Is details being sent as a string for each row?
+
+Lets check the S3
+
+
+Hm, not event accepting it huh?
+
+Only this was sent that is correct:
+
+![](../../../img/Pasted%20image%2020240312135602.png)
+
+And as seen on sql query figure, there is only one event being processed, which means most sent here fail:
+
+Lets log in `staging_events` local. and save it into json
+
+```js
+const express = require('express');
+
+const http = require('http');
+
+const app = express();
+
+const server = http.createServer(app);
+
+const bodyParser = require('body-parser');
+
+  
+
+// Middleware to parse JSON bodies
+
+app.use(bodyParser.json());
+
+  
+
+// Define the POST route for staging_events
+
+app.post('/staging_events', (req, res) => {
+
+  console.log('Received message:', req.body);
+
+  console.log("----------------------------------------------------------------------------");
+
+  // Save as new event.json
+
+  var fs = require('fs');
+
+  fs.writeFile('event.json', JSON.stringify(req.body), function (err) {
+
+    if (err) throw err;
+
+    console.log('Saved!');
+
+  });
+
+  // You can process the event here as needed
+
+  
+
+  // Send a response back to the client
+
+  res.status(200).send('Event received');
+
+});
+
+  
+
+// Start the server
+
+server.listen(3000, () => {
+
+  console.log('Server started on port 3000');
+
+});
+
+```
+
+That logs the follwoing:
+
+![](../../../img/Pasted%20image%2020240312141020.png)
+
+- You can see that this is a string.
+Which wont sent any issues:
+
+![](../../../img/Pasted%20image%2020240312141107.png)
+
+It does get saved here using Postman, but then, why it wasn't being saved before?:
+
+![](../../../img/Pasted%20image%2020240312141221.png)
+
+So lets try sending events to windows. Most likely it doesn't support even fetching it.
+
+> Does Cloudwatch complain anything useful?
+
+Therefore Option 2 Should be set to run:
+
+> Make Lambda resilient by Allowing None. 
+
+
+Here
+
+![](../../../img/Pasted%20image%2020240312141904.png)
+
+Here a fairly recent error mentioning the following:
+
+
+2024-03-12T14:17:28.805-04:00
+
+[ERROR] KeyError: 'User-Agent'  
+Traceback (most recent call last):  
+  File "/var/task/lambda_function.py", line 74, in lambda_handler  
+    request_data["user_agent"] = event['headers']['User-Agent']
+
+Oh look:
+
+![](../../../img/Pasted%20image%2020240312142027.png)
+
+User-agent is probably not being set at Windows
+
+> Temporary fix making User-Agent: NelsonRuntime
+
+
+Look at that! We can't force it:
+
+![](../../../img/Pasted%20image%2020240312142443.png)
+
+> Lets make it null safe instead
+```python
+request_data["user_agent"] = event['headers'].get('User-Agent', '') # None Safe
+```
+
+Logs look healthy
+
+![](../../../img/Pasted%20image%2020240312145245.png)
+
+![](../../../img/Pasted%20image%2020240312145422.png)
+
+Looks healthy (except because of the known error of the strings.)
+
+
+#### Fix notes:
+
+- Is saving detail events as a string
+- I don't think is posting it correctly to the endpoint (as can be seen that the postman just works fine while but when we are depending on  )
+	- The error doesn't seem to be on the body.
+	- It seems that it is because in Headers User-Agent should be set.
+	- Solutions: we could either make Lambda more resilient by allowing no user-agent set.
+	- Force all connectors to use User Agent
+	- Or do both. (At least force it in Windows.)
 
 
 
 
 
-- [ ] How about if a user is active in a site for more than 1 minute?
-- [ ] How about Admin install permissions?
+
+### 12.4 Auth0
+
+https://manage.auth0.com/dashboard/us/dev-vobjs07lab7w5wgx/apis
+
+Api Audience: https://dev-vobjs07lab7w5wgx.us.auth0.com/api/v2/
+
+- [ ] Plan some ideas regarding discussions with Ashraf into how to integrate the userbase.
+
+
+https://developer.chrome.com/docs/extensions/reference/api/enterprise/deviceAttributes
+!! **Important:** This API works **only on ChromeOS**.
+
+
+Is this the same for Force Install?
+
+Here Some [promising attributes](https://developer.chrome.com/docs/extensions/reference/api/enterprise/deviceAttributes):
+
+! But they only work for Chrome OS.
+
+```
+chrome.enterprise.deviceAttributes.getDeviceHostname(  callback?: function,  
+)
+
+```
+
+```
+chrome.enterprise.deviceAttributes.getDeviceSerialNumber(  callback?: function,  
+)
+```
+
+```
+chrome.enterprise.deviceAttributes.getDeviceAssetId(  callback?: function,  
+)
+```
+
+
+Fetches the administrator-annotated Asset Id. If the current user is not affiliated or no Asset Id has been set by the administrator, returns an empty string.
+
+
+**Looking at Identity**
+
+Fetches the administrator-annotated Asset Id. If the current user is not affiliated or no Asset Id has been set by the administrator, returns an empty string.
+
+- These are all related to the user Logged Identity
+
+### Chrome Instance ID
+
+Use `chrome.instanceID` to access the Instance ID service.
+
+> Instance ID provides a unique ID per instance of your apps. You can implement Instance ID for [Android](https://developers.google.com/instance-id/guides/android-implementation) and [iOS](https://developers.google.com/instance-id/guides/ios-implementation) apps as well as [Chrome apps/extensions](https://developer.chrome.com/apps/instanceID).
+
+Pass Instance ID tokens to your server and use the Instance ID service to verify the app package name and check if it has a valid signature. Verifying tokens with the Instance ID Cloud Service helps identify known apps. To reduce cost and redundant round trip communications, configure your server to store these tokens so the check is needed only once. In the event of a security concern, your app can delete tokens, or Instance ID itself, and generate new ones. In addition, the Instance ID server initiates token or Instance ID refresh if it detects bugs or security issues.
+
+
+
+Search Scope Hypothesis:
+
+- If it exists is an enterprise feature
+- Wouldn't make sense for Chrome to somehow detect your unique pc id.
+- Neither to have an identifier of your laptop unless is a Chromebook.
+
+- You need to fix that SLC site thing.
+- You need to allow option for Local Edit.
+- You need to allow option to eras images in favor of local edit? How about images? I am not sure neither.
+
+
+Negotiations
+
+- What are we offering to clubs? 
+	- Enhancing club members experience
+	- Allow Users the option to opt out and anonymously share their transaction data for product improvement/feedback and personal report.
+	- Offer API and Dataset and Customers Data 
+	- Data and Data Historical Data Inference Course and Talks
+	- Build Relations with Investment Clubs (Starting from CUNY and immediate NYC Schools)
+	- Instant access to our private network of industry connections.
+- Making an offer they cant afford to lose.
+- Why build customer relationships?
+- Being able to market locally in person is a huge advantage. And me and Armando are graduating this semester which means no more in campus advantage. Building relationships with Clubs, will however allow us to bypass our school timeframe, and as long as these clubs exists we have word to word marketing done by someone else.
+- As long as any of these two products have some success, we can retarget the same audience with the interviewing tool.
+
+
+
+## 14 Thurs
+
+
+### 14.todo
+
+### 14.1 Fixing the Issue with the Local Timeslot
+
+
+> Why is `timestamp_local` the same as timestamp after processing?
+
+![[Pasted image 20240314110612.png]]
+
+How is this even possible?
+
+This part is correct:
+
+```python
+  
+
+        events_list: List[Event] = []
+        timeslots_lists: List[Timeslot] = []  
+
+        for eventData in eventDataList:
+
+            event: Event = Event(
+
+                guid = eventData.event_guid,
+                organization_guid = eventData.organization_guid,
+                organization_id = eventData.organization_id,
+                user_id = eventData.user_id,
+                application = eventData.application,
+                app = eventData.app,
+                app_type = eventData.app_type,
+                operation = eventData.operation,
+                operation_type = eventData.operation_type,
+                integration_name = eventData.integration_name,
+                local_timezone= eventData.local_timezone,
+                timestamp = eventData.timestamp,
+                end_time = eventData.end_time,
+                timestamp_local = eventData.timestamp_local,
+```
+
+
+
+
+This looks correct here?
+
+```python
+    def defineTimeslot(self, curr_time: datetime.datetime, eventData: EventData) -> Timeslot:
+
+        # Calulcate the ts1 as the minute of the day. e.g. 00:00:00 -> 0, 00:01:00 -> 1, 00:02:00 -> 2
+        timestamp_datetime: datetime.datetime = curr_time
+        timestamp_local_datetime: datetime.datetime = timestamp_datetime.astimezone(pytz.timezone(eventData.local_timezone))
+  
+
+        # Extract UTC Date Time Components
+        hour = timestamp_datetime.hour
+        minute = timestamp_datetime.minute
+        day = timestamp_datetime.day
+        month = timestamp_datetime.month
+        year = timestamp_datetime.year
+
+  
+        timestamp_isocalendar = timestamp_datetime.isocalendar()
+        week =  timestamp_isocalendar[1]
+        weekday = timestamp_datetime.weekday()
+
+
+        hour_local = timestamp_local_datetime.hour
+        minute_local = timestamp_local_datetime.minute
+        day_local = timestamp_local_datetime.day
+        month_local = timestamp_local_datetime.month
+        year_local = timestamp_local_datetime.year
+  
+
+        timestamp_local_isocalendar = timestamp_local_datetime.isocalendar()
+        week_local =  timestamp_local_isocalendar[1]
+        weekday_local = timestamp_local_datetime.weekday()
+
+
+        ts1 = timestamp_datetime.hour * 60 + timestamp_datetime.minute
+        ts5 = ts1 // 5
+        ts10 = ts1 // 10
+        ts15 = ts1 // 15 
+
+        tl1 = timestamp_local_datetime.hour * 60 + timestamp_local_datetime.minute
+        tl5 = tl1 // 5
+        tl10 = tl1 // 10
+        tl15 = tl1 // 15
+```
+
+Look, so the timestamp local datetime is redefined wow! Which means that it is actually incorrect!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

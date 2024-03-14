@@ -1,7 +1,7 @@
 ---
 home: true
 
-tagline: Personal Development Docs. 
+tagline: Personal Projects Docs. 
 actionText: Get Started
 actionLink: /guide/
 heroImage: https://avatars.githubusercontent.com/u/29577570?v=4

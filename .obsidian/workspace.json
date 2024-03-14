@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "b67364c0115129f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c327d2d2f469f0d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cd6d36907afb504",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/posts/journal/24-3-march.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b95b75f63ddabeae",
+    "type": "split",
+    "children": [
+      {
+        "id": "58b1cb05838ad233",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d2d2a34a987e8d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ff8d3480bb478f2d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5d9eff1a0acec95e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "90f1b65d456b2bb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "577b96449731066c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f9ec2b09bcaf313",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/posts/journal/24-3-march.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d6e80ca311968653",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/posts/journal/24-3-march.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2d6df2abeb9723c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e8c0d164d099875a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/posts/journal/24-3-march.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1cd6d36907afb504",
+  "lastOpenFiles": [
+    "docs/public/img/logo.png",
+    "docs/public/img/favicon.png",
+    "docs/posts/journal/Readme.md",
+    "img/Pasted image 20240312110606.png",
+    "img/2022-10-15-14-06-50 1.png",
+    "docs/posts/journal/24-3-march.md",
+    "docs/posts/journal/24-2-feb.md",
+    "img/Pasted image 20240312145422.png",
+    "img/Pasted image 20240312145245.png",
+    "img/Pasted image 20240312142443.png",
+    "img/Pasted image 20240312142027.png",
+    "img/Pasted image 20240312141904.png",
+    "docs/posts/journal/24-1-jan.md",
+    "img/Pasted image 20240312141221.png",
+    "img/Pasted image 20240312141107.png",
+    "docs/posts/journal/backlog.md"
+  ]
+}

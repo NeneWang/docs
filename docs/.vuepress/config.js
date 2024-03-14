@@ -17,22 +17,22 @@ export default defineUserConfig({
       //   text: 'guide',
       //   link: '/guide/',
       // },
-      {
-        text: 'journal',
-        link: '/journal/',
-      },
-      {
-        text: 'project',
-        link: '/project/',
-      },
+      // {
+      //   text: 'journal',
+      //   link: '/journal/',
+      // },
+      // {
+      //   text: 'project',
+      //   link: '/project/',
+      // },
       // {
       //   text: 'Article',
       //   link: '/article/',
       // },
-      // {
-      //   text: 'Category',
-      //   link: '/category/',
-      // },
+      {
+        text: 'Category',
+        link: '/category/',
+      },
       // {
       //   text: 'Tag',
       //   link: '/tag/',

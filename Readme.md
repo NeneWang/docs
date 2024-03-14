@@ -10,4 +10,15 @@ Example o what you are going to find:
 - How to learn?
 
 
+Decided to migrate:
+
+```
+https://theme-hope.vuejs.press/guide/markdown/code-tabs.html#demo
+```
+
+- Includes graphs
+- Includes Zoom
+- Way better.
+
+
 

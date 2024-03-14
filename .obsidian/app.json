@@ -1,0 +1,12 @@
+{
+  "attachmentFolderPath": "img",
+  "promptDelete": false,
+  "newLinkFormat": "relative",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "",
+  "useMarkdownLinks": true,
+  "userIgnoreFilters": [
+    "node_modules/"
+  ],
+  "alwaysUpdateLinks": true
+}
