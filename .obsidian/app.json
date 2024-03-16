@@ -8,5 +8,6 @@
   "userIgnoreFilters": [
     "node_modules/"
   ],
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": false
 }

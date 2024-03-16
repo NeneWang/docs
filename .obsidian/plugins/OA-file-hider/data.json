@@ -2,6 +2,9 @@
   "hidden": true,
   "hiddenList": [
     "node_modules",
-    "Pasted image 20240312131744.png"
+    "Pasted image 20240312131744.png",
+    "docs/public",
+    "docs/favicon.png",
+    "docs/posts/Pasted image 20240314110612.png"
   ]
 }

@@ -577,7 +577,7 @@ Negotiations
 
 
 
-## 14 Thurs
+## 14 Thursday
 
 
 ### 14.todo
@@ -670,7 +670,75 @@ This looks correct here?
 
 Look, so the timestamp local datetime is redefined wow! Which means that it is actually incorrect!!
 
+## 15 Friday
 
+### 15.todo
+
+- [ ] 15.1 Continue Working On Chrome Extension
+- [ ] 15.2 Ensure that newest Chrome details work Prestine
+- [ ] 15.3 Would it be of service to offer a "Code Review" every end of the week?
+
+
+### 15.1 Continue Working On Chrome Extension
+
+- [x] Refresh the System design of Chrome Extension to the current one.
+
+It seems that the latest documentation can be found in the following [lucid](https://lucid.app/lucidchart/e68b9b43-3567-4cad-973f-59841167076d/edit?page=fIXUVjumr6Eu&invitationId=inv_b33787b6-e58a-471a-a000-680093c7a60b#) chart
+
+Fixed Chrome Connector:
+
+![](../../../img/Pasted%20image%2020240315115553.png)
+
+Way more simple than before.
+
+> Before was: more messy.
+
+- [ ] Let's see and check that all methods don't break the flow logic.
+
+
+
+Note the following:
+
+```js
+     */
+
+    async checkAndNavigateIfNewDomain(current_domain_name, old_record_domain) {
+
+        if (Constants.DEBUG) console.log("Current Domain: " + current_domain_name);
+
+        if (Constants.DEBUG) console.log("Previous Domain: " + old_record_domain);
+
+        if (old_record_domain !== current_domain_name) {
+
+            if (Constants.DEBUG) console.log('Navigated to a new domain: ' + current_domain_name);
+
+            await this.wrapNewTabFocusLog();
+
+            await this.startNewFocusTabLog({ isEventComplete: true });
+
+            return true;
+
+        } else {
+
+            if (Constants.DEBUG) console.log("Domain is the same");
+
+            return false;
+
+        }
+
+    }
+```
+
+You can see that the `current` and `previous domain` is checked which is not needed on this model. Also they  shouldn't be wrapped inside a single function. But run straight from the listeners (Can be simplified.)
+
+
+- [ ] Update the latest specs for windows as well.
+
+
+## 16 Saturday
+
+
+## 17 Friday
 
 
 

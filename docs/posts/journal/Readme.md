@@ -4,7 +4,10 @@ title: Dev Journal
 
 # Introduction
 
-This is more of a debug dump notes. Probably not expected to be deployed. Or at least privately deployed (for personal use.) This is nice to (in the future) track productivity + debugging and maintaining one-self motivated while developing (Also makes debugging faster). As well as easier to explain errors and get assistance. Thus, perhaps worth deploying somewhere.
+- This is more of a debug dump notes. Probably not expected to be deployed. 
+- Or at least privately deployed (for personal use.) This is nice to (in the future) track productivity + debugging and maintaining one-self motivated while developing (Also makes debugging faster). 
+- As well as easier to explain errors and get assistance. Thus, perhaps worth deploying somewhere.
+- Could be used as an unlisted journal notes.
 
 It will contain all my code dumps. Including for a specific project, since I tend to switch projects a lot. If we are trying to update regarding features and interesting decision (Actual documentation) please refer to the projects section.
 

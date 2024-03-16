@@ -4,16 +4,23 @@ title: Backlog
 
 [[toc]]
 
-## 1 Introduction
 
-1. Notes for Mantainance of this content.
+## 0. Backlog of Contents To Reflect On.
+
+- Pragmatical Software Engineer Book and their Advice.
+- HR Secrets: How can they be integrated?
+- Building Software Teams: Ten Best Practices for Effective Software Development (O'Reilly)
+
+## 1. Introduction
+
+1. Notes for Maintenance of this content.
 2. Here are more of the general backlog of features to add into the page. As marked will be the different Stages
 
-- [x] Writting the base Raw Tips (25) <-- Current
+- [x] Writing the base Raw Tips (25) <-- Current
 - [ ] Developing the base Raw Tips (25)
   - [ ] Creating Tools for the base Raw Tips (25)
   - [ ] Or also test my ideas in simulations + research. (25)
-- [ ] Writing it inot a details Blog (25)
+- [ ] Writing it into a details Blog (25)
 
 
 ## Format
