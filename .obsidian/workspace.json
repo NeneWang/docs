@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "46aea064eb3573d2",
     "type": "split",
     "children": [
@@ -9,6 +10,43 @@
         "children": [
           {
             "id": "e27cbc8f2e5567e9",
+=======
+    "id": "b67364c0115129f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c327d2d2f469f0d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cd6d36907afb504",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/posts/journal/24-3-march.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "cadf7bd0edebf454",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/posts/guide/backlog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "402c403968d211a1",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,6 +63,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "eb7e1af7c7795fec",
     "type": "split",
     "children": [
@@ -34,6 +73,17 @@
         "children": [
           {
             "id": "a3ce5b1caa6cfb66",
+=======
+    "id": "b95b75f63ddabeae",
+    "type": "split",
+    "children": [
+      {
+        "id": "58b1cb05838ad233",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d2d2a34a987e8d",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +93,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "a8584ff773fadd29",
+=======
+            "id": "ff8d3480bb478f2d",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +112,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "3d211b34892b2170",
+=======
+            "id": "5d9eff1a0acec95e",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,6 +127,7 @@
       }
     ],
     "direction": "horizontal",
+<<<<<<< HEAD
     "width": 300
   },
   "right": {
@@ -81,15 +140,37 @@
         "children": [
           {
             "id": "cfc3a683e746fdc2",
+=======
+    "width": 222.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "90f1b65d456b2bb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "577b96449731066c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f9ec2b09bcaf313",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
                 "file": "docs/posts/journal/24-3-march.md",
+<<<<<<< HEAD
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
+=======
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
@@ -97,7 +178,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "74ef81deac36554b",
+=======
+            "id": "d6e80ca311968653",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -109,7 +194,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "47f188333bce8792",
+=======
+            "id": "2d6df2abeb9723c0",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,7 +209,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "eda2b3528205e557",
+=======
+            "id": "e8c0d164d099875a",
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -144,6 +237,7 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+<<<<<<< HEAD
       "card-board:CardBoard": false
     }
   },
@@ -152,5 +246,40 @@
     "docs/get-started.md",
     "docs/favicon.png",
     "docs/posts/journal/24-3-march.md"
+=======
+      "hide-folders:Show hidden folders": false
+    }
+  },
+  "active": "27d2d2a34a987e8d",
+  "lastOpenFiles": [
+    "img/Pasted image 20240315115553.png",
+    "img/Pasted image 20240315115229.png",
+    "docs/posts/journal/24-3-march.md",
+    "docs/posts/guide/backlog.md",
+    "2024-03-15.md",
+    "docs/posts/projects/introduction.md",
+    "docs/posts/research/software-obsolete.md",
+    "docs/posts/guide/general-career.md",
+    "docs/posts/guide/growth.md",
+    "docs/posts/guide/software.md",
+    "docs/posts/journal/Readme.md",
+    "docs/posts/research/introduction.md",
+    "docs/index.md",
+    "docs/get-started.md",
+    "docs/posts/journal/24-1-jan.md",
+    "docs/posts/projects/panda-plus.md",
+    "docs/posts/research",
+    "docs/public/img/logo.png",
+    "docs/public/img/favicon.png",
+    "img/Pasted image 20240312110606.png",
+    "img/2022-10-15-14-06-50 1.png",
+    "docs/posts/journal/24-2-feb.md",
+    "img/Pasted image 20240312145422.png",
+    "img/Pasted image 20240312145245.png",
+    "img/Pasted image 20240312142443.png",
+    "img/Pasted image 20240312142027.png",
+    "img/Pasted image 20240312141904.png",
+    "docs/posts/journal/backlog.md"
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
   ]
 }

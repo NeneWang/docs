@@ -7,12 +7,12 @@ title: Mastery of Software Development
 ## 1 Master Algorithms Daily
 
 - 1. Is likely that you wont be using algorithms on your job (or at least not in the hard complexity ones.)
-  - But on your journey to learning algorithms, You will learn the skill of problem solving throguht pattern recognition.
-  - This is a significantly useful skill, as in software following patterns for solutions leads to optimized, mantainable, efficient strategies based where you can share and have at the same time an efficient solution.
-- 2. If you havent started, go throguht the 150 recommended lists.
+  - But on your journey to learning algorithms, You will learn the skill of problem solving through pattern recognition.
+  - This is a significantly useful skill, as in software following patterns for solutions leads to optimized, maintainable, efficient strategies based where you can share and have at the same time an efficient solution.
+- 2. If you haven't started, go through the 150 recommended lists.
   - Give yourself 20-30 minutes to struggle with the problem
   - Watch a video/editorial solution for it. (even if you were able to solve it) 
-  - Dont prioritize learning the most optimal solution, but the solution that uses the `pattern` you are aiming to understand. Tackle the pattern > Tackle the most efficient way to solve it. 
+  - Don't prioritize learning the most optimal solution, but the solution that uses the `pattern` you are aiming to understand. Tackle the pattern > Tackle the most efficient way to solve it. 
   3. Try replicating the solution from memory then Go to 
     - Do 1 similar problem. (easier is okay) The idea is for you to **understand** that pattern.
 - 4. Once you complete 150 go to daily algorithmic problems.

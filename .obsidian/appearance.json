@@ -1,3 +1,8 @@
 {
+<<<<<<< HEAD
   "accentColor": ""
+=======
+  "accentColor": "#5c75f5",
+  "showViewHeader": true
+>>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56
 }
