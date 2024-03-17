@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-{}
-=======
 {
-  "attachmentFolderPath": "img",
-  "promptDelete": false,
-  "newLinkFormat": "relative",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "",
   "useMarkdownLinks": true,
-  "userIgnoreFilters": [
-    "node_modules/"
-  ],
-  "alwaysUpdateLinks": true,
-  "showInlineTitle": false
+  "attachmentFolderPath": "img"
 }
->>>>>>> e88c9f81338a82b3400dc8028751ea870a051f56

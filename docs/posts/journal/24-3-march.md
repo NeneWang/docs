@@ -737,8 +737,298 @@ You can see that the `current` and `previous domain` is checked which is not nee
 
 ## 16 Saturday
 
+### 16.1 Fixing Known Errors
 
-## 17 Friday
+- [ ] Quality Fixing errors
+Here we have some errors being fixed:
+
+Lets see how to fix the following issue
+![[Pasted image 20240316182600.png]]
+
+
+```
+number of children (3) present in TabBarView's children property. (3) present in Tawas thrown: Controller's length property (5) does not match thebBarView's childre (3) present in TabBarView's children property.
+```
+
+This seems to be the issue:
+
+```dart
+body: TabBarView(
+
+        physics: const NeverScrollableScrollPhysics(),
+
+        controller: myTabController.controller4,
+
+        children: [
+
+          RankingScreenTab(),
+
+          UserPortfolio(),
+
+          const CompetitionScreenTab()
+
+        ],
+```
+
+
+Ok, fixed it by removing all other options:
+
+```dart
+  Container(
+
+        height: Get.height / 5,
+
+        child: tabAssetsView(db.userData["cash"]?.toStringAsFixed(2) ?? "0",
+
+            db.userData["papel_asset_worth"]?.toStringAsFixed(2) ?? "0"),
+
+      ),
+```
+
+
+
+Now lets see how we can reset this update quickly,
+
+So this is the competition data being provided:
+
+```json
+{competition_id: 7bc69deb-b1b4-4d45-aab1-43ce2d9caf8a, competition_name: Internal Competition A, competition_description: Internal A, competition_initial_cash: 10000.0, competition_start_date: 2023-07-12T19:09:56.652866, competition_end_date: null, competition_participants: [Nelson, Jonathan Colon, Demo1 User, Armando Morel, Demo2 User, LauraMcLaughlin], competition_participants_count: 6, user_is_participant: true, competition_has_key: false}
+```
+
+
+Now we can see that the id is correct:
+
+Is the API perhaps incorrect?
+
+Lets see the join competition:
+
+
+```dart
+  Future<bool> joinCompetition(String competitionUuid, {String? userId}) async {
+
+    userId ??= userData["user_id"];
+
+  
+
+    final joinCompetitionURL =
+
+        "$backendAPI/api/join/$competitionUuid/$userId"; // Replace with actual API URL
+
+  
+
+    final response = await http.get(
+
+      Uri.parse(joinCompetitionURL),
+
+      headers: <String, String>{
+
+        'Content-Type': 'application/json',
+
+      },
+
+    );
+
+    if (response.statusCode == 200) {
+
+      userData["current_competition"] = competitionUuid;
+
+      _myBox.put("userData", userData);
+
+      Get.snackbar(
+
+        "Success",
+
+        "Successfully joined competition",
+
+        backgroundColor: green219653,
+
+        colorText: white,
+
+        duration: const Duration(seconds: 1),
+
+      );
+
+      return true;
+
+    } else {
+
+      Get.snackbar("Failed", "Failed to join competition",
+
+          backgroundColor: redEB5757,
+
+          colorText: white,
+
+          snackPosition: SnackPosition.BOTTOM);
+
+      return false;
+
+    }
+
+  }
+```
+
+
+```
+onous suspension>
+E/flutter (31832): #8      _WatchListScreenState.reloadScreen (package:paper_merchant/screen/home/watchlist/watchlist_screen.dart:44:7)
+E/flutter (31832): <asynchronous suspension>
+E/flutter (31832):
+E/flutter (31832): [ERROR:flutter/runtime/dart_vm_initializer.cc(41)] Unhandled Exception: FormatException: Unexpected character (at character 1)
+E/flutter (31832): Internal Server Error
+E/flutter (31832): ^
+E/flutter (31832):
+E/flutter (31832): #0      _ChunkedJsonParser.fail (dart:convert-patch/convert_patch.dart:1376:5)
+E/flutter (31832): #1      _ChunkedJsonParser.parseNumber (dart:convert-patch/convert_patch.dart:1243:9)
+E/flutter (31832): #2      _ChunkedJsonParser.parse (dart:convert-patch/convert_patch.dart:908:22)
+E/flutter (31832): #3      _parseJson (dart:convert-patch/convert_patch.dart:35:10)
+E/flutter (31832): #4      JsonDecoder.convert (dart:convert/json.dart:610:36)    
+E/flutter (31832): #5      JsonCodec.decode (dart:convert/json.dart:216:41)       
+E/flutter (31832): #6      jsonDecode (dart:convert/json.dart:155:10)
+E/flutter (31832): #7      Database.syncData (package:paper_merchant/data/database.dart:730:30)
+E/flutter (31832): <asynchronous suspension>
+E/flutter (31832): #8      _WatchListScreenState.reloadScreen (package:paper_merchant/screen/home/watchlist/watchlist_screen.dart:44:7)
+```
+
+Where does this error even come from?
+![[Pasted image 20240316185314.png]]
+
+
+
+Are these 3 indeed:
+![[Pasted image 20240316185657.png]]
+
+```
+  Future<bool> leaveCompetition(String competitionUuid) async {
+
+    final playerId = userData["player_id"];
+
+    final leaveCompetitionURL =
+
+        "$backendAPI/api/leave_competition/$playerId"; // Replace with actual API URL
+
+  
+
+    final response = await http.get(
+
+      Uri.parse(leaveCompetitionURL),
+
+      headers: <String, String>{
+
+        'Content-Type': 'application/json',
+
+      },
+
+    );
+```
+
+
+> This is correct but lets see.
+
+Hahah that's funny so that is why:
+
+- should update the api to leave the competition using a different post requirement
+
+Lets check the following as well then:
+
+![](Pasted%20image%2020240316191026.png)
+
+> I am guessing that this could be because of dealing with the user report of a competition one just left:
+
+```dart
+  
+
+    if player_selected is None:
+
+        return raiseHTTPException(status_code=404, detail="Player not found")
+
+    user_selected = db.query(Users).filter(Users.id == player_selected.user_id).one_or_none()
+
+    if user_selected is None:
+
+        return raiseHTTPException(status_code=404, detail="User not found")
+
+    competition_selected = db.query(Competitions).filter(Competitions.id == player_selected.competition_id).one_or_none()
+
+    if competition_selected is None:
+
+        return raiseHTTPException(status_code=404, detail="Competition not found")
+```
+
+I think the default option should be to instead, try to create a user from the missing player id.
+
+Lets check;
+
+- [x] How is this being solved in login? Should I create instead a player? The problem is that also no player is available.
+- [x] Make a default in which you can't leave your current competition
+
+
+### Make the secondary loading silent.
+
+> Done.
+
+> also made the logarithmic immediate which is damn beautiful
+
+
+![](Pasted%20image%2020240316194047.png)
+![](Pasted%20image%2020240316194117.png)
+
+> Fixed that by adding some issues.
+
+
+Now lets see here:
+
+```yaml
+
+            
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DESCARTABLE_SERVER }}'
+          channelId: live
+          projectId: descartable-server
+      
+```
+Replaced for `yaml`:
+
+```
+# This file was auto-generated by the Firebase CLI
+# https://github.com/firebase/firebase-tools
+
+name: Deploy to Firebase Hosting on merge
+'on':
+  push:
+    branches:
+      - master
+jobs:
+  deploy_web:
+      name: Deploy Web to Firebase Hosting
+      needs: build_web
+      runs-on: ubuntu-latest
+      steps:
+        - name: Checkout Repo
+          uses: actions/checkout@master
+        - name: Download Artifact
+          uses: actions/download-artifact@master
+          with:
+            name: web-build
+            path: web-build
+        - name: Deploy to Firebase
+          uses: w9jds/firebase-action@master
+          with:
+            args: deploy --only hosting --public web-build
+          env:
+            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+            PROJECT_ID: descartable-server
+
+```
+
+
+## 17 Sunday
 
 
 
