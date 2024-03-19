@@ -1028,14 +1028,102 @@ jobs:
 ```
 
 
-## 17 Sunday
+
+## 19 Tuesday
+
+### 19.1 Fixing Windows Parsing
+
+
+Reviewing Error at Windows parsing:
+
+
+![](Pasted%20image%2020240319101310.png)
 
 
 
+So lets review what's wrong here:
+
+```
+ "event_end_date": "0001-01-01T00:00:00",
+```
+
+This is the problem as well.
 
 
 
+![](Pasted%20image%2020240319103704.png)
 
+> I can see some strange events: (Where it starts with Spanguid and or event_date as 0001-01T00:000)
+
+![](Pasted%20image%2020240319103846.png)
+
+
+Okay, as expected timestamp local is:
+
+![](Pasted%20image%2020240319104149.png)
+
+
+Which means is just a problem of attempting to deploy?
+
+```
+local timess 2024-03-19T11:27:37.612397-04:00 2024-03-19T11:27:37.612397-04:00
+local timess 2024-03-19T11:27:37.582304-04:00 2024-03-19 11:27:47.582304-04:00
+local timess 2024-03-19T11:27:46.855603-04:00 2024-03-19T11:27:46.855603-04:00
+local timess 2024-03-19T11:27:46.827838-04:00 2024-03-19 11:27:47.827838-04:00
+local timess 2024-03-19T11:27:47.300720-04:00 2024-03-19T11:27:47.300720-04:00
+local timess 2024-03-19T11:27:47.141750-04:00 2024-03-19 11:27:48.141750-04:00
+local timess 2024-03-19T11:27:47.605814-04:00 2024-03-19T11:27:47.605814-04:00
+```
+
+
+
+```
+024-03-19 14:55:30.634503+00:00 ||| 0001-01-01 00:00:00
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\github\event-processor-latest\JobListener\processing_engine\processing_abstract.py", line 198, in checkConsistency
+    duration = (end_time - timestamp).total_seconds()
+TypeError: can't subtract offset-naive and offset-aware datetimes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\NelsonWang\anaconda3\lib\logging\__init__.py", line 1083, in emit
+    msg = self.format(record)
+  File "C:\Users\NelsonWang\anaconda3\lib\logging\__init__.py", line 927, in format
+    return fmt.format(record)
+  File "C:\Users\NelsonWang\anaconda3\lib\logging\__init__.py", line 663, in format
+    record.message = record.getMessage()
+  File "C:\Users\NelsonWang\anaconda3\lib\logging\__init__.py", line 367, in getMessage       
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "C:\github\event-processor-latest\JobListener\main.py", line 273, in <module>
+    process_messages()
+  File "C:\github\event-processor-latest\JobListener\main.py", line 207, in process_messages  
+    res_service: JobService = processFromJobParameter(job_parameter)
+  File "C:\github\event-processor-latest\JobListener\main.py", line 143, in processFromJobParameter
+    adapted_events: List[EventData] = integration_adapter.adapt(job_parameters['details'], job_service)
+  File "C:\github\event-processor-latest\JobListener\processing_engine\adapters.py", line 138, in adapt
+    event_data = self.checkConsistency(event_data, jobService)
+  File "C:\github\event-processor-latest\JobListener\processing_engine\processing_abstract.py", line 202, in checkConsistency
+    jobService.addLogMessage(
+  File "C:\github\event-processor-latest\JobListener\processing_engine\job_service.py", line 105, in addLogMessage
+    logging.error(log_message, log_detail)
+Message: 'Something went wrong while figuring duration.'
+Arguments: ('Duration not in the right format.\n                        using integration_name {self.integration_name} and organization_guid {jobService.organization_guid}\n               
+             processing_guid {event.processing_guid}, Obtained: timestamp {jobService.timestamp} and end_time {jobService.end_time}',)
+```
+
+
+This is the thing:
+
+```
+datetime.datetime(2024, 3, 19, 13, 36, 24, 950651, tzinfo=tzoffset(None, -14400))
+```
+ 
+
+What it seems to be doing is that there is a problem with this. It shouldn't have the offset. So lets review how local_timestamp solves that?
 
 
 
