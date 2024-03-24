@@ -1032,6 +1032,13 @@ jobs:
 
 
 
+### 1. Panda Plus
+
+- [ ] Add the notes on the Development Page.
+
+![](Pasted%20image%2020240317195019.png)
+
+Now
 
 
 

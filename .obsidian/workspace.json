@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -149,8 +150,9 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "bd21c61363b00ab2",
+  "active": "51ee50b4a177eddf",
   "lastOpenFiles": [
+    "img/Pasted image 20240317195019.png",
     "img/Pasted image 20240316194117.png",
     "img/Pasted image 20240316194112.png",
     "img/Pasted image 20240316194047.png",
