@@ -10,13 +10,13 @@ tags:
 
 ### Some notes regarding the idea of dev. And how to enforce such:
 
-- 48 Hours policy for all getbacks. 24 Hours Policy for sms replies.
+- 48 Hours policy for all get backs. 24 Hours Policy for SMS replies.
 
 With this type of policy you should be able to keep up with work.
 
 - In New York locations allow also: Visits and Monthly Photoshoot Sessions to keep Media upkeep.
 
-How to enforce such? Using the Focusmate strategy and just blocking the hours expected during the week immediatelly upon having a task received.
+How to enforce such? Using the Focusmate strategy and just blocking the hours expected during the week immediately upon having a task received.
 
 Also how do you keep track of clients?
 
@@ -1039,6 +1039,9 @@ jobs:
 ![](Pasted%20image%2020240317195019.png)
 
 Now
+
+
+
 
 
 
