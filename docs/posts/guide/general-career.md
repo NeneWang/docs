@@ -88,6 +88,55 @@ For [6] I would suggest the following strategies:
 2. What certifications did they study? What projects they have built? What Habits did they accomplish?
 
 
+## 6. Cracking the Role like a True Hacker.
+
+
+*Approaching breaking into a company as approaching breaking as a Hacker*
+
+
+Main Axions:
+- Internal Department transfer > External Hires.
+- Digital Anonym is bad, asking internally is good.
+- Larger companies have many *hidden* entry positions.
+- You can always be proactive and outgrow your role and interests.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -318,6 +318,15 @@ If you were to follow this commandmnets, no matter the pay, you would still be i
 
 ## 10. Continuous Testing at your advantage.
 
+
+How to develop  an unfair Advantage?
+
+> The reason why they require 3+ years of experience is that 3+ years of experience behind a laptop coding everyday creates an unfair advantage. It naturally makes you mountains of mastery stronger than someone who has not been coding everyday for 3+ years. Now, How can I integrate that into your career philosophy?
+
+- 
+
+
+
 *Use a continuous testing philosophy to advance on your knowledge (advanced technical) passively*
 
 This includes the following: ranked.
