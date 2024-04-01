@@ -1038,12 +1038,35 @@ jobs:
 
 ![](Pasted%20image%2020240317195019.png)
 
-Now
+
+Lets try with he reset algorithm:
+
+reset Algorithm.
+
+Why it seems ike it takes twice?
+
+```
+    const [key, setKey] = useState('Graph');
+```
 
 
+I invited friends and people from my school's investment college clubs who were within the demographic of our application. Additionally, we hired testing providers to gather more feedback
+
+During our closed test, testers actively used all features, participating in multiple competitions and simulating various market scenarios, like purchasing shares before a market split. This matched our expectations for real user behavior, given our app's focus on student investment competitions.
+
+We utilized WhatsApp groups to share insights and conducted in-person reviews to observe how users interacted with our application and to identify common misunderstandings regarding competition mechanics. We tested this by recreating scenarios from multiple competitions.
 
 
+We're primarily targeting college students who are interested in competing and expanding their knowledge of the stock market. Our initiative involves launching competitions within schools to inspire students to delve into the world of finance. We are starting at CUNY Schools.
 
+Offers users the opportunity to engage in recurring virtual competitions held every 3-4 months cycles. By participating, students can apply and enhance their skills in stock evaluation, finance, and business. They also build a track record of their performance for their portfolio.
+
+Improved server handling during downturns (Users reported sudden login issues).
+Fixed share splitting bug that would, for example, triplicate their equity if shares were split by 3.
+Implemented the missing "Forgot Password" link.
+Fixed competition not displaying all students.
+
+We engaged with users in person to gather feedback and have been addressing major bugs. The app now functions as intended, providing the necessary features for hosting competitions and allowing players to compete.
 
 
 

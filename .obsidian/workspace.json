@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/posts/journal/24-3-march.md",
+                "file": "docs/posts/journal/backlog.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ab0be0152befbc93",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/posts/journal/24-3-march.md",
+                "file": "docs/posts/journal/backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/posts/journal/24-3-march.md",
+                "file": "docs/posts/journal/backlog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/posts/journal/24-3-march.md"
+                "file": "docs/posts/journal/backlog.md"
               }
             }
           }
@@ -175,14 +174,15 @@
   },
   "active": "6b6aa8506134a8cc",
   "lastOpenFiles": [
+    "docs/posts/journal/Readme.md",
     "docs/posts/journal/Untitled.md",
+    "docs/posts/journal/24-3-march.md",
     "img/Pasted image 20240317195019.png",
     "img/Pasted image 20240316194117.png",
     "img/Pasted image 20240316194112.png",
     "img/Pasted image 20240316194047.png",
     "img/Pasted image 20240316191026.png",
     "img/Pasted image 20240316182600.png",
-    "docs/posts/journal/24-3-march.md",
     "img/Pasted image 20240316185657.png",
     "img/Pasted image 20240316185314.png"
   ]
