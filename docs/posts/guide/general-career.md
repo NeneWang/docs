@@ -35,6 +35,8 @@ As a general rule:
   - Please test yourself within those guidelines, e.g. test the career for a month of 16 hours a day, if you are still willing to do it then go for it.
 - Avoid 'studies' or too 'general' careers: 
 
+- Its about finding a career and perhaps (location) in which you can pour your passion into it.
+
 ## 2. College Tips
 
 - 1. Avoid non-science (or non hard) classes
@@ -73,6 +75,7 @@ For [6] I would suggest the following strategies:
    1. Keep in readme the sets of Install options and descriptions with pictures and captures of it's features.
    2. Create a `highlight.md` file tracking the progression of your software and HIGHLIGHT whenever you face an interesting challanges.
 2. Try to avoid repeating your stack.
+3. Follow Industry best practices (Readmes\Namings) to make your respository look somehow legitimate.
 
 ## 4. Make Reusable Templates
 
@@ -86,6 +89,7 @@ For [6] I would suggest the following strategies:
 
 1. Not the louds ones, that got there by luck. Try to find those who worked hard. I know it might be cringy but model their approach as best as you can. Also if they are from a similar background, the better.
 2. What certifications did they study? What projects they have built? What Habits did they accomplish?
+3. In the case of software engineers: Focus or aim to build projects that serve as templates or libraries to show off your true mastery of the subject. _ This is almost as the equivalent of publishing the book of the topic for engineers.
 
 
 ## 6. Cracking the Role like a True Hacker.

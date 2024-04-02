@@ -17,7 +17,7 @@ Expect the following structure:
 - Features and Releases.
 - Performance and Analytics over time.
 
-For example: [15.1 Continue Working On Chrome Extension](../journal/24-3-march.md#15.1%20Continue%20Working%20On%20Chrome%20Extension)
+For example: [15.1 Continue Working On Chrome Extension](../journal/24-3-mar.md#15.1%20Continue%20Working%20On%20Chrome%20Extension)
 
 
 

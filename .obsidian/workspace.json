@@ -1,91 +1,53 @@
 {
   "main": {
-    "id": "fd01903b913be6d1",
+    "id": "9d9aba9c2ce7aee4",
     "type": "split",
     "children": [
       {
-        "id": "88b34db10b40273e",
+        "id": "71f55bff98fcc92c",
         "type": "tabs",
         "children": [
           {
-            "id": "6bc3db7ee139c858",
+            "id": "a9eb812e322cb78f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/posts/journal/24-4-apr.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72484a7346da139e",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/posts/journal/24-3-march.md",
+                "file": "docs/posts/research/software-obsolete.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "3e23662ff58e5142",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "docs/posts/guide/Plan.canvas",
-                "viewState": {
-                  "x": 352.50018668265045,
-                  "y": -596.2506904398786,
-                  "zoom": -0.6007787310102097
-                }
-              }
-            }
-          },
-          {
-            "id": "f1baa433a023ce61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/posts/journal/24-3-march.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "444781d57ba9d87c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
-          },
-          {
-            "id": "6b6aa8506134a8cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/posts/journal/backlog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f3c4d1f4b4cf0e31",
+    "id": "625049469815ba1f",
     "type": "split",
     "children": [
       {
-        "id": "14cba68a3f6ffcb7",
+        "id": "7ba89b2950621b29",
         "type": "tabs",
         "children": [
           {
-            "id": "bd21c61363b00ab2",
+            "id": "074b5128d549a235",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -95,7 +57,7 @@
             }
           },
           {
-            "id": "459df0e853e4e7e5",
+            "id": "ed3c2be7f246d684",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -110,7 +72,7 @@
             }
           },
           {
-            "id": "fe09ed3fda3a5555",
+            "id": "4913cbf8e98a2e9d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -121,30 +83,24 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 246.5
-    "width": 300,
-    "collapsed": true
-=======
     "width": 300
->>>>>>> 6216be67d1c82b54add05172b4f45bf3b16cc7f8
   },
   "right": {
-    "id": "ab0be0152befbc93",
+    "id": "e994d85c35931efe",
     "type": "split",
     "children": [
       {
-        "id": "c93a59b931263bdc",
+        "id": "bd56da9631521ad9",
         "type": "tabs",
         "children": [
           {
-            "id": "1fd64116def41f21",
+            "id": "2a514ca084c3dcb3",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/posts/journal/backlog.md",
-                "collapseAll": false,
+                "file": "docs/posts/journal/24-4-apr.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -155,19 +111,19 @@
             }
           },
           {
-            "id": "6fe08d103eb562b2",
+            "id": "c2c27ebfa8b91eb9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/posts/journal/backlog.md",
+                "file": "docs/posts/journal/24-4-apr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "dd726eab979bd890",
+            "id": "f265a793436b65b5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -178,12 +134,12 @@
             }
           },
           {
-            "id": "51ee50b4a177eddf",
+            "id": "eadd4b8175fb15c9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/posts/journal/backlog.md"
+                "file": "docs/posts/journal/24-4-apr.md"
               }
             }
           }
@@ -192,35 +148,37 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "github-sync:Sync with Remote": false,
+      "hide-folders:Show hidden folders": false,
+      "terminal:Open terminal": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "github-sync:Sync with Remote": false,
-      "hide-folders:Show hidden folders": false,
       "card-board:CardBoard": false
     }
   },
-  "active": "6bc3db7ee139c858",
-  "active": "6b6aa8506134a8cc",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
-    "docs/posts/journal/Readme.md",
-    "docs/posts/journal/Untitled.md",
-    "docs/posts/journal/24-3-march.md",
-    "img/Pasted image 20240317195019.png",
-    "img/Pasted image 20240316194117.png",
-    "img/Pasted image 20240316194112.png",
-    "img/Pasted image 20240316194047.png",
-    "img/Pasted image 20240316191026.png",
-    "img/Pasted image 20240316182600.png",
-    "img/Pasted image 20240316185657.png",
-    "img/Pasted image 20240316185314.png"
+    "docs/posts/research/software-obsolete.md",
+    "docs/posts/journal/24-4-apr.md",
+    "img/Pasted image 20240402130411.png",
+    "docs/get-started.md",
+    "img/2024-04-02-13-01-06.png",
+    "docs/credentials.md",
+    "img/Pasted image 20240402121501.png",
+    "img/Pasted image 20240402121057.png",
+    "docs/posts/journal/24-3-mar.md",
+    "img/Pasted image 20240402115201.png",
+    "img/Pasted image 20240402111648.png",
+    "img/Pasted image 20240402111518.png",
+    "img/Pasted image 20240402104825.png"
   ]
 }
