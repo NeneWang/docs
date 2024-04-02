@@ -16,7 +16,7 @@ With this type of policy you should be able to keep up with work.
 
 - In New York locations allow also: Visits and Monthly Photoshoot Sessions to keep Media upkeep.
 
-How to enforce such? Using the Focus mate strategy and just blocking the hours expected during the week immediately upon having a task received.
+How to enforce such? Using the Focusmate strategy and just blocking the hours expected during the week immediatelly upon having a task received.
 
 Also how do you keep track of clients?
 
@@ -1032,6 +1032,16 @@ jobs:
 ## 19 Tuesday
 
 ### 19.1 Fixing Windows Parsing
+
+### 1. Panda Plus
+
+- [ ] Add the notes on the Development Page.
+
+![](Pasted%20image%2020240317195019.png)
+
+Now
+
+
 
 
 Reviewing Error at Windows parsing:

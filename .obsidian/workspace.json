@@ -47,8 +47,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "444781d57ba9d87c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
+          },
+          {
+            "id": "6b6aa8506134a8cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/posts/journal/24-3-march.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,6 +122,8 @@
     ],
     "direction": "horizontal",
     "width": 246.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ab0be0152befbc93",
@@ -176,37 +201,21 @@
       "command-palette:Open command palette": false,
       "github-sync:Sync with Remote": false,
       "hide-folders:Show hidden folders": false,
-      "terminal:Open terminal": false,
-      "card-board:CardBoard": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "card-board:CardBoard": false
     }
   },
   "active": "6bc3db7ee139c858",
+  "active": "6b6aa8506134a8cc",
   "lastOpenFiles": [
-    "docs/posts/guide/Plan.canvas",
+    "docs/posts/journal/Untitled.md",
+    "img/Pasted image 20240317195019.png",
+    "img/Pasted image 20240316194117.png",
+    "img/Pasted image 20240316194112.png",
+    "img/Pasted image 20240316194047.png",
+    "img/Pasted image 20240316191026.png",
+    "img/Pasted image 20240316182600.png",
     "docs/posts/journal/24-3-march.md",
-    "docs/posts/guide/backlog.md",
-    "docs/posts/guide/general-career.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "img/Pasted image 20240328143157.png",
-    "img/Pasted image 20240328184541.png",
-    "img/Pasted image 20240328162049.png",
-    "img/Pasted image 20240328153508.png",
-    "img/Pasted image 20240328153426.png",
-    "img/Pasted image 20240328153305.png",
-    "img/Pasted image 20240328153158.png",
-    "img/Pasted image 20240328153041.png",
-    "img/Pasted image 20240328153010.png",
-    "img/Pasted image 20240328152726.png",
-    "docs/posts/guide/experience-versioning.md",
-    "docs/posts/guide/experience-testing.md",
-    "docs/posts/guide/experience-security.md",
-    "docs/posts/guide/experience-architecture.md",
-    "docs/posts/guide/misc/experience-versioning.md",
-    "docs/posts/guide/misc/experience-testing.md",
-    "docs/posts/guide/misc/experience-security.md",
-    "docs/posts/guide/misc/experience-architecture.md",
-    "docs/posts/guide/misc"
+    "img/Pasted image 20240316185657.png",
+    "img/Pasted image 20240316185314.png"
   ]
 }
