@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/posts/journal/24-4-apr.md",
+                "file": "docs/posts/journal/24-1-jan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "137dbc0fbc776dd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/posts/journal/platinum/24-4-apr.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,7 +45,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/posts/journal/24-4-apr.md",
+                "file": "docs/posts/journal/platinum/24-4-apr.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/posts/journal/24-4-apr.md",
+                "file": "docs/posts/journal/platinum/24-4-apr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/posts/journal/24-4-apr.md"
+                "file": "docs/posts/journal/platinum/24-4-apr.md"
               }
             }
           }
@@ -165,20 +178,26 @@
       "card-board:CardBoard": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
-    "docs/posts/research/software-obsolete.md",
+    "docs/posts/journal/Untitled.md",
+    "docs/posts/journal/platinum/24-4-apr.md",
+    "docs/posts/journal/24-1-jan.md",
     "docs/posts/journal/24-4-apr.md",
-    "img/Pasted image 20240402130411.png",
-    "docs/get-started.md",
-    "img/2024-04-02-13-01-06.png",
-    "docs/credentials.md",
-    "img/Pasted image 20240402121501.png",
-    "img/Pasted image 20240402121057.png",
+    "docs/posts/journal/platinum",
+    "img/Pasted image 20240409102337.png",
     "docs/posts/journal/24-3-mar.md",
-    "img/Pasted image 20240402115201.png",
-    "img/Pasted image 20240402111648.png",
-    "img/Pasted image 20240402111518.png",
-    "img/Pasted image 20240402104825.png"
+    "img/Pasted image 20240404180008.png",
+    "img/Pasted image 20240404175833.png",
+    "img/Pasted image 20240404171753.png",
+    "img/Pasted image 20240404170317.png",
+    "img/Pasted image 20240404165303.png",
+    "img/Pasted image 20240404165301.png",
+    "img/Pasted image 20240404161951.png",
+    "img/Pasted image 20240404152552.png",
+    "img/Pasted image 20240404152410.png",
+    "docs/posts/research/software-obsolete.md",
+    "docs/get-started.md",
+    "docs/credentials.md"
   ]
 }
