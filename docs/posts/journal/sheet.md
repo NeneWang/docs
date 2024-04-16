@@ -293,7 +293,78 @@ def transp(root, ntr, nr):
 ```
 
 
+```
+def delNode(root, no)
+    curr = serach
 
+    if !curr.right assign curr.left
+        transp(root, curr, curr.left)
+        
+    same but with left
+
+
+    succ = findmin
+    if succ.parent != curr:
+        transp(root, succ, succ.right) # Swao
+        succ.right = curr.right
+        succ.right.p = succ
+    
+    trans(root, curr, succ )
+    succ.left = curr.left
+    succ.left.parent = succ
+
+```
+
+
+
+```
+
+succ = min
+if succ.parent != curr:
+    trans(tree, succ, succ.right)
+    succ.right = curr.right
+    succ.right.p = succ
+
+trans(tree, succ, curr)
+succ.left = curr.left
+succ.left.p = succ
+
+```
+
+```
+trans r, ntr, rp
+    if ntr == null: r = rp
+    if ntr.p.left = ntr; ntr.left = rp
+    if ntr.p.right = ntr; ntr.right = rp
+
+    if rp not none:
+        rp.parent = ntr.parent
+```
+
+
+```
+
+del node(t, n)
+    curr = search
+
+    if curr not right, not leeft
+
+    succ = min
+    if succ.p != curr:
+        trans(T, succ, succ.r)
+        succ.r = curr.r
+        succ.r.p = succ
+    trans(T, succ, curr)
+    succ.l = curr.l
+    succ.p.l = succ
+
+```
+
+```
+
+
+
+```
 
 
 
@@ -325,6 +396,7 @@ def transp(root, ntr, nr):
 
 
 - Allow me this small chapter and I will be yrs for ever.
+- I will not let does what if bother me.
 
 
 
