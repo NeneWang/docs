@@ -109,3 +109,9 @@ I would try to apply for the following certifications once I am done with School
 - You might want to join the military for that.
 
 
+
+
+
+
+
+
