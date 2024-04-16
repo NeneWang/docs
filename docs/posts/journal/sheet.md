@@ -398,8 +398,70 @@ tree min:
 ```
 
 
-```predecesor
 ```
+PRDECESSOR.
+
+if !x.left is none:
+    return treeMax(x.left)
+p = x.p
+
+while (p!=none and p.left == child)
+    child = p
+    p = p.p
+return p
+
+```
+
+
+```
+PREDECESOR
+
+if !x.left is none:
+    return treeMax(x.left)
+
+p = x.p
+child = x
+while (p != none and p.left == child):
+    child = p
+    p = p.p
+
+return p
+```
+
+
+
+You just add.
+
+a1...4
+
+means a1 a2 a3 a4
+
+a11 a24 = mults + 0 + a24
+a12 a34 = mults + a12 + a34
+a13 a44 = 
+
+
+Then get min.
+
+
+Get the smallest ones
+
+```
+a45 b13 c12 d16 e9 f5
+
+Sorted
+
+a45 d16 b13 c12 e9 f5
+
+ef14 b13 + c12 = bc25
+
+efbc 39 a45
+
+
+```
+
+
+
 
 
 
