@@ -219,6 +219,113 @@ def deleteN(root node, ntr):
 
 ```
 
+```
+
+transplant(root, ntr, nr):
+    if ntr.parent == null: root = nr
+    if ntr == ntr.p.right: ntr.parent.right = nr
+    if ntr == ntr.p.left: ntr.parent.left = nr
+
+    if nr is leaf of something: nr.parent = ntr.parent
+
+
+delnode(root, nd):
+    curr = #search
+
+    if curr.left is none: replace with right
+    elseif curr.right is none: replace with left
+
+    else:
+        succ = curr.right
+        while succ.left: succ.=left
+
+        if succ.p != curr:
+            transplant(node, succ, succ.right)
+            succ.right = curr.right
+            succ.right.p = succ
+
+
+    if succ.p != curr:
+        transplant(node, succ, succ.right)
+        succ.right = curr.right
+        succ.right.p = succ
+    
+    transplant(node, succ, succ.left)
+    succ.left = curr.left
+    succ.left.p = succ
+
+```
+
+
+
+```
+
+delnode(root, nd):
+    curr = #search
+
+    if curr.left is none:replace with right
+    elseif curr.right is none; replace with left.
+
+    else:
+        succ = succ.right; while succ.left: succ.=left
+
+        if (succ.p != curr):
+            trans(root, succ, curr.right)
+            succ.right = curr.right
+            succ.r.p = succ
+
+        trans(root, succ, curr.left)
+        succ.left = curr.left
+        succ.left.parent =  succ
+
+
+```
+
+
+```
+def transp(root, ntr, nr): 
+    if ntr is null: replace root with nr
+    if ntr.p.left = ntr: ntr.p.left = nr
+    "" same with right
+
+    if nr is not None:
+        nr.p = ntr.parent
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Allow me this small chapter and I will be yrs for ever.
+
 
 
 
