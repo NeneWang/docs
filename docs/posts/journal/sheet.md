@@ -130,6 +130,105 @@ def treeInsert(T, tar):
 ```
 
 
+```
+def deleteNode(T, node)
+    # search
+    curr = T.root
+    while (curr != node)
+        if curr.key > node.key:
+            curr = curr.right
+        else:
+            curr = curr.left
+    
+    # Found and start deletion
+    if curr.right == null:
+        transplant(T, curr.left, curr)
+    elif curr.left == null:
+        transplant(T, curr.right, curr)
+    
+    # Delete  worstcase
+    else: 
+        succ = succ.right
+        while succ.left:
+            succ = succ.left
+        
+        root = transplant(T, curr, succ)
+        succ.left = node.left
+        succ.left.parent = succ
+
+def transplant(root, node_to_replace, replacement_node):
+    if node_to_replace.parent is None:
+        root = replacement_node
+    elif node_to_replace == node_to_replace.parent.left:
+        node_to_replace.parent.left = replacement_node
+    else:
+        node_to_replace.parent.right = replacement_node
+    if replacement_node is not None:
+        replacement_node.parent = node_to_replace.parent
+    return root
+```
+
+```
+
+def transplant(root, node_to_replace, replacement_node):
+    if node_to_replace.parent is None:
+        # Funny how root is only used here.
+        root = replacement_node
+        
+    if node_to_replace == ntr.parent.left:
+        ntr.parent.left = rn
+    elif ntr == ntr.parent.right:
+        ntr.parent.right = rn
+    
+    if rn is not None:
+        rn.parent = ntr.parent
+
+    return root
+
+
+
+```
+
+
+
+```
+
+def deleteN(root node, ntr):
+    # search
+
+    curr = #search
+    # Deletes the node by replace right or left.
+    if not ntr.right: transplant(curr, ntr, left)
+    else if not ntr.left: transplant(curr, ntr, ntr.right)
+
+    # else
+    else:
+        succ = ntr.right
+        #find min.
+        while...succ=.left
+
+        # if cases. if ntr.parent != root
+        if succ.parent != curr:
+            transplant(root, succ, succ.right)
+            succ.right = root.right
+            succ.right.parent = succ
+        
+        transplant(root, succ, left)
+        succ.left = root.left
+        succ.left.parent = succ
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
