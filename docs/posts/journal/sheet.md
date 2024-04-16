@@ -361,11 +361,45 @@ del node(t, n)
 ```
 
 ```
+3
+2 4
+...
 
+That is 2.
+
+And start moving th edits.
+
+n + n - 1 , 
+
+
+preorder
+- print
+- preorder
+- preorder
+
+
+
+afterorder
+- after
+- after
+- print
 
 
 ```
 
+
+```
+tree max: 
+    ...right
+
+tree min:
+    ...left
+
+```
+
+
+```predecesor
+```
 
 
 
@@ -397,6 +431,8 @@ del node(t, n)
 
 - Allow me this small chapter and I will be yrs for ever.
 - I will not let does what if bother me.
+- it wasnt like that. I mean it how cna you improve? next time organize per the course?
+- I just invited some people from `bskt`
 
 
 
