@@ -88,4 +88,24 @@ Includes:
    3. Or Books with questions regarding it.
    4. Or Courses Examples with questions regarding it.
 
+I would try to apply for the following certifications once I am done with School:
+
+*The main advantages here, is to store some money to be able to take on this certifications*
+
+- CFA Level 1
+- AWS Certified Cloud Practitioner
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Developer – Associate
+- Oracle Certified Associate, Java SE 8 Programmer
+- Google IT Support Professional Certificate
+- CFA Level 2
+- AWS Certified Solutions Architect – Professional
+- CISCO
+- Red Hat Certified Engineer
+- Certified Secure Software Lifecycle Professional (CSSLP)
+
+
+- Also try to get that gov. security clearance
+- You might want to join the military for that.
+
 

@@ -21,7 +21,10 @@ I followed Software engineering path. Which I would recommend unless you have a 
 - Or other blue collar jobs that are not able to neither be automized nor outsourced.
 - Outsourceable/automated jobs: 
   - Software Development
-  - Most other works.
+  - Most other jobs including management.
+  - What cannot be outsourced?
+    - Talking. Jobs about talking.
+    - Where it requires localiced certifications: Accounting, Engineering, Nursing, etc.
 - Or social work like:
   - Maybe even teaching could be a good idea.
 - If you are in an expensive higher education country such as: United States
