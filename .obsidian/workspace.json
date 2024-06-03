@@ -13,40 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/posts/journal/24-1-jan.md",
+                "file": "Docs Organization.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "137dbc0fbc776dd5",
+            "id": "9253c8f9d92352fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/posts/journal/platinum/24-4-apr.md",
+                "file": "jou-project/intv.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "72484a7346da139e",
+            "id": "a5646dae993e1a98",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/posts/research/software-obsolete.md",
+                "file": "jou-project/ddengine.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -75,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#2024-05-30",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -112,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/posts/journal/platinum/24-4-apr.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/posts/journal/platinum/24-4-apr.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/posts/journal/platinum/24-4-apr.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -161,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,29 +173,46 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "card-board:CardBoard": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "074b5128d549a235",
+  "active": "a5646dae993e1a98",
   "lastOpenFiles": [
-    "docs/posts/journal/Untitled.md",
-    "docs/posts/journal/platinum/24-4-apr.md",
+    "img/Pasted image 20240603091442.png",
+    "jou-project/intv.md",
+    "jou-project/ddengine.md",
+    "jou-project/mcli.md",
+    "open-daily/cses.md",
+    "img/Pasted image 20240531155530.png",
+    "img/Pasted image 20240531153854.png",
+    "img/Pasted image 20240531153425.png",
+    "img/Pasted image 20240531153231.png",
+    "img/Pasted image 20240531152813.png",
+    "img/Pasted image 20240531150908.png",
+    "Docs Organization.md",
+    "jou-project/readme.md",
+    "open-daily",
+    "arc-project",
+    "projects/Untitled.md",
+    "docs/posts/journal/platinum/24-5-may.md",
+    "docs/posts/journal/2024-05-02.md",
+    "docs/posts/journal/platinum/Untitled.md",
+    "jou-project",
+    "img/Pasted image 20240529153700.png",
+    "img/Pasted image 20240529151449.png",
+    "img/Pasted image 20240529140208.png",
+    "img/Pasted image 20240529115005.png",
+    "rep-project/rec exploration.md",
     "docs/posts/journal/24-1-jan.md",
+    "rep-project/slc-website.md",
+    "docs/posts/journal/platinum/Prodct.md",
     "docs/posts/journal/24-4-apr.md",
-    "docs/posts/journal/platinum",
-    "img/Pasted image 20240409102337.png",
     "docs/posts/journal/24-3-mar.md",
-    "img/Pasted image 20240404180008.png",
-    "img/Pasted image 20240404175833.png",
-    "img/Pasted image 20240404171753.png",
-    "img/Pasted image 20240404170317.png",
-    "img/Pasted image 20240404165303.png",
-    "img/Pasted image 20240404165301.png",
-    "img/Pasted image 20240404161951.png",
-    "img/Pasted image 20240404152552.png",
-    "img/Pasted image 20240404152410.png",
+    "docs/posts/journal/24-2-feb.md",
     "docs/posts/research/software-obsolete.md",
+    "docs/posts/journal/platinum/24-4-apr.md",
+    "docs/posts/journal/Untitled.md",
+    "docs/posts/journal/platinum",
     "docs/get-started.md",
     "docs/credentials.md"
   ]

@@ -453,6 +453,8 @@ Sorted
 
 a45 d16 b13 c12 e9 f5
 
+ef14 + c12 | efc26
+
 ef14 b13 + c12 = bc25
 
 efbc 39 a45
@@ -460,8 +462,53 @@ efbc 39 a45
 
 ```
 
+```
+huff(C)
 
 
+```
+
+
+SEND 1-18 grades
+do hw:
+- 
+
+```
+def reedyactselect(start, end):
+    n = len
+    A = [1]
+    last = 0
+
+    for current in 1...total
+        if startTime[current] >= finishtime[last]
+            A.append(current + 1)
+            last = current 
+    return A
+        
+```
+
+
+```
+GREEDYSELECT(START, END0):
+    LEN
+    A
+    last = 0
+    for curr in 0...LEN
+        if start[curr] > end[last]
+            A.append(curr + 1)
+            last = current
+    reutrn A
+```
+
+
+```
+
+```
+
+
+
+
+Outer limits of reasoning computing - Chapter 5
 
 
 
