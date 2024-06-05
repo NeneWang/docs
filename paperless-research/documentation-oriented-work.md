@@ -35,6 +35,8 @@ Design Heuristics
 
 Examples of what goes in:
 - Interesting implementations of arguments to solve specific problems.
-- Implementing mathematical models + algorithms and quickly plotting things.
-	- Such as creating your own imple
+- Implementing mathematical models / algorithms / Pseudocodes and quickly plotting things.
+	- Such as creating your own implementation of RMSE
+	- Or own theorical neural network.
+- 
 
