@@ -18,6 +18,13 @@ Context:
 - In this paper I will be looking up into 
 
 
-### Documenting Libraries/Frameworks?
+### Documenting Libraries/Frameworks
+
+
+
+### Markdown like Problems
+
+Design Heuristics
+- The objective is not to memorize, but to practice the implmeentation.
 
 
