@@ -48,21 +48,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "cc5cc39574a93303",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rep-project/rec exploration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rep-project/rec exploration.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rep-project/rec exploration.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rep-project/rec exploration.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -191,8 +179,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc5cc39574a93303",
+  "active": "4805a86bf1b2d13a",
   "lastOpenFiles": [
+    "paperless-research/snowflake.md",
+    "rep-project/rec exploration.md",
+    "rep-project.zip",
     "rep-project/readme.md",
     "rep-project/panda-plus.md",
     "rep-project/introduction.md",
@@ -200,7 +191,6 @@
     "img/Readme.md",
     "img/2024-03-15.md",
     "jou-project/journal-structure.md",
-    "paperless-research/snowflake.md",
     "docs/posts/journal/platinum/Untitled.md",
     "jou-project/2024-06-04.md",
     "docs/bigbrain.md",
@@ -225,13 +215,11 @@
     "docs/posts/journal/platinum",
     "docs/posts/journal/24-4-apr.md",
     "docs/posts/journal/backlog.md",
-    "docs/posts/journal/24-3-mar.md",
     "docs/posts/guide/Plan.canvas",
     "docs/public/img",
     "docs/posts/research",
     "docs/posts/pcwinhome",
     "docs/posts/journal",
-    "docs/posts/guide",
     "docs/favicon.png",
     "img/Pasted image 20240605122914.png",
     "docs/Untitled.canvas",
