@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "procedures & ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c49057a10e24067d",
+  "active": "ed3c2be7f246d684",
   "lastOpenFiles": [
     "Docs Organization.md",
     "paperless-research/documentation-oriented-work.md",
