@@ -26,9 +26,13 @@ Context:
 
 Design Heuristics
 - The objective is not to memorize, but to practice the implementation.
+- Not adding useless problems ideally - and focus on practicing the practical implementations of ideas. so is more like a append nearby while you go idea.
 
 - Reading documentation alone is likely useless.
 	- You want to practice by knowing how to use this ideas and which situations which means
 
 
+
+Examples of what goes in:
+- Interesting implementations of arguments to solve 
 
