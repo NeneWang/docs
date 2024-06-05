@@ -14,7 +14,7 @@ Next steps:
 
 - [x] Add new field: **pf_state_company_per_email_count**
 
-- [ ] Number of companies associated to this email in this state (exclude where email is null)
+- [x] Number of companies associated to this email in this state (exclude where email is null)
 
 ---
 
@@ -93,5 +93,11 @@ SELECT pf_cta_due_date, creation_date FROM CORPORATION;
 ### Number of companies associated to this email in this state (exclude where email is null)
 #2024-06-05 
 
+
+Query:
+
+```sql
+
+```
 
 - Lets have this first
