@@ -5,7 +5,7 @@
 
 Next steps:
 
--  [ ] Add new field: **pf_cta_due_date**
+- [ ] Add new field: **pf_cta_due_date**
 - [ ] Create Auto filing Script?
 	- [ ] Design
 - [ ] Formation < 1/1/2024 = 1/1/2025
@@ -27,3 +27,4 @@ Design strategy:
 
 Questions:
 - How will update work in this case?
+	- Every time the merge operation is runned. => Update procedure for number of coma
