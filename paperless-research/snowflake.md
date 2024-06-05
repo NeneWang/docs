@@ -33,6 +33,8 @@ SELECT pf_cta_due_date, creation_date FROM CORPORATION;
 A procedure is a database object similar to a function. The key differences are: 
 - **Procedures are defined with the CREATE PROCEDURE command, not CREATE FUNCTION** . 
 - Procedures do not return a function value; hence CREATE PROCEDURE lacks a RETURNS clause.
+https://www.postgresql.org/docs/current/xproc.html#:~:text=A%20procedure%20is%20a%20database,PROCEDURE%20lacks%20a%20RETURNS%20clause.
+
 
 
 Example:

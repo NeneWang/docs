@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/corp-visualizer.md",
                 "mode": "source",
                 "source": false
               },
@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -127,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs Organization.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -191,15 +193,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "4805a86bf1b2d13a",
   "lastOpenFiles": [
-    "paperless-research/documentation-oriented-work.md",
-    "jou-project/ddengine.md",
-    "Docs Organization.md",
     "jou-project/corp-visualizer.md",
+    "jou-project/ddengine.md",
+    "paperless-research/snowflake.md",
+    "Docs Organization.md",
+    "paperless-research/documentation-oriented-work.md",
     "img/Pasted image 20240605133640.png",
     "img/Pasted image 20240605131655.png",
-    "paperless-research/snowflake.md",
     "img/Pasted image 20240605130847.png",
     "rep-project/rec exploration.md",
     "rep-project.zip",
