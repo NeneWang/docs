@@ -28,4 +28,4 @@ Design strategy:
 Questions:
 - How will update work in this case?
 	- Every time the merge operation is runned. => Update procedure for number of companies associated.
-	- Every time the 
+	- Every time the queries are formed. the formation table view is 
