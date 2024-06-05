@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs Organization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9253c8f9d92352fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/intv.md",
+                "file": "jou-project/mcli.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/intv.md",
+                "file": "jou-project/mcli.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/intv.md",
+                "file": "jou-project/mcli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/intv.md"
+                "file": "jou-project/mcli.md"
               }
             }
           }
@@ -162,11 +149,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9253c8f9d92352fe",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
+    "Docs Organization.md",
+    "jou-project/intv.md",
     "2024-06-04.md",
     "Untitled.canvas",
-    "Docs Organization.md",
     "img/Pasted image 20240518133900.png",
     "img/Pasted image 20240518132931.png",
     "img/Pasted image 20240518131044.png",
@@ -187,7 +175,6 @@
     "Untitled.md",
     "Single Items Sim.md",
     "Napoleon and the Cult of Glory - Short Report.md",
-    "jou-project/intv.md",
     "jou-project/ddengine.md",
     "jou-project/mcli.md",
     "open-daily/cses.md",
