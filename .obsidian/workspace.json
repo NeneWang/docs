@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-06-05.md",
+                "file": "daily-reports/2024-06-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,8 +108,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-06-05.md",
+                "file": "daily-reports/2024-06-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-06-05.md",
+                "file": "daily-reports/2024-06-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-06-05.md"
+                "file": "daily-reports/2024-06-05.md"
               }
             }
           }
@@ -193,10 +192,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3565f38c27244fb",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
+    "daily-reports",
     "paperless-research/documentation-oriented-work.md",
-    "2024-06-05.md",
+    "daily-reports/2024-06-05.md",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
@@ -229,7 +229,6 @@
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
     "docs/posts/pcwinhome/How to Use AI In my Career.md",
     "docs/posts/pcwinhome/AI and career.md",
-    "docs/posts/pcwinhome/4-28-2024.md",
     "docs/posts/journal/test.ipynb",
     "docs/posts/journal/platinum",
     "docs/posts/guide/Plan.canvas",
