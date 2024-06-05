@@ -56,6 +56,18 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "36719d1483691487",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "paperless-research/documentation-oriented-work.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -189,11 +201,12 @@
   },
   "active": "3926290b9f11264a",
   "lastOpenFiles": [
-    "paperless-research/diplomacy-optimizations.md",
     "Docs Organization.md",
-    "jou-project/corp-visualizer.md",
     "paperless-research/documentation-oriented-work.md",
+    "paperless-research/snowflake.md",
     "paperless-research/learn-intention-uppend.md",
+    "jou-project/corp-visualizer.md",
+    "paperless-research/diplomacy-optimizations.md",
     "development/Single Items Sim.md",
     "Untitled.md",
     "paperless-research",
@@ -231,7 +244,6 @@
     "open-daily",
     "arc-project",
     "projects/Untitled.md",
-    "docs/posts/journal/platinum/24-5-may.md",
     "jou-project",
     "docs/posts/journal/platinum"
   ]
