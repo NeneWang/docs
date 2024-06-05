@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200.5,
-    "collapsed": true
+    "width": 200.5
   },
   "right": {
     "id": "e994d85c35931efe",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paper-research/learn-intention-uppend.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paper-research/learn-intention-uppend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paper-research/learn-intention-uppend.md"
               }
             }
           }
@@ -174,10 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c49057a10e24067d",
+  "active": "a5646dae993e1a98",
   "lastOpenFiles": [
-    "paper-research/learn-intention-uppend.md",
     "jou-project/corp-visualizer.md",
+    "paper-research/learn-intention-uppend.md",
     "paper-research",
     "jou-project/ddengine.md",
     "conflict-files-obsidian-git.md",

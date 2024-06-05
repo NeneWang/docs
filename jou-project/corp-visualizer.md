@@ -34,7 +34,7 @@ Questions:
 ### Side Research
 
 ### Procedures & Functions
-#procedures #functions
+#procedures #functions #snowflake
 
 A procedure is a database object similar to a function. The key differences are: 
 - **Procedures are defined with the CREATE PROCEDURE command, not CREATE FUNCTION** . 
