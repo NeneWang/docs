@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/corp-visualizer.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/ddengine.md"
+                "file": "jou-project/corp-visualizer.md"
               }
             }
           }
@@ -159,8 +159,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,6 +175,8 @@
   },
   "active": "a5646dae993e1a98",
   "lastOpenFiles": [
+    "jou-project/ddengine.md",
+    "jou-project/corp-visualizer.md",
     "conflict-files-obsidian-git.md",
     "Docs Organization.md",
     "development/Untitled.md",
@@ -206,7 +207,6 @@
     "Single Items Sim.md",
     "Napoleon and the Cult of Glory - Short Report.md",
     "jou-project/intv.md",
-    "jou-project/ddengine.md",
     "jou-project/mcli.md",
     "open-daily/cses.md",
     "jou-project/readme.md",
@@ -218,7 +218,6 @@
     "docs/posts/journal/platinum/Untitled.md",
     "jou-project",
     "rep-project/rec exploration.md",
-    "docs/posts/journal/24-1-jan.md",
     "docs/posts/journal/platinum"
   ]
 }
