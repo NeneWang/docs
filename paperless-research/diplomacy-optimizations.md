@@ -10,7 +10,10 @@ Metrics:
 
 
 To Explore:
-- Nurturing Par
+- Nurturing Growth
+- Sponsor kind.
+- Mentee type?
+- What about weekly: given habits?
 
 
 
