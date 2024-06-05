@@ -18,15 +18,20 @@ Next steps:
 
 ---
 
-
 - _For the future…_ new field: **pf_global_company_per_email_count**
-
 - Number of companies associated with this email for any state
+
 ---
 Design strategy:
 
 Questions:
 - How will update work in this case?
 	- Every time the merge operation is runned. => Update procedure for number of companies associated.
-	- Every time rows are inserted. the formation table view checked on insert.
-	- Every time rows are inserted. Either as a separate query, or at the same time. each. 
+	- **Every time rows are inserted**. the formation table view checked on insert.
+	- **Every time rows are inserted**. Either as a separate query, or at the same time. once. (as a stored procedure, to store and compute the count of companies per email)
+
+
+
+
+
+
