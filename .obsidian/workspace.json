@@ -10,52 +10,10 @@
           {
             "id": "a9eb812e322cb78f",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs Organization.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3926290b9f11264a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/corp-visualizer.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "4805a86bf1b2d13a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paperless-research/snowflake.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b3565f38c27244fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-reports/2024-06-05.md",
+                "file": "jou-project/mcli.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#2024-05-30",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/mcli.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/mcli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs Organization.md"
+                "file": "jou-project/mcli.md"
               }
             }
           }
@@ -176,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,53 +150,50 @@
   },
   "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
-    "daily-reports/2024-06-05.md",
+    "rep-project.zip",
+    "paperless-research/learn-intention-uppend.md",
     "paperless-research/snowflake.md",
-    "daily-reports",
     "paperless-research/documentation-oriented-work.md",
-    "Docs Organization.md",
+    "paperless-research/diplomacy-optimizations.md",
+    "paperless-research",
+    "jou-project/journal-structure.md",
     "jou-project/corp-visualizer.md",
-    "jou-project/ddengine.md",
     "img/Pasted image 20240605133640.png",
     "img/Pasted image 20240605131655.png",
     "img/Pasted image 20240605130847.png",
-    "rep-project/rec exploration.md",
-    "rep-project.zip",
-    "rep-project/readme.md",
-    "rep-project/panda-plus.md",
-    "rep-project/introduction.md",
-    "rep-project/slc-website.md",
-    "img/Readme.md",
-    "img/2024-03-15.md",
-    "jou-project/journal-structure.md",
-    "docs/posts/journal/platinum/Untitled.md",
-    "jou-project/2024-06-04.md",
-    "docs/bigbrain.md",
+    "img/Pasted image 20240605122914.png",
     "docs-2024.zip",
-    "docs-2024 (2).zip",
-    "docs.zip",
-    "docs/posts/journal/platinum/24-4-apr.md",
-    "docs/posts/journal/platinum/24-5-may.md",
-    "docs/public/img/logo.png",
-    "docs/public/img/favicon.png",
-    "docs/posts/research/software-obsolete.md",
-    "docs/posts/research/introduction.md",
+    "daily-reports/2024-06-05.md",
+    "daily-reports",
+    "Docs Organization.md",
+    "jou-project/intv.md",
+    "2024-06-04.md",
+    "development/Untitled.canvas",
+    "img/Pasted image 20240518133900.png",
+    "img/Pasted image 20240518132931.png",
+    "img/Pasted image 20240518131044.png",
+    "img/Pasted image 20240518131039.png",
+    "img/Pasted image 20240516031620.png",
+    "img/Pasted image 20240516030550.png",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
     "docs/posts/pcwinhome/How to Use AI In my Career.md",
     "docs/posts/pcwinhome/AI and career.md",
-    "docs/posts/journal/test.ipynb",
-    "docs/posts/journal/platinum",
-    "docs/posts/guide/Plan.canvas",
-    "docs/public/img",
-    "docs/posts/research",
+    "docs/posts/pcwinhome/4-28-2024.md",
     "docs/posts/pcwinhome",
-    "docs/favicon.png",
-    "img/Pasted image 20240605122914.png",
-    "docs/Untitled.canvas",
-    "Untitled.canvas",
-    "img/Pasted image 20240518133900.png",
-    "img/Pasted image 20240518132931.png",
-    "img/Pasted image 20240518131044.png"
+    "development/bigbrain.md",
+    "development/Untitled.md",
+    "Single Items Sim.md",
+    "development/Napoleon and the Cult of Glory - Short Report.md",
+    "jou-project/ddengine.md",
+    "jou-project/mcli.md",
+    "open-daily/cses.md",
+    "jou-project/readme.md",
+    "open-daily",
+    "arc-project",
+    "projects/Untitled.md",
+    "docs/posts/journal/platinum/24-5-may.md",
+    "jou-project",
+    "docs/posts/journal/platinum"
   ]
 }
