@@ -1,8 +1,0 @@
-{
-  "attachmentFolderPath": "public/img",
-  "promptDelete": false,
-  "newLinkFormat": "relative",
-  "newFileLocation": "folder",
-  "newFileFolderPath": "public/img",
-  "useMarkdownLinks": true
-}

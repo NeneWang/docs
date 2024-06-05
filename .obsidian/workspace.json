@@ -50,15 +50,11 @@
             }
           },
           {
-            "id": "310df82a733de63c",
+            "id": "785d85959d983a30",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/bigbrain.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
@@ -128,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/bigbrain.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/bigbrain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/bigbrain.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -191,9 +183,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "074b5128d549a235",
+  "active": "785d85959d983a30",
   "lastOpenFiles": [
+    "paperless-research/snowflake.md",
     "docs/posts/journal/platinum/Untitled.md",
+    "jou-project/2024-06-04.md",
+    "docs/bigbrain.md",
+    "docs-2024.zip",
+    "docs-2024 (2).zip",
+    "docs.zip",
     "docs/posts/journal/platinum/24-4-apr.md",
     "docs/posts/journal/platinum/24-5-may.md",
     "docs/public/img/logo.png",
@@ -220,19 +218,13 @@
     "docs/posts/guide/stay-out-trouble.md",
     "docs/posts/guide/software.md",
     "docs/posts/guide/Readme.md",
-    "docs/posts/guide/principles.md",
     "docs/posts/guide/Plan.canvas",
-    "docs/posts/guide/other.md",
-    "docs/posts/guide/operations.md",
     "docs/public/img",
     "docs/posts/research",
     "docs/posts/pcwinhome",
     "docs/posts/journal",
     "docs/posts/guide",
-    "docs/public",
-    "docs/posts",
     "docs/favicon.png",
-    "docs",
     "img/Pasted image 20240605122914.png",
     "docs/Untitled.canvas",
     "Untitled.canvas",
