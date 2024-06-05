@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "84ae529e5ff420d0",
+            "id": "310df82a733de63c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#cor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,8 +104,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -184,10 +183,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "84ae529e5ff420d0",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
+    "docs.zip",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
+    "docs/posts/guide/stay-out-trouble.md",
     "img/Pasted image 20240605122914.png",
     "Procedures-snowflake.md",
     "jou-project/corp-visualizer.md",
@@ -225,7 +226,6 @@
     "Napoleon and the Cult of Glory - Short Report.md",
     "jou-project/intv.md",
     "jou-project/mcli.md",
-    "open-daily/cses.md",
     "open-daily",
     "arc-project",
     "jou-project",
