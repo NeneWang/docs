@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "mode": "source",
                 "source": false
               },
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -182,10 +182,10 @@
   },
   "active": "3926290b9f11264a",
   "lastOpenFiles": [
+    "jou-project/corp-visualizer.md",
     "img/Pasted image 20240605133640.png",
     "img/Pasted image 20240605131655.png",
     "paperless-research/snowflake.md",
-    "jou-project/corp-visualizer.md",
     "Docs Organization.md",
     "img/Pasted image 20240605130847.png",
     "rep-project/rec exploration.md",
@@ -229,7 +229,6 @@
     "Untitled.canvas",
     "img/Pasted image 20240518133900.png",
     "img/Pasted image 20240518132931.png",
-    "img/Pasted image 20240518131044.png",
-    "img/Pasted image 20240518131039.png"
+    "img/Pasted image 20240518131044.png"
   ]
 }
