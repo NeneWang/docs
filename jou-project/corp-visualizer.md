@@ -74,6 +74,7 @@ CALL update_corporation_fl_email_data();
 ```
 
 #### Updating Creation Date with SET CASES
+#to-study 
 
 ```sql
 
@@ -91,7 +92,8 @@ SELECT pf_cta_due_date, creation_date FROM CORPORATION;
 
 ![[Pasted image 20240605130847.png]]
 ### Number of companies associated to this email in this state (exclude where email is null)
-#2024-06-05 
+#2024-06-05 #to-study
+
 
 
 Query:
@@ -118,7 +120,7 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 
 ![[Pasted image 20240605131655.png]]
 
-
+### Selecting the Count per state
 
 
 - Lets have this first
