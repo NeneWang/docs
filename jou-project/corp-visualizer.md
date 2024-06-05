@@ -36,7 +36,9 @@ Questions:
 ### Procedures & Functions
 #procedures #functions
 
-A procedure is a database object similar to a function. The key differences are: **Procedures are defined with the CREATE PROCEDURE command, not CREATE FUNCTION** . Procedures do not return a function value; hence CREATE PROCEDURE lacks a RETURNS clause.
+A procedure is a database object similar to a function. The key differences are: 
+- **Procedures are defined with the CREATE PROCEDURE command, not CREATE FUNCTION** . 
+- Procedures do not return a function value; hence CREATE PROCEDURE lacks a RETURNS clause.
 
 
 
