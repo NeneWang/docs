@@ -125,3 +125,5 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 
 
 - Lets have this first
+
+![[Pasted image 20240605133640.png]]
