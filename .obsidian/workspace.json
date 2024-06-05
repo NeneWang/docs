@@ -53,8 +53,12 @@
             "id": "310df82a733de63c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/bigbrain.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -124,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/bigbrain.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/bigbrain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/bigbrain.md"
+              }
             }
           }
         ],
@@ -185,50 +193,54 @@
   },
   "active": "074b5128d549a235",
   "lastOpenFiles": [
-    "docs.zip",
-    "Docs Organization.md",
-    "paperless-research/snowflake.md",
-    "docs/posts/guide/stay-out-trouble.md",
-    "img/Pasted image 20240605122914.png",
-    "Procedures-snowflake.md",
-    "jou-project/corp-visualizer.md",
-    "paperless-research/learn-intention-uppend.md",
-    "paperless-research/documentation-oriented-work.md",
-    "paperless-research/diplomacy-optimizations.md",
-    "development/Single Items Sim.md",
-    "Untitled.md",
-    "paperless-research",
-    "jou-project/ddengine.md",
-    "conflict-files-obsidian-git.md",
-    "development/Untitled.md",
-    "development/Untitled.canvas",
-    "development/Napoleon and the Cult of Glory - Short Report.md",
-    "development/bigbrain.md",
-    "development",
-    "Untitled.canvas",
-    "jou-project/2024-06-04.md",
-    "img/Pasted image 20240518133900.png",
-    "img/Pasted image 20240518132931.png",
-    "img/Pasted image 20240518131044.png",
-    "img/Pasted image 20240518131039.png",
-    "img/Pasted image 20240516031620.png",
-    "img/Pasted image 20240516030550.png",
-    "img/Pasted image 20240516022513.png",
-    "img/Pasted image 20240515185442.png",
-    "img/Pasted image 20240515185433.png",
+    "docs/posts/journal/platinum/Untitled.md",
+    "docs/posts/journal/platinum/24-4-apr.md",
+    "docs/posts/journal/platinum/24-5-may.md",
+    "docs/public/img/logo.png",
+    "docs/public/img/favicon.png",
+    "docs/posts/research/software-obsolete.md",
+    "docs/posts/research/introduction.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
     "docs/posts/pcwinhome/How to Use AI In my Career.md",
     "docs/posts/pcwinhome/AI and career.md",
     "docs/posts/pcwinhome/4-28-2024.md",
+    "docs/posts/journal/Untitled.md",
+    "docs/posts/journal/test.ipynb",
+    "docs/posts/journal/sheet.md",
+    "docs/posts/journal/Readme.md",
+    "docs/posts/journal/platinum",
+    "docs/posts/journal/24-4-apr.md",
+    "docs/posts/journal/backlog.md",
+    "docs/posts/journal/24-3-mar.md",
+    "docs/posts/journal/24-1-jan.md",
+    "docs/posts/journal/24-2-feb.md",
+    "docs/posts/journal/2024-05-02.md",
+    "docs/posts/guide/work.md",
+    "docs/posts/guide/stay-out-trouble.md",
+    "docs/posts/guide/software.md",
+    "docs/posts/guide/Readme.md",
+    "docs/posts/guide/principles.md",
+    "docs/posts/guide/Plan.canvas",
+    "docs/posts/guide/other.md",
+    "docs/posts/guide/operations.md",
+    "docs/public/img",
+    "docs/posts/research",
     "docs/posts/pcwinhome",
-    "bigbrain.md",
-    "Napoleon and the Cult of Glory - Short Report.md",
-    "jou-project/intv.md",
-    "jou-project/mcli.md",
-    "open-daily",
-    "arc-project",
-    "jou-project",
-    "docs/posts/journal/platinum"
+    "docs/posts/journal",
+    "docs/posts/guide",
+    "docs/public",
+    "docs/posts",
+    "docs/favicon.png",
+    "docs",
+    "img/Pasted image 20240605122914.png",
+    "docs/Untitled.canvas",
+    "Untitled.canvas",
+    "img/Pasted image 20240518133900.png",
+    "img/Pasted image 20240518132931.png",
+    "img/Pasted image 20240518131044.png",
+    "img/Pasted image 20240518131039.png",
+    "img/Pasted image 20240516031620.png",
+    "img/Pasted image 20240516030550.png"
   ]
 }
