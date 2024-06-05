@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paperless-research/snowflake.md",
+                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paperless-research/snowflake.md",
+                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paperless-research/snowflake.md"
+                "file": "jou-project/corp-visualizer.md"
               }
             }
           }
@@ -179,8 +179,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4805a86bf1b2d13a",
+  "active": "3926290b9f11264a",
   "lastOpenFiles": [
+    "Docs Organization.md",
     "paperless-research/snowflake.md",
     "rep-project/rec exploration.md",
     "rep-project.zip",
@@ -214,7 +215,6 @@
     "docs/posts/journal/Readme.md",
     "docs/posts/journal/platinum",
     "docs/posts/journal/24-4-apr.md",
-    "docs/posts/journal/backlog.md",
     "docs/posts/guide/Plan.canvas",
     "docs/public/img",
     "docs/posts/research",
