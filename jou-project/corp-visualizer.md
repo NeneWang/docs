@@ -34,14 +34,18 @@ Questions:
 ### Side Research
 
 ### Procedures & Functions
-#procedures #functions #snowflake
+#procedures #functions #snowflake #2024-06-05 
 
 A procedure is a database object similar to a function. The key differences are: 
 - **Procedures are defined with the CREATE PROCEDURE command, not CREATE FUNCTION** . 
 - Procedures do not return a function value; hence CREATE PROCEDURE lacks a RETURNS clause.
 
 
+### Metadata Snowflake
 
+#sflk-metadata #2024-06-05 
+
+METADATA$ACTION
 
 
 

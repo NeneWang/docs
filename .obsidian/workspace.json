@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "procedures & ",
+                "query": "tag:#sflk-metadata",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
