@@ -542,8 +542,8 @@ module.exports = { Problem: Twitter };
 ### Storing Pseudocode
 
 - Requires: 
-	- Requires storing on tests. to indicate that these exactly dont require testings.
-		- Remember this are the source of thruths
+	- Requires storing on tests. to indicate that these exactly don't require testing's.
+		- Remember this are the source of truths
 	- 
 
 
