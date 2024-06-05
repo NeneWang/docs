@@ -1,4 +1,5 @@
 #learning-tec
 
 
-Abstract: 
+Context: 
+- Projects includes: learning mini projects/exercises + 
