@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -212,12 +212,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69ddeaf820648870",
+  "active": "36719d1483691487",
   "lastOpenFiles": [
-    "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
-    "paperless-research/documentation-oriented-work.md",
     "Docs Organization.md",
+    "paperless-research/snowflake.md",
+    "paperless-research/documentation-oriented-work.md",
     "paperless-research/learn-intention-uppend.md",
     "paperless-research/diplomacy-optimizations.md",
     "development/Single Items Sim.md",
