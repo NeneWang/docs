@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paperless-research/documentation-oriented-work.md",
+                "file": "Docs Organization.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,21 +54,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2c107b4192932bac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Docs Organization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Docs Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Docs Organization.md"
               }
             }
           }
@@ -197,14 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c107b4192932bac",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
     "paperless-research/learn-intention-uppend.md",
-    "Untitled.md",
-    "jou-project/corp-visualizer.md",
-    "paperless-research/documentation-oriented-work.md",
     "paperless-research/diplomacy-optimizations.md",
     "Docs Organization.md",
+    "development/Single Items Sim.md",
+    "paperless-research/documentation-oriented-work.md",
+    "Untitled.md",
+    "jou-project/corp-visualizer.md",
     "paperless-research",
     "jou-project/ddengine.md",
     "conflict-files-obsidian-git.md",
@@ -214,7 +202,7 @@
     "development/bigbrain.md",
     "development",
     "Untitled.canvas",
-    "2024-06-04.md",
+    "jou-project/2024-06-04.md",
     "img/Pasted image 20240518133900.png",
     "img/Pasted image 20240518132931.png",
     "img/Pasted image 20240518131044.png",
@@ -232,7 +220,6 @@
     "docs/posts/pcwinhome/4-28-2024.md",
     "docs/posts/pcwinhome",
     "bigbrain.md",
-    "Single Items Sim.md",
     "Napoleon and the Cult of Glory - Short Report.md",
     "jou-project/intv.md",
     "jou-project/mcli.md",
