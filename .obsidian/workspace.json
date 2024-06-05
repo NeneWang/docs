@@ -25,14 +25,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/diplomacy-efficiency.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e1385df4d200e1a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "jou-project/corp-visualizer.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -161,12 +165,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "074b5128d549a235",
+  "active": "0e1385df4d200e1a",
   "lastOpenFiles": [
+    "paperless-research/diplomacy-efficiency.md",
     "Docs Organization.md",
+    "jou-project/corp-visualizer.md",
     "paperless-research/documentation-oriented-work.md",
     "paperless-research/learn-intention-uppend.md",
-    "jou-project/corp-visualizer.md",
     "paperless-research",
     "jou-project/ddengine.md",
     "conflict-files-obsidian-git.md",
@@ -205,7 +210,6 @@
     "arc-project",
     "projects/Untitled.md",
     "docs/posts/journal/platinum/24-5-may.md",
-    "docs/posts/journal/2024-05-02.md",
     "jou-project",
     "docs/posts/journal/platinum"
   ]
