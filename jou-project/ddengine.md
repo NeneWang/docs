@@ -1747,7 +1747,7 @@ Why is 8?
 
 ![](../img/Pasted%20image%2020240604155354.png)
 
-> How come first name be soemthing[]() while the other not?
+> How come first name be something while the other not?
 
 
 ```sql

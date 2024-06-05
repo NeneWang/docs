@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5646dae993e1a98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jou-project/ddengine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/intv.md",
+                "file": "Docs Organization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/intv.md",
+                "file": "Docs Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/intv.md"
+                "file": "Docs Organization.md"
               }
             }
           }
@@ -162,11 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9253c8f9d92352fe",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
-    "2024-06-04.md",
     "Untitled.canvas",
-    "Docs Organization.md",
+    "2024-06-04.md",
     "img/Pasted image 20240518133900.png",
     "img/Pasted image 20240518132931.png",
     "img/Pasted image 20240518131044.png",
@@ -191,6 +202,7 @@
     "jou-project/ddengine.md",
     "jou-project/mcli.md",
     "open-daily/cses.md",
+    "Docs Organization.md",
     "jou-project/readme.md",
     "open-daily",
     "arc-project",
