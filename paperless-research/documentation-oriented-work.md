@@ -2,6 +2,10 @@
 
 
 abstract
+- How to maximize learning?
+- Document on a `jounral`
+- Reference to the real documentation.
+	- You can 
 - 
 
 Context: 
