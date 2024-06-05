@@ -55,17 +55,3 @@ Ideally group 2, but up to 3 items.
 ```
 
 modify binary search:
-
-```
-class BinarySearch {
-	solve(nums, target) {
-	// Your code here
-	 i = 0;
-	 l = 0; r = len(nums)
-	 while(l < r)
-	}
-}
-
-
-module.exports = { Problem: BinarySearch };
-```

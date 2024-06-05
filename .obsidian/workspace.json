@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paperless-research/documentation-oriented-work.md",
+                "file": "2024-06-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paperless-research/documentation-oriented-work.md",
+                "file": "2024-06-05.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paperless-research/documentation-oriented-work.md",
+                "file": "2024-06-05.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paperless-research/documentation-oriented-work.md"
+                "file": "2024-06-05.md"
               }
             }
           }
@@ -195,8 +195,9 @@
   },
   "active": "b3565f38c27244fb",
   "lastOpenFiles": [
-    "Docs Organization.md",
     "paperless-research/documentation-oriented-work.md",
+    "2024-06-05.md",
+    "Docs Organization.md",
     "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
     "jou-project/ddengine.md",
@@ -229,7 +230,6 @@
     "docs/posts/pcwinhome/How to Use AI In my Career.md",
     "docs/posts/pcwinhome/AI and career.md",
     "docs/posts/pcwinhome/4-28-2024.md",
-    "docs/posts/journal/Untitled.md",
     "docs/posts/journal/test.ipynb",
     "docs/posts/journal/platinum",
     "docs/posts/guide/Plan.canvas",
