@@ -21,7 +21,10 @@ I followed Software engineering path. Which I would recommend unless you have a 
 - Or other blue collar jobs that are not able to neither be automized nor outsourced.
 - Outsourceable/automated jobs: 
   - Software Development
-  - Most other works.
+  - Most other jobs including management.
+  - What cannot be outsourced?
+    - Talking. Jobs about talking.
+    - Where it requires localiced certifications: Accounting, Engineering, Nursing, etc.
 - Or social work like:
   - Maybe even teaching could be a good idea.
 - If you are in an expensive higher education country such as: United States
@@ -34,6 +37,8 @@ As a general rule:
 - If you are lucky to feel passion about something (willing to work for free 16 hours a day) then choose it regardless of the bullets above.
   - Please test yourself within those guidelines, e.g. test the career for a month of 16 hours a day, if you are still willing to do it then go for it.
 - Avoid 'studies' or too 'general' careers: 
+
+- Its about finding a career and perhaps (location) in which you can pour your passion into it.
 
 ## 2. College Tips
 
@@ -73,6 +78,7 @@ For [6] I would suggest the following strategies:
    1. Keep in readme the sets of Install options and descriptions with pictures and captures of it's features.
    2. Create a `highlight.md` file tracking the progression of your software and HIGHLIGHT whenever you face an interesting challanges.
 2. Try to avoid repeating your stack.
+3. Follow Industry best practices (Readmes\Namings) to make your respository look somehow legitimate.
 
 ## 4. Make Reusable Templates
 
@@ -86,6 +92,56 @@ For [6] I would suggest the following strategies:
 
 1. Not the louds ones, that got there by luck. Try to find those who worked hard. I know it might be cringy but model their approach as best as you can. Also if they are from a similar background, the better.
 2. What certifications did they study? What projects they have built? What Habits did they accomplish?
+3. In the case of software engineers: Focus or aim to build projects that serve as templates or libraries to show off your true mastery of the subject. _ This is almost as the equivalent of publishing the book of the topic for engineers.
+
+
+## 6. Cracking the Role like a True Hacker.
+
+
+*Approaching breaking into a company as approaching breaking as a Hacker*
+
+
+Main Axions:
+- Internal Department transfer > External Hires.
+- Digital Anonym is bad, asking internally is good.
+- Larger companies have many *hidden* entry positions.
+- You can always be proactive and outgrow your role and interests.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 6. Crafting Masters and Curriculum Enhancement.
 
