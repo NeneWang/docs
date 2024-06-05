@@ -48,8 +48,17 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "84ae529e5ff420d0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#procedure",
+                "query": "tag:#cor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,7 +125,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +141,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Docs Organization.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -178,15 +184,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "84ae529e5ff420d0",
   "lastOpenFiles": [
+    "Docs Organization.md",
     "paperless-research/snowflake.md",
     "img/Pasted image 20240605122914.png",
     "Procedures-snowflake.md",
     "jou-project/corp-visualizer.md",
     "paperless-research/learn-intention-uppend.md",
     "paperless-research/documentation-oriented-work.md",
-    "Docs Organization.md",
     "paperless-research/diplomacy-optimizations.md",
     "development/Single Items Sim.md",
     "Untitled.md",

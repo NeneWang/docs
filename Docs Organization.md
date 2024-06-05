@@ -13,7 +13,6 @@
 
 
 
-# Jounral
 
 ### Project Organization
 #2024-05-30 
@@ -24,6 +23,12 @@ Each Project Contains the following files
 ```
 
 ```
+
+
+### Journal
+#journal
+Example: [[corp-visualizer]]
+
 
 
 ### Paperless Research
