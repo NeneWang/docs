@@ -98,6 +98,27 @@ Query:
 
 ```sql
 
+UPDATE CORPORATION
+SET pf_state_company_per_email_count = sub.email_count
+FROM (
+    SELECT ENTITY_EMAIL, pf_state, COUNT(*) AS email_count
+    FROM CORPORATION
+    GROUP BY ENTITY_EMAIL, pf_state
+) sub
+WHERE CORPORATION.ENTITY_EMAIL = sub.ENTITY_EMAIL AND CORPORATION.pf_state = sub.pf_state;
 ```
+
+
+
+```sql
+
+SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION;
+```
+
+
+![[Pasted image 20240605131655.png]]
+
+
+
 
 - Lets have this first
