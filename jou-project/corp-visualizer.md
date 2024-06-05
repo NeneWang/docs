@@ -12,7 +12,7 @@ Next steps:
 - [ ] Formation >= 1/1/2024 AND < 1/1/2025 => 90 days after formation
 - [ ]  Formation >= 1/1/2025 => 30 days after formation
 
-- [ ] Add new field: **pf_state_company_per_email_count**
+- [x] Add new field: **pf_state_company_per_email_count**
 
 - Number of companies associated to this email in this state (exclude where email is null)
 
