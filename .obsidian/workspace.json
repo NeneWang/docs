@@ -34,24 +34,12 @@
             }
           },
           {
-            "id": "36719d1483691487",
+            "id": "4805a86bf1b2d13a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "paperless-research/snowflake.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "69ddeaf820648870",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/corp-visualizer.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -199,15 +187,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69ddeaf820648870",
+  "active": "4805a86bf1b2d13a",
   "lastOpenFiles": [
+    "img/Pasted image 20240605122914.png",
     "paperless-research/snowflake.md",
+    "Procedures-snowflake.md",
     "jou-project/corp-visualizer.md",
+    "paperless-research/learn-intention-uppend.md",
+    "paperless-research/documentation-oriented-work.md",
     "Docs Organization.md",
     "paperless-research/diplomacy-optimizations.md",
-    "Procedures-snowflake.md",
-    "paperless-research/documentation-oriented-work.md",
-    "paperless-research/learn-intention-uppend.md",
     "development/Single Items Sim.md",
     "Untitled.md",
     "paperless-research",
@@ -229,7 +218,6 @@
     "img/Pasted image 20240516022513.png",
     "img/Pasted image 20240515185442.png",
     "img/Pasted image 20240515185433.png",
-    "img/Pasted image 20240515150102.png",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
     "docs/posts/pcwinhome/How to Use AI In my Career.md",
@@ -241,7 +229,6 @@
     "jou-project/intv.md",
     "jou-project/mcli.md",
     "open-daily/cses.md",
-    "jou-project/readme.md",
     "open-daily",
     "arc-project",
     "jou-project",

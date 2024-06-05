@@ -3,7 +3,6 @@ To go over
 - Best Practices
 - Documentations and know-hows.
 
-
 ### Procedures
 #procedures #functions #snowflake #2024-06-05 
 

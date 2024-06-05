@@ -29,7 +29,8 @@ Questions:
 	- Every time the merge operation is runned. => Update #procedure for **number of companies** associated. => Save as #procedure[[snowflake#Procedures]]
 	- **Every time rows are inserted**. the formation table view checked on insert. to compute whether something is or not => Save as #snflk-function 
 
-[[snowfla]]
+[[snowflake#new]]
+
 
 The documentation added to 
 
