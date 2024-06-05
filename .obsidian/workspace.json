@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/documentation-oriented-work.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/documentation-oriented-work.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/documentation-oriented-work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paperless-research/documentation-oriented-work.md"
               }
             }
           }
@@ -192,10 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3565f38c27244fb",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
-    "jou-project/ddengine.md",
     "jou-project/corp-visualizer.md",
+    "jou-project/ddengine.md",
     "img/Pasted image 20240605133640.png",
     "img/Pasted image 20240605131655.png",
     "paperless-research/snowflake.md",
