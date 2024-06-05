@@ -173,8 +173,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a5646dae993e1a98",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
+    "paper-research",
     "jou-project/ddengine.md",
     "jou-project/corp-visualizer.md",
     "conflict-files-obsidian-git.md",
@@ -217,7 +218,6 @@
     "docs/posts/journal/2024-05-02.md",
     "docs/posts/journal/platinum/Untitled.md",
     "jou-project",
-    "rep-project/rec exploration.md",
     "docs/posts/journal/platinum"
   ]
 }
