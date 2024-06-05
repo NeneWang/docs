@@ -4,7 +4,7 @@ To go over
 - Documentations and know-hows.
 
 
-### Procedures & Functions
+### Procedures
 #procedures #functions #snowflake #2024-06-05 
 
 A procedure is a database object similar to a function. The key differences are: 
@@ -13,8 +13,6 @@ A procedure is a database object similar to a function. The key differences are:
 
 
 Example:
-
-
 
 ```sql
 CREATE OR REPLACE PROCEDURE update_corporation_fl_email_data()
@@ -47,7 +45,6 @@ BEGIN
 END;
 $$;
 ```
-
 
 
 ```sql
