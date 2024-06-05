@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -212,7 +212,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3926290b9f11264a",
+  "active": "69ddeaf820648870",
   "lastOpenFiles": [
     "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
