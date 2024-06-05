@@ -27,4 +27,5 @@ Design strategy:
 
 Questions:
 - How will update work in this case?
-	- Every time the merge operation is runned. => Update procedure for number of coma
+	- Every time the merge operation is runned. => Update procedure for number of companies associated.
+	- Every time the 
