@@ -25,6 +25,9 @@ Context:
 ### Markdown like Problems
 
 Design Heuristics
-- The objective is not to memorize, but to practice the implmeentation.
+- The objective is not to memorize, but to practice the implementation.
+
+
+
 
 
