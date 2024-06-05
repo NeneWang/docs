@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/learn-intention-uppend.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/learn-intention-uppend.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/learn-intention-uppend.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paperless-research/learn-intention-uppend.md"
               }
             }
           }
@@ -173,12 +173,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c49057a10e24067d",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
-    "Docs Organization.md",
-    "paperless-research/learn-intention-uppend.md",
     "paperless-research/documentation-oriented-work.md",
+    "paperless-research/learn-intention-uppend.md",
     "jou-project/corp-visualizer.md",
+    "Docs Organization.md",
     "paperless-research",
     "jou-project/ddengine.md",
     "conflict-files-obsidian-git.md",
