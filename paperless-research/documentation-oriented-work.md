@@ -42,10 +42,15 @@ Examples of what goes in:
 
 Structure
 
+Ideally group 2, but up to 3 items. 
+
 ```md
 
 ## Problem Description
 
+### Question 1
+
+### Question 2
 
 ```
 
