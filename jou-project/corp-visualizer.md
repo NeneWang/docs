@@ -26,6 +26,6 @@ Design strategy:
 
 Questions:
 - How will update work in this case?
-	- Every time the merge operation is runned. => Update procedure for **number of companies** associated. => Save as #procedure.
-	- **Every time rows are inserted**. the formation table view checked on insert. to compute whether something is or not => Save as function 
+	- Every time the merge operation is runned. => Update #procedure for **number of companies** associated. => Save as #procedure.
+	- **Every time rows are inserted**. the formation table view checked on insert. to compute whether something is or not => Save as #snflk-function 
 
