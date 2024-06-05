@@ -1,8 +1,8 @@
 
+T
+- Best Practices
+- How to
 
-
----
-## Side Research
 
 ### Procedures & Functions
 #procedures #functions #snowflake #2024-06-05 

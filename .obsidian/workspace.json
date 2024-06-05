@@ -63,14 +63,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paperless-research/documentation-oriented-work.md",
+                "file": "paperless-research/snowflake.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "69ddeaf820648870",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jou-project/corp-visualizer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#sflk-metadata",
+                "query": "tag:#procedure",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +128,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -199,13 +212,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3926290b9f11264a",
+  "active": "36719d1483691487",
   "lastOpenFiles": [
-    "Docs Organization.md",
     "paperless-research/documentation-oriented-work.md",
+    "jou-project/corp-visualizer.md",
+    "Docs Organization.md",
     "paperless-research/snowflake.md",
     "paperless-research/learn-intention-uppend.md",
-    "jou-project/corp-visualizer.md",
     "paperless-research/diplomacy-optimizations.md",
     "development/Single Items Sim.md",
     "Untitled.md",
