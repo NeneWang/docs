@@ -1,6 +1,7 @@
 
 
 ### Corporation Visualizer
+#2024-06-05
 
 Next steps:
 
@@ -15,7 +16,14 @@ Next steps:
 
 - Number of companies associated to this email in this state (exclude where email is null)
 
+---
+
+
 - _For the future…_ new field: **pf_global_company_per_email_count**
 
 - Number of companies associated with this email for any state
+---
+Design strategy:
 
+Questions:
+- 

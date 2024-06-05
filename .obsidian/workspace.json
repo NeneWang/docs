@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "9253c8f9d92352fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/intv.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a5646dae993e1a98",
             "type": "leaf",
             "state": {
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2024-05-30",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -173,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "074b5128d549a235",
+  "active": "a5646dae993e1a98",
   "lastOpenFiles": [
     "paper-research",
     "jou-project/ddengine.md",
