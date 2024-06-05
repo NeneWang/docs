@@ -48,9 +48,17 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "cc5cc39574a93303",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "paperless-research/snowflake.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -179,10 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4805a86bf1b2d13a",
+  "active": "cc5cc39574a93303",
   "lastOpenFiles": [
-    "img/2024-03-15.md",
+    "jou-project/journal-structure.md",
     "paperless-research/snowflake.md",
+    "img/2024-03-15.md",
     "docs/posts/journal/platinum/Untitled.md",
     "jou-project/2024-06-04.md",
     "docs/bigbrain.md",
@@ -213,7 +218,6 @@
     "docs/posts/journal/2024-05-02.md",
     "docs/posts/guide/work.md",
     "docs/posts/guide/stay-out-trouble.md",
-    "docs/posts/guide/software.md",
     "docs/posts/guide/Plan.canvas",
     "docs/public/img",
     "docs/posts/research",

@@ -1,4 +1,4 @@
-#meta-organization 
+#meta-organization #journal 
 
 ## File Structure
 
