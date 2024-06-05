@@ -1,6 +1,6 @@
 
 
-# Corporation Visualizer
+# Corporation Visualizer Florida
 
 ### Day Tasks Inserting Date Formations 2024-06-05
 #2024-06-05
@@ -129,3 +129,6 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 - Lets have this first
 
 ![[Pasted image 20240605133640.png]]
+
+
+### Creating and Storing Functions
