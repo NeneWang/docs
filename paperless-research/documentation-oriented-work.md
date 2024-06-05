@@ -54,3 +54,5 @@ Ideally group 2, but up to 3 items.
 
 ```
 
+modify binary search:
+
