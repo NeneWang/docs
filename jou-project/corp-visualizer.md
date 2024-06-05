@@ -92,3 +92,6 @@ SELECT pf_cta_due_date, creation_date FROM CORPORATION;
 ![[Pasted image 20240605130847.png]]
 ### Number of companies associated to this email in this state (exclude where email is null)
 #2024-06-05 
+
+
+- Lets have this first
