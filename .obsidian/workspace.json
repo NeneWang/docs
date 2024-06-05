@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a5646dae993e1a98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/ddengine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/intv.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/intv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/ddengine.md"
+                "file": "jou-project/intv.md"
               }
             }
           }
@@ -164,7 +152,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "github-sync:Sync with Remote": false,
       "hide-folders:Show hidden folders": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
@@ -175,8 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "074b5128d549a235",
+  "active": "9253c8f9d92352fe",
   "lastOpenFiles": [
+    "2024-06-04.md",
+    "Untitled.canvas",
+    "Docs Organization.md",
     "img/Pasted image 20240518133900.png",
     "img/Pasted image 20240518132931.png",
     "img/Pasted image 20240518131044.png",
@@ -187,7 +177,6 @@
     "img/Pasted image 20240515185442.png",
     "img/Pasted image 20240515185433.png",
     "img/Pasted image 20240515150102.png",
-    "img/Pasted image 20240515145347.png",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
     "docs/posts/pcwinhome/How to Use AI In my Career.md",
@@ -202,7 +191,6 @@
     "jou-project/ddengine.md",
     "jou-project/mcli.md",
     "open-daily/cses.md",
-    "Docs Organization.md",
     "jou-project/readme.md",
     "open-daily",
     "arc-project",
@@ -216,7 +204,6 @@
     "rep-project/slc-website.md",
     "docs/posts/journal/platinum/Prodct.md",
     "docs/posts/journal/24-4-apr.md",
-    "docs/posts/journal/24-3-mar.md",
     "docs/posts/journal/platinum"
   ]
 }

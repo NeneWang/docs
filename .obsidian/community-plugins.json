@@ -1,8 +1,8 @@
 [
-  "github-sync",
   "OA-file-hider",
   "hide-folders",
   "obsidian-timestamper",
   "table-editor-obsidian",
-  "unique-attachments"
+  "unique-attachments",
+  "obsidian-git"
 ]
