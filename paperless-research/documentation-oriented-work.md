@@ -34,5 +34,7 @@ Design Heuristics
 
 
 Examples of what goes in:
-- Interesting implementations of arguments to solve 
+- Interesting implementations of arguments to solve specific problems.
+- Implementing mathematical models + algorithms and quickly plotting things.
+	- Such as creating your own imple
 
