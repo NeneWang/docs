@@ -8,9 +8,9 @@ abstract
 - Reference to the real documentation.
 	- You can get assistance from reading partial solutions but expect to link documentation into documentation
 - Create Practice Problems for algorithmic implementations.
-	- Allow reference to documentation => into cards
+	- Allow reference to documentation -> into cards
 	- Use `journal` as a way to summarize the problem.
-	- 
+	- Reference to the obsidian page.
 - 
 
 Context: 
