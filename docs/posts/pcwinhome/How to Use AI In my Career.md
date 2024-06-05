@@ -1,0 +1,50 @@
+
+- My career is Computer Science
+- AI Is changing revolutioning my field. People are getting fired in droves. **Add Research**
+- Change in focus: As for myself in the tech career I am researching AI and focusing more in heavy math and data engineering, systems engineering, algorithms rather than developing websites or building applications or qa (the more technician part of the job that is more likely being replaced)
+- AI now is the worst it will ever be.
+	- What I think AI is bad at at the moment:
+		- Outlining. Too general, creates general responses.
+		- Is good at brainstorming but bad at creating something unique
+	- What I think is great at:
+		- Refining
+		- Reviewing
+		- Asking good questions/Checking
+		- Summarizing
+		- Correcting (partly) some of the code.
+- I believe companies like now are going to extremely remove job positions
+	- Careers are being destroyed at a very a fast rate, while barely creating new specialized positions compared to the careers is destroying
+	- Growing up, we were told to go to creative positions. Or positions of knowledge such as [artist](https://www.youtube.com/watch?v=wgvHnp9sbGM&ab_channel=ColdFusion) or [lawyers](https://www.youtube.com/watch?v=F46lwq0Rl4k&ab_channel=TEDxTalks), instead of manual jobs. But now the tables had turned, AI had turned things around. The safest jobs are unionized manual trade jobs.
+	- I think the trend is that the new jobs being created you have to be highly smart to occupy them. Very creative and adaptive to a way of learning new jobs. I am worried about the future.
+- As a developer has shifted the paradigm, in a sense I am glad that I am at the start of my career just as AI gets introduced, since I can move not focus on learning things that are end-paths
+- As in the podcast says, I similarly use AI for many things, and then I know what they are bad at.  For example Instead of learning the language specific items. I am better at focusing on things that AI Cant do well yet, for example it has the problem of fantasizing details, so this is the standard process before of working on a project:
+	- learn language
+	- Learn framework
+	- Practice examples
+	- Design architecture
+	- Write Pseudocode
+	- Write code - While consulting documentation
+	- Return
+- Before, the standard advice for engineers would  to specialize on a language/framework
+	- Now that's a bad advice, you should be good instead at: architecture, generalist, marketing, UX 
+	- Is funny how on the podcast says "We were let down on by science movies"
+	- So in summary two things: 
+		- Being a generalist
+			- Knowing enough to put things together.
+			- Learn various tools, different libraries, know the pros and cons of each.
+			- Learn how all aspects of a business, you should be able to be comfortable understanding how to interreact and use AI in marketing, law, engineering, accounting, 
+			- If you are developing a game business:
+				- Know that you can outsource character drawings as longs as you know basic drawing techniques, you don't need to be an expert
+				- As long as you understand well the fundamentals of writing, it can help you improving writing narrative
+		- Expert at math and logic instead of language/framework
+			- Understanding the mathematical proof behind each algorithm
+		- 
+	- I predict this, regardless of how language AI is not exactly good at writing language specific code yet because
+- As an indie developer, I am someone who would like to and is here to create. I can see how with ai one focuses on a higher level of problems: Marketing, Feedback with users. Product Development. So I can expand also the horizons of projects I want to create:
+	- Games
+	- Games using language models.
+		- Note AI Killer
+		- Create more interesting npcs
+	- Technology
+	- Applications
+- 
