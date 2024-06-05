@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed3c2be7f246d684",
+  "active": "074b5128d549a235",
   "lastOpenFiles": [
     "Docs Organization.md",
     "paperless-research/documentation-oriented-work.md",
