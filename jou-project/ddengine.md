@@ -1608,10 +1608,11 @@ for timeslot in stamp_event_list[minutestamp][soup]:
 
 
 ### What's needed to be connected?
+#2024-06-03
 
 - preprocess
 - join_timeslots
-- transform_events
+- transform events
 
 We do need to test thing heavier. Lets see the examples and get inspired on the test cases. (Or just create a large relevant test case)
 
@@ -1619,4 +1620,321 @@ We do need to test thing heavier. Lets see the examples and get inspired on the 
 Lets create first a one-to-one test for the following:
 
 ![](../img/Pasted%20image%2020240603091442.png)
+
+Lets create using this examples:
+
+
+Development question:
+
+- Can this be calculated before the time processing is performed? As part internally of the enhancer?
+
+and then work on the same logic again?
+
+
+
+- How does the regular connection work?
+	-  It separates n things with the `event _guid`
+
+
+![](../img/Pasted%20image%2020240603100313.png)
+
+
+What if we separate things sing the same content? The problem here is that then the same actions by applications such as salesforce would result in the same output. When it was mean to be just different events. (Because it is assuming that where all is just the same.)
+
+Can this be done instead on the platform adaptor?
+
+What I was thinking here is that perhaps they can be joined (or skipped) in the adaptor if it  figures out with a "cache system."
+
+
+Where am I transforming everything into 
+
+
+Other conclusions:
+- There should be a start calculated already from the 
+- And there should be a new field in the column just for `is_start`.
+
+How about `is_start` does it make any difference?
+
+
+Op1: is start to be calculated on query e.g. This is the extension or not of something else. Or this is to be calculated from inferring the evets? How does it know if is start or not. How about when there is a `span_guid`?
+
+This here should be the same:
+What sstrange is that I hould have 2 there
+as this one here:
+
+![](../img/Pasted%20image%2020240603150243.png)
+
+
+
+
+![](../img/Pasted%20image%2020240603150227.png)
+
+
+
+This is right here:
+
+![](../img/Pasted%20image%2020240603150936.png)
+
+> There should be 3 & 5 as expected
+
+
+
+
+![](../img/Pasted%20image%2020240603151528.png)
+
+
+![](../img/Pasted%20image%2020240603152206.png)
+
+> This are `2` keystrokes & `2` clicks as expected.
+
+
+
+![](../img/Pasted%20image%2020240603153033.png)
+
+> How is guid_event even calculated as from?
+
+And  can't I used `souped_event` in order to get the event here?
+
+Now is this even part of the event:
+
+
+
+![](../img/Pasted%20image%2020240603154422.png)
+
+This is correct:
+
+
+![](../img/Pasted%20image%2020240603154435.png)
+
+However it passes from a large minute problems,. Where the events are too far apart. 
+
+![](../img/Pasted%20image%2020240603155726.png)
+
+```
+
+[{'end': datetime.datetime(2024, 6, 3, 15, 9),
+  'start': datetime.datetime(2024, 6, 3, 15, 0),
+  'start_event_guid': '1'},
+ {'end': datetime.datetime(2024, 6, 3, 15, 14),
+  'start': datetime.datetime(2024, 6, 3, 15, 13),
+  'start_event_guid': '1'},
+ {'end': datetime.datetime(2024, 6, 3, 15, 9),
+  'start': datetime.datetime(2024, 6, 3, 15, 6),
+  'start_event_guid': '6'}]
+```
+
+
+
+
+Now start what's the next step which should be
+
+- [ ] Find all unique events
+- [ ] Remove all prints inside the actual code
+- [ ] Inject code as part or module inside
+
+
+
+Now how can I have it there with the processing engine?
+
+- This should be done by having such in the 
+
+Now there is a problem. The timeslots should be with that same random guid.  The things such as rights, etc.
+
+
+Why is 8?
+
+![](../img/Pasted%20image%2020240604104356.png)
+
+![](../img/Pasted%20image%2020240604155354.png)
+
+> How come first name be soemthing[]() while the other not?
+
+
+```sql
+
+MERGE INTO CORPORATION AS corp
+    USING (       
+        SELECT
+        *
+    FROM (
+      SELECT
+        UUID_STRING() AS pf_id,
+        
+    
+    CONCAT('FL', '_', TRIM(SUBSTR($1, 1, 12))) AS pf_state_corpid,
+    'FL' AS pf_state,
+    METADATA$FILENAME AS pf_source,
+    CURRENT_TIMESTAMP() AS pf_loaded_date,
+    TRUE AS pf_is_active,
+    TRIM(SUBSTR($1, 1, 12)) AS corporation_id,
+    TRIM(SUBSTR($1, 13, 192)) AS corporation_name,
+    TRY_TO_DATE(TRIM(SUBSTR($1, 473, 8)), 'MMDDYYYY') AS creation_date,
+    TRIM(SUBSTR($1, 221, 42)) AS entity_address_1,
+    TRIM(SUBSTR($1, 263, 42)) AS entity_address_2,
+    TRIM(SUBSTR($1, 305, 28)) AS entity_city,
+    TRIM(SUBSTR($1, 333, 2)) AS entity_state,
+    TRIM(SUBSTR($1, 335, 10)) AS entity_zip,
+    TRIM(SUBSTR($1, 345, 2)) AS entity_country,
+    TRIM(SUBSTR($1, 205, 1)) AS status,
+    TRIM(SUBSTR($1, 545, 42)) AS registered_agent_name,
+    TRIM(SUBSTR($1, 587, 1)) AS registered_agent_type,
+    TRIM(SUBSTR($1, 588, 42)) AS registered_agent_address_1,
+    TRIM(SUBSTR($1, 630, 28)) AS registered_agent_city,
+    TRIM(SUBSTR($1, 658, 2)) AS registered_agent_state,
+    TRIM(SUBSTR($1, 660, 9)) AS registered_agent_zip,
+    TRIM(SUBSTR($1, 206, 15)) AS corporation_type,
+    TRIM(SUBSTR($1, 669, 4)) AS officer_1_title,
+    TRIM(SUBSTR($1, 673, 1)) AS officer_1_type,
+    TRIM(SUBSTR($1, 674, 42)) AS officer_1_last_name,
+    TRIM(SUBSTR($1, 716, 42)) AS officer_1_address_1,
+    TRIM(SUBSTR($1, 758, 28)) AS officer_1_city,
+    TRIM(SUBSTR($1, 786, 2)) AS officer_1_state,
+    TRIM(SUBSTR($1, 788, 9)) AS officer_1_zip,
+    TRIM(SUBSTR($1, 797, 4)) AS officer_2_title,
+    TRIM(SUBSTR($1, 801, 1)) AS officer_2_type,
+    TRIM(SUBSTR($1, 802, 42)) AS officer_2_last_name,
+    TRIM(SUBSTR($1, 844, 42)) AS officer_2_address_1,
+    TRIM(SUBSTR($1, 886, 28)) AS officer_2_city,
+    TRIM(SUBSTR($1, 914, 2)) AS officer_2_state,
+    TRIM(SUBSTR($1, 916, 9)) AS officer_2_zip,
+    TRIM(SUBSTR($1, 925, 4)) AS officer_3_title,
+    TRIM(SUBSTR($1, 929, 1)) AS officer_3_type,
+    TRIM(SUBSTR($1, 930, 42)) AS officer_3_last_name,
+    TRIM(SUBSTR($1, 972, 42)) AS officer_3_address_1,
+    TRIM(SUBSTR($1, 1014, 28)) AS officer_3_city,
+    TRIM(SUBSTR($1, 1042, 2)) AS officer_3_state,
+    TRIM(SUBSTR($1, 1044, 9)) AS officer_3_zip,
+    TRIM(SUBSTR($1, 1053, 4)) AS officer_4_title,
+    TRIM(SUBSTR($1, 1057, 1)) AS officer_4_type,
+    TRIM(SUBSTR($1, 1058, 42)) AS officer_4_last_name,
+    TRIM(SUBSTR($1, 1100, 42)) AS officer_4_address_1,
+    TRIM(SUBSTR($1, 1142, 28)) AS officer_4_city,
+    TRIM(SUBSTR($1, 1170, 2)) AS officer_4_state,
+    TRIM(SUBSTR($1, 1172, 9)) AS officer_4_zip,
+    TRIM(SUBSTR($1, 1181, 4)) AS officer_5_title,
+    TRIM(SUBSTR($1, 1185, 1)) AS oofficer_5_type,
+    TRIM(SUBSTR($1, 1186, 46)) AS officer_5_last_name,
+    TRIM(SUBSTR($1, 1228, 42)) AS officer_5_address_1,
+    TRIM(SUBSTR($1, 1270, 28)) AS officer_5_city,
+    TRIM(SUBSTR($1, 1298, 2)) AS officer_5_state,
+    TRIM(SUBSTR($1, 1300, 9)) AS officer_5_zip,
+    TRIM(SUBSTR($1, 1309, 4)) AS officer_6_title,
+    TRIM(SUBSTR($1, 1313, 1)) AS officer_6_type,
+    TRIM(SUBSTR($1, 1314, 42)) AS officer_6_last_name,
+    TRIM(SUBSTR($1, 1356, 42)) AS officer_6_address_1,
+    TRIM(SUBSTR($1, 1398, 28)) AS officer_6_city,
+    TRIM(SUBSTR($1, 1426, 2)) AS officer_6_state,
+    TRIM(SUBSTR($1, 1428, 9)) AS officer_6_zip,
+    TRIM(SUBSTR($1, 347, 42)) AS entity_mailing_address_1,
+    TRIM(SUBSTR($1, 389, 42)) AS entity_mailing_address_2,
+    TRIM(SUBSTR($1, 431, 28)) AS entity_mailing_city,
+    TRIM(SUBSTR($1, 459, 2)) AS entity_mailing_state,
+    TRIM(SUBSTR($1, 461, 10)) AS entity_mailing_zip,
+    TRIM(SUBSTR($1, 471, 2)) AS entity_mailing_country,
+    TRIM(SUBSTR($1, 481, 14)) AS ein,
+    TRY_TO_DATE(TRIM(SUBSTR($1, 496, 8))) AS last_transaction_date,
+    TRY_TO_BOOLEAN(TRIM(SUBSTR($1, 495, 1))) AS is_there_more_than_6_officers,
+    TRY_TO_NUMBER(TRIM(SUBSTR($1, 506, 4))) AS report_year_1,
+    TRY_TO_DATE(TRIM(SUBSTR($1, 511, 8)), 'MMDDYYYY') AS report_date_1,
+    TRY_TO_NUMBER(TRIM(SUBSTR($1, 519, 4))) AS report_year_2,
+    TRY_TO_DATE(TRIM(SUBSTR($1, 524, 8)), 'MMDDYYYY') AS report_date_2,
+    TRY_TO_NUMBER(TRIM(SUBSTR($1, 532, 4))) AS report_year_3,
+    TRY_TO_DATE(TRIM(SUBSTR($1, 537, 8)), 'MMDDYYYY') AS report_date_3,
+    ROW_NUMBER() OVER (PARTITION BY TRIM(SUBSTR($1, 1, 12)) ORDER BY METADATA$FILE_ROW_NUMBER DESC) AS row_num,
+    TRIM(
+      CASE WHEN POSITION(',' IN OFFICER_1_LAST_NAME) > 0 THEN
+        SUBSTRING(OFFICER_1_LAST_NAME, POSITION(',' IN OFFICER_1_LAST_NAME) + 1)
+      ELSE
+        SUBSTRING(OFFICER_1_LAST_NAME, POSITION('  ', OFFICER_1_LAST_NAME) + 2) 
+      END
+    ) AS names,
+    INITCAP(
+        CASE 
+        WHEN POSITION(' ', names) > 0  THEN
+        SUBSTRING(names, 0, POSITION(' ', names))
+        ELSE 
+        names
+        END
+    ) AS FirstName,
+    CASE WHEN FirstName is NULL OR FirstName='' THEN
+        'Officer'
+    ELSE
+        FirstName
+    END AS firstname_mailing,
+    OFFICER_1_LAST_NAME AS full_name,
+    FirstName AS officer_1_first_name, 
+    BASE64_ENCODE(CORPORATION_NAME) AS pf_corporation_encoded,
+    BASE64_ENCODE(PF_STATE_CORPID) AS pf_state_corpid_encoded
+  FROM @FL (FILE_FORMAT => PLAIN_TEXT, PATTERN =>  '.*cordata.*.*txt.*')
+) t
+WHERE t.row_num = 1
+) AS src
+ON corp.pf_state_corpid = src.pf_state_corpid
+WHEN MATCHED THEN
+    UPDATE SET
+        firstname_mailing = src.firstname_mailing,
+        pf_corporation_encoded = src.pf_corporation_encoded,
+        pf_state_corpid_encoded = src.pf_state_corpid_encoded,
+        corporation_id = src.corporation_id,
+        corporation_name = src.corporation_name,
+        pf_state = src.pf_state,
+        creation_date = src.creation_date,
+        entity_address_1 = src.entity_address_1,
+        entity_address_2 = src.entity_address_2,
+        entity_city = src.entity_city,
+        entity_state = src.entity_state,
+        entity_zip = src.entity_zip,
+        entity_country = src.entity_country,
+        status = src.status,
+        entity_mailing_address_1 = src.entity_mailing_address_1,
+        entity_mailing_address_2 = src.entity_mailing_address_2,
+        entity_mailing_city = src.entity_mailing_city,
+        entity_mailing_state = src.entity_mailing_state,
+        entity_mailing_zip = src.entity_mailing_zip,
+        entity_mailing_country = src.entity_mailing_country,
+        ein = src.ein,
+        last_transaction_date = src.last_transaction_date,
+        is_there_more_than_6_officers = src.is_there_more_than_6_officers,
+        report_year_1 = src.report_year_1,
+        report_date_1 = src.report_date_1,
+        report_year_2 = src.report_year_2,
+        report_date_2 = src.report_date_2,
+        report_year_3 = src.report_year_3,
+        report_date_3 = src.report_date_3,
+        pf_source = src.pf_source,
+        pf_loaded_date = src.pf_loaded_date,
+        pf_is_active = src.pf_is_active,
+        officer_1_title = src.officer_1_title,
+        officer_1_type = src.officer_1_type,
+        officer_1_first_name = src.officer_1_first_name,
+        officer_1_last_name = src.officer_1_last_name,
+        officer_1_address_1 = src.officer_1_address_1,
+        officer_1_city = src.officer_1_city,
+        officer_1_state = src.officer_1_state,
+        officer_1_zip = src.officer_1_zip,
+        officer_2_title = src.officer_2_title,
+        officer_2_type = src.officer_2_type,
+        officer_2_last_name = src.officer_2_last_name,
+        officer_2_address_1 = src.officer_2_address_1,
+        officer_2_city = src.officer_2_city,
+        officer_2_state = src.officer_2_state,
+        officer_2_zip = src.officer_2_zip,
+        officer_3_title = src.officer_3_title,
+        officer_3_type = src.officer_3_type,
+        officer_3_last_name = src.officer_3_last_name,
+        officer_3_address_1 = src.officer_3_address_1,
+        officer_3_city = src.officer_3_city,
+        officer_3_state = src.officer_3_state,
+        officer_3_zip = src.officer_3_zip,
+        officer_4_title = src.officer_4_title,
+        officer_4_type = src.officer_4_type,
+        officer_4_last_name = src.officer_4_last_name,
+        officer_4_address_1 = src.officer_4_address_1,
+        officer_4_city = src.officer_4_city
+WHEN NOT MATCHED THEN
+    INSERT (pf_id, pf_state_corpid, pf_state, pf_source, pf_loaded_date, pf_is_active, corporation_id, corporation_name, creation_date, entity_address_1, entity_address_2, entity_city, entity_state, entity_zip, entity_country, status, entity_mailing_address_1, entity_mailing_address_2, entity_mailing_city, entity_mailing_state, entity_mailing_zip, entity_mailing_country, ein, last_transaction_date, is_there_more_than_6_officers, report_year_1, report_date_1, report_year_2, report_date_2, report_year_3, report_date_3, officer_1_title, officer_1_type, officer_1_first_name, officer_1_last_name, officer_1_address_1, officer_1_city, officer_1_state, officer_1_zip, officer_2_title, officer_2_type, officer_2_last_name, officer_2_address_1, officer_2_city, officer_2_state, officer_2_zip, officer_3_title, officer_3_type, officer_3_last_name, officer_3_address_1, officer_3_city, officer_3_state, officer_3_zip, officer_4_title, officer_4_type, officer_4_last_name, officer_4_address_1, officer_4_city, officer_4_state, officer_4_zip, pf_corporation_encoded, pf_state_corpid_encoded)
+    VALUES (src.pf_id, src.pf_state_corpid, src.pf_state, src.pf_source, src.pf_loaded_date, src.pf_is_active, src.corporation_id, src.corporation_name, src.creation_date, src.entity_address_1, src.entity_address_2, src.entity_city, src.entity_state, src.entity_zip, src.entity_country, src.status, src.entity_mailing_address_1, src.entity_mailing_address_2, src.entity_mailing_city, src.entity_mailing_state, src.entity_mailing_zip, src.entity_mailing_country, src.ein, src.last_transaction_date, src.is_there_more_than_6_officers, src.report_year_1, src.report_date_1, src.report_year_2, src.report_date_2, src.report_year_3, src.report_date_3, src.officer_1_title, src.officer_1_type, src.officer_1_first_name, src.officer_1_last_name, src.officer_1_address_1, src.officer_1_city, src.officer_1_state, src.officer_1_zip, src.officer_2_title, src.officer_2_type, src.officer_2_last_name, src.officer_2_address_1, src.officer_2_city, src.officer_2_state, src.officer_2_zip, src.officer_3_title, src.officer_3_type, src.officer_3_last_name, src.officer_3_address_1, src.officer_3_city, src.officer_3_state, src.officer_3_zip, src.officer_4_title, src.officer_4_type, src.officer_4_last_name, src.officer_4_address_1, src.officer_4_city, src.officer_4_state, src.officer_4_zip, src.pf_corporation_encoded, src.pf_state_corpid_encoded);
+
+```
+
 
