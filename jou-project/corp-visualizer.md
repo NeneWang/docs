@@ -8,8 +8,8 @@ Next steps:
 - [ ] Add new field: **pf_cta_due_date**
 - [x] Create Auto filing Script?
 	- [x] Design
-- [ ] Formation < 1/1/2024 = 1/1/2025
-- [ ] Formation >= 1/1/2024 AND < 1/1/2025 => 90 days after formation
+- [x] Formation < 1/1/2024 = 1/1/2025
+- [x] Formation >= 1/1/2024 AND < 1/1/2025 => 90 days after formation
 - [ ]  Formation >= 1/1/2025 => 30 days after formation
 
 - [x] Add new field: **pf_state_company_per_email_count**
