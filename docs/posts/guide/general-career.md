@@ -143,6 +143,43 @@ Main Axions:
 
 
 
+### 6. Crafting Masters and Curriculum Enhancement.
+
+- The reality is that you just need the "masters" paper from an accredited enough sounding university.
+- Then you show them your online curriculum you had been building and that's it.
+
+Complete the Master of Science in Computer Science
+### Master of Science in Computer Science (Wait Until is fully developed (it looks way more interesting))
+https://www.coursera.org/degrees/ms-computer-science-boulder/admissions
+
+And the on the side do the Masters of Science Data Science. Do all them unpaid. so you get the **knowledge** of two in 1.
+
+https://www.coursera.org/degrees/master-of-science-data-science-boulder/academics
+
+1 (max: 2)
+1 
+4
+3 (max: 6)
+Cost: 15k. Think around 1k worth of 3 credits value courses.
+
+2 + 4 + 3 = 9 courses. Sounds alright to me.
+- And you can max it to: 9 + 1 + 3 => 14 value courses.
+- Compared to 10 Value Courses form most is enough
+- You can show off your entire degree as the complicated science class.
+- Take advantages of the email for hackathon events.
+- Have a essential guidebook per course + 1 capstone project + 1 hour YouTube tutorial etc.
+
+And then add some IT Support technicature:
+
+- IBM IT Support Professional Certificate:
+- [Google IT Support]()
+- https://www.coursera.org/learn/content-marketing#modules
+
+(You can literally add the Udemy + YouTube Projects to enrich your courses if you think about it.)
+- You can even add Electronics
+- JS Game Dev (For your supposed multimedia)
+- The same for your supposed game dev.
+
 
 
 
