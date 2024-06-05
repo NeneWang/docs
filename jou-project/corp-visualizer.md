@@ -45,7 +45,7 @@ A procedure is a database object similar to a function. The key differences are:
 
 #sflk-metadata #2024-06-05 
 
-METADATA$ACTION
+
 
 
 
