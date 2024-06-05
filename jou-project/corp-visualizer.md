@@ -89,4 +89,4 @@ SELECT pf_cta_due_date, creation_date FROM CORPORATION;
 ```
 
 
-R
+![[Pasted image 20240605130847.png]]

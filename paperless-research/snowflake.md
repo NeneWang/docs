@@ -3,6 +3,30 @@ To go over
 - Best Practices
 - Documentations and know-hows.
 
+
+
+### UPDATE
+
+#### UPDATE CASE
+
+Example:
+From [[corp-visualizer#Updating Creation Date with SET CASES]]
+```sql
+
+UPDATE CORPORATION
+SET pf_cta_due_date = CASE
+    WHEN CREATION_DATE < '2024-01-01' THEN '2025-01-01' 
+    WHEN CREATION_DATE >= '2024-01-01' AND CREATION_DATE < '2025-01-01' THEN DATEADD(day, 90, CREATION_DATE) 
+    WHEN CREATION_DATE >= '2025-01-01' THEN DATEADD(day, 30, CREATION_DATE) 
+    ELSE pf_cta_due_date 
+END;
+
+SELECT pf_cta_due_date, creation_date FROM CORPORATION;
+
+```
+
+
+
 ### Procedures
 #procedures #functions #snowflake #2024-06-05 
 

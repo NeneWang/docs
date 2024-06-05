@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -180,10 +180,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eadd4b8175fb15c9",
+  "active": "4805a86bf1b2d13a",
   "lastOpenFiles": [
+    "jou-project/corp-visualizer.md",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
+    "img/Pasted image 20240605130847.png",
     "rep-project/rec exploration.md",
     "rep-project.zip",
     "rep-project/readme.md",
@@ -215,7 +217,6 @@
     "docs/posts/journal/sheet.md",
     "docs/posts/journal/Readme.md",
     "docs/posts/journal/platinum",
-    "docs/posts/journal/24-4-apr.md",
     "docs/posts/guide/Plan.canvas",
     "docs/public/img",
     "docs/posts/research",
@@ -229,7 +230,6 @@
     "img/Pasted image 20240518132931.png",
     "img/Pasted image 20240518131044.png",
     "img/Pasted image 20240518131039.png",
-    "img/Pasted image 20240516031620.png",
-    "img/Pasted image 20240516030550.png"
+    "img/Pasted image 20240516031620.png"
   ]
 }
