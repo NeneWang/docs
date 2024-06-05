@@ -10,13 +10,15 @@
           {
             "id": "a9eb812e322cb78f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Docs Organization.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -36,29 +38,18 @@
           {
             "id": "4805a86bf1b2d13a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "paperless-research/snowflake.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "6c6771a3d3aae479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paperless-research/snowflake.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paperless-research/snowflake.md",
+                "file": "Docs Organization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "paperless-research/snowflake.md",
+                "file": "Docs Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,12 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "paperless-research/snowflake.md"
+                "file": "Docs Organization.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -187,10 +178,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4805a86bf1b2d13a",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
-    "img/Pasted image 20240605122914.png",
     "paperless-research/snowflake.md",
+    "img/Pasted image 20240605122914.png",
     "Procedures-snowflake.md",
     "jou-project/corp-visualizer.md",
     "paperless-research/learn-intention-uppend.md",
