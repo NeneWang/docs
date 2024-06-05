@@ -27,7 +27,8 @@ Context:
 Design Heuristics
 - The objective is not to memorize, but to practice the implementation.
 
-
+- Reading documentation alone is likely useless.
+	- You want to practice by knowing how to use this ideas and which situations which means
 
 
 
