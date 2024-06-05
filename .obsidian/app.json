@@ -1,5 +1,5 @@
 {
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "attachmentFolderPath": "img",
   "pdfExportSettings": {
     "pageSize": "Letter",

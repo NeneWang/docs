@@ -116,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -203,8 +202,8 @@
   "active": "69ddeaf820648870",
   "lastOpenFiles": [
     "paperless-research/snowflake.md",
-    "Docs Organization.md",
     "jou-project/corp-visualizer.md",
+    "Docs Organization.md",
     "paperless-research/diplomacy-optimizations.md",
     "Procedures-snowflake.md",
     "paperless-research/documentation-oriented-work.md",
