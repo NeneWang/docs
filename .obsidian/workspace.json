@@ -46,16 +46,19 @@
           {
             "id": "3926290b9f11264a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "paperless-research/learn-intention-uppend.md",
+                "file": "jou-project/corp-visualizer.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "paperless-research/diplomacy-optimizations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "paperless-research/diplomacy-optimizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs Organization.md"
+                "file": "paperless-research/diplomacy-optimizations.md"
               }
             }
           }
@@ -184,15 +187,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "0e1385df4d200e1a",
   "lastOpenFiles": [
+    "jou-project/corp-visualizer.md",
+    "Docs Organization.md",
+    "paperless-research/documentation-oriented-work.md",
     "paperless-research/learn-intention-uppend.md",
     "paperless-research/diplomacy-optimizations.md",
-    "Docs Organization.md",
     "development/Single Items Sim.md",
-    "paperless-research/documentation-oriented-work.md",
     "Untitled.md",
-    "jou-project/corp-visualizer.md",
     "paperless-research",
     "jou-project/ddengine.md",
     "conflict-files-obsidian-git.md",
