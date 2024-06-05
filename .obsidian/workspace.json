@@ -53,8 +53,12 @@
             "id": "cc5cc39574a93303",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "rep-project/rec exploration.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -124,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "rep-project/rec exploration.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "rep-project/rec exploration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "rep-project/rec exploration.md"
+              }
             }
           }
         ],
@@ -185,9 +193,14 @@
   },
   "active": "cc5cc39574a93303",
   "lastOpenFiles": [
+    "rep-project/readme.md",
+    "rep-project/panda-plus.md",
+    "rep-project/introduction.md",
+    "rep-project/slc-website.md",
+    "img/Readme.md",
+    "img/2024-03-15.md",
     "jou-project/journal-structure.md",
     "paperless-research/snowflake.md",
-    "img/2024-03-15.md",
     "docs/posts/journal/platinum/Untitled.md",
     "jou-project/2024-06-04.md",
     "docs/bigbrain.md",
@@ -213,11 +226,6 @@
     "docs/posts/journal/24-4-apr.md",
     "docs/posts/journal/backlog.md",
     "docs/posts/journal/24-3-mar.md",
-    "docs/posts/journal/24-1-jan.md",
-    "docs/posts/journal/24-2-feb.md",
-    "docs/posts/journal/2024-05-02.md",
-    "docs/posts/guide/work.md",
-    "docs/posts/guide/stay-out-trouble.md",
     "docs/posts/guide/Plan.canvas",
     "docs/public/img",
     "docs/posts/research",
