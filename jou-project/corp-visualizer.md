@@ -5,16 +5,16 @@
 
 Next steps:
 
-- [ ] Add new field: **pf_cta_due_date**
+- [x] Add new field: **pf_cta_due_date**
 - [x] Create Auto filing Script?
 	- [x] Design
 - [x] Formation < 1/1/2024 = 1/1/2025
 - [x] Formation >= 1/1/2024 AND < 1/1/2025 => 90 days after formation
-- [ ]  Formation >= 1/1/2025 => 30 days after formation
+- [x]  Formation >= 1/1/2025 => 30 days after formation
 
 - [x] Add new field: **pf_state_company_per_email_count**
 
-- Number of companies associated to this email in this state (exclude where email is null)
+- [ ] Number of companies associated to this email in this state (exclude where email is null)
 
 ---
 
@@ -90,3 +90,5 @@ SELECT pf_cta_due_date, creation_date FROM CORPORATION;
 
 
 ![[Pasted image 20240605130847.png]]
+### Number of companies associated to this email in this state (exclude where email is null)
+#2024-06-05 
