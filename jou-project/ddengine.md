@@ -1956,7 +1956,9 @@ It looks to be working fine:
 In summary:
 
 - [ ] Check for Timeslot creation how is it inferring the `is_start`
-	- [ ] if it is start then mark the first 
+	- [x] if it is start then mark the first 
+	- [x] Modify is start as the is start optional
+	- [x] Allow timeslots for offering is start
 - [x] Mark `is_start` = True for all Salesforce and Email
 
 ```
