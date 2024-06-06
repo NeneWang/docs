@@ -2084,7 +2084,13 @@ if not is_relevant:
 ```
 
 
-this is to be added straight 
+this is to be added straight into before calling transform _events_
+
+```python
+def transform_events(self, unique_timeslots: dict[str, List[Timeslot]], guid_event: dict[str, Event], treshold_minutes=4) -> Tuple[List[Event], List[Timeslot]]:
+```
+
+
 
 
 
