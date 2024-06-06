@@ -2058,7 +2058,9 @@ You can clearly see the bunch of keystrokes that I started accumulating in devco
 
 
 
+![[Pasted image 20240606143842.png]]
 
+Here I can see timeslots that basically shouldn't exist.
 
 
 
