@@ -1990,6 +1990,10 @@ Conceptually, the logic should be right here.
 ```
 
 
+Debugging Idea:
+
+- [ ] Make it so that there is an option for testing, to 
+
 
 Future:
 - [ ] Design also that it works outside of Timeslot Processing. Similar to an End of day or hourly reprocessing of starting from 7 days ago.
