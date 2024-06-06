@@ -2034,7 +2034,10 @@ Is it even updating the right table?
 
 
 
+SELECT COUNT(*) FROM public.event;
+2024-06-06
 
+63867
 
 
 
