@@ -1948,6 +1948,9 @@ It looks to be working fine:
 	- [ ] This is specifically on some adapters only: Windows & 
 
 
+- Crete the auto_is_start method on
+
+
 
 
 
