@@ -4,79 +4,94 @@
     "type": "split",
     "children": [
       {
-        "id": "71f55bff98fcc92c",
-        "type": "tabs",
+        "id": "893b79f588dd53f3",
+        "type": "split",
         "children": [
           {
-            "id": "a9eb812e322cb78f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docs Organization.md",
-                "mode": "source",
-                "source": false
+            "id": "71f55bff98fcc92c",
+            "type": "tabs",
+            "dimension": 69.67054263565892,
+            "children": [
+              {
+                "id": "a9eb812e322cb78f",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Docs Organization.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3926290b9f11264a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/corp-visualizer.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "3926290b9f11264a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "jou-project/corp-visualizer.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "4805a86bf1b2d13a",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "paperless-research/snowflake.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "4805a86bf1b2d13a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "paperless-research/snowflake.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
               },
-              "pinned": true
-            }
-          },
-          {
-            "id": "4146978d238f6989",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "jou-project/ddengine.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1c73779c2023b453",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-reports/2024-06-06.md",
-                "mode": "source",
-                "source": false
+              {
+                "id": "4146978d238f6989",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "jou-project/ddengine.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
               }
-            }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "45dd0525edeff543",
+            "type": "tabs",
+            "dimension": 30.329457364341085,
+            "children": [
+              {
+                "id": "1c73779c2023b453",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily-reports/2024-06-06.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 4
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -209,13 +224,13 @@
   "active": "1c73779c2023b453",
   "lastOpenFiles": [
     "jou-project/ddengine.md",
+    "Docs Organization.md",
     "daily-reports/2024-06-06.md",
     "paperless-research/snowflake.md",
     "jou-project/Untitled.md",
     "jou-project/corp-visualizer.md",
     "jou-project/mcli.md",
     "conflict-files-obsidian-git.md",
-    "Docs Organization.md",
     "daily-reports/2024-06-05.md",
     "daily-reports",
     "paperless-research/documentation-oriented-work.md",
