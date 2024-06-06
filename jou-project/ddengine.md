@@ -2009,8 +2009,8 @@ Future:
 ![[Pasted image 20240606123414.png]]
 
 
-- [ ] Check whats with that 
-- [ ] Check whats with 
+- [ ] Check what's with that 
+- [ ] Check what's with 
 
 In many events you even end up with more timeslots that even possible:
 ![[Pasted image 20240606123725.png]]
@@ -2018,7 +2018,7 @@ In many events you even end up with more timeslots that even possible:
 
 
 ![[Pasted image 20240606124128.png]]
-
+> Why is all ts0?
 
 
 
