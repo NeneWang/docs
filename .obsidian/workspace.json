@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/win-engine.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/win-engine.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/win-engine.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -248,11 +248,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c73779c2023b453",
+  "active": "4146978d238f6989",
   "lastOpenFiles": [
+    "img/Pasted image 20240606123414.png",
+    "jou-project/win-engine.md",
     "jou-project/ddengine.md",
     "Docs Organization.md",
-    "jou-project/win-engine.md",
     "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",
     "paperless-research/snowflake.md",

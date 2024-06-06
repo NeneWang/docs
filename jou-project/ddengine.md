@@ -2006,6 +2006,8 @@ Future:
 
 
 
+![[Pasted image 20240606123414.png]]
+
 
 
 
