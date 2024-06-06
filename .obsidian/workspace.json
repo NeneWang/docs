@@ -61,7 +61,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -127,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs Organization.md"
+                "file": "jou-project/corp-visualizer.md"
               }
             }
           }
@@ -191,13 +192,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "3926290b9f11264a",
   "lastOpenFiles": [
-    "daily-reports/2024-06-05.md",
     "paperless-research/snowflake.md",
+    "Docs Organization.md",
+    "daily-reports/2024-06-05.md",
     "daily-reports",
     "paperless-research/documentation-oriented-work.md",
-    "Docs Organization.md",
     "jou-project/corp-visualizer.md",
     "jou-project/ddengine.md",
     "img/Pasted image 20240605133640.png",
