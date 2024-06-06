@@ -1944,8 +1944,8 @@ WHEN NOT MATCHED THEN
 It looks to be working fine:
 
 - [ ] Double check that things are working as expected.
-- [ ] Ensure that the `is_start` is mapped by `infering` if the end and start on the Event Data Check.
-	- [ ] This is specifically on some adapters only: Windows & 
+- [x] Ensure that the `is_start` is mapped by `infering` if the end and start on the Event Data Check.
+	- [ ] This is specifically on some adapters only: Windows & Chrome
 
 
 - Crete the `auto_is_start` method on parent methods.
