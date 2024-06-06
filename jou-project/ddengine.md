@@ -2108,6 +2108,13 @@ return checked_events, unique_timelsots_mapped
 ```
 
 
+Why did it breakout and count them as 2 clicks?
+
+![[Pasted image 20240606150915.png]]
+
+Is this a processing error?
+Is this somehting to do with the s3?
+
 
 
 
