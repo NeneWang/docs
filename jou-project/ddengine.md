@@ -2063,6 +2063,32 @@ You can clearly see the bunch of keystrokes that I started accumulating in devco
 Here I can see timeslots that basically shouldn't exist.
 
 
+```python
+# if all sumfeatures are 0 and all keep_true_features are False, then it is not relevant.
+
+is_relevant = False
+
+for sum_feature in self.sum_features:
+	if timeslot.__dict__[sum_feature] > 0:
+		is_relevant = True
+		break
+
+if not is_relevant:
+	for keep_true_feature in self.keep_true_features:
+		if timeslot.__dict__[keep_true_feature]:
+			is_relevant = True
+			break
+
+if not is_relevant:
+	continue
+```
+
+
+this is to be added straight 
+
+
+
+
 
 
 
