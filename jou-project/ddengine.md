@@ -2010,6 +2010,9 @@ Future:
 
 
 
+In many events you even end up with more timeslots that even possible:
+![[Pasted image 20240606123725.png]]
+
 
 
 
