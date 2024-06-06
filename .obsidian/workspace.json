@@ -50,19 +50,19 @@
             }
           },
           {
-            "id": "b3565f38c27244fb",
+            "id": "4146978d238f6989",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-reports/2024-06-05.md",
+                "file": "jou-project/ddengine.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -192,16 +193,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3926290b9f11264a",
+  "active": "4146978d238f6989",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "jou-project/corp-visualizer.md",
+    "jou-project/ddengine.md",
     "paperless-research/snowflake.md",
+    "jou-project/Untitled.md",
+    "jou-project/corp-visualizer.md",
+    "jou-project/mcli.md",
+    "conflict-files-obsidian-git.md",
     "Docs Organization.md",
     "daily-reports/2024-06-05.md",
     "daily-reports",
     "paperless-research/documentation-oriented-work.md",
-    "jou-project/ddengine.md",
     "img/Pasted image 20240605133640.png",
     "img/Pasted image 20240605131655.png",
     "img/Pasted image 20240605130847.png",
@@ -228,8 +231,6 @@
     "docs/posts/research/introduction.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
     "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
-    "docs/posts/pcwinhome/How to Use AI In my Career.md",
-    "docs/posts/pcwinhome/AI and career.md",
     "docs/posts/journal/test.ipynb",
     "docs/posts/journal/platinum",
     "docs/posts/guide/Plan.canvas",

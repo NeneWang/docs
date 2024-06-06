@@ -1,5 +1,5 @@
 
-
+*
 ### Mapping and Remapping Only Useful Events
 
 ```python
