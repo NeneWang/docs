@@ -2168,7 +2168,8 @@ const handleSync = async () => {
 
 
 
-
+How does obsidian map the activity? 
+- You should probably force taht specific timeslot? Like in Windows?
 
 
 
