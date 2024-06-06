@@ -2021,6 +2021,12 @@ In many events you even end up with more timeslots that even possible:
 > Why is all ts0?
 
 
+![[Pasted image 20240606134631.png]]
+
+Here is working fine. I wonder how about the others?
+
+
+
 
 
 
