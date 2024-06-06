@@ -1,2 +1,2 @@
 
-- [ ] Check if the timeslots work given the thingsly?
+- [ ] Check if the timeslots heatmap work given the the start/endtime/timeslot?

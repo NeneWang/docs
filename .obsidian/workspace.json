@@ -93,13 +93,15 @@
               {
                 "id": "92bf1158d68d7f82",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "jou-project/dd-portal.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "pinned": true
                 }
               }
             ],
@@ -237,9 +239,9 @@
   },
   "active": "92bf1158d68d7f82",
   "lastOpenFiles": [
+    "jou-project/ddengine.md",
     "jou-project/dd-portal.md",
     "jou-project/win-engine.md",
-    "jou-project/ddengine.md",
     "daily-reports/2024-06-06.md",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
