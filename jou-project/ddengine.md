@@ -2009,12 +2009,15 @@ Future:
 ![[Pasted image 20240606123414.png]]
 
 
+- [ ] Check whats with that 
+- [ ] Check whats with 
 
 In many events you even end up with more timeslots that even possible:
 ![[Pasted image 20240606123725.png]]
 
 
 
+![[Pasted image 20240606124128.png]]
 
 
 
