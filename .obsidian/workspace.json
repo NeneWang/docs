@@ -68,7 +68,8 @@
                   "pinned": true
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "45dd0525edeff543",
@@ -184,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs Organization.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -247,10 +248,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "4146978d238f6989",
   "lastOpenFiles": [
-    "jou-project/win-engine.md",
     "Docs Organization.md",
+    "jou-project/win-engine.md",
     "jou-project/ddengine.md",
     "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",
