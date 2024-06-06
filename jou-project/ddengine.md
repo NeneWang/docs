@@ -1950,12 +1950,13 @@ It looks to be working fine:
 
 - Crete the `auto_is_start` method on parent methods.
 - Then also auto `is_start` has to be trickled down into remainder of checking for Timeslots. so that the timeslot knows if itself is a start. 
-- All salesforce and emails integrations are technically starts. 
+- All salesforce and emails integrations are `technically` starts. 
 - Also check if by recreating the timeslots there is an `uppend` method ~ That would be incorrect. 
 
 In summary:
 
-- [ ] Check for Consistency
+- [ ] Check for Timeslot creation how is it infering the is_start
+- [ ] Mark is_start = True for all where 
 
 
 
