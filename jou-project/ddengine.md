@@ -1959,7 +1959,29 @@ In summary:
 	- [ ] if it is start then mark the first 
 - [x] Mark `is_start` = True for all Salesforce and Email
 
+```
+  
 
+        if eventData.end_time is not None and eventData.duration is not None and eventData.duration > 0:
+
+            while curr_time <= end_time:
+
+                timeslot = self.defineTimeslot(curr_time, eventData)
+
+                timeslots.append(timeslot)
+
+                curr_time = curr_time + timedelta(minutes=1)
+
+  
+
+        else:
+
+            # If the end_time is not present, then we can only create the timeslots for the duration of the event.
+
+            timeslot = self.defineTimeslot(curr_time, eventData)
+
+            timeslots.append(timeslot)
+```
 
 
 
