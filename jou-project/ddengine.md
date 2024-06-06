@@ -2173,6 +2173,21 @@ How does obsidian map the activity?
 
 
 
+Right, this has to be updated likely:
+
+```
+  
+
+                mouse_clicks={
+
+                    unique_minutestamp: getSumFeats(event_raw, "interactions", "auxclick", "click", "dblclick", "mousedown", "mouseup", "mouseover", "mouseout", "contextmenu")},
+
+                keystrokes={
+
+                    unique_minutestamp: getSumFeats(event_raw, "interactions", "keyboard")},
+
+            )
+```
 
 
 
