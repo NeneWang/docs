@@ -29,9 +29,7 @@ Each Project Contains the following files
 #journal
 Example: [[corp-visualizer]]
 
-
-
 ### Paperless Research
 
 
-
+- 
