@@ -1955,8 +1955,8 @@ It looks to be working fine:
 
 In summary:
 
-- [ ] Check for Timeslot creation how is it inferring the is_start
-- [ ] Mark is_start = True for all Salesforce and Email
+- [ ] Check for Timeslot creation how is it inferring the `is_start`
+- [x] Mark `is_start` = True for all Salesforce and Email
 
 
 
