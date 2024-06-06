@@ -82,7 +82,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "daily-reports/2024-06-06.md",
+                    "file": "jou-project/win-engine.md",
                     "mode": "source",
                     "source": false
                   }
@@ -137,8 +137,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-reports/2024-06-06.md",
+                "file": "jou-project/win-engine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-reports/2024-06-06.md",
+                "file": "jou-project/win-engine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +197,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-reports/2024-06-06.md"
+                "file": "jou-project/win-engine.md"
               }
             }
           }
@@ -223,9 +222,10 @@
   },
   "active": "1c73779c2023b453",
   "lastOpenFiles": [
+    "daily-reports/2024-06-06.md",
+    "jou-project/win-engine.md",
     "jou-project/ddengine.md",
     "Docs Organization.md",
-    "daily-reports/2024-06-06.md",
     "paperless-research/snowflake.md",
     "jou-project/Untitled.md",
     "jou-project/corp-visualizer.md",
@@ -258,7 +258,6 @@
     "docs/public/img/favicon.png",
     "docs/posts/research/software-obsolete.md",
     "docs/posts/research/introduction.md",
-    "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
     "docs/posts/journal/test.ipynb",
     "docs/posts/journal/platinum",
     "docs/posts/guide/Plan.canvas",
