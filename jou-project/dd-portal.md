@@ -1,2 +1,2 @@
 
-- [ ] Check if the timeslots work gven the 
+- [ ] Check if the timeslots work given the thingsly?
