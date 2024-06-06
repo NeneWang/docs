@@ -115,8 +115,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal"
@@ -185,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/win-engine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -202,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docs Organization.md",
+                "file": "jou-project/win-engine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +224,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs Organization.md"
+                "file": "jou-project/win-engine.md"
               }
             }
           }
@@ -248,13 +247,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "1c73779c2023b453",
   "lastOpenFiles": [
+    "Docs Organization.md",
     "jou-project/ddengine.md",
     "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",
     "jou-project/win-engine.md",
-    "Docs Organization.md",
     "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
     "jou-project/mcli.md",
