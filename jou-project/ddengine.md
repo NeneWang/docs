@@ -1949,7 +1949,9 @@ It looks to be working fine:
 
 
 - Crete the `auto_is_start` method on parent methods.
-- Then also auto `is_start` has to be trickled down into remainder of checking for 
+- Then also auto `is_start` has to be trickled down into remainder of checking for Timeslots. so that the timeslot knows if itself is a start. 
+- All salesforce and emails integrations are technically starts. 
+- Also 
 
 
 
