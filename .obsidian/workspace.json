@@ -68,8 +68,7 @@
                   "pinned": true
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "45dd0525edeff543",
@@ -186,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/dd-portal.md",
+                "file": "Docs Organization.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +202,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/dd-portal.md",
+                "file": "Docs Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +225,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/dd-portal.md"
+                "file": "Docs Organization.md"
               }
             }
           }
@@ -249,11 +248,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92bf1158d68d7f82",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
-    "daily-reports/2024-06-06.md",
-    "jou-project/dd-portal.md",
     "jou-project/ddengine.md",
+    "jou-project/dd-portal.md",
+    "daily-reports/2024-06-06.md",
     "jou-project/win-engine.md",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
