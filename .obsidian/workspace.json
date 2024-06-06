@@ -52,13 +52,15 @@
           {
             "id": "4146978d238f6989",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "jou-project/ddengine.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
