@@ -2192,10 +2192,20 @@ keystrokes={
 
 This is correct (surprisingly):
 
+```python
+unique_minutestamp = Utils.datetimeToYearMonthDayMinute(collected_date)
+
+
+
+end_time = Utils.parseDate(Utils.SafeParse(event_raw, 'event_end_date'))
+
+if end_time is not None:
+
+	unique_minutestamp = Utils.datetimeToYearMonthDayMinute(end_time)
 ```
 
-```
 
+- But is a hack. It should be and can be done better.
 
 
 
