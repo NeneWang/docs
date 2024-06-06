@@ -117,7 +117,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -186,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-reports/2024-06-06.md",
+                "file": "jou-project/dd-portal.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-reports/2024-06-06.md",
+                "file": "jou-project/dd-portal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-reports/2024-06-06.md"
+                "file": "jou-project/dd-portal.md"
               }
             }
           }
@@ -249,12 +249,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb98490287ff1ee9",
+  "active": "92bf1158d68d7f82",
   "lastOpenFiles": [
+    "daily-reports/2024-06-06.md",
     "jou-project/dd-portal.md",
     "jou-project/ddengine.md",
     "jou-project/win-engine.md",
-    "daily-reports/2024-06-06.md",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
