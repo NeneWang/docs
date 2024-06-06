@@ -1994,6 +1994,11 @@ Debugging Idea:
 
 - [ ] Make it so that there is an option for testing, to publish everything on test only. Not really needed.
 
+---
+After testing, make sure that:
+
+- ALLOW_ERROR_BREAK is False
+
 
 Future:
 - [ ] Design also that it works outside of Timeslot Processing. Similar to an End of day or hourly reprocessing of starting from 7 days ago.
