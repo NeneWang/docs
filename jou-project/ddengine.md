@@ -2050,7 +2050,11 @@ I can clearly see the timeslots here:
 
 
 
+Critical Success!!
 
+![[Pasted image 20240606143226.png]]
+
+You can clearly see the bunch of keystrokes that I s
 
 
 
