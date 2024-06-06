@@ -1949,7 +1949,7 @@ It looks to be working fine:
 
 
 - Crete the `auto_is_start` method on parent methods.
-- Then also auto is start has to be trickled down into remainder
+- Then also auto is start has to be trickled down into remainder of checking for consistency. 
 
 
 
