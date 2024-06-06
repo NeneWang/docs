@@ -2040,8 +2040,12 @@ SELECT COUNT(*) FROM public.event;
 63867
 
 
+![[Pasted image 20240606140703.png]]
 
-![[Pasted image 20240606140646.png]]
+
+
+
+
 
 
 
