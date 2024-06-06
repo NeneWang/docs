@@ -2044,6 +2044,10 @@ SELECT COUNT(*) FROM public.event;
 
 
 
+I can clearly see the timeslots here:
+
+![[Pasted image 20240606142100.png]]
+
 
 
 
