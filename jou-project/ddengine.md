@@ -1992,7 +1992,7 @@ Conceptually, the logic should be right here.
 
 Debugging Idea:
 
-- [ ] Make it so that there is an option for testing, to 
+- [ ] Make it so that there is an option for testing, to publish everything on test only. Not really needed.
 
 
 Future:
