@@ -2041,6 +2041,11 @@ SELECT COUNT(*) FROM public.event;
 
 
 
+![[Pasted image 20240606140646.png]]
+
+
+
+
 
 
 
