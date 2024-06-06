@@ -36,18 +36,6 @@
             }
           },
           {
-            "id": "bac02eaef152d8ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4805a86bf1b2d13a",
             "type": "leaf",
             "pinned": true,
@@ -74,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "jou-project/corp-visualizer.md"
               }
             }
           }
@@ -204,10 +192,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bac02eaef152d8ed",
+  "active": "3926290b9f11264a",
   "lastOpenFiles": [
-    "jou-project/corp-visualizer.md",
     "conflict-files-obsidian-git.md",
+    "jou-project/corp-visualizer.md",
     "paperless-research/snowflake.md",
     "Docs Organization.md",
     "daily-reports/2024-06-05.md",
