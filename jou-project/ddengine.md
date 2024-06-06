@@ -2128,13 +2128,8 @@ const handleSync = async () => {
     utils.updateFocusStatus().then((isFocused) => {
 
         (async () => {
-
-  
-
             if (!isFocused) {
-
                 // Not to continue further.
-
                 if (Constants.DEBUG) console.log("is not focused", isFocused, "Wrapping the log (If any)");
 
                 utils.wrapNewTabFocusLog();
@@ -2142,22 +2137,12 @@ const handleSync = async () => {
             }
 
             else if (isFocused) {
-
                 // Continues from before.
-
                 const wrapResults = await utils.wrapNewTabFocusLog({ removeCurrentLog: false });
-
                 if (Constants.DEBUG) console.log("wrapResults", wrapResults);
-
             }
-
             // Remove following line, if not expected to run bulk upload every minute.
-
             await utils.bulkUpload();
-
-  
-  
-
         })();
 
     }
@@ -2165,6 +2150,19 @@ const handleSync = async () => {
     )
 
 }
+
+
+...
+
+// getInteractions
+
+    getInteractions = async () => {
+
+        let interactions = await this.getFromLocalStorage(INTERACTION_TYPES);
+
+        return interactions;
+
+    }
 
 ```
 
