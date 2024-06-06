@@ -2117,6 +2117,12 @@ Is this something to do with the s3?
 
 
 
+This should be clicking event:
+
+![[Pasted image 20240606151627.png]]
+
+
+
 
 
 
