@@ -2090,7 +2090,22 @@ this is to be added straight into before calling transform _events_
 def transform_events(self, unique_timeslots: dict[str, List[Timeslot]], guid_event: dict[str, Event], treshold_minutes=4) -> Tuple[List[Event], List[Timeslot]]:
 ```
 
+Which is called here:
 
+
+```python
+significance_testing_timeslots: dict[str, dict[datetime.datetime, Timeslot]] = self.join_timeslots(timeslots_pre)
+
+transformed_events, unique_timelsots_mapped = self.transform_events(significance_testing_timeslots, guid_to_event)
+
+checked_events: List[Event] = []
+
+for event in transformed_events:
+
+	checked_events.append(event)
+
+return checked_events, unique_timelsots_mapped
+```
 
 
 
