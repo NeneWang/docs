@@ -2122,6 +2122,52 @@ This should be clicking event:
 ![[Pasted image 20240606151627.png]]
 
 
+```js
+const handleSync = async () => {
+
+    utils.updateFocusStatus().then((isFocused) => {
+
+        (async () => {
+
+  
+
+            if (!isFocused) {
+
+                // Not to continue further.
+
+                if (Constants.DEBUG) console.log("is not focused", isFocused, "Wrapping the log (If any)");
+
+                utils.wrapNewTabFocusLog();
+
+            }
+
+            else if (isFocused) {
+
+                // Continues from before.
+
+                const wrapResults = await utils.wrapNewTabFocusLog({ removeCurrentLog: false });
+
+                if (Constants.DEBUG) console.log("wrapResults", wrapResults);
+
+            }
+
+            // Remove following line, if not expected to run bulk upload every minute.
+
+            await utils.bulkUpload();
+
+  
+  
+
+        })();
+
+    }
+
+    )
+
+}
+
+```
+
 
 
 
