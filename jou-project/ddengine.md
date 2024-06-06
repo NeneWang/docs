@@ -1956,6 +1956,7 @@ It looks to be working fine:
 In summary:
 
 - [ ] Check for Timeslot creation how is it inferring the `is_start`
+	- [ ] if it is start then mark the first 
 - [x] Mark `is_start` = True for all Salesforce and Email
 
 
