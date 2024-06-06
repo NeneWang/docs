@@ -2054,7 +2054,7 @@ Critical Success!!
 
 ![[Pasted image 20240606143226.png]]
 
-You can clearly see the bunch of keystrokes that I s
+You can clearly see the bunch of keystrokes that I started accumulating in devcooks instead of the multiples. 
 
 
 
