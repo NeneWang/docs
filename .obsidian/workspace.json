@@ -103,9 +103,21 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "eb98490287ff1ee9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "daily-reports/2024-06-06.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal"
@@ -174,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/dd-portal.md",
+                "file": "daily-reports/2024-06-06.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/dd-portal.md",
+                "file": "daily-reports/2024-06-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +226,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/dd-portal.md"
+                "file": "daily-reports/2024-06-06.md"
               }
             }
           }
@@ -237,15 +249,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92bf1158d68d7f82",
+  "active": "eb98490287ff1ee9",
   "lastOpenFiles": [
-    "jou-project/ddengine.md",
     "jou-project/dd-portal.md",
+    "jou-project/ddengine.md",
     "jou-project/win-engine.md",
     "daily-reports/2024-06-06.md",
     "Docs Organization.md",
     "paperless-research/snowflake.md",
-    "jou-project/dd-portal.md",
     "jou-project/corp-visualizer.md",
     "jou-project/mcli.md",
     "conflict-files-obsidian-git.md",
