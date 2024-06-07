@@ -10,7 +10,7 @@
           {
             "id": "71f55bff98fcc92c",
             "type": "tabs",
-            "dimension": 69.67054263565892,
+            "dimension": 56.201550387596896,
             "children": [
               {
                 "id": "a9eb812e322cb78f",
@@ -74,7 +74,7 @@
           {
             "id": "45dd0525edeff543",
             "type": "tabs",
-            "dimension": 30.329457364341085,
+            "dimension": 43.798449612403104,
             "children": [
               {
                 "id": "1c73779c2023b453",
@@ -141,7 +141,7 @@
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal"
@@ -273,10 +273,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06e4f7a0aaf3c305",
+  "active": "6e85272d84475959",
   "lastOpenFiles": [
-    "jou-project/win-engine.md",
     "jou-project/ddengine.md",
+    "jou-project/mcli.md",
+    "jou-project/win-engine.md",
     "img/Pasted image 20240606151627.png",
     "img/Pasted image 20240606150915.png",
     "img/Pasted image 20240606143842.png",
@@ -292,7 +293,6 @@
     "daily-reports/2024-06-06.md",
     "paperless-research/snowflake.md",
     "jou-project/corp-visualizer.md",
-    "jou-project/mcli.md",
     "conflict-files-obsidian-git.md",
     "daily-reports/2024-06-05.md",
     "daily-reports",
