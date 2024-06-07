@@ -564,7 +564,8 @@ class ListNode {
 
 class AddTwoNumbers {
 	solve(l1, l2){
-		create array size max(l1)
+		
+		
 	}
 }
 
