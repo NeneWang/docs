@@ -137,7 +137,7 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 
 ### Loading New State into it.  (North Carolina)
 
-
+- Think I havent gotten them yet.
 
 ### Loading Emails to be ready
 
