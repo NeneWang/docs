@@ -69,7 +69,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           },
           {
             "id": "45dd0525edeff543",
@@ -198,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -261,8 +261,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3926290b9f11264a",
+  "active": "4146978d238f6989",
   "lastOpenFiles": [
+    "jou-project/corp-visualizer.md",
     "img/Pasted image 20240607133333.png",
     "img/Pasted image 20240607132822.png",
     "img/Pasted image 20240607132612.png",
@@ -270,7 +271,6 @@
     "img/Pasted image 20240607132229.png",
     "img/Pasted image 20240607125621.png",
     "paperless-research/snowflake.md",
-    "jou-project/corp-visualizer.md",
     "jou-project/mcli.md",
     "jou-project/ddengine.md",
     "jou-project/win-engine.md",
@@ -278,7 +278,6 @@
     "img/Pasted image 20240606150915.png",
     "img/Pasted image 20240606143842.png",
     "img/Pasted image 20240606143226.png",
-    "img/Pasted image 20240606142100.png",
     "Docs Organization.md",
     "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",

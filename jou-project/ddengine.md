@@ -2207,9 +2207,35 @@ if end_time is not None:
 
 - But is a hack. It should be and can be done better.
 
+### Fixing Repeated on long lasting events.
 
+```python
+    def publishEvents(self, events: List[Event]) -> bool:
 
+        """
 
+        Fetch if there are the same events, creates two lists:
+
+        - if they don't exist, then insert them.
+
+        - if they exist, then ONLY update their end_time.
+
+        """
+
+        events_guids = [event.guid for event in events]
+
+        if len(events_guids) == 0:
+
+            return True
+
+        placeholders = ', '.join(['%s'] * len(events_guids))
+
+        select_sql = f"SELECT guid, end_time, end_time_local FROM event WHERE guid IN ({placeholders})"
+
+        self.job_service.cursor.execute(select_sql, events_guids)
+```
+
+> Here you can see th
 
 
 
