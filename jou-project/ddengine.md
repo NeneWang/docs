@@ -2265,6 +2265,8 @@ event_guid = Utils.SafeParse(event_raw, 'span_guid'),
 - Am I randomizing the guid at a different place?
 
 ```python
+At the adapter... for EventData
+
 self.event_guid = event_guid if event_guid is not None else str(uuid.uuid4())
 ```
 
