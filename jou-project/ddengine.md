@@ -2235,12 +2235,13 @@ if end_time is not None:
         self.job_service.cursor.execute(select_sql, events_guids)
 ```
 
-> Here you can see th
+> Here you can see that this is based on the guid. Which should be based on the span_guid
 
 
+![[Pasted image 20240607165135.png]]
 
 
+![[Pasted image 20240607165143.png]]
 
 
-
-
+> Note how they have the sa
