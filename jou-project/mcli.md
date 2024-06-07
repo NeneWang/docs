@@ -544,7 +544,7 @@ module.exports = { Problem: Twitter };
 - Requires: 
 	- Requires storing on tests. to indicate that these exactly don't require testing's.
 		- Remember this are the source of truths
-	- 
+	- From what I can see here, they can take the same advantage here than the dsa's (and follow the same pattern. even allow for )
 
 
 
