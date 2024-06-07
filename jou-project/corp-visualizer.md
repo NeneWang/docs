@@ -197,7 +197,7 @@ Output:
 ![[Pasted image 20240607132229.png]]
 
 Missing pieces:
-- Corporation Type?
+- Did I miss parse Corporation Type?
 
 ![[Pasted image 20240607132612.png]]
 
