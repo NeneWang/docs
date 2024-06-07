@@ -2270,7 +2270,10 @@ At the adapter... for EventData
 self.event_guid = event_guid if event_guid is not None else str(uuid.uuid4())
 ```
 
-this could occur only if not shown.
+this could occur only if not shown. Nope, 
+![[Pasted image 20240607170200.png]]
+
+> The guid is available at p is available.
 
 What is staging_guid used here at Event:
 
