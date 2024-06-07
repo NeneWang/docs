@@ -2249,4 +2249,13 @@ if end_time is not None:
 
 
 Some hypothesis:
-- I a
+- I am not inserting the guid?
+- Theory 2: I am randomizing the guid instead on adapter
+
+
+```js
+event_data = EventData(
+event_guid = Utils.SafeParse(event_raw, 'span_guid'),
+```
+
+> Proves that the event_guid
