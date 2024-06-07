@@ -2272,3 +2272,18 @@ self.event_guid = event_guid if event_guid is not None else str(uuid.uuid4())
 
 this could occur only if not shown.
 
+What is staging_guid used here at Event:
+
+```python
+  
+
+        self.staging_guid = str(uuid.uuid4()) # GUID Will be used to populate the Timeslots on creation.
+
+  
+
+        # Id is generated automatically at creation (cannot be assigned).
+
+        self.guid = guid # Should be mapped from event_guid
+
+        self.organization_guid = organization_guid
+```
