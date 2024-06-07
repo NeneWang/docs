@@ -139,4 +139,26 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 
 
 
+### Loading Emails to be ready
+
+
+- PF_STATE (=State, two letter)
+- PF_STATE_CORPID (=State + Corporation ID, ie. FL_283844)
+- PF_CTA_DUE_DATE (=see above)
+- PF_STATE_COMPANY_PER_EMAIL_COUNT (=see above)
+- PF_GLOBAL_COMPANY_PER_EMAIL_COUNT (=see above)
+- CORPORATION_ID (=Corporation ID)
+- CORPORATION_NAME
+- CORPORATION_TYPE
+- ENTITY_EMAIL (=Email)
+- FIRSTNAME_MAILING (=First name, cleaned up)
+- LASTNAME_MAILING (=Last name, cleaned up)
+- CREATION_DATE (“formation date?”)
+- FILING_TYPE
+- PF_CORPORATION_ENCODED (=internal use to put on link)
+- PF_STATE_CORPID_ENCODED
+- STATUS
+- PF_LOADED_DATE (=date record was loaded to our database)
+- PF_ID  (platinum ID)
+
 
