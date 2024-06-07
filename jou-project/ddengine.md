@@ -2260,3 +2260,12 @@ event_guid = Utils.SafeParse(event_raw, 'span_guid'),
 ```
 
 > Proves that the `event_guid` is retrieved from `span_guid` 
+
+
+- Am I randomizing the guid at a different place?
+
+```python
+self.event_guid = event_guid if event_guid is not None else str(uuid.uuid4())
+```
+
+this could occur only if not shown.
