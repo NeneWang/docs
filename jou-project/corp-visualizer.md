@@ -137,7 +137,7 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 
 ### Loading New State into it.  (North Carolina)
 
-- Think I havent gotten them yet.
+- Think I haven't gotten them yet.
 
 ### Loading Emails to be ready
 
@@ -161,4 +161,6 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 - PF_LOADED_DATE (=date record was loaded to our database)
 - PF_ID  (platinum ID)
 
+![[Pasted image 20240607125621.png]]
 
+> I think here I was just taking a picture from her screenshot
