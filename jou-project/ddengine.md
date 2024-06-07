@@ -2251,7 +2251,8 @@ if end_time is not None:
 Some hypothesis:
 - I am not inserting the guid?
 - Theory 2: I am randomizing the guid instead on adapter - DIS
-- Am I randomizing the guid at a different place?
+- Am I randomizing the guid at a different place? DIS
+- Is it randomizing at: the Significance Processing?
 
 
 ```js
@@ -2273,7 +2274,7 @@ self.event_guid = event_guid if event_guid is not None else str(uuid.uuid4())
 this could occur only if not shown. Nope, 
 ![[Pasted image 20240607170200.png]]
 
-> The guid is available at p is available.
+> The guid is available at publishing here
 
 What is staging_guid used here at Event:
 
