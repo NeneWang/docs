@@ -201,6 +201,11 @@ Missing pieces:
 
 ![[Pasted image 20240607132612.png]]
 
+![[Pasted image 20240607132822.png]]
+
+|   |
+|---|
+|"DOMP" – Domestic Profit "DOMNP" – Domestic Non-Profit "FORP" – Foreign Profit "FORNP" – Foreign Non-Profit "DOMLP" – Domestic Limited Partnership "FORLP" – Foreign Limited Partnership "FLAL" – Florida Limited Liability Co. "FORL" – Foreign Limited Liability Co. "NPREG" – Non-Profit, Registration "TRUST" – Declaration of Trust "AGENT" – Designation of Registered Agent|
 
 - Last name Mailing? => requires to be populated
 - Filing Type? => isn't this the same as corporation type?
