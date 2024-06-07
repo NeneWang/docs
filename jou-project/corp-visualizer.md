@@ -233,7 +233,28 @@ WHEN NOT MATCHED THEN
 
 Now lets try with the surname since we are already here.
 
-
+```sql
+TRIM(
+  CASE WHEN POSITION(',' IN OFFICER_1_LAST_NAME) > 0 THEN
+	SUBSTRING(OFFICER_1_LAST_NAME, POSITION(',' IN OFFICER_1_LAST_NAME) + 1)
+  ELSE
+	SUBSTRING(OFFICER_1_LAST_NAME, POSITION('  ', OFFICER_1_LAST_NAME) + 2) 
+  END
+) AS names,
+INITCAP(
+	CASE 
+	WHEN POSITION(' ', names) > 0  THEN
+	SUBSTRING(names, 0, POSITION(' ', names))
+	ELSE 
+	names
+	END
+) AS FirstName,
+CASE WHEN FirstName is NULL OR FirstName='' THEN
+	'Officer'
+ELSE
+	FirstName
+END AS firstname_mailing,
+```
 
 
 Corporation Type? 
