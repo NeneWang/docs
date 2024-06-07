@@ -199,7 +199,9 @@ Output:
 Missing pieces:
 - Corporation Type? 
 - Last name Mailing? => requires to be populated
-- Filing Type? => Requires to be populated.
+- Filing Type? => isn't this the same a
+
+Corporation Type? 
 It should be mapped:
 
 ![[Pasted image 20240607132350.png]]
