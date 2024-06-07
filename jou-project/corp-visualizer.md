@@ -202,6 +202,7 @@ Missing pieces:
 ![[Pasted image 20240607132612.png]]
 
 ![[Pasted image 20240607132822.png]]
+> Seems to be corrected mapped. according to documentation
 
 |   |
 |---|
