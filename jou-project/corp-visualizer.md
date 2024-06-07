@@ -197,7 +197,11 @@ Output:
 ![[Pasted image 20240607132229.png]]
 
 Missing pieces:
-- Corporation Type? 
+- Corporation Type?
+
+![[Pasted image 20240607132612.png]]
+
+
 - Last name Mailing? => requires to be populated
 - Filing Type? => isn't this the same as corporation type?
 
