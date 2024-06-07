@@ -197,6 +197,9 @@ Output:
 ![[Pasted image 20240607132229.png]]
 
 Missing pieces:
-- Corporation Type?
-- Lastname Mailing? => requires to be populated
-- Filing Type?
+- Corporation Type? 
+- Last name Mailing? => requires to be populated
+- Filing Type? => Requires to be populated.
+It should be mapped:
+
+![[Pasted image 20240607132350.png]]
