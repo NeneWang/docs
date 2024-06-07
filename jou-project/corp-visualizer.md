@@ -193,5 +193,10 @@ AND entity_email in (
     select entity_email from LESS5EMAIL) LIMIT 10;
 ```
 
-Here what we are aiming is to find as follows:
+Output:
+![[Pasted image 20240607132229.png]]
 
+Missing pieces:
+- Corporation Type?
+- Lastname Mailing? => requires to be populated
+- Filing Type?
