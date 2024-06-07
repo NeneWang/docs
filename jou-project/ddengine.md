@@ -2303,4 +2303,9 @@ Why is this a guid?
 ![[Pasted image 20240607172333.png]]
 
 
-This proves that the problem is
+This proves that the problem is later on:
+
+![[Pasted image 20240607173726.png]]
+
+
+- At least the core part was fixed.
