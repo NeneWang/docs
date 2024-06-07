@@ -87,6 +87,7 @@ CALL update_corporation_fl_email_data();
 
 
 
+
 ### Metadata Snowflake
 
 #sflk-metadata #2024-06-05 
