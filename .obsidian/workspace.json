@@ -69,7 +69,7 @@
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           },
           {
             "id": "45dd0525edeff543",
@@ -210,7 +210,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/mcli.md",
+                "file": "paperless-research/snowflake.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +227,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/mcli.md",
+                "file": "paperless-research/snowflake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +250,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/mcli.md"
+                "file": "paperless-research/snowflake.md"
               }
             }
           }
@@ -273,10 +273,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e85272d84475959",
+  "active": "4805a86bf1b2d13a",
   "lastOpenFiles": [
-    "jou-project/ddengine.md",
     "jou-project/mcli.md",
+    "jou-project/ddengine.md",
     "jou-project/win-engine.md",
     "img/Pasted image 20240606151627.png",
     "img/Pasted image 20240606150915.png",
