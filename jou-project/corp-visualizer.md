@@ -139,6 +139,24 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 
 - Think I haven't gotten them yet.
 
+![[Pasted image 20240607125621.png]]
+
+> I think here I was just taking a picture from her screenshot
+
+I see the login was on the credentials
+
+[12:56 PM] Rebecca Goldstein, CPA
+
+SFTP Site:  [**https://sftp.sosnc.gov**](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsftp.sosnc.gov%2F&data=05%7C02%7Crgoldstein%40platinumfilings.com%7C5b3e02f7f3654e480bf808dc800d7326%7Cfdb0f85e5818407f8514ef2ffe7f75d4%7C0%7C0%7C638526042478429853%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=kgOgLK2TAVj0Rz3p%2BOvYNYy4L9OCLDwuPIQVljiYjZk%3D&reserved=0 "https://nam02.safelinks.protection.outlook.com/?url=https%3a%2f%2fsftp.sosnc.gov%2f&data=05%7c02%7crgoldstein%40platinumfilings.com%7c5b3e02f7f3654e480bf808dc800d7326%7cfdb0f85e5818407f8514ef2ffe7f75d4%7c0%7c0%7c638526042478429853%7cunknown%7ctwfpbgzsb3d8eyjwijoimc4wljawmdailcjqijoiv2lumziilcjbtii6ik1hawwilcjxvci6mn0%3d%7c0%7c%7c%7c&sdata=kgoglk2tavj0rz3p%2bovynyy4l9ocldwupiqvljiyjzk%3d&reserved=0")
+
+Login Account: **PlatinumFilings**
+
+NC Department of the Secretary of State
+
+[12:57 PM] Rebecca Goldstein, CPA
+
+pw: **Pf1L_030524**
+
 ### Loading Emails to be ready
 
 
@@ -161,6 +179,5 @@ SELECT pf_state_company_per_email_count, ENTITY_EMAIL, pf_state FROM CORPORATION
 - PF_LOADED_DATE (=date record was loaded to our database)
 - PF_ID  (platinum ID)
 
-![[Pasted image 20240607125621.png]]
 
-> I think here I was just taking a picture from her screenshot
+
