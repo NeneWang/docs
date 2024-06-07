@@ -261,3 +261,7 @@ Corporation Type?
 It should be mapped:
 
 ![[Pasted image 20240607132350.png]]
+
+
+
+
