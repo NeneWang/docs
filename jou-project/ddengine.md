@@ -2244,4 +2244,9 @@ if end_time is not None:
 ![[Pasted image 20240607165143.png]]
 
 
-> Note how they have the sa
+> Note how they have the same span_guid
+
+
+
+Some hypothesis:
+- I a
