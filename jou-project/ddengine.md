@@ -2250,7 +2250,8 @@ if end_time is not None:
 
 Some hypothesis:
 - I am not inserting the guid?
-- Theory 2: I am randomizing the guid instead on adapter
+- Theory 2: I am randomizing the guid instead on adapter - DIS
+- Am I randomizing the guid at a different place?
 
 
 ```js
@@ -2258,4 +2259,4 @@ event_data = EventData(
 event_guid = Utils.SafeParse(event_raw, 'span_guid'),
 ```
 
-> Proves that the event_guid
+> Proves that the `event_guid` is retrieved from `span_guid` 
