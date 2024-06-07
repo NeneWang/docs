@@ -2297,3 +2297,8 @@ No one seems to be referring to it:
 Here is the problem:
 
 ![[Pasted image 20240607170515.png]]
+
+Why is this a guid?
+
+![[Pasted image 20240607172333.png]]
+
