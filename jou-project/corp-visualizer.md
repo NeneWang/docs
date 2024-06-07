@@ -199,7 +199,7 @@ Output:
 Missing pieces:
 - Corporation Type? 
 - Last name Mailing? => requires to be populated
-- Filing Type? => isn't this the same a
+- Filing Type? => isn't this the same as corporation type?
 
 Corporation Type? 
 It should be mapped:
