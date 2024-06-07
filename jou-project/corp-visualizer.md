@@ -214,6 +214,23 @@ Missing pieces:
 - Last name Mailing? => requires to be populated
 - Filing Type? => isn't this the same as corporation type?
 
+Fixed by adding the correct match:
+
+```sql
+        
+WHEN NOT MATCHED THEN
+    INSERT (pf_id, pf_state_corpid, pf_state, pf_source, pf_loaded_date, pf_is_active,
+    
+    corporation_id, corporation_name, creation_date, entity_address_1, entity_address_2, entity_city, entity_state, entity_zip, entity_country, status, registered_agent_name, registered_agent_type, registered_agent_address_1, registered_agent_city, registered_agent_state, registered_agent_zip, corporation_type, officer_1_title, officer_1_type, officer_1_last_name, officer_1_address_1, officer_1_city, officer_1_state, officer_1_zip, officer_2_title, officer_2_type, officer_2_last_name, officer_2_address_1, officer_2_city, officer_2_state, officer_2_zip, officer_3_title, officer_3_type, officer_3_last_name, officer_3_address_1, officer_3_city, officer_3_state, officer_3_zip, officer_4_title, officer_4_type, officer_4_last_name, officer_4_address_1, officer_4_city, officer_4_state, officer_4_zip, officer_5_title, officer_5_type, officer_5_last_name, officer_5_address_1, officer_5_city, officer_5_state, officer_5_zip, officer_6_title, officer_6_type, officer_6_last_name, officer_6_address_1, officer_6_city, officer_6_state, officer_6_zip, entity_mailing_address_1, entity_mailing_address_2, entity_mailing_city, entity_mailing_state, entity_mailing_zip, entity_mailing_country, ein, last_transaction_date, is_there_more_than_6_officers, report_year_1, report_date_1, report_year_2, report_date_2, report_year_3, report_date_3, firstname_mailing, pf_corporation_encode, pf_state_corpid_encoded
+
+    )
+    VALUES (src.pf_id, src.pf_state_corpid, src.pf_state, src.pf_source, src.pf_loaded_date, src.pf_is_active, 
+    
+    src.corporation_id, src.corporation_name, src.creation_date, src.entity_address_1, src.entity_address_2, src.entity_city, src.entity_state, src.entity_zip, src.entity_country, src.status, src.registered_agent_name, src.registered_agent_type, src.registered_agent_address_1, src.registered_agent_city, src.registered_agent_state, src.registered_agent_zip, src.corporation_type, src.officer_1_title, src.officer_1_type, src.officer_1_last_name, src.officer_1_address_1, src.officer_1_city, src.officer_1_state, src.officer_1_zip, src.officer_2_title, src.officer_2_type, src.officer_2_last_name, src.officer_2_address_1, src.officer_2_city, src.officer_2_state, src.officer_2_zip, src.officer_3_title, src.officer_3_type, src.officer_3_last_name, src.officer_3_address_1, src.officer_3_city, src.officer_3_state, src.officer_3_zip, src.officer_4_title, src.officer_4_type, src.officer_4_last_name, src.officer_4_address_1, src.officer_4_city, src.officer_4_state, src.officer_4_zip, src.officer_5_title, src.officer_5_type, src.officer_5_last_name, src.officer_5_address_1, src.officer_5_city, src.officer_5_state, src.officer_5_zip, src.officer_6_title, src.officer_6_type, src.officer_6_last_name, src.officer_6_address_1, src.officer_6_city, src.officer_6_state, src.officer_6_zip, src.entity_mailing_address_1, src.entity_mailing_address_2, src.entity_mailing_city, src.entity_mailing_state, src.entity_mailing_zip, src.entity_mailing_country, src.ein, src.last_transaction_date, src.is_there_more_than_6_officers, src.report_year_1, src.report_date_1, src.report_year_2, src.report_date_2, src.report_year_3, src.report_date_3, src.firstname_mailing, src.pf_corporation_encode, src.pf_state_corpid_encoded    
+    );
+```
+
+
 Corporation Type? 
 It should be mapped:
 
