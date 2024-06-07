@@ -192,3 +192,6 @@ WHERE ENTITY_EMAIL IS NOT NULL
 AND entity_email in (
     select entity_email from LESS5EMAIL) LIMIT 10;
 ```
+
+Here what we are aiming is to find as follows:
+
