@@ -204,6 +204,9 @@ Missing pieces:
 ![[Pasted image 20240607132822.png]]
 > Seems to be corrected mapped. according to documentation
 
+
+> No Results at all.
+
 |   |
 |---|
 |"DOMP" – Domestic Profit "DOMNP" – Domestic Non-Profit "FORP" – Foreign Profit "FORNP" – Foreign Non-Profit "DOMLP" – Domestic Limited Partnership "FORLP" – Foreign Limited Partnership "FLAL" – Florida Limited Liability Co. "FORL" – Foreign Limited Liability Co. "NPREG" – Non-Profit, Registration "TRUST" – Declaration of Trust "AGENT" – Designation of Registered Agent|
