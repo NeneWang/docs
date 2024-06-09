@@ -4,147 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "893b79f588dd53f3",
-        "type": "split",
+        "id": "71f55bff98fcc92c",
+        "type": "tabs",
         "children": [
           {
-            "id": "71f55bff98fcc92c",
-            "type": "tabs",
-            "dimension": 56.201550387596896,
-            "children": [
-              {
-                "id": "a9eb812e322cb78f",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Docs Organization.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "3926290b9f11264a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "jou-project/corp-visualizer.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "4805a86bf1b2d13a",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "paperless-research/snowflake.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "4146978d238f6989",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "jou-project/ddengine.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
+            "id": "a9eb812e322cb78f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "daily-reports/2024-06-08.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "45dd0525edeff543",
-            "type": "tabs",
-            "dimension": 43.798449612403104,
-            "children": [
-              {
-                "id": "1c73779c2023b453",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "jou-project/win-engine.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "92bf1158d68d7f82",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "jou-project/dd-portal.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "eb98490287ff1ee9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "daily-reports/2024-06-06.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6e85272d84475959",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "jou-project/mcli.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "06e4f7a0aaf3c305",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "jou-project/mcli.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 3
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#2024-05-30",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/mcli.md",
+                "file": "daily-reports/2024-06-08.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/mcli.md",
+                "file": "daily-reports/2024-06-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/mcli.md"
+                "file": "daily-reports/2024-06-08.md"
               }
             }
           }
@@ -259,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,11 +148,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e85272d84475959",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
-    "jou-project/ddengine.md",
     "jou-project/mcli.md",
+    "daily-reports/2024-06-08.md",
     "jou-project/win-engine.md",
+    "jou-project/dd-portal.md",
     "img/Pasted image 20240606151627.png",
     "img/Pasted image 20240606150915.png",
     "img/Pasted image 20240606143842.png",
@@ -288,40 +164,37 @@
     "img/Pasted image 20240606134631.png",
     "img/Pasted image 20240606124128.png",
     "img/Pasted image 20240606123725.png",
-    "Docs Organization.md",
-    "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",
+    "rep-project.zip",
+    "paperless-research/learn-intention-uppend.md",
     "paperless-research/snowflake.md",
+    "paperless-research/documentation-oriented-work.md",
+    "paperless-research/diplomacy-optimizations.md",
+    "paperless-research",
+    "jou-project/journal-structure.md",
     "jou-project/corp-visualizer.md",
-    "conflict-files-obsidian-git.md",
+    "docs-2024.zip",
     "daily-reports/2024-06-05.md",
     "daily-reports",
-    "paperless-research/documentation-oriented-work.md",
-    "rep-project/rec exploration.md",
-    "rep-project.zip",
-    "rep-project/readme.md",
-    "rep-project/panda-plus.md",
-    "rep-project/introduction.md",
-    "rep-project/slc-website.md",
-    "img/Readme.md",
-    "img/2024-03-15.md",
-    "jou-project/journal-structure.md",
-    "docs/posts/journal/platinum/Untitled.md",
-    "jou-project/2024-06-04.md",
-    "docs/bigbrain.md",
-    "docs-2024.zip",
-    "docs-2024 (2).zip",
-    "docs.zip",
-    "docs/posts/journal/platinum/24-4-apr.md",
-    "docs/posts/journal/platinum/24-5-may.md",
-    "docs/posts/research/software-obsolete.md",
-    "docs/posts/journal/test.ipynb",
-    "docs/posts/journal/platinum",
-    "docs/posts/guide/Plan.canvas",
-    "docs/public/img",
-    "docs/posts/research",
+    "Docs Organization.md",
+    "jou-project/intv.md",
+    "2024-06-04.md",
+    "development/Untitled.canvas",
+    "docs/posts/pcwinhome/Napoleon and the Cult of Glory - Extended Report.md",
+    "docs/posts/pcwinhome/Napoleon and the Cult of Glory.md",
+    "docs/posts/pcwinhome/How to Use AI In my Career.md",
+    "docs/posts/pcwinhome/AI and career.md",
+    "docs/posts/pcwinhome/4-28-2024.md",
     "docs/posts/pcwinhome",
-    "docs/Untitled.canvas",
-    "Untitled.canvas"
+    "development/bigbrain.md",
+    "development/Untitled.md",
+    "Single Items Sim.md",
+    "development/Napoleon and the Cult of Glory - Short Report.md",
+    "jou-project/ddengine.md",
+    "open-daily/cses.md",
+    "open-daily",
+    "arc-project",
+    "jou-project",
+    "docs/posts/journal/platinum"
   ]
 }
