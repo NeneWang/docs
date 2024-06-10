@@ -67,9 +67,19 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "7f72f3109a322b35",
+                "type": "leaf",
+                "state": {
+                  "type": "release-notes",
+                  "state": {
+                    "currentVersion": "1.6.2"
+                  }
+                }
               }
             ],
-            "currentTab": 3
+            "currentTab": 4
           },
           {
             "id": "45dd0525edeff543",
@@ -129,7 +139,7 @@
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -198,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/dd-portal.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/dd-portal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,7 +248,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/ddengine.md"
+                "file": "jou-project/dd-portal.md"
               }
             }
           }
@@ -261,7 +271,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4146978d238f6989",
+  "active": "92bf1158d68d7f82",
   "lastOpenFiles": [
     "img/Pasted image 20240607173726.png",
     "img/Pasted image 20240607172333.png",
