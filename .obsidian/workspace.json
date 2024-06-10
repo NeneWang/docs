@@ -67,19 +67,9 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "7f72f3109a322b35",
-                "type": "leaf",
-                "state": {
-                  "type": "release-notes",
-                  "state": {
-                    "currentVersion": "1.6.2"
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           },
           {
             "id": "45dd0525edeff543",
@@ -208,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/dd-portal.md",
+                "file": "jou-project/ddengine.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/dd-portal.md",
+                "file": "jou-project/ddengine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,7 +238,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/dd-portal.md"
+                "file": "jou-project/ddengine.md"
               }
             }
           }
@@ -271,8 +261,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92bf1158d68d7f82",
+  "active": "4146978d238f6989",
   "lastOpenFiles": [
+    "jou-project/dd-portal.md",
     "img/Pasted image 20240607173726.png",
     "img/Pasted image 20240607172333.png",
     "img/Pasted image 20240607170515.png",
@@ -284,13 +275,11 @@
     "img/Pasted image 20240607133333.png",
     "img/Pasted image 20240607132822.png",
     "img/Pasted image 20240607132612.png",
-    "img/Pasted image 20240607132350.png",
     "paperless-research/snowflake.md",
     "jou-project/mcli.md",
     "jou-project/ddengine.md",
     "jou-project/win-engine.md",
     "Docs Organization.md",
-    "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",
     "conflict-files-obsidian-git.md",
     "daily-reports/2024-06-05.md",
