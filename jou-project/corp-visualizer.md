@@ -429,19 +429,10 @@ Now lets see the results:
   
 
 ```sql
-
-t entity_email from LESS5EMAIL);
-
-  
-
 SELECT
-
     PF_STATE,
-
     PF_STATE_CORPID,
-
     PF_CTA_DUE_DATE,
-
     PF_STATE_COMPANY_PER_EMAIL_COUNT,
     PF_STATE_COMPANY_PER_EMAIL_COUNT AS PF_GLOBAL_COMPANY_PER_EMAIL_COUNT,
     CORPORATION_ID,
