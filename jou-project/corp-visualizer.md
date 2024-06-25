@@ -281,6 +281,9 @@ And the s3 should be something like:
 s3://pfml2024/20240620/FL_SET1/
 ```
 
+
+Why is the upload taking so long here?
+
 FL_SET1
 
 
