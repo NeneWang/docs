@@ -575,6 +575,9 @@ limit 10;
     o   s3://pfml2024/20240620/FL_SET1/flset1load.csv
     o   etc.
 
+Should I have a trick to have the CSV being added in each row?
+- 
+
 ```sql
 -- Create or replace FL_SET1 table
 CREATE OR REPLACE TEMPORARY TABLE FL_SET1 AS
