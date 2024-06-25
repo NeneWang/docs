@@ -278,11 +278,13 @@ XXXXCitHtDXGFeUDquRA15/9X1KrxHwkWS5xnhbRd6lp
 And the s3 should be something like:
 
 ```
-s3://pfml2024/20240620/
+s3://pfml2024/20240620/FL_SET1/
 ```
 
 FL_SET1
 
+
+PFML2024
 
 Which means also create for each set it's corresponding folder:
 
