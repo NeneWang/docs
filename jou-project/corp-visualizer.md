@@ -262,6 +262,11 @@ It should be mapped:
 
 ![[Pasted image 20240607132350.png]]
 
+### Getting again the proper stage and IAM User
+
+- We need that. I forgot the storage of that somewhere
+
+
 
 
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily-reports/2024-06-08.md",
+                "file": "jou-project/corp-visualizer.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "snowf",
+                "query": "iam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-reports/2024-06-08.md",
+                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-reports/2024-06-08.md",
+                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-reports/2024-06-08.md"
+                "file": "jou-project/corp-visualizer.md"
               }
             }
           }
@@ -152,6 +152,8 @@
   },
   "active": "ed3c2be7f246d684",
   "lastOpenFiles": [
+    "paperless-research/snowflake.md",
+    "daily-reports/2024-06-08.md",
     "img/Pasted image 20240607173726.png",
     "img/Pasted image 20240607172333.png",
     "img/Pasted image 20240607170515.png",
@@ -162,15 +164,12 @@
     "img/Pasted image 20240607133333.png",
     "img/Pasted image 20240607132822.png",
     "img/Pasted image 20240607132612.png",
-    "img/Pasted image 20240607132350.png",
-    "daily-reports/2024-06-08.md",
     "jou-project/mcli.md",
     "jou-project/win-engine.md",
     "jou-project/dd-portal.md",
     "daily-reports/2024-06-06.md",
     "rep-project.zip",
     "paperless-research/learn-intention-uppend.md",
-    "paperless-research/snowflake.md",
     "paperless-research/documentation-oriented-work.md",
     "paperless-research/diplomacy-optimizations.md",
     "paperless-research",
