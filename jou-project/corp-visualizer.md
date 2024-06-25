@@ -268,9 +268,394 @@ It should be mapped:
 
 
 
-snowflake_s3_connector
+## Credentials for snowflake_s3_connector 
+
+```
+XXXXAKIAU6GDZ6B2MKLTUP34
+XXXXCitHtDXGFeUDquRA15/9X1KrxHwkWS5xnhbRd6lp
+```
 
 
 
+# Requirements
 
+  
 
+•   Florida records - "FL_SET1"
+    o   Created 2024
+    o   5 or less records per email (any time)
+    o   Active
+•   Florida records -  "FL_SET2"
+    o   Created pre-2024
+    o   Active
+    o   5 or less records per email (any time)
+    o   Not in Set 1
+•   Fields to export:
+    o   PF_ID
+    o   STATUS
+    o   PF_STATE
+    o   PF_STATE_CORPID
+    o   PF_CTA_DUE_DATE
+    o   PF_STATE_COMPANY_PER_EMAIL_COUNT
+    o   PF_GLOBAL_COMPANY_PER_EMAIL_COUNT
+    o   CORPORATION_ID
+    o   CORPORATION_NAME
+    o   CORPORATION_TYPE
+    o   ENTITY_EMAIL
+    o   FIRSTNAME_MAILING
+    o   LASTNAME_MAILING
+    o   CREATION_DATE
+    o   FILING_TYPE
+    o   PF_CORPORATION_ENCODED
+    o   PF_STATE_CORPID_ENCODED
+    o   PF_LOADED_DATE
+•   Also create a new table called "Corporation Tracking":
+    o   PF_ID
+    o   DATE/TIME
+    o   ACTION ("BATCHED","OPENED", etc.)
+    o   BATCH NAME
+•   Create CSVs, add to tracking (refer to OnGage docs on how the CSV should be formatted)
+•   Create a new S3 bucket, public, us-east-1 (pfml2024)
+•   Upload the CSVs to:
+    o   s3://pfml2024/20240620/FL_SET1/flset1load.csv
+    o   etc.
+•   Go into OnGage
+•   Create all our fields (if they don't exist, like email)
+•   Import set 1 into OnGage
+
+  ### Changes:
+
+  
+
+Add:
+
+- PF_EMAIL_ENCODED
+
+  
+
+Remove following default fields:
+
+  
+
+- REMOVE from connect Ongage:
+
+  
+
+os, gender, ip, language, country, product_id
+
+  
+
+Map the follwoing Fields in the Export:
+
+  
+
+- firstname_mailing -> first_name
+- lastname_mailing -> last_name
+- entity_email -> email
+    o   PF_ID
+    o   STATUS
+    o   PF_STATE
+    o   PF_STATE_CORPID
+    o   PF_CTA_DUE_DATE
+    o   PF_STATE_COMPANY_PER_EMAIL_COUNT
+    o   PF_GLOBAL_COMPANY_PER_EMAIL_COUNT
+    o   CORPORATION_ID
+    o   CORPORATION_NAME
+    o   CORPORATION_TYPE
+    o   ENTITY_EMAIL AS email
+    o   FIRSTNAME_MAILING
+    o   LASTNAME_MAILING
+    o   CREATION_DATE
+    o   FILING_TYPE
+    o   PF_CORPORATION_ENCODED
+    o   PF_STATE_CORPID_ENCODED
+    o   PF_LOADED_DATE
+
+  
+  
+
+# Exports:
+
+  
+
+```sql
+
+BASE64_ENCODE(CORPORATION_NAME) AS pf_corporation_encoded,
+
+BASE64_ENCODE(PF_STATE_CORPID) AS pf_state_corpid_encoded,
+
+BASE64_ENCODE(creation_date) AS pf_creation_date_encoded,
+
+```
+
+  
+  
+
+Update query:
+
+  
+
+```sql
+
+ALTER TABLE CORPORATION ADD pf_creation_date_encoded VARCHAR;
+
+  
+
+UPDATE CORPORATION
+
+SET pf_creation_date_encoded = BASE64_ENCODE(creation_date);
+
+```
+
+  
+
+Now lets see the results:
+
+  
+  
+
+```sql
+
+t entity_email from LESS5EMAIL);
+
+  
+
+SELECT
+
+    PF_STATE,
+
+    PF_STATE_CORPID,
+
+    PF_CTA_DUE_DATE,
+
+    PF_STATE_COMPANY_PER_EMAIL_COUNT,
+
+    PF_STATE_COMPANY_PER_EMAIL_COUNT AS PF_GLOBAL_COMPANY_PER_EMAIL_COUNT,
+
+    CORPORATION_ID,
+
+    CORPORATION_NAME,
+
+    CORPORATION_TYPE,
+
+    ENTITY_EMAIL,
+
+    FIRSTNAME_MAILING,
+
+    LASTNAME_MAILING,
+
+    CREATION_DATE,  
+
+    CORPORATION_TYPE AS FILING_TYPE,
+
+    PF_CORPORATION_ENCODED,
+
+    PF_STATE_CORPID_ENCODED,
+
+    STATUS,
+
+    PF_LOADED_DATE,
+
+    PF_ID,
+
+    PF_CREATION_DATE_ENCODED
+
+FROM
+
+    CORPORATION
+
+WHERE
+
+    ENTITY_EMAIL IS NOT NULL
+
+    AND CREATION_DATE >= '2024-01-01'
+
+    AND CREATION_DATE < '2024-12-01'
+
+    AND ENTITY_EMAIL IN (
+
+        SELECT ENTITY_EMAIL FROM LESS5EMAIL
+
+    );
+
+  
+
+```
+
+  
+  
+
+Exporting specifics:
+
+  
+
+```
+
+Ongage export example:
+
+Key changes that make it different from the original request:
+
+Add:
+
+- PF_EMAIL_ENCODED
+
+Map the follwoing Fields in the Export:
+
+- firstname_mailing -> first_name
+
+- lastname_mailing -> last_name
+
+- entity_email -> email
+
+```
+
+  
+  
+
+```sql
+
+  
+
+DROP TABLE LESS5EMAIL;
+
+  
+
+CREATE TEMPORARY TABLE LESS5EMAIL AS
+
+SELECT
+
+    ENTITY_EMAIL,count(*) cnt
+
+FROM
+
+  corporation
+
+WHERE status = 'A'
+
+AND pf_state = 'FL'
+
+AND (officer_6_last_name IS NULL OR officer_6_last_name='')
+
+AND is_there_more_than_6_officers = FALSE
+
+GROUP BY ENTITY_EMAIL, pf_state
+
+HAVING count(1) < 4;
+
+  
+  
+
+select
+
+    pf_id,
+
+    status,
+
+    pf_state,
+
+    pf_state_corpid,
+
+    TO_CHAR(pf_cta_due_date, 'MM/DD/YYYY') as pf_cta_due_date,
+
+    pf_state_company_per_email_count,
+
+    pf_state_company_per_email_count as pf_global_company_per_email_count,
+
+    corporation_id,
+
+    corporation_name,
+
+    corporation_type,
+
+    entity_email as email,
+
+    firstname_mailing as first_name,
+
+    lastname_mailing as last_name,
+
+    TO_CHAR(creation_date, 'MM/DD/YYYY') as creation_date,  
+
+    corporation_type as filing_type,
+
+    BASE64_ENCODE(corporation_name) as pf_corporation_encoded,
+
+    BASE64_ENCODE(pf_state_corpid) as pf_state_corpid_encoded,
+
+    BASE64_ENCODE(creation_date) as pf_creation_date_encoded,
+
+    TO_CHAR(pf_loaded_date, 'MM/DD/YYYY') as pf_loaded_date
+
+from
+
+    corporation
+
+where
+
+    entity_email is not null
+
+    and creation_date >= '2024-01-01'
+
+    and creation_date < '2024-12-01'
+
+    and entity_email in (
+
+        select entity_email from less5email
+
+    )
+
+limit 10;
+
+  
+  
+  
+
+```
+
+  
+
+•   Florida records - "FL_SET1"
+
+    o   Created 2024
+
+    o   5 or less records per email (any time)
+
+    o   Active
+
+•   Florida records -  "FL_SET2"
+
+    o   Created pre-2024
+
+    o   Active
+
+    o   5 or less records per email (any time)
+
+    o   Not in Set 1
+
+  
+
+•   Also create a new table called "Corporation Tracking":
+
+    o   PF_ID
+
+    o   DATE/TIME
+
+    o   ACTION ("BATCHED","OPENED", etc.)
+
+    o   BATCH NAME
+
+•   Create CSVs, add to tracking (refer to OnGage docs on how the CSV should be formatted)
+
+•   Create a new S3 bucket, public, us-east-1 (pfml2024)
+
+•   Upload the CSVs to:
+
+    o   s3://pfml2024/20240620/FL_SET1/flset1load.csv
+
+    o   etc.
+
+  
+  
+  
+  
+
+EYPERXH.KPB27206
