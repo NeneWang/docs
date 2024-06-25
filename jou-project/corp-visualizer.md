@@ -268,5 +268,9 @@ It should be mapped:
 
 
 
+snowflake_s3_connector
+
+
+
 
 

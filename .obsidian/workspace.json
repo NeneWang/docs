@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "iam",
+                "query": "snowflake_s3_connector path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
