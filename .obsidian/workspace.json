@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#2024-05-30",
+                "query": "snowf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,17 +140,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "hide-folders:Show hidden folders": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "hide-folders:Show hidden folders": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "ed3c2be7f246d684",
   "lastOpenFiles": [
     "img/Pasted image 20240607173726.png",
     "img/Pasted image 20240607172333.png",
