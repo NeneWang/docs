@@ -576,7 +576,7 @@ limit 10;
     o   etc.
 
 Should I have a trick to have the CSV being added in each row?
-- In each row you should try then to grab this data
+- In each row you should try then to grab this data. from rest end point and run the entire operations
 
 ```sql
 -- Create or replace FL_SET1 table
