@@ -576,7 +576,7 @@ limit 10;
     o   etc.
 
 Should I have a trick to have the CSV being added in each row?
-- 
+- In each row you should try then to grab this data
 
 ```sql
 -- Create or replace FL_SET1 table
@@ -611,8 +611,6 @@ WHERE
     AND email IN (
         SELECT ENTITY_EMAIL FROM LESS5EMAIL
     );
-
-
 
 -- Create or replace FL_SET2 table
 CREATE OR REPLACE TEMPORARY TABLE FL_SET2 AS
