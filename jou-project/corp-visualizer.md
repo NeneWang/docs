@@ -443,51 +443,28 @@ SELECT
     PF_CTA_DUE_DATE,
 
     PF_STATE_COMPANY_PER_EMAIL_COUNT,
-
     PF_STATE_COMPANY_PER_EMAIL_COUNT AS PF_GLOBAL_COMPANY_PER_EMAIL_COUNT,
-
     CORPORATION_ID,
-
     CORPORATION_NAME,
-
     CORPORATION_TYPE,
-
     ENTITY_EMAIL,
-
     FIRSTNAME_MAILING,
-
     LASTNAME_MAILING,
-
     CREATION_DATE,  
-
     CORPORATION_TYPE AS FILING_TYPE,
-
     PF_CORPORATION_ENCODED,
-
     PF_STATE_CORPID_ENCODED,
-
     STATUS,
-
     PF_LOADED_DATE,
-
     PF_ID,
-
     PF_CREATION_DATE_ENCODED
-
 FROM
-
     CORPORATION
-
 WHERE
-
     ENTITY_EMAIL IS NOT NULL
-
     AND CREATION_DATE >= '2024-01-01'
-
     AND CREATION_DATE < '2024-12-01'
-
     AND ENTITY_EMAIL IN (
-
         SELECT ENTITY_EMAIL FROM LESS5EMAIL
 
     );
@@ -531,87 +508,46 @@ Map the follwoing Fields in the Export:
   
 
 DROP TABLE LESS5EMAIL;
-
-  
-
 CREATE TEMPORARY TABLE LESS5EMAIL AS
-
 SELECT
-
     ENTITY_EMAIL,count(*) cnt
-
 FROM
-
   corporation
-
 WHERE status = 'A'
-
 AND pf_state = 'FL'
-
 AND (officer_6_last_name IS NULL OR officer_6_last_name='')
-
 AND is_there_more_than_6_officers = FALSE
-
 GROUP BY ENTITY_EMAIL, pf_state
-
 HAVING count(1) < 4;
-
-  
   
 
 select
-
     pf_id,
-
     status,
-
     pf_state,
-
     pf_state_corpid,
-
     TO_CHAR(pf_cta_due_date, 'MM/DD/YYYY') as pf_cta_due_date,
-
     pf_state_company_per_email_count,
-
     pf_state_company_per_email_count as pf_global_company_per_email_count,
-
     corporation_id,
-
     corporation_name,
-
     corporation_type,
-
     entity_email as email,
-
     firstname_mailing as first_name,
-
     lastname_mailing as last_name,
-
     TO_CHAR(creation_date, 'MM/DD/YYYY') as creation_date,  
-
     corporation_type as filing_type,
-
     BASE64_ENCODE(corporation_name) as pf_corporation_encoded,
-
     BASE64_ENCODE(pf_state_corpid) as pf_state_corpid_encoded,
-
     BASE64_ENCODE(creation_date) as pf_creation_date_encoded,
-
     TO_CHAR(pf_loaded_date, 'MM/DD/YYYY') as pf_loaded_date
-
 from
-
     corporation
-
 where
-
     entity_email is not null
-
     and creation_date >= '2024-01-01'
-
     and creation_date < '2024-12-01'
-
-    and entity_emal in (
+    and entity_email in (
         select entity_email from less5email
     )
 
