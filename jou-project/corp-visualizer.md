@@ -611,10 +611,8 @@ where
 
     and creation_date < '2024-12-01'
 
-    and entity_email in (
-
+    and entity_emal in (
         select entity_email from less5email
-
     )
 
 limit 10;
@@ -628,48 +626,113 @@ limit 10;
   
 
 •   Florida records - "FL_SET1"
-
     o   Created 2024
-
     o   5 or less records per email (any time)
-
     o   Active
-
 •   Florida records -  "FL_SET2"
-
     o   Created pre-2024
-
     o   Active
-
     o   5 or less records per email (any time)
-
     o   Not in Set 1
-
   
 
 •   Also create a new table called "Corporation Tracking":
-
     o   PF_ID
-
     o   DATE/TIME
-
     o   ACTION ("BATCHED","OPENED", etc.)
-
     o   BATCH NAME
 
 •   Create CSVs, add to tracking (refer to OnGage docs on how the CSV should be formatted)
-
 •   Create a new S3 bucket, public, us-east-1 (pfml2024)
-
 •   Upload the CSVs to:
-
     o   s3://pfml2024/20240620/FL_SET1/flset1load.csv
-
     o   etc.
 
   
   
-  
+```sql
+
+-- Create or replace FL_SET1 table
+CREATE OR REPLACE TEMPORARY TABLE FL_SET1 AS
+SELECT 
+    pf_id,
+    status, 
+    pf_state,
+    pf_state_corpid, 
+    TO_CHAR(pf_cta_due_date, 'MM/DD/YYYY') AS pf_cta_due_date,
+    pf_state_company_per_email_count, 
+    pf_state_company_per_email_count AS pf_global_company_per_email_count, 
+    corporation_id, 
+    corporation_name, 
+    corporation_type, 
+    entity_email AS email,
+    firstname_mailing AS first_name,
+    lastname_mailing AS last_name,
+    creation_date AS creation_date_f,
+    TO_CHAR(creation_date, 'MM/DD/YYYY') AS creation_date,  
+    corporation_type AS filing_type,
+    BASE64_ENCODE(corporation_name) AS pf_corporation_encoded,
+    BASE64_ENCODE(pf_state_corpid) AS pf_state_corpid_encoded,
+    BASE64_ENCODE(creation_date) AS pf_creation_date_encoded,
+    TO_CHAR(pf_loaded_date, 'MM/DD/YYYY') AS pf_loaded_date
+FROM 
+    corporation
+WHERE 
+    pf_state = 'FL'
+    AND creation_date_f >= '2024-01-01'
+    AND status = 'A'
+    AND email IN (
+        SELECT ENTITY_EMAIL FROM LESS5EMAIL
+    );
+
+
+
+-- Create or replace FL_SET2 table
+CREATE OR REPLACE TEMPORARY TABLE FL_SET2 AS
+SELECT 
+    pf_id,
+    status, 
+    pf_state,
+    pf_state_corpid, 
+    TO_CHAR(pf_cta_due_date, 'MM/DD/YYYY') AS pf_cta_due_date,
+    pf_state_company_per_email_count, 
+    pf_state_company_per_email_count AS pf_global_company_per_email_count, 
+    corporation_id, 
+    corporation_name, 
+    corporation_type, 
+    entity_email AS email,
+    firstname_mailing AS first_name,
+    lastname_mailing AS last_name,
+    creation_date AS creation_date_f,
+    TO_CHAR(creation_date, 'MM/DD/YYYY') AS creation_date,  
+    corporation_type AS filing_type,
+    BASE64_ENCODE(corporation_name) AS pf_corporation_encoded,
+    BASE64_ENCODE(pf_state_corpid) AS pf_state_corpid_encoded,
+    BASE64_ENCODE(creation_date) AS pf_creation_date_encoded,
+    TO_CHAR(pf_loaded_date, 'MM/DD/YYYY') AS pf_loaded_date
+FROM 
+    corporation
+WHERE 
+    pf_state = 'FL'
+    AND creation_date_f < '2024-01-01'
+    AND status = 'A'
+    AND email IN (
+        SELECT ENTITY_EMAIL FROM LESS5EMAIL
+    );
+    
+-- Select from FL_SET1 to verify the data
+
+-- SELECT * FROM FL_SET1 LIMIT 10;
+
+COPY INTO @PFML2024/20240620/FL_SET1/flset1load.csv 
+FROM (SELECT * FROM FL_SET1) 
+FILE_FORMAT = (TYPE = CSV, COMPRESSION = NONE, field_optionally_enclosed_by = "'") OVERWRITE=TRUE HEADER=TRUE;
+
+
+COPY INTO @PFML2024/20240620/FL_SET2/flset2load.csv 
+FROM (SELECT * FROM FL_SET2) 
+FILE_FORMAT = (TYPE = CSV, COMPRESSION = NONE, field_optionally_enclosed_by = "'") OVERWRITE=TRUE HEADER=TRUE;  
+```
   
 
 EYPERXH.KPB27206
