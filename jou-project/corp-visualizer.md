@@ -291,9 +291,17 @@ PFML2024
 
 Which means also create for each set it's corresponding folder:
 
+
+```sql
+
+COPY INTO @PFML2024/20240620/FL_SET1/data_header_true.csv 
+FROM (SELECT * FROM FL_SET1) 
+FILE_FORMAT = (TYPE = CSV, COMPRESSION = NONE) OVERWRITE=TRUE HEADER=TRUE;
 ```
 
-```
+
+
+
 # Requirements
 
   
