@@ -331,23 +331,12 @@ Add:
 
 - PF_EMAIL_ENCODED
 
-  
-
 Remove following default fields:
-
-  
-
 - REMOVE from connect Ongage:
-
-  
 
 os, gender, ip, language, country, product_id
 
-  
-
 Map the follwoing Fields in the Export:
-
-  
 
 - firstname_mailing -> first_name
 - lastname_mailing -> last_name
