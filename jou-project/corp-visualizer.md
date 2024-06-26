@@ -334,7 +334,7 @@ FILE_FORMAT = (TYPE = CSV, COMPRESSION = NONE) OVERWRITE=TRUE HEADER=TRUE;
     o   PF_CORPORATION_ENCODED
     o   PF_STATE_CORPID_ENCODED
     o   PF_LOADED_DATE
-    + 
+    + BATCH - FL_SET2/FL_SET1
 •   Also create a new table called "Corporation Tracking":
     o   PF_ID
     o   DATE/TIME
