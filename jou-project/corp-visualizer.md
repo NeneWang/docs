@@ -827,6 +827,12 @@ X_ACCOUNT_CODE: your_ongage_account_code
 ```
 
 
+```
+X_USERNAME: your_ongage_username
+X_PASSWORD: your_ongage_password
+X_ACCOUNT_CODE: 18748
+```
+
 
 List ID: 232244
 
