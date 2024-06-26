@@ -838,7 +838,7 @@ List ID: 232244
 
 POST URL: https://api.ongage.net/<list_id>/api/contact_counts
 
-![[Pasted image 20240626113953.png]]
+![[Pasted image 20240626115241.png]]
 
 
 ```
