@@ -343,7 +343,6 @@ FILE_FORMAT = (TYPE = CSV, COMPRESSION = NONE) OVERWRITE=TRUE HEADER=TRUE;
 •   Create a new S3 bucket, public, us-east-1 (pfml2024)
 •   Upload the CSVs to:
     o   s3://pfml2024/20240620/FL_SET1/flset1load.csv
-    o   etc.
 •   Go into OnGage
 •   Create all our fields (if they don't exist, like email)
 •   Import set 1 into OnGage
