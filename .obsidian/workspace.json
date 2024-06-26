@@ -23,9 +23,11 @@
             "id": "7b7f5fae072a97e8",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "jou-project/corp-visualizer.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -76,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
