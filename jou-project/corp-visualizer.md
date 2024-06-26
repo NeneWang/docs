@@ -862,6 +862,15 @@ POST URL: https://api.ongage.net/232244/api/contact_counts
 
 
 
+request posts are supported by snowflake:
+
+https://community.snowflake.com/s/article/GET-and-POST-requests-using-are-currently-not-allowed-in-UDFs-and-Stored-Procedures
+
+
+
+![[Pasted image 20240626121021.png]]
+
+
 
 
 
