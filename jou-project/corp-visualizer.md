@@ -829,7 +829,7 @@ X_ACCOUNT_CODE: your_ongage_account_code
 ```
 X_USERNAME: nwang@platinumfilings.com
 X_PASSWORD: 4hP&seVu4lFBPL&S
-X_ACCOUNT_CODE: 18748
+X_ACCOUNT_CODE: platinum_filings
 ```
 
 
