@@ -799,3 +799,19 @@ EYPERXH.KPB27206
 
 
 - Where to get the key?
+
+I mean the secret key? Where is that?
+
+https://ongage.atlassian.net/wiki/spaces/HELP/pages/2968584193/Validation+API#API-Request
+```
+POST https://api.ongage.io/email-validation/api/v1/realtime-validation
+Header: 
+x-api-key: THE_SECRET_KEY_HERE
+Body: 
+{ “email”@”address.com”}
+```
+
+
+Yeah I mean awesome, it replces the user password, but where is the SECRET KEYYY
+
+This is the new API Authentication, and replaces the Username Password authentication described in our [API Getting Started](https://ongage.atlassian.net/wiki/spaces/HELP/pages/70418454 "/wiki/spaces/HELP/pages/70418454") guide.
