@@ -830,3 +830,14 @@ X_ACCOUNT_CODE: your_ongage_account_code
 
 List ID: 232244
 
+
+POST URL: https://api.ongage.net/<list_id>/api/contact_counts
+
+|                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `{`<br><br>    `"criteria"``: {`<br><br>      `"field_name"``:` `"name"``,`<br><br>      `"type"``:` `"string"``,`<br><br>      `"operator"``:` `"LIKE"``,`<br><br>      `"operand"``: [` `"John"``,` `"Mary"` `],`<br><br>      `"case_sensitive"``:` `"0"`<br><br>    `}`<br><br>`}` |
+|                                                                                                                                                                                                                                                                                        |
+```
+
+POST URL: https://api.ongage.net/232244/api/contact_counts
+```
