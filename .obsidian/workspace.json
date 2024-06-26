@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "daily-reports/2024-06-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "daily-reports/2024-06-26.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/corp-visualizer.md",
+                "file": "daily-reports/2024-06-26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/corp-visualizer.md"
+                "file": "daily-reports/2024-06-26.md"
               }
             }
           }
@@ -164,6 +164,8 @@
   },
   "active": "7b7f5fae072a97e8",
   "lastOpenFiles": [
+    "jou-project/corp-visualizer.md",
+    "daily-reports/2024-06-26.md",
     "img/Pasted image 20240626121021.png",
     "img/Pasted image 20240626115241.png",
     "img/Pasted image 20240626113953.png",
@@ -176,7 +178,6 @@
     "img/Pasted image 20240607170141.png",
     "img/Pasted image 20240607165143.png",
     "img/Pasted image 20240607165135.png",
-    "img/Pasted image 20240607133333.png",
     "jou-project/mcli.md",
     "jou-project/win-engine.md",
     "jou-project/dd-portal.md",
@@ -187,7 +188,6 @@
     "paperless-research/diplomacy-optimizations.md",
     "paperless-research",
     "jou-project/journal-structure.md",
-    "jou-project/corp-visualizer.md",
     "docs-2024.zip",
     "daily-reports/2024-06-05.md",
     "daily-reports",
