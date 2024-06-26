@@ -815,3 +815,14 @@ Body:
 Yeah I mean awesome, it replces the user password, but where is the SECRET KEYYY
 
 This is the new API Authentication, and replaces the Username Password authentication described in our [API Getting Started](https://ongage.atlassian.net/wiki/spaces/HELP/pages/70418454 "/wiki/spaces/HELP/pages/70418454") guide.
+
+
+Here you have a way to do it, but is likely outdated":
+
+
+```
+
+X_USERNAME: your_ongage_username
+X_PASSWORD: your_ongage_password
+X_ACCOUNT_CODE: your_ongage_account_code
+```
