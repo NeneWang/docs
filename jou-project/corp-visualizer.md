@@ -833,11 +833,28 @@ List ID: 232244
 
 POST URL: https://api.ongage.net/<list_id>/api/contact_counts
 
-|                                                                                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `{`<br><br>    `"criteria"``: {`<br><br>      `"field_name"``:` `"name"``,`<br><br>      `"type"``:` `"string"``,`<br><br>      `"operator"``:` `"LIKE"``,`<br><br>      `"operand"``: [` `"John"`],`<br><br>      `"case_sensitive"``:` `"0"`<br><br>    `}`<br><br>`}` |
-|                                                                                                                                                                                                                                                                          |
+
 ```
 
 POST URL: https://api.ongage.net/232244/api/contact_counts
 ```
+
+
+```json
+
+{
+    "criteria": {
+      "field_name": "name",
+      "type": "string",
+      "operator": "LIKE",
+      "operand": [ "Nelson" ],
+      "case_sensitive": "0"
+    }
+}
+```
+
+
+
+
+
+
