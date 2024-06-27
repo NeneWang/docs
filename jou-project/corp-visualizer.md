@@ -890,10 +890,16 @@ Test Case:
 
 > Here you can see that it does correctly start logging  events  @2:36-38 pm 
 
-From the new
+From the newly created instance:
+
+![[Pasted image 20240627144300.png]]
 
 
+That data is:
 
+```
+2024-06-27T18:42:18.914833
 
-
+a8728dd3-90ff-467c-a5f7-be3e541a3c53
+```
 
