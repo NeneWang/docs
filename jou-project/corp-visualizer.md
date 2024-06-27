@@ -873,9 +873,12 @@ https://community.snowflake.com/s/article/GET-and-POST-requests-using-are-curren
 
 
 
+![[Pasted image 20240627143024.png]]
 
 
+Test Case:
 
+1. Run things on your 
 
 
 
