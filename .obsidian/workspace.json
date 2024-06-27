@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "daily-reports/2024-06-27.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "daily-reports/2024-06-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/ddengine.md"
+                "file": "daily-reports/2024-06-27.md"
               }
             }
           }
@@ -164,11 +163,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a0594cc400954e2b",
+  "active": "a9eb812e322cb78f",
   "lastOpenFiles": [
+    "jou-project/ddengine.md",
+    "daily-reports/2024-06-27.md",
     "jou-project/dd-portal.md",
     "jou-project/corp-visualizer.md",
-    "daily-reports/2024-06-27.md",
     "daily-reports/2024-06-26.md",
     "img/Pasted image 20240626121021.png",
     "img/Pasted image 20240626115241.png",
@@ -207,7 +207,6 @@
     "development/bigbrain.md",
     "development/Untitled.md",
     "Single Items Sim.md",
-    "development/Napoleon and the Cult of Glory - Short Report.md",
     "open-daily",
     "arc-project",
     "jou-project",
