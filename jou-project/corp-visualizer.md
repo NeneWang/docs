@@ -883,5 +883,13 @@ Test Case:
 3. Second time, it stops working
 
 
+### Suite Case 2: Starting agent always from start:
+
+
+![[Pasted image 20240627143922.png]]
+
+> He
+
+
 
 
