@@ -915,5 +915,58 @@ Lets see if the following updates:
 
 Logs:
 
+[2:49 PM] Nelson Wang
 
+However when I terminate the agent and start it for the second time and so forth again (without deleting everything in Roaming DD):
+
+I start to receive this error every time it tries to send the event:
+
+[6/27/2024 2:47:55 PM] Thread 11: An exception occurred when trying to stop (OnStop) the application: Value cannot be null.  
+Parameter name: path
+
+....
+
+[6/27/2024 2:46:20 PM] Thread 1: on GetWindowTitle  
+[6/27/2024 2:46:20 PM] Thread 1: on GetProcessNameFromWindowHandle  
+[6/27/2024 2:46:20 PM] Thread 1: On GetProcessNameFromWindowHandle  
+[6/27/2024 2:46:20 PM] Thread 1: On GetProcessIdFromWindowHandle  
+[6/27/2024 2:46:20 PM] Thread 1: On GetProcessNameFromWindowHandle  
+[6/27/2024 2:46:20 PM] Thread 1: On GetProcessIdFromWindowHandle  
+[6/27/2024 2:46:20 PM] Thread 1: Adding AppActiveModel to the application_events table in db  
+[6/27/2024 2:46:20 PM] Thread 1: Adding AppActiveModel to the application_events table in db  
+[6/27/2024 2:46:20 PM] Thread 9: restApiMessagingTimerElapsed - sending info to the REST API server  
+[6/27/2024 2:46:20 PM] Thread 9: Grabbing events to send to the REST API.  
+[6/27/2024 2:46:20 PM] Thread 9: Grabbing top 100 events from the event_table table in db  
+[6/27/2024 2:46:20 PM] Thread 9: Number of events found (max 100):23  
+[6/27/2024 2:46:20 PM] Thread 9: Sending event to the REST API  
+[6/27/2024 2:46:21 PM] Thread 11: An exception occurred when trying to stop (OnStop) the application: Value cannot be null.  
+Parameter name: path
+
+Every time it tries to send the POST request:
+
+[6/27/2024 2:47:05 PM] Thread 1: Adding AppActiveModel to the application_events table in db  
+[6/27/2024 2:47:05 PM] Thread 1: Adding AppActiveModel to the application_events table in db  
+[6/27/2024 2:47:47 PM] Thread 12: On AppActiveOneMinuteTimerElapsed  
+[6/27/2024 2:47:47 PM] Thread 12: Packaging AppActive events from the application_events table  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: Adding BaseModel to the event_table table in db  
+[6/27/2024 2:47:47 PM] Thread 12: On GetProcessIdFromWindowHandle  
+[6/27/2024 2:47:47 PM] Thread 12: On GetProcessNameFromWindowHandle  
+[6/27/2024 2:47:47 PM] Thread 12: Adding AppActiveModel to the application_events table in db  
+[6/27/2024 2:47:54 PM] Thread 12: restApiMessagingTimerElapsed - sending info to the REST API server  
+[6/27/2024 2:47:54 PM] Thread 12: Grabbing events to send to the REST API.  
+[6/27/2024 2:47:54 PM] Thread 12: Grabbing top 100 events from the event_table table in db  
+[6/27/2024 2:47:54 PM] Thread 12: Number of events found (max 100):39  
+[6/27/2024 2:47:54 PM] Thread 12: Sending event to the REST API  
+[6/27/2024 2:47:55 PM] Thread 11: An exception occurred when trying to stop (OnStop) the application: Value cannot be null.  
+Parameter name: path [2:52 PM] Nelson Wang
+
+In my backend I also stop receiving any events  nor attempts of events posts from the agent
 
