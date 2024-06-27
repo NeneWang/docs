@@ -903,3 +903,9 @@ That data is:
 a8728dd3-90ff-467c-a5f7-be3e541a3c53
 ```
 
+![[Pasted image 20240627144402.png]]
+
+
+Now at 2024-06-27 2:44 I will stop the agent and start it again
+
+
