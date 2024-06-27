@@ -888,7 +888,9 @@ Test Case:
 
 ![[Pasted image 20240627143922.png]]
 
-> Here you can see that it does correctly start logging  events  @2:38 pm 
+> Here you can see that it does correctly start logging  events  @2:36-38 pm 
+
+From the new
 
 
 
