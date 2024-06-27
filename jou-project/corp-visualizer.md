@@ -915,6 +915,14 @@ Lets see if the following updates:
 
 Logs:
 
+From:
+
+
+```
+
+C:\Users\NelsonWang\AppData\Roaming\DD
+```
+
 [2:49 PM] Nelson Wang
 
 However when I terminate the agent and start it for the second time and so forth again (without deleting everything in Roaming DD):
