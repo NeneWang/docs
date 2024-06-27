@@ -888,7 +888,10 @@ Test Case:
 
 ![[Pasted image 20240627143922.png]]
 
-> He
+> Here you can see that it does correctly start logging  events  @2:38 pm
+> 
+
+
 
 
 
