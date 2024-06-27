@@ -878,7 +878,9 @@ https://community.snowflake.com/s/article/GET-and-POST-requests-using-are-curren
 
 Test Case:
 
-1. Run things on your 
+1. Run things on your machine. 
+2. First time it runs, it creates the key adoption. works fine
+3. Second time, it stops working
 
 
 
