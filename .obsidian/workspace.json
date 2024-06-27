@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a9eb812e322cb78f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily-reports/2024-06-27.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "a0594cc400954e2b",
             "type": "leaf",
             "state": {
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily-reports/2024-06-27.md",
+                "file": "jou-project/corp-visualizer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily-reports/2024-06-27.md",
+                "file": "jou-project/corp-visualizer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "daily-reports/2024-06-27.md"
+                "file": "jou-project/corp-visualizer.md"
               }
             }
           }
@@ -163,11 +149,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a9eb812e322cb78f",
+  "active": "a0594cc400954e2b",
   "lastOpenFiles": [
+    "daily-reports/2024-06-27.md",
     "jou-project/corp-visualizer.md",
     "jou-project/ddengine.md",
-    "daily-reports/2024-06-27.md",
     "jou-project/dd-portal.md",
     "daily-reports/2024-06-26.md",
     "img/Pasted image 20240626121021.png",
