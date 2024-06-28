@@ -188,3 +188,11 @@ ui.js:88 UI updated
 
 and returns the user id
 
+
+![[Pasted image 20240628165130.png]]
+
+
+
+
+Lets try the other way around?
+
