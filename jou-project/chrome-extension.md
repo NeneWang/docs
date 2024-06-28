@@ -82,4 +82,15 @@ The main question sis that if you can create a popup here from inside the connec
 
 - You can get the result redirect for parsing.
 - Handle Redirect Callback()
-- 
+
+![[Pasted image 20240628153425.png]]
+
+- You have here also some UI elements that make it so that it requires showing content.
+
+
+
+
+
+
+
+
