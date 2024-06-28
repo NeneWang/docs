@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9773c2a8c693c3e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "jou-project/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/ddengine.md",
+                "file": "jou-project/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/ddengine.md"
+                "file": "jou-project/Untitled.md"
               }
             }
           }
@@ -149,10 +162,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a0594cc400954e2b",
+  "active": "9773c2a8c693c3e0",
   "lastOpenFiles": [
-    "jou-project/corp-visualizer.md",
     "jou-project/ddengine.md",
+    "jou-project/Untitled.md",
+    "jou-project/corp-visualizer.md",
     "jou-project/dd-portal.md",
     "img/Pasted image 20240627144535.png",
     "img/Pasted image 20240627144402.png",
