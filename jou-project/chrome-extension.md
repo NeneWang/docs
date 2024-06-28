@@ -35,25 +35,15 @@ See here:
   
 
   if (isAuthenticated) {
-
     console.log("> User is authenticated");
-
     window.history.replaceState({}, document.title, window.location.pathname);
-
     updateUI();
-
     return;
-
   }
-
-  
 
   console.log("> User not authenticated");
 
-  
-
   const query = window.location.search;
-
   const shouldParseResult = query.includes("code=") && query.includes("state=");
 
   
@@ -78,3 +68,6 @@ See here:
   }
 
 ```
+
+
+The isAuthenticated. 
