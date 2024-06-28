@@ -135,6 +135,10 @@ Retrieve the user id:
 
 https://auth0.com/docs/quickstart/backend/python/02-using?download=true
 
+Which is a completely different set of tasks:
+
+https://manage.auth0.com/dashboard/us/dev-aq3gvyp32qokfo08/applications/YQBKH5h8sOccEoA0x7m8Kv518QjKR92Z/quickstart/python
+
 
 
 
