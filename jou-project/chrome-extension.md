@@ -177,7 +177,7 @@ sh exec.sh
 Ok now that we have the email logged in:
 
 
-Lets create a l
+Lets create a path that takes in int he get request the 
 
 
 
