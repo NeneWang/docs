@@ -33,7 +33,10 @@ See here:
 
 ```js
   
+  
 
+  const isAuthenticated = await auth0Client.isAuthenticated();
+  
   if (isAuthenticated) {
     console.log("> User is authenticated");
     window.history.replaceState({}, document.title, window.location.pathname);
@@ -72,4 +75,4 @@ See here:
 
 The `isAuthenticated` feature can be set up for auth0clientfeature to keep track of user authentication is used on `app.js`
 
-- Query Search,  
+- Query Search,   `isAuthenticated` Feature awaits for the atuhtenntication to replace 
