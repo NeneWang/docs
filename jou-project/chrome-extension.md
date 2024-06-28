@@ -102,7 +102,7 @@ The main question sis that if you can create a popup here from inside the connec
 
 Oh look it seems we have a clientId.
 
-- [ ] Check if thi
+- [ ] Check if this is the same client id that appears on auth0
 
 
 
