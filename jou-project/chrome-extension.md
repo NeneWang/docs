@@ -98,7 +98,11 @@ The main question sis that if you can create a popup here from inside the connec
 
 
 
+![[Pasted image 20240628154206.png]]
 
+Oh look it seems we have a clientId.
+
+- [ ] Check if thi
 
 
 
