@@ -177,9 +177,14 @@ sh exec.sh
 Ok now that we have the email logged in:
 
 
-Lets create a path that takes in int he get request the 
+Lets create a path that takes in int he get request the access token:
+
+```
+eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiaXNzIjoiaHR0cHM6Ly9kZXYtYXEzZ3Z5cDMycW9rZm8wOC51cy5hdXRoMC5jb20vIn0..4k8jKjC1yB9dZI0V.HCyPLCi-8nKYDs87pS5joCjwOGRIfOy-K0q725928p1l_K7QkcjeFRLmmxVOwlFOTAcq8F0a5fKZmNHBSpqzOMjC6_6pp9bw-S-SXJiUDI6VQ-XloYZQ7Bqv8_24S5tJl2tTjdyLFQy_lLFxgoLETeacITmj6Jw7C6FUsWNfbAKI7Z9vrtDw48joWHqSvCVvUG9DRrPN8YCO_W4An7xUZlWGu54eumLkTxVKorowgDuJA675bk3tD-C-4oTZZZGc8YWp2vrLVG7sWn28qkOQ5nIgpPMW-QaR2HKdDephMwkS4fVK9WMsJ54TqPJP8RmNcA3BR_Xmx151LnVHfp5Ax2A8.72X2LataXNvgvui_9UrPPA
+ui.js:88 UI updated
+```
 
 
 
-
+and returns the user id
 
