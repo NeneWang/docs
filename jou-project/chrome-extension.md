@@ -70,4 +70,4 @@ See here:
 ```
 
 
-The isAuthenticated. 
+The `isAuthenticated` feature can be set up for auth0clientfeature to keep
