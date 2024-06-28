@@ -70,4 +70,6 @@ See here:
 ```
 
 
-The `isAuthenticated` feature can be set up for auth0clientfeature to keep
+The `isAuthenticated` feature can be set up for auth0clientfeature to keep track of user authentication is used on `app.js`
+
+- Query Search,  
