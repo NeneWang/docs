@@ -104,7 +104,9 @@ Oh look it seems we have a clientId.
 
 - [ ] Check if this is the same client id that appears on auth0
 
+![[Pasted image 20240628154700.png]]
 
+Here is the user_id 
 
 
 
