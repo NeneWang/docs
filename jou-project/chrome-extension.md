@@ -131,3 +131,5 @@ Now given this token we should be able to:
 
 Retrieve the user id:
 
+### Lets Review Authentication here
+
