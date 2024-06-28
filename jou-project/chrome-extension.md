@@ -81,4 +81,5 @@ The `isAuthenticated` feature can be set up for auth0clientfeature to keep track
 The main question sis that if you can create a popup here from inside the connector to be used.:
 
 - You can get the result redirect for parsing.
+- Handle Redirect Callback()
 - 
