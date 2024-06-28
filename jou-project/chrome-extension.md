@@ -123,3 +123,11 @@ https://auth0.github.io/auth0-spa-js/classes/Auth0Client.html
 
 
 Seems that wie need: `getTokenSilently`
+
+
+Now given this token we should be able to:
+
+![[Pasted image 20240628155356.png]]
+
+Retrieve the user id:
+
