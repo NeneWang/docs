@@ -85,8 +85,11 @@ The main question sis that if you can create a popup here from inside the connec
 
 ![[Pasted image 20240628153425.png]]
 
-- You have here also some UI elements that make it so that it requires showing content.
+- You have here also some UI elements that make it so that it requires showing content. So the UI here is mainly updating the content
 
+
+
+### Replicating Features in the Au
 
 
 
