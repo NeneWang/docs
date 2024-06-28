@@ -108,7 +108,9 @@ Oh look it seems we have a clientId.
 
 Here is the user_id google-oauth2|110519369435080577723
 
+LEts research if it is the case?
 
+Use the auth client id? as identifier?
 
 
 wangnelson2@gmail.com
