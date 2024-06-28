@@ -172,3 +172,4 @@ sh exec.sh
 ./exec.ps1
 ```
 
+Ok now that we have the 
