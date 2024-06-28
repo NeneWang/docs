@@ -77,3 +77,5 @@ The `isAuthenticated` feature can be set up for auth0clientfeature to keep track
 
 - Query Search,   `isAuthenticated` Feature awaits for the authentication to replace has to be found on Auth0Client
 - Then you have `UI Updated`  
+
+The main question sis that if you can create a popup here from inside the connector to be used. 
