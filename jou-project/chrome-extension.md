@@ -117,3 +117,9 @@ wangnelson2@gmail.com
 user_id:
 
 auth0|660c33c97ac7a7bdee06e17b
+
+
+https://auth0.github.io/auth0-spa-js/classes/Auth0Client.html
+
+
+Seems that wie need: `getTokenSilently`
