@@ -12,17 +12,13 @@ const login = async (targetUrl) => {
         redirect_uri: window.location.origin
       }
     };
-
     if (targetUrl) {
       options.appState = { targetUrl };
     }
-
     await auth0Client.loginWithRedirect(options);
-
   } catch (err) {
     console.log("Log in failed", err);
   }
-
 };
 ```
 
