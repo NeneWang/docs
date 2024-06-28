@@ -106,8 +106,12 @@ Oh look it seems we have a clientId.
 
 ![[Pasted image 20240628154700.png]]
 
-Here is the user_id 
+Here is the user_id google-oauth2|110519369435080577723
 
 
 
 
+wangnelson2@gmail.com
+user_id:
+
+auth0|660c33c97ac7a7bdee06e17b
