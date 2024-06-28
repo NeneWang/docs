@@ -75,4 +75,5 @@ See here:
 
 The `isAuthenticated` feature can be set up for auth0clientfeature to keep track of user authentication is used on `app.js`
 
-- Query Search,   `isAuthenticated` Feature awaits for the atuhtenntication to replace 
+- Query Search,   `isAuthenticated` Feature awaits for the authentication to replace has to be found on Auth0Client
+- Then you have `UI Updated`  
