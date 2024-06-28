@@ -133,3 +133,10 @@ Retrieve the user id:
 
 ### Lets Review Authentication here
 
+https://auth0.com/docs/quickstart/backend/python/02-using?download=true
+
+
+
+
+
+
