@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jou-project/Untitled.md",
+                "file": "jou-project/chrome-extension.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "jou-project/Untitled.md",
+                "file": "jou-project/chrome-extension.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "jou-project/Untitled.md",
+                "file": "jou-project/chrome-extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "jou-project/Untitled.md"
+                "file": "jou-project/chrome-extension.md"
               }
             }
           }
@@ -165,7 +165,7 @@
   "active": "9773c2a8c693c3e0",
   "lastOpenFiles": [
     "jou-project/ddengine.md",
-    "jou-project/Untitled.md",
+    "jou-project/chrome-extension.md",
     "jou-project/corp-visualizer.md",
     "jou-project/dd-portal.md",
     "img/Pasted image 20240627144535.png",
